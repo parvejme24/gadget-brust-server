@@ -1,0 +1,62 @@
+[
+  {
+    "categoryName": "Camera",
+    "categoryImg": "https://example.com/images/camera.jpg",
+    "subcategories": ["DSLR", "Mirrorless", "Point and Shoot", "Action Cameras"]
+  },
+  {
+    "categoryName": "Components",
+    "categoryImg": "https://example.com/images/components.jpg",
+    "subcategories": ["CPU", "GPU", "RAM", "Motherboard", "Storage"]
+  },
+  {
+    "categoryName": "Computer",
+    "categoryImg": "https://example.com/images/computer.jpg",
+    "subcategories": ["Desktop", "All-in-One", "Mini PC", "Workstation"]
+  },
+  {
+    "categoryName": "Gaming",
+    "categoryImg": "https://example.com/images/gaming.jpg",
+    "subcategories": ["Gaming Consoles", "Gaming PCs", "Controllers", "Accessories"]
+  },
+  {
+    "categoryName": "Laptop",
+    "categoryImg": "https://example.com/images/laptop.jpg",
+    "subcategories": ["Ultrabooks", "Gaming Laptops", "Business Laptops", "2-in-1"]
+  },
+  {
+    "categoryName": "Phone",
+    "categoryImg": "https://example.com/images/phone.jpg",
+    "subcategories": ["Smartphones", "Feature Phones", "Rugged Phones"]
+  },
+  {
+    "categoryName": "Power",
+    "categoryImg": "https://example.com/images/power.jpg",
+    "subcategories": ["Power Banks", "UPS", "Chargers", "Batteries"]
+  },
+  {
+    "categoryName": "Smartwatch",
+    "categoryImg": "https://example.com/images/smartwatch.jpg",
+    "subcategories": ["Fitness Trackers", "Hybrid Watches", "Luxury Smartwatches"]
+  },
+  {
+    "categoryName": "Sound",
+    "categoryImg": "https://example.com/images/sound.jpg",
+    "subcategories": ["Headphones", "Speakers", "Soundbars", "Earbuds"]
+  },
+  {
+    "categoryName": "Tablet",
+    "categoryImg": "https://example.com/images/tablet.jpg",
+    "subcategories": ["Android Tablets", "iPads", "Windows Tablets", "E-Readers"]
+  },
+  {
+    "categoryName": "Keyboard",
+    "categoryImg": "https://example.com/images/keyboard.jpg",
+    "subcategories": ["Mechanical Keyboards", "Membrane Keyboards", "Wireless Keyboards"]
+  },
+  {
+    "categoryName": "Mouse",
+    "categoryImg": "https://example.com/images/mouse.jpg",
+    "subcategories": ["Wired Mouse", "Wireless Mouse", "Gaming Mouse", "Ergonomic Mouse"]
+  }
+]

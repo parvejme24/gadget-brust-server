@@ -1,0 +1,2121 @@
+[
+  {
+    "_id": "68ba01e17c15aa5a2dafd601",
+    "title": "Walton Power Bank 10000mAh",
+    "shortDescription": "Portable 10000mAh power bank with fast charging.",
+    "keyFeatures": [
+      { "key": "Capacity", "values": ["10000mAh"] },
+      { "key": "Output", "values": ["USB-A", "USB-C"] }
+    ],
+    "price": 1500,
+    "discount": 10,
+    "discountPrice": 1350,
+    "image": {
+      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020381/gadget-brust/categories/category_1757020391807.png",
+      "publicId": "gadget-brust/categories/category_1757020391807",
+      "assetId": "category_1757020391807"
+    },
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020381/gadget-brust/categories/category_1757020391807.png",
+        "publicId": "gadget-brust/categories/category_1757020391807",
+        "assetId": "category_1757020391807"
+      }
+    ],
+    "stock": 50,
+    "star": 4.2,
+    "remark": "popular",
+    "isSlider": false,
+    "category": "68ba00e97c15aa5a2dafd55e",
+    "subcategory": "Power Banks",
+    "brand": "68b9f85fc6f7057d9dfbf4a5",
+    "createdAt": "2025-09-05T05:48:00.000Z",
+    "updatedAt": "2025-09-05T05:48:00.000Z"
+  },
+  {
+    "_id": "68ba01e27c15aa5a2dafd602",
+    "title": "Walton UPS 1000VA",
+    "shortDescription": "Reliable 1000VA UPS for uninterrupted power.",
+    "keyFeatures": [
+      { "key": "Capacity", "values": ["1000VA"] },
+      { "key": "Backup Time", "values": ["30min"] }
+    ],
+    "price": 8000,
+    "discount": 5,
+    "discountPrice": 7600,
+    "image": {
+      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020381/gadget-brust/categories/category_1757020391807.png",
+      "publicId": "gadget-brust/categories/category_1757020391807",
+      "assetId": "category_1757020391807"
+    },
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020381/gadget-brust/categories/category_1757020391807.png",
+        "publicId": "gadget-brust/categories/category_1757020391807",
+        "assetId": "category_1757020391807"
+      }
+    ],
+    "stock": 30,
+    "star": 4.0,
+    "remark": "regular",
+    "isSlider": true,
+    "category": "68ba00e97c15aa5a2dafd55e",
+    "subcategory": "UPS",
+    "brand": "68b9f85fc6f7057d9dfbf4a5",
+    "createdAt": "2025-09-05T05:48:00.000Z",
+    "updatedAt": "2025-09-05T05:48:00.000Z"
+  },
+  {
+    "_id": "68ba01e37c15aa5a2dafd603",
+    "title": "Walton Fast Charger 20W",
+    "shortDescription": "20W fast charger for smartphones and tablets.",
+    "keyFeatures": [
+      { "key": "Power", "values": ["20W"] },
+      { "key": "Compatibility", "values": ["USB-C"] }
+    ],
+    "price": 1200,
+    "discount": 0,
+    "discountPrice": 1200,
+    "image": {
+      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020381/gadget-brust/categories/category_1757020391807.png",
+      "publicId": "gadget-brust/categories/category_1757020391807",
+      "assetId": "category_1757020391807"
+    },
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020381/gadget-brust/categories/category_1757020391807.png",
+        "publicId": "gadget-brust/categories/category_1757020391807",
+        "assetId": "category_1757020391807"
+      }
+    ],
+    "stock": 100,
+    "star": 3.8,
+    "remark": "new",
+    "isSlider": false,
+    "category": "68ba00e97c15aa5a2dafd55e",
+    "subcategory": "Chargers",
+    "brand": "68b9f85fc6f7057d9dfbf4a5",
+    "createdAt": "2025-09-05T05:48:00.000Z",
+    "updatedAt": "2025-09-05T05:48:00.000Z"
+  },
+  {
+    "_id": "68ba01e47c15aa5a2dafd604",
+    "title": "Walton Battery Pack AA",
+    "shortDescription": "Rechargeable AA batteries for various devices.",
+    "keyFeatures": [
+      { "key": "Type", "values": ["AA"] },
+      { "key": "Capacity", "values": ["2500mAh"] }
+    ],
+    "price": 500,
+    "discount": 15,
+    "discountPrice": 425,
+    "image": {
+      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020381/gadget-brust/categories/category_1757020391807.png",
+      "publicId": "gadget-brust/categories/category_1757020391807",
+      "assetId": "category_1757020391807"
+    },
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020381/gadget-brust/categories/category_1757020391807.png",
+        "publicId": "gadget-brust/categories/category_1757020391807",
+        "assetId": "category_1757020391807"
+      }
+    ],
+    "stock": 200,
+    "star": 4.5,
+    "remark": "best",
+    "isSlider": false,
+    "category": "68ba00e97c15aa5a2dafd55e",
+    "subcategory": "Batteries",
+    "brand": "68b9f85fc6f7057d9dfbf4a5",
+    "createdAt": "2025-09-05T05:48:00.000Z",
+    "updatedAt": "2025-09-05T05:48:00.000Z"
+  },
+  {
+    "_id": "68ba01e57c15aa5a2dafd605",
+    "title": "Walton Action Camera 4K",
+    "shortDescription": "4K action camera for capturing adventures.",
+    "keyFeatures": [
+      { "key": "Resolution", "values": ["4K"] },
+      { "key": "Waterproof", "values": ["Up to 30m"] }
+    ],
+    "price": 10000,
+    "discount": 10,
+    "discountPrice": 9000,
+    "image": {
+      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020408/gadget-brust/categories/category_1757020418681.png",
+      "publicId": "gadget-brust/categories/category_1757020418681",
+      "assetId": "category_1757020418681"
+    },
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020408/gadget-brust/categories/category_1757020418681.png",
+        "publicId": "gadget-brust/categories/category_1757020418681",
+        "assetId": "category_1757020418681"
+      }
+    ],
+    "stock": 20,
+    "star": 4.3,
+    "remark": "trending",
+    "isSlider": true,
+    "category": "68ba01047c15aa5a2dafd560",
+    "subcategory": "Action Cameras",
+    "brand": "68b9f85fc6f7057d9dfbf4a5",
+    "createdAt": "2025-09-05T05:48:00.000Z",
+    "updatedAt": "2025-09-05T05:48:00.000Z"
+  },
+  {
+    "_id": "68ba01e67c15aa5a2dafd606",
+    "title": "Dell XPS 13 Ultrabook",
+    "shortDescription": "13-inch ultrabook with high performance.",
+    "keyFeatures": [
+      { "key": "Processor", "values": ["Intel i7"] },
+      { "key": "Display", "values": ["13.4-inch 4K"] }
+    ],
+    "price": 120000,
+    "discount": 8,
+    "discountPrice": 110400,
+    "image": {
+      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
+      "publicId": "gadget-brust/categories/category_1757020463690",
+      "assetId": "category_1757020463690"
+    },
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
+        "publicId": "gadget-brust/categories/category_1757020463690",
+        "assetId": "category_1757020463690"
+      }
+    ],
+    "stock": 15,
+    "star": 4.7,
+    "remark": "top",
+    "isSlider": true,
+    "category": "68ba01317c15aa5a2dafd564",
+    "subcategory": "Ultrabooks",
+    "brand": "68b9f884c6f7057d9dfbf4a7",
+    "createdAt": "2025-09-05T05:48:00.000Z",
+    "updatedAt": "2025-09-05T05:48:00.000Z"
+  },
+  {
+    "_id": "68ba01e77c15aa5a2dafd607",
+    "title": "Dell Inspiron Desktop",
+    "shortDescription": "Powerful desktop for home and office use.",
+    "keyFeatures": [
+      { "key": "Processor", "values": ["Intel i5"] },
+      { "key": "Storage", "values": ["1TB HDD"] }
+    ],
+    "price": 60000,
+    "discount": 5,
+    "discountPrice": 57000,
+    "image": {
+      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
+      "publicId": "gadget-brust/categories/category_1757020463690",
+      "assetId": "category_1757020463690"
+    },
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
+        "publicId": "gadget-brust/categories/category_1757020463690",
+        "assetId": "category_1757020463690"
+      }
+    ],
+    "stock": 25,
+    "star": 4.1,
+    "remark": "regular",
+    "isSlider": false,
+    "category": "68ba01317c15aa5a2dafd564",
+    "subcategory": "Desktop",
+    "brand": "68b9f884c6f7057d9dfbf4a7",
+    "createdAt": "2025-09-05T05:48:00.000Z",
+    "updatedAt": "2025-09-05T05:48:00.000Z"
+  },
+  {
+    "_id": "68ba01e87c15aa5a2dafd608",
+    "title": "Dell Gaming Laptop G5",
+    "shortDescription": "High-performance gaming laptop with RTX graphics.",
+    "keyFeatures": [
+      { "key": "GPU", "values": ["NVIDIA RTX 3060"] },
+      { "key": "Display", "values": ["15.6-inch 144Hz"] }
+    ],
+    "price": 150000,
+    "discount": 10,
+    "discountPrice": 135000,
+    "image": {
+      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
+      "publicId": "gadget-brust/categories/category_1757020463690",
+      "assetId": "category_1757020463690"
+    },
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
+        "publicId": "gadget-brust/categories/category_1757020463690",
+        "assetId": "category_1757020463690"
+      }
+    ],
+    "stock": 10,
+    "star": 4.8,
+    "remark": "trending",
+    "isSlider": true,
+    "category": "68ba015a7c15aa5a2dafd568",
+    "subcategory": "Gaming Laptops",
+    "brand": "68b9f884c6f7057d9dfbf4a7",
+    "createdAt": "2025-09-05T05:48:00.000Z",
+    "updatedAt": "2025-09-05T05:48:00.000Z"
+  },
+  {
+    "_id": "68ba01e97c15aa5a2dafd609",
+    "title": "Dell 2-in-1 Latitude",
+    "shortDescription": "Versatile 2-in-1 laptop for work and play.",
+    "keyFeatures": [
+      { "key": "Processor", "values": ["Intel i5"] },
+      { "key": "Display", "values": ["14-inch Touch"] }
+    ],
+    "price": 90000,
+    "discount": 7,
+    "discountPrice": 83700,
+    "image": {
+      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
+      "publicId": "gadget-brust/categories/category_1757020463690",
+      "assetId": "category_1757020463690"
+    },
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
+        "publicId": "gadget-brust/categories/category_1757020463690",
+        "assetId": "category_1757020463690"
+      }
+    ],
+    "stock": 20,
+    "star": 4.4,
+    "remark": "new",
+    "isSlider": false,
+    "category": "68ba015a7c15aa5a2dafd568",
+    "subcategory": "2-in-1",
+    "brand": "68b9f884c6f7057d9dfbf4a7",
+    "createdAt": "2025-09-05T05:48:00.000Z",
+    "updatedAt": "2025-09-05T05:48:00.000Z"
+  },
+  {
+    "_id": "68ba01ea7c15aa5a2dafd60a",
+    "title": "Dell OptiPlex Mini PC",
+    "shortDescription": "Compact Mini PC for efficient computing.",
+    "keyFeatures": [
+      { "key": "Processor", "values": ["Intel i3"] },
+      { "key": "Storage", "values": ["256GB SSD"] }
+    ],
+    "price": 45000,
+    "discount": 0,
+    "discountPrice": 45000,
+    "image": {
+      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
+      "publicId": "gadget-brust/categories/category_1757020463690",
+      "assetId": "category_1757020463690"
+    },
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
+        "publicId": "gadget-brust/categories/category_1757020463690",
+        "assetId": "category_1757020463690"
+      }
+    ],
+    "stock": 30,
+    "star": 4.0,
+    "remark": "regular",
+    "isSlider": false,
+    "category": "68ba01317c15aa5a2dafd564",
+    "subcategory": "Mini PC",
+    "brand": "68b9f884c6f7057d9dfbf4a7",
+    "createdAt": "2025-09-05T05:48:00.000Z",
+    "updatedAt": "2025-09-05T05:48:00.000Z"
+  },
+  {
+    "_id": "68ba01eb7c15aa5a2dafd60b",
+    "title": "LG OLED Smart TV",
+    "shortDescription": "55-inch OLED TV with stunning visuals.",
+    "keyFeatures": [
+      { "key": "Display", "values": ["55-inch OLED"] },
+      { "key": "Resolution", "values": ["4K"] }
+    ],
+    "price": 150000,
+    "discount": 12,
+    "discountPrice": 132000,
+    "image": {
+      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020608/gadget-brust/categories/category_1757020619574.png",
+      "publicId": "gadget-brust/categories/category_1757020619574",
+      "assetId": "category_1757020619574"
+    },
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020608/gadget-brust/categories/category_1757020619574.png",
+        "publicId": "gadget-brust/categories/category_1757020619574",
+        "assetId": "category_1757020619574"
+      }
+    ],
+    "stock": 10,
+    "star": 4.9,
+    "remark": "best",
+    "isSlider": true,
+    "category": "68ba01cc7c15aa5a2dafd572",
+    "subcategory": "Android Tablets",
+    "brand": "68b9f896c6f7057d9dfbf4a9",
+    "createdAt": "2025-09-05T05:48:00.000Z",
+    "updatedAt": "2025-09-05T05:48:00.000Z"
+  },
+  {
+    "_id": "68ba01ec7c15aa5a2dafd60c",
+    "title": "LG Soundbar 5.1",
+    "shortDescription": "Immersive 5.1 channel soundbar for home theater.",
+    "keyFeatures": [
+      { "key": "Channels", "values": ["5.1"] },
+      { "key": "Connectivity", "values": ["Bluetooth", "HDMI"] }
+    ],
+    "price": 35000,
+    "discount": 10,
+    "discountPrice": 31500,
+    "image": {
+      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020586/gadget-brust/categories/category_1757020596838.png",
+      "publicId": "gadget-brust/categories/category_1757020596838",
+      "assetId": "category_1757020596838"
+    },
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020586/gadget-brust/categories/category_1757020596838.png",
+        "publicId": "gadget-brust/categories/category_1757020596838",
+        "assetId": "category_1757020596838"
+      }
+    ],
+    "stock": 25,
+    "star": 4.6,
+    "remark": "popular",
+    "isSlider": false,
+    "category": "68ba01b67c15aa5a2dafd570",
+    "subcategory": "Soundbars",
+    "brand": "68b9f896c6f7057d9dfbf4a9",
+    "createdAt": "2025-09-05T05:48:00.000Z",
+    "updatedAt": "2025-09-05T05:48:00.000Z"
+  },
+  {
+    "_id": "68ba01ed7c15aa5a2dafd60d",
+    "title": "LG Wireless Earbuds",
+    "shortDescription": "True wireless earbuds with noise cancellation.",
+    "keyFeatures": [
+      { "key": "Battery Life", "values": ["6 hours"] },
+      { "key": "Features", "values": ["ANC", "Bluetooth 5.0"] }
+    ],
+    "price": 12000,
+    "discount": 5,
+    "discountPrice": 11400,
+    "image": {
+      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020586/gadget-brust/categories/category_1757020596838.png",
+      "publicId": "gadget-brust/categories/category_1757020596838",
+      "assetId": "category_1757020596838"
+    },
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020586/gadget-brust/categories/category_1757020596838.png",
+        "publicId": "gadget-brust/categories/category_1757020596838",
+        "assetId": "category_1757020596838"
+      }
+    ],
+    "stock": 50,
+    "star": 4.3,
+    "remark": "new",
+    "isSlider": true,
+    "category": "68ba01b67c15aa5a2dafd570",
+    "subcategory": "Earbuds",
+    "brand": "68b9f896c6f7057d9dfbf4a9",
+    "createdAt": "2025-09-05T05:48:00.000Z",
+    "updatedAt": "2025-09-05T05:48:00.000Z"
+  },
+  {
+    "_id": "68ba01ee7c15aa5a2dafd60e",
+    "title": "LG Portable Speaker",
+    "shortDescription": "Bluetooth speaker with rich sound quality.",
+    "keyFeatures": [
+      { "key": "Power", "values": ["20W"] },
+      { "key": "Battery Life", "values": ["12 hours"] }
+    ],
+    "price": 8000,
+    "discount": 0,
+    "discountPrice": 8000,
+    "image": {
+      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020586/gadget-brust/categories/category_1757020596838.png",
+      "publicId": "gadget-brust/categories/category_1757020596838",
+      "assetId": "category_1757020596838"
+    },
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020586/gadget-brust/categories/category_1757020596838.png",
+        "publicId": "gadget-brust/categories/category_1757020596838",
+        "assetId": "category_1757020596838"
+      }
+    ],
+    "stock": 40,
+    "star": 4.2,
+    "remark": "regular",
+    "isSlider": false,
+    "category": "68ba01b67c15aa5a2dafd570",
+    "subcategory": "Speakers",
+    "brand": "68b9f896c6f7057d9dfbf4a9",
+    "createdAt": "2025-09-05T05:48:00.000Z",
+    "updatedAt": "2025-09-05T05:48:00.000Z"
+  },
+  {
+    "_id": "68ba01ef7c15aa5a2dafd60f",
+    "title": "LG DSLR Camera",
+    "shortDescription": "Professional DSLR with 24MP sensor.",
+    "keyFeatures": [
+      { "key": "Sensor", "values": ["24MP"] },
+      { "key": "Lens", "values": ["18-55mm"] }
+    ],
+    "price": 60000,
+    "discount": 10,
+    "discountPrice": 54000,
+    "image": {
+      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020408/gadget-brust/categories/category_1757020418681.png",
+      "publicId": "gadget-brust/categories/category_1757020418681",
+      "assetId": "category_1757020418681"
+    },
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020408/gadget-brust/categories/category_1757020418681.png",
+        "publicId": "gadget-brust/categories/category_1757020418681",
+        "assetId": "category_1757020418681"
+      }
+    ],
+    "stock": 15,
+    "star": 4.5,
+    "remark": "top",
+    "isSlider": true,
+    "category": "68ba01047c15aa5a2dafd560",
+    "subcategory": "DSLR",
+    "brand": "68b9f896c6f7057d9dfbf4a9",
+    "createdAt": "2025-09-05T05:48:00.000Z",
+    "updatedAt": "2025-09-05T05:48:00.000Z"
+  },
+  {
+    "_id": "68ba01f07c15aa5a2dafd610",
+    "title": "Samsung Galaxy S25",
+    "shortDescription": "Flagship smartphone with advanced features.",
+    "keyFeatures": [
+      { "key": "Processor", "values": ["Snapdragon 8 Gen 4"] },
+      { "key": "Camera", "values": ["108MP"] }
+    ],
+    "price": 90000,
+    "discount": 5,
+    "discountPrice": 85500,
+    "image": {
+      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020509/gadget-brust/categories/category_1757020520176.png",
+      "publicId": "gadget-brust/categories/category_1757020520176",
+      "assetId": "category_1757020520176"
+    },
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020509/gadget-brust/categories/category_1757020520176.png",
+        "publicId": "gadget-brust/categories/category_1757020520176",
+        "assetId": "category_1757020520176"
+      }
+    ],
+    "stock": 30,
+    "star": 4.8,
+    "remark": "popular",
+    "isSlider": true,
+    "category": "68ba01697c15aa5a2dafd56a",
+    "subcategory": "Smartphones",
+    "brand": "68b9f8abc6f7057d9dfbf4ab",
+    "createdAt": "2025-09-05T05:48:00.000Z",
+    "updatedAt": "2025-09-05T05:48:00.000Z"
+  },
+  {
+    "_id": "68ba01f17c15aa5a2dafd611",
+    "title": "Samsung Galaxy Tab S9",
+    "shortDescription": "High-performance Android tablet.",
+    "keyFeatures": [
+      { "key": "Display", "values": ["12.4-inch AMOLED"] },
+      { "key": "Processor", "values": ["Snapdragon 8 Gen 2"] }
+    ],
+    "price": 70000,
+    "discount": 8,
+    "discountPrice": 64400,
+    "image": {
+      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020608/gadget-brust/categories/category_1757020619574.png",
+      "publicId": "gadget-brust/categories/category_1757020619574",
+      "assetId": "category_1757020619574"
+    },
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020608/gadget-brust/categories/category_1757020619574.png",
+        "publicId": "gadget-brust/categories/category_1757020619574",
+        "assetId": "category_1757020619574"
+      }
+    ],
+    "stock": 20,
+    "star": 4.7,
+    "remark": "trending",
+    "isSlider": true,
+    "category": "68ba01cc7c15aa5a2dafd572",
+    "subcategory": "Android Tablets",
+    "brand": "68b9f8abc6f7057d9dfbf4ab",
+    "createdAt": "2025-09-05T05:48:00.000Z",
+    "updatedAt": "2025-09-05T05:48:00.000Z"
+  },
+  {
+    "_id": "68ba01f27c15aa5a2dafd612",
+    "title": "Samsung Galaxy Watch 7",
+    "shortDescription": "Advanced smartwatch with fitness tracking.",
+    "keyFeatures": [
+      { "key": "Display", "values": ["1.5-inch AMOLED"] },
+      { "key": "Features", "values": ["Heart Rate", "SpO2"] }
+    ],
+    "price": 30000,
+    "discount": 10,
+    "discountPrice": 27000,
+    "image": {
+      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020571/gadget-brust/categories/category_1757020581362.png",
+      "publicId": "gadget-brust/categories/category_1757020581362",
+      "assetId": "category_1757020581362"
+    },
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020571/gadget-brust/categories/category_1757020581362.png",
+        "publicId": "gadget-brust/categories/category_1757020581362",
+        "assetId": "category_1757020581362"
+      }
+    ],
+    "stock": 35,
+    "star": 4.5,
+    "remark": "new",
+    "isSlider": false,
+    "category": "68ba01a77c15aa5a2dafd56e",
+    "subcategory": "Fitness Trackers",
+    "brand": "68b9f8abc6f7057d9dfbf4ab",
+    "createdAt": "2025-09-05T05:48:00.000Z",
+    "updatedAt": "2025-09-05T05:48:00.000Z"
+  },
+  {
+    "_id": "68ba01f37c15aa5a2dafd613",
+    "title": "Samsung Rugged Phone",
+    "shortDescription": "Durable phone for extreme conditions.",
+    "keyFeatures": [
+      { "key": "Durability", "values": ["IP68", "MIL-STD-810G"] },
+      { "key": "Battery", "values": ["5000mAh"] }
+    ],
+    "price": 50000,
+    "discount": 5,
+    "discountPrice": 47500,
+    "image": {
+      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020509/gadget-brust/categories/category_1757020520176.png",
+      "publicId": "gadget-brust/categories/category_1757020520176",
+      "assetId": "category_1757020520176"
+    },
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020509/gadget-brust/categories/category_1757020520176.png",
+        "publicId": "gadget-brust/categories/category_1757020520176",
+        "assetId": "category_1757020520176"
+      }
+    ],
+    "stock": 25,
+    "star": 4.3,
+    "remark": "regular",
+    "isSlider": false,
+    "category": "68ba01697c15aa5a2dafd56a",
+    "subcategory": "Rugged Phones",
+    "brand": "68b9f8abc6f7057d9dfbf4ab",
+    "createdAt": "2025-09-05T05:48:00.000Z",
+    "updatedAt": "2025-09-05T05:48:00.000Z"
+  },
+  {
+    "_id": "68ba01f47c15aa5a2dafd614",
+    "title": "Samsung Galaxy Buds Pro",
+    "shortDescription": "Premium wireless earbuds with ANC.",
+    "keyFeatures": [
+      { "key": "Battery Life", "values": ["8 hours"] },
+      { "key": "Features", "values": ["ANC", "IPX7"] }
+    ],
+    "price": 15000,
+    "discount": 10,
+    "discountPrice": 13500,
+    "image": {
+      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020586/gadget-brust/categories/category_1757020596838.png",
+      "publicId": "gadget-brust/categories/category_1757020596838",
+      "assetId": "category_1757020596838"
+    },
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020586/gadget-brust/categories/category_1757020596838.png",
+        "publicId": "gadget-brust/categories/category_1757020596838",
+        "assetId": "category_1757020596838"
+      }
+    ],
+    "stock": 60,
+    "star": 4.6,
+    "remark": "popular",
+    "isSlider": true,
+    "category": "68ba01b67c15aa5a2dafd570",
+    "subcategory": "Earbuds",
+    "brand": "68b9f8abc6f7057d9dfbf4ab",
+    "createdAt": "2025-09-05T05:48:00.000Z",
+    "updatedAt": "2025-09-05T05:48:00.000Z"
+  },
+  {
+    "_id": "68ba01f57c15aa5a2dafd615",
+    "title": "HP Pavilion Gaming PC",
+    "shortDescription": "High-performance gaming PC with RGB lighting.",
+    "keyFeatures": [
+      { "key": "Processor", "values": ["AMD Ryzen 5"] },
+      { "key": "GPU", "values": ["NVIDIA GTX 1660"] }
+    ],
+    "price": 80000,
+    "discount": 7,
+    "discountPrice": 74400,
+    "image": {
+      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
+      "publicId": "gadget-brust/categories/category_1757020480446",
+      "assetId": "category_1757020480446"
+    },
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
+        "publicId": "gadget-brust/categories/category_1757020480446",
+        "assetId": "category_1757020480446"
+      }
+    ],
+    "stock": 15,
+    "star": 4.4,
+    "remark": "trending",
+    "isSlider": true,
+    "category": "68ba01427c15aa5a2dafd566",
+    "subcategory": "Gaming PCs",
+    "brand": "68b9f8b6c6f7057d9dfbf4ad",
+    "createdAt": "2025-09-05T05:48:00.000Z",
+    "updatedAt": "2025-09-05T05:48:00.000Z"
+  },
+  {
+    "_id": "68ba01f67c15aa5a2dafd616",
+    "title": "HP EliteBook",
+    "shortDescription": "Business laptop with robust security features.",
+    "keyFeatures": [
+      { "key": "Processor", "values": ["Intel i7"] },
+      { "key": "Security", "values": ["Fingerprint", "TPM"] }
+    ],
+    "price": 100000,
+    "discount": 5,
+    "discountPrice": 95000,
+    "image": {
+      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
+      "publicId": "gadget-brust/categories/category_1757020463690",
+      "assetId": "category_1757020463690"
+    },
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
+        "publicId": "gadget-brust/categories/category_1757020463690",
+        "assetId": "category_1757020463690"
+      }
+    ],
+    "stock": 20,
+    "star": 4.5,
+    "remark": "regular",
+    "isSlider": false,
+    "category": "68ba015a7c15aa5a2dafd568",
+    "subcategory": "Business Laptops",
+    "brand": "68b9f8b6c6f7057d9dfbf4ad",
+    "createdAt": "2025-09-05T05:48:00.000Z",
+    "updatedAt": "2025-09-05T05:48:00.000Z"
+  },
+  {
+    "_id": "68ba01f77c15aa5a2dafd617",
+    "title": "HP All-in-One PC",
+    "shortDescription": "Sleek all-in-one PC for home use.",
+    "keyFeatures": [
+      { "key": "Display", "values": ["24-inch FHD"] },
+      { "key": "Processor", "values": ["Intel i5"] }
+    ],
+    "price": 65000,
+    "discount": 10,
+    "discountPrice": 58500,
+    "image": {
+      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
+      "publicId": "gadget-brust/categories/category_1757020463690",
+      "assetId": "category_1757020463690"
+    },
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
+        "publicId": "gadget-brust/categories/category_1757020463690",
+        "assetId": "category_1757020463690"
+      }
+    ],
+    "stock": 25,
+    "star": 4.3,
+    "remark": "new",
+    "isSlider": true,
+    "category": "68ba01317c15aa5a2dafd564",
+    "subcategory": "All-in-One",
+    "brand": "68b9f8b6c6f7057d9dfbf4ad",
+    "createdAt": "2025-09-05T05:48:00.000Z",
+    "updatedAt": "2025-09-05T05:48:00.000Z"
+  },
+  {
+    "_id": "68ba01f87c15aa5a2dafd618",
+    "title": "HP Gaming Controller",
+    "shortDescription": "Ergonomic controller for gaming consoles.",
+    "keyFeatures": [
+      { "key": "Connectivity", "values": ["Bluetooth", "USB"] },
+      { "key": "Compatibility", "values": ["PC", "Console"] }
+    ],
+    "price": 5000,
+    "discount": 0,
+    "discountPrice": 5000,
+    "image": {
+      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
+      "publicId": "gadget-brust/categories/category_1757020480446",
+      "assetId": "category_1757020480446"
+    },
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
+        "publicId": "gadget-brust/categories/category_1757020480446",
+        "assetId": "category_1757020480446"
+      }
+    ],
+    "stock": 50,
+    "star": 4.1,
+    "remark": "regular",
+    "isSlider": false,
+    "category": "68ba01427c15aa5a2dafd566",
+    "subcategory": "Controllers",
+    "brand": "68b9f8b6c6f7057d9dfbf4ad",
+    "createdAt": "2025-09-05T05:48:00.000Z",
+    "updatedAt": "2025-09-05T05:48:00.000Z"
+  },
+  {
+    "_id": "68ba01f97c15aa5a2dafd619",
+    "title": "HP Spectre x360",
+    "shortDescription": "Premium 2-in-1 laptop with OLED display.",
+    "keyFeatures": [
+      { "key": "Display", "values": ["13.3-inch OLED"] },
+      { "key": "Processor", "values": ["Intel i7"] }
+    ],
+    "price": 130000,
+    "discount": 10,
+    "discountPrice": 117000,
+    "image": {
+      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
+      "publicId": "gadget-brust/categories/category_1757020463690",
+      "assetId": "category_1757020463690"
+    },
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
+        "publicId": "gadget-brust/categories/category_1757020463690",
+        "assetId": "category_1757020463690"
+      }
+    ],
+    "stock": 15,
+    "star": 4.8,
+    "remark": "best",
+    "isSlider": true,
+    "category": "68ba015a7c15aa5a2dafd568",
+    "subcategory": "2-in-1",
+    "brand": "68b9f8b6c6f7057d9dfbf4ad",
+    "createdAt": "2025-09-05T05:48:00.000Z",
+    "updatedAt": "2025-09-05T05:48:00.000Z"
+  },
+  {
+    "_id": "68ba01fa7c15aa5a2dafd61a",
+    "title": "Toshiba External HDD 2TB",
+    "shortDescription": "2TB external hard drive for storage.",
+    "keyFeatures": [
+      { "key": "Capacity", "values": ["2TB"] },
+      { "key": "Interface", "values": ["USB 3.0"] }
+    ],
+    "price": 6000,
+    "discount": 5,
+    "discountPrice": 5700,
+    "image": {
+      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020433/gadget-brust/categories/category_1757020444186.png",
+      "publicId": "gadget-brust/categories/category_1757020444186",
+      "assetId": "category_1757020444186"
+    },
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020433/gadget-brust/categories/category_1757020444186.png",
+        "publicId": "gadget-brust/categories/category_1757020444186",
+        "assetId": "category_1757020444186"
+      }
+    ],
+    "stock": 100,
+    "star": 4.2,
+    "remark": "regular",
+    "isSlider": false,
+    "category": "68ba011e7c15aa5a2dafd562",
+    "subcategory": "Storage",
+    "brand": "68b9f8c5c6f7057d9dfbf4af",
+    "createdAt": "2025-09-05T05:48:00.000Z",
+    "updatedAt": "2025-09-05T05:48:00.000Z"
+  },
+  {
+    "_id": "68ba01fb7c15aa5a2dafd61b",
+    "title": "Toshiba Satellite Laptop",
+    "shortDescription": "Affordable laptop for everyday tasks.",
+    "keyFeatures": [
+      { "key": "Processor", "values": ["Intel i3"] },
+      { "key": "Display", "values": ["15.6-inch HD"] }
+    ],
+    "price": 40000,
+    "discount": 0,
+    "discountPrice": 40000,
+    "image": {
+      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
+      "publicId": "gadget-brust/categories/category_1757020463690",
+      "assetId": "category_1757020463690"
+    },
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
+        "publicId": "gadget-brust/categories/category_1757020463690",
+        "assetId": "category_1757020463690"
+      }
+    ],
+    "stock": 30,
+    "star": 4.0,
+    "remark": "regular",
+    "isSlider": false,
+    "category": "68ba015a7c15aa5a2dafd568",
+    "subcategory": "Business Laptops",
+    "brand": "68b9f8c5c6f7057d9dfbf4af",
+    "createdAt": "2025-09-05T05:48:00.000Z",
+    "updatedAt": "2025-09-05T05:48:00.000Z"
+  },
+  {
+    "_id": "68ba01fc7c15aa5a2dafd61c",
+    "title": "Toshiba Canvio SSD 1TB",
+    "shortDescription": "Portable 1TB SSD for fast data transfer.",
+    "keyFeatures": [
+      { "key": "Capacity", "values": ["1TB"] },
+      { "key": "Speed", "values": ["550MB/s"] }
+    ],
+    "price": 8000,
+    "discount": 10,
+    "discountPrice": 7200,
+    "image": {
+      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020433/gadget-brust/categories/category_1757020444186.png",
+      "publicId": "gadget-brust/categories/category_1757020444186",
+      "assetId": "category_1757020444186"
+    },
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020433/gadget-brust/categories/category_1757020444186.png",
+        "publicId": "gadget-brust/categories/category_1757020444186",
+        "assetId": "category_1757020444186"
+      }
+    ],
+    "stock": 50,
+    "star": 4.4,
+    "remark": "popular",
+    "isSlider": true,
+    "category": "68ba011e7c15aa5a2dafd562",
+    "subcategory": "Storage",
+    "brand": "68b9f8c5c6f7057d9dfbf4af",
+    "createdAt": "2025-09-05T05:48:00.000Z",
+    "updatedAt": "2025-09-05T05:48:00.000Z"
+  },
+  {
+    "_id": "68ba01fd7c15aa5a2dafd61d",
+    "title": "Toshiba Desktop PC",
+    "shortDescription": "Reliable desktop for office productivity.",
+    "keyFeatures": [
+      { "key": "Processor", "values": ["Intel i5"] },
+      { "key": "RAM", "values": ["8GB"] }
+    ],
+    "price": 50000,
+    "discount": 5,
+    "discountPrice": 47500,
+    "image": {
+      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
+      "publicId": "gadget-brust/categories/category_1757020463690",
+      "assetId": "category_1757020463690"
+    },
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
+        "publicId": "gadget-brust/categories/category_1757020463690",
+        "assetId": "category_1757020463690"
+      }
+    ],
+    "stock": 20,
+    "star": 4.2,
+    "remark": "regular",
+    "isSlider": false,
+    "category": "68ba01317c15aa5a2dafd564",
+    "subcategory": "Desktop",
+    "brand": "68b9f8c5c6f7057d9dfbf4af",
+    "createdAt": "2025-09-05T05:48:00.000Z",
+    "updatedAt": "2025-09-05T05:48:00.000Z"
+  },
+  {
+    "_id": "68ba01fe7c15aa5a2dafd61e",
+    "title": "Toshiba Point and Shoot Camera",
+    "shortDescription": "Compact camera for everyday photography.",
+    "keyFeatures": [
+      { "key": "Sensor", "values": ["20MP"] },
+      { "key": "Zoom", "values": ["10x Optical"] }
+    ],
+    "price": 25000,
+    "discount": 8,
+    "discountPrice": 23000,
+    "image": {
+      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020408/gadget-brust/categories/category_1757020418681.png",
+      "publicId": "gadget-brust/categories/category_1757020418681",
+      "assetId": "category_1757020418681"
+    },
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020408/gadget-brust/categories/category_1757020418681.png",
+        "publicId": "gadget-brust/categories/category_1757020418681",
+        "assetId": "category_1757020418681"
+      }
+    ],
+    "stock": 30,
+    "star": 4.0,
+    "remark": "new",
+    "isSlider": false,
+    "category": "68ba01047c15aa5a2dafd560",
+    "subcategory": "Point and Shoot",
+    "brand": "68b9f8c5c6f7057d9dfbf4af",
+    "createdAt": "2025-09-05T05:48:00.000Z",
+    "updatedAt": "2025-09-05T05:48:00.000Z"
+  },
+  {
+    "_id": "68ba01ff7c15aa5a2dafd61f",
+    "title": "MSI Gaming Laptop Katana",
+    "shortDescription": "High-performance gaming laptop with RTX 3070.",
+    "keyFeatures": [
+      { "key": "GPU", "values": ["NVIDIA RTX 3070"] },
+      { "key": "Display", "values": ["15.6-inch 165Hz"] }
+    ],
+    "price": 160000,
+    "discount": 10,
+    "discountPrice": 144000,
+    "image": {
+      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
+      "publicId": "gadget-brust/categories/category_1757020463690",
+      "assetId": "category_1757020463690"
+    },
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
+        "publicId": "gadget-brust/categories/category_1757020463690",
+        "assetId": "category_1757020463690"
+      }
+    ],
+    "stock": 10,
+    "star": 4.9,
+    "remark": "trending",
+    "isSlider": true,
+    "category": "68ba015a7c15aa5a2dafd568",
+    "subcategory": "Gaming Laptops",
+    "brand": "68b9f8cec6f7057d9dfbf4b1",
+    "createdAt": "2025-09-05T05:48:00.000Z",
+    "updatedAt": "2025-09-05T05:48:00.000Z"
+  },
+  {
+    "_id": "68ba02007c15aa5a2dafd620",
+    "title": "MSI RTX 3080 GPU",
+    "shortDescription": "High-end graphics card for gaming and rendering.",
+    "keyFeatures": [
+      { "key": "Memory", "values": ["10GB GDDR6X"] },
+      { "key": "Performance", "values": ["4K Gaming"] }
+    ],
+    "price": 90000,
+    "discount": 5,
+    "discountPrice": 85500,
+    "image": {
+      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020433/gadget-brust/categories/category_1757020444186.png",
+      "publicId": "gadget-brust/categories/category_1757020444186",
+      "assetId": "category_1757020444186"
+    },
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020433/gadget-brust/categories/category_1757020444186.png",
+        "publicId": "gadget-brust/categories/category_1757020444186",
+        "assetId": "category_1757020444186"
+      }
+    ],
+    "stock": 15,
+    "star": 4.7,
+    "remark": "popular",
+    "isSlider": true,
+    "category": "68ba011e7c15aa5a2dafd562",
+    "subcategory": "GPU",
+    "brand": "68b9f8cec6f7057d9dfbf4b1",
+    "createdAt": "2025-09-05T05:48:00.000Z",
+    "updatedAt": "2025-09-05T05:48:00.000Z"
+  },
+  {
+    "_id": "68ba02017c15aa5a2dafd621",
+    "title": "MSI Gaming Monitor 27-inch",
+    "shortDescription": "27-inch 144Hz gaming monitor.",
+    "keyFeatures": [
+      { "key": "Resolution", "values": ["2560x1440"] },
+      { "key": "Refresh Rate", "values": ["144Hz"] }
+    ],
+    "price": 35000,
+    "discount": 8,
+    "discountPrice": 32200,
+    "image": {
+      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
+      "publicId": "gadget-brust/categories/category_1757020480446",
+      "assetId": "category_1757020480446"
+    },
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
+        "publicId": "gadget-brust/categories/category_1757020480446",
+        "assetId": "category_1757020480446"
+      }
+    ],
+    "stock": 20,
+    "star": 4.5,
+    "remark": "new",
+    "isSlider": false,
+    "category": "68ba01427c15aa5a2dafd566",
+    "subcategory": "Accessories",
+    "brand": "68b9f8cec6f7057d9dfbf4b1",
+    "createdAt": "2025-09-05T05:48:00.000Z",
+    "updatedAt": "2025-09-05T05:48:00.000Z"
+  },
+  {
+    "_id": "68ba02027c15aa5a2dafd622",
+    "title": "MSI Motherboard Z690",
+    "shortDescription": "High-performance motherboard for Intel CPUs.",
+    "keyFeatures": [
+      { "key": "Chipset", "values": ["Z690"] },
+      { "key": "Socket", "values": ["LGA 1700"] }
+    ],
+    "price": 25000,
+    "discount": 0,
+    "discountPrice": 25000,
+    "image": {
+      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020433/gadget-brust/categories/category_1757020444186.png",
+      "publicId": "gadget-brust/categories/category_1757020444186",
+      "assetId": "category_1757020444186"
+    },
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020433/gadget-brust/categories/category_1757020444186.png",
+        "publicId": "gadget-brust/categories/category_1757020444186",
+        "assetId": "category_1757020444186"
+      }
+    ],
+    "stock": 30,
+    "star": 4.3,
+    "remark": "regular",
+    "isSlider": false,
+    "category": "68ba011e7c15aa5a2dafd562",
+    "subcategory": "Motherboard",
+    "brand": "68b9f8cec6f7057d9dfbf4b1",
+    "createdAt": "2025-09-05T05:48:00.000Z",
+    "updatedAt": "2025-09-05T05:48:00.000Z"
+  },
+  {
+    "_id": "68ba02037c15aa5a2dafd623",
+    "title": "MSI Gaming Console",
+    "shortDescription": "Next-gen gaming console with powerful performance.",
+    "keyFeatures": [
+      { "key": "Storage", "values": ["1TB SSD"] },
+      { "key": "Performance", "values": ["4K 120fps"] }
+    ],
+    "price": 60000,
+    "discount": 10,
+    "discountPrice": 54000,
+    "image": {
+      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
+      "publicId": "gadget-brust/categories/category_1757020480446",
+      "assetId": "category_1757020480446"
+    },
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
+        "publicId": "gadget-brust/categories/category_1757020480446",
+        "assetId": "category_1757020480446"
+      }
+    ],
+    "stock": 10,
+    "star": 4.8,
+    "remark": "best",
+    "isSlider": true,
+    "category": "68ba01427c15aa5a2dafd566",
+    "subcategory": "Gaming Consoles",
+    "brand": "68b9f8cec6f7057d9dfbf4b1",
+    "createdAt": "2025-09-05T05:48:00.000Z",
+    "updatedAt": "2025-09-05T05:48:00.000Z"
+  },
+  {
+    "_id": "68ba02047c15aa5a2dafd624",
+    "title": "Gigabyte AORUS GPU",
+    "shortDescription": "High-end GPU for gaming and productivity.",
+    "keyFeatures": [
+      { "key": "Memory", "values": ["12GB GDDR6"] },
+      { "key": "Cooling", "values": ["Triple Fan"] }
+    ],
+    "price": 95000,
+    "discount": 5,
+    "discountPrice": 90250,
+    "image": {
+      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020433/gadget-brust/categories/category_1757020444186.png",
+      "publicId": "gadget-brust/categories/category_1757020444186",
+      "assetId": "category_1757020444186"
+    },
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020433/gadget-brust/categories/category_1757020444186.png",
+        "publicId": "gadget-brust/categories/category_1757020444186",
+        "assetId": "category_1757020444186"
+      }
+    ],
+    "stock": 15,
+    "star": 4.7,
+    "remark": "popular",
+    "isSlider": true,
+    "category": "68ba011e7c15aa5a2dafd562",
+    "subcategory": "GPU",
+    "brand": "68b9f8dcc6f7057d9dfbf4b3",
+    "createdAt": "2025-09-05T05:48:00.000Z",
+    "updatedAt": "2025-09-05T05:48:00.000Z"
+  },
+  {
+    "_id": "68ba02057c15aa5a2dafd625",
+    "title": "Gigabyte Motherboard B550",
+    "shortDescription": "Reliable motherboard for AMD Ryzen CPUs.",
+    "keyFeatures": [
+      { "key": "Chipset", "values": ["B550"] },
+      { "key": "Socket", "values": ["AM4"] }
+    ],
+    "price": 20000,
+    "discount": 0,
+    "discountPrice": 20000,
+    "image": {
+      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020433/gadget-brust/categories/category_1757020444186.png",
+      "publicId": "gadget-brust/categories/category_1757020444186",
+      "assetId": "category_1757020444186"
+    },
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020433/gadget-brust/categories/category_1757020444186.png",
+        "publicId": "gadget-brust/categories/category_1757020444186",
+        "assetId": "category_1757020444186"
+      }
+    ],
+    "stock": 30,
+    "star": 4.4,
+    "remark": "regular",
+    "isSlider": false,
+    "category": "68ba011e7c15aa5a2dafd562",
+    "subcategory": "Motherboard",
+    "brand": "68b9f8dcc6f7057d9dfbf4b3",
+    "createdAt": "2025-09-05T05:48:00.000Z",
+    "updatedAt": "2025-09-05T05:48:00.000Z"
+  },
+  {
+    "_id": "68ba02067c15aa5a2dafd626",
+    "title": "Gigabyte Gaming Keyboard",
+    "shortDescription": "Mechanical keyboard for gaming.",
+    "keyFeatures": [
+      { "key": "Switches", "values": ["Cherry MX Red"] },
+      { "key": "Lighting", "values": ["RGB"] }
+    ],
+    "price": 8000,
+    "discount": 10,
+    "discountPrice": 7200,
+    "image": {
+      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
+      "publicId": "gadget-brust/categories/category_1757020480446",
+      "assetId": "category_1757020480446"
+    },
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
+        "publicId": "gadget-brust/categories/category_1757020480446",
+        "assetId": "category_1757020480446"
+      }
+    ],
+    "stock": 50,
+    "star": 4.3,
+    "remark": "new",
+    "isSlider": false,
+    "category": "68ba01427c15aa5a2dafd566",
+    "subcategory": "Accessories",
+    "brand": "68b9f8dcc6f7057d9dfbf4b3",
+    "createdAt": "2025-09-05T05:48:00.000Z",
+    "updatedAt": "2025-09-05T05:48:00.000Z"
+  },
+  {
+    "_id": "68ba02077c15aa5a2dafd627",
+    "title": "Gigabyte Ryzen 7 CPU",
+    "shortDescription": "High-performance CPU for gaming and work.",
+    "keyFeatures": [
+      { "key": "Cores", "values": ["8"] },
+      { "key": "Clock Speed", "values": ["4.4GHz"] }
+    ],
+    "price": 35000,
+    "discount": 5,
+    "discountPrice": 33250,
+    "image": {
+      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020433/gadget-brust/categories/category_1757020444186.png",
+      "publicId": "gadget-brust/categories/category_1757020444186",
+      "assetId": "category_1757020444186"
+    },
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020433/gadget-brust/categories/category_1757020444186.png",
+        "publicId": "gadget-brust/categories/category_1757020444186",
+        "assetId": "category_1757020444186"
+      }
+    ],
+    "stock": 20,
+    "star": 4.6,
+    "remark": "popular",
+    "isSlider": true,
+    "category": "68ba011e7c15aa5a2dafd562",
+    "subcategory": "CPU",
+    "brand": "68b9f8dcc6f7057d9dfbf4b3",
+    "createdAt": "2025-09-05T05:48:00.000Z",
+    "updatedAt": "2025-09-05T05:48:00.000Z"
+  },
+  {
+    "success": true,
+    "message": "Products generated successfully",
+    "data": [
+      {
+        "_id": "68ba02097c15aa5a2dafd629",
+        "title": "Asus ROG Strix Laptop",
+        "shortDescription": "High-performance gaming laptop with RTX 3080.",
+        "keyFeatures": [
+          { "key": "GPU", "values": ["NVIDIA RTX 3080"] },
+          { "key": "Display", "values": ["17.3-inch 240Hz"] }
+        ],
+        "price": 180000,
+        "discount": 10,
+        "discountPrice": 162000,
+        "image": {
+          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
+          "publicId": "gadget-brust/categories/category_1757020463690",
+          "assetId": "category_1757020463690"
+        },
+        "images": [
+          {
+            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
+            "publicId": "gadget-brust/categories/category_1757020463690",
+            "assetId": "category_1757020463690"
+          }
+        ],
+        "stock": 10,
+        "star": 4.9,
+        "remark": "trending",
+        "isSlider": true,
+        "category": "68ba015a7c15aa5a2dafd568",
+        "subcategory": "Gaming Laptops",
+        "brand": "68b9f8e6c6f7057d9dfbf4b5",
+        "createdAt": "2025-09-05T05:53:00.000Z",
+        "updatedAt": "2025-09-05T05:53:00.000Z"
+      },
+      {
+        "_id": "68ba020a7c15aa5a2dafd62a",
+        "title": "Asus ZenBook Ultrabook",
+        "shortDescription": "Sleek ultrabook with OLED display.",
+        "keyFeatures": [
+          { "key": "Processor", "values": ["Intel i7"] },
+          { "key": "Display", "values": ["14-inch OLED"] }
+        ],
+        "price": 110000,
+        "discount": 8,
+        "discountPrice": 101200,
+        "image": {
+          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
+          "publicId": "gadget-brust/categories/category_1757020463690",
+          "assetId": "category_1757020463690"
+        },
+        "images": [
+          {
+            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
+            "publicId": "gadget-brust/categories/category_1757020463690",
+            "assetId": "category_1757020463690"
+          }
+        ],
+        "stock": 20,
+        "star": 4.7,
+        "remark": "popular",
+        "isSlider": true,
+        "category": "68ba015a7c15aa5a2dafd568",
+        "subcategory": "Ultrabooks",
+        "brand": "68b9f8e6c6f7057d9dfbf4b5",
+        "createdAt": "2025-09-05T05:53:00.000Z",
+        "updatedAt": "2025-09-05T05:53:00.000Z"
+      },
+      {
+        "_id": "68ba020b7c15aa5a2dafd62b",
+        "title": "Asus TUF Gaming Monitor",
+        "shortDescription": "27-inch 165Hz gaming monitor.",
+        "keyFeatures": [
+          { "key": "Resolution", "values": ["2560x1440"] },
+          { "key": "Refresh Rate", "values": ["165Hz"] }
+        ],
+        "price": 40000,
+        "discount": 5,
+        "discountPrice": 38000,
+        "image": {
+          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
+          "publicId": "gadget-brust/categories/category_1757020480446",
+          "assetId": "category_1757020480446"
+        },
+        "images": [
+          {
+            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
+            "publicId": "gadget-brust/categories/category_1757020480446",
+            "assetId": "category_1757020480446"
+          }
+        ],
+        "stock": 25,
+        "star": 4.5,
+        "remark": "new",
+        "isSlider": false,
+        "category": "68ba01427c15aa5a2dafd566",
+        "subcategory": "Accessories",
+        "brand": "68b9f8e6c6f7057d9dfbf4b5",
+        "createdAt": "2025-09-05T05:53:00.000Z",
+        "updatedAt": "2025-09-05T05:53:00.000Z"
+      },
+      {
+        "_id": "68ba020c7c15aa5a2dafd62c",
+        "title": "Asus ROG Phone 7",
+        "shortDescription": "Gaming smartphone with Snapdragon 8 Gen 2.",
+        "keyFeatures": [
+          { "key": "Processor", "values": ["Snapdragon 8 Gen 2"] },
+          { "key": "Display", "values": ["6.78-inch AMOLED"] }
+        ],
+        "price": 85000,
+        "discount": 7,
+        "discountPrice": 79050,
+        "image": {
+          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020509/gadget-brust/categories/category_1757020520176.png",
+          "publicId": "gadget-brust/categories/category_1757020520176",
+          "assetId": "category_1757020520176"
+        },
+        "images": [
+          {
+            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020509/gadget-brust/categories/category_1757020520176.png",
+            "publicId": "gadget-brust/categories/category_1757020520176",
+            "assetId": "category_1757020520176"
+          }
+        ],
+        "stock": 15,
+        "star": 4.8,
+        "remark": "trending",
+        "isSlider": true,
+        "category": "68ba01697c15aa5a2dafd56a",
+        "subcategory": "Smartphones",
+        "brand": "68b9f8e6c6f7057d9dfbf4b5",
+        "createdAt": "2025-09-05T05:53:00.000Z",
+        "updatedAt": "2025-09-05T05:53:00.000Z"
+      },
+      {
+        "_id": "68ba020d7c15aa5a2dafd62d",
+        "title": "Asus VivoBook 2-in-1",
+        "shortDescription": "Versatile 2-in-1 laptop for productivity.",
+        "keyFeatures": [
+          { "key": "Processor", "values": ["Intel i5"] },
+          { "key": "Display", "values": ["15.6-inch Touch"] }
+        ],
+        "price": 75000,
+        "discount": 10,
+        "discountPrice": 67500,
+        "image": {
+          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
+          "publicId": "gadget-brust/categories/category_1757020463690",
+          "assetId": "category_1757020463690"
+        },
+        "images": [
+          {
+            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
+            "publicId": "gadget-brust/categories/category_1757020463690",
+            "assetId": "category_1757020463690"
+          }
+        ],
+        "stock": 20,
+        "star": 4.4,
+        "remark": "regular",
+        "isSlider": false,
+        "category": "68ba015a7c15aa5a2dafd568",
+        "subcategory": "2-in-1",
+        "brand": "68b9f8e6c6f7057d9dfbf4b5",
+        "createdAt": "2025-09-05T05:53:00.000Z",
+        "updatedAt": "2025-09-05T05:53:00.000Z"
+      },
+      {
+        "_id": "68ba020e7c15aa5a2dafd62e",
+        "title": "BenQ 4K Projector",
+        "shortDescription": "4K projector for home theater experiences.",
+        "keyFeatures": [
+          { "key": "Resolution", "values": ["4K UHD"] },
+          { "key": "Brightness", "values": ["3000 Lumens"] }
+        ],
+        "price": 120000,
+        "discount": 5,
+        "discountPrice": 114000,
+        "image": {
+          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
+          "publicId": "gadget-brust/categories/category_1757020480446",
+          "assetId": "category_1757020480446"
+        },
+        "images": [
+          {
+            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
+            "publicId": "gadget-brust/categories/category_1757020480446",
+            "assetId": "category_1757020480446"
+          }
+        ],
+        "stock": 10,
+        "star": 4.7,
+        "remark": "best",
+        "isSlider": true,
+        "category": "68ba01427c15aa5a2dafd566",
+        "subcategory": "Accessories",
+        "brand": "68b9f8f4c6f7057d9dfbf4b7",
+        "createdAt": "2025-09-05T05:53:00.000Z",
+        "updatedAt": "2025-09-05T05:53:00.000Z"
+      },
+      {
+        "_id": "68ba020f7c15aa5a2dafd62f",
+        "title": "BenQ Gaming Monitor 32-inch",
+        "shortDescription": "32-inch 144Hz gaming monitor.",
+        "keyFeatures": [
+          { "key": "Resolution", "values": ["2560x1440"] },
+          { "key": "Refresh Rate", "values": ["144Hz"] }
+        ],
+        "price": 45000,
+        "discount": 8,
+        "discountPrice": 41400,
+        "image": {
+          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
+          "publicId": "gadget-brust/categories/category_1757020480446",
+          "assetId": "category_1757020480446"
+        },
+        "images": [
+          {
+            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
+            "publicId": "gadget-brust/categories/category_1757020480446",
+            "assetId": "category_1757020480446"
+          }
+        ],
+        "stock": 20,
+        "star": 4.6,
+        "remark": "popular",
+        "isSlider": true,
+        "category": "68ba01427c15aa5a2dafd566",
+        "subcategory": "Accessories",
+        "brand": "68b9f8f4c6f7057d9dfbf4b7",
+        "createdAt": "2025-09-05T05:53:00.000Z",
+        "updatedAt": "2025-09-05T05:53:00.000Z"
+      },
+      {
+        "_id": "68ba02107c15aa5a2dafd630",
+        "title": "BenQ Mirrorless Camera",
+        "shortDescription": "Compact mirrorless camera with 24MP sensor.",
+        "keyFeatures": [
+          { "key": "Sensor", "values": ["24MP"] },
+          { "key": "Lens Mount", "values": ["Z-mount"] }
+        ],
+        "price": 70000,
+        "discount": 10,
+        "discountPrice": 63000,
+        "image": {
+          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020408/gadget-brust/categories/category_1757020418681.png",
+          "publicId": "gadget-brust/categories/category_1757020418681",
+          "assetId": "category_1757020418681"
+        },
+        "images": [
+          {
+            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020408/gadget-brust/categories/category_1757020418681.png",
+            "publicId": "gadget-brust/categories/category_1757020418681",
+            "assetId": "category_1757020418681"
+          }
+        ],
+        "stock": 15,
+        "star": 4.4,
+        "remark": "new",
+        "isSlider": false,
+        "category": "68ba01047c15aa5a2dafd560",
+        "subcategory": "Mirrorless",
+        "brand": "68b9f8f4c6f7057d9dfbf4b7",
+        "createdAt": "2025-09-05T05:53:00.000Z",
+        "updatedAt": "2025-09-05T05:53:00.000Z"
+      },
+      {
+        "_id": "68ba02117c15aa5a2dafd631",
+        "title": "BenQ Action Camera",
+        "shortDescription": "4K action camera for adventure enthusiasts.",
+        "keyFeatures": [
+          { "key": "Resolution", "values": ["4K"] },
+          { "key": "Waterproof", "values": ["Up to 40m"] }
+        ],
+        "price": 15000,
+        "discount": 5,
+        "discountPrice": 14250,
+        "image": {
+          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020408/gadget-brust/categories/category_1757020418681.png",
+          "publicId": "gadget-brust/categories/category_1757020418681",
+          "assetId": "category_1757020418681"
+        },
+        "images": [
+          {
+            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020408/gadget-brust/categories/category_1757020418681.png",
+            "publicId": "gadget-brust/categories/category_1757020418681",
+            "assetId": "category_1757020418681"
+          }
+        ],
+        "stock": 25,
+        "star": 4.3,
+        "remark": "regular",
+        "isSlider": false,
+        "category": "68ba01047c15aa5a2dafd560",
+        "subcategory": "Action Cameras",
+        "brand": "68b9f8f4c6f7057d9dfbf4b7",
+        "createdAt": "2025-09-05T05:53:00.000Z",
+        "updatedAt": "2025-09-05T05:53:00.000Z"
+      },
+      {
+        "_id": "68ba02127c15aa5a2dafd632",
+        "title": "BenQ Portable Speaker",
+        "shortDescription": "Compact Bluetooth speaker with clear audio.",
+        "keyFeatures": [
+          { "key": "Power", "values": ["15W"] },
+          { "key": "Battery Life", "values": ["10 hours"] }
+        ],
+        "price": 6000,
+        "discount": 0,
+        "discountPrice": 6000,
+        "image": {
+          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020586/gadget-brust/categories/category_1757020596838.png",
+          "publicId": "gadget-brust/categories/category_1757020596838",
+          "assetId": "category_1757020596838"
+        },
+        "images": [
+          {
+            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020586/gadget-brust/categories/category_1757020596838.png",
+            "publicId": "gadget-brust/categories/category_1757020596838",
+            "assetId": "category_1757020596838"
+          }
+        ],
+        "stock": 40,
+        "star": 4.2,
+        "remark": "regular",
+        "isSlider": false,
+        "category": "68ba01b67c15aa5a2dafd570",
+        "subcategory": "Speakers",
+        "brand": "68b9f8f4c6f7057d9dfbf4b7",
+        "createdAt": "2025-09-05T05:53:00.000Z",
+        "updatedAt": "2025-09-05T05:53:00.000Z"
+      },
+      {
+        "_id": "68ba02137c15aa5a2dafd633",
+        "title": "Lenovo ThinkPad X1",
+        "shortDescription": "Premium business laptop with robust features.",
+        "keyFeatures": [
+          { "key": "Processor", "values": ["Intel i7"] },
+          { "key": "Display", "values": ["14-inch 4K"] }
+        ],
+        "price": 130000,
+        "discount": 10,
+        "discountPrice": 117000,
+        "image": {
+          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
+          "publicId": "gadget-brust/categories/category_1757020463690",
+          "assetId": "category_1757020463690"
+        },
+        "images": [
+          {
+            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
+            "publicId": "gadget-brust/categories/category_1757020463690",
+            "assetId": "category_1757020463690"
+          }
+        ],
+        "stock": 15,
+        "star": 4.8,
+        "remark": "best",
+        "isSlider": true,
+        "category": "68ba015a7c15aa5a2dafd568",
+        "subcategory": "Business Laptops",
+        "brand": "68b9f8fec6f7057d9dfbf4b9",
+        "createdAt": "2025-09-05T05:53:00.000Z",
+        "updatedAt": "2025-09-05T05:53:00.000Z"
+      },
+      {
+        "_id": "68ba02147c15aa5a2dafd634",
+        "title": "Lenovo IdeaPad Gaming",
+        "shortDescription": "Affordable gaming laptop with RTX 3050.",
+        "keyFeatures": [
+          { "key": "GPU", "values": ["NVIDIA RTX 3050"] },
+          { "key": "Display", "values": ["15.6-inch 120Hz"] }
+        ],
+        "price": 90000,
+        "discount": 7,
+        "discountPrice": 83700,
+        "image": {
+          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
+          "publicId": "gadget-brust/categories/category_1757020463690",
+          "assetId": "category_1757020463690"
+        },
+        "images": [
+          {
+            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
+            "publicId": "gadget-brust/categories/category_1757020463690",
+            "assetId": "category_1757020463690"
+          }
+        ],
+        "stock": 20,
+        "star": 4.5,
+        "remark": "trending",
+        "isSlider": true,
+        "category": "68ba015a7c15aa5a2dafd568",
+        "subcategory": "Gaming Laptops",
+        "brand": "68b9f8fec6f7057d9dfbf4b9",
+        "createdAt": "2025-09-05T05:53:00.000Z",
+        "updatedAt": "2025-09-05T05:53:00.000Z"
+      },
+      {
+        "_id": "68ba02157c15aa5a2dafd635",
+        "title": "Lenovo Yoga 2-in-1",
+        "shortDescription": "Versatile 2-in-1 laptop with touch display.",
+        "keyFeatures": [
+          { "key": "Processor", "values": ["Intel i5"] },
+          { "key": "Display", "values": ["14-inch Touch"] }
+        ],
+        "price": 80000,
+        "discount": 5,
+        "discountPrice": 76000,
+        "image": {
+          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
+          "publicId": "gadget-brust/categories/category_1757020463690",
+          "assetId": "category_1757020463690"
+        },
+        "images": [
+          {
+            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
+            "publicId": "gadget-brust/categories/category_1757020463690",
+            "assetId": "category_1757020463690"
+          }
+        ],
+        "stock": 25,
+        "star": 4.4,
+        "remark": "regular",
+        "isSlider": false,
+        "category": "68ba015a7c15aa5a2dafd568",
+        "subcategory": "2-in-1",
+        "brand": "68b9f8fec6f7057d9dfbf4b9",
+        "createdAt": "2025-09-05T05:53:00.000Z",
+        "updatedAt": "2025-09-05T05:53:00.000Z"
+      },
+      {
+        "_id": "68ba02167c15aa5a2dafd636",
+        "title": "Lenovo Legion Desktop",
+        "shortDescription": "Powerful gaming desktop with Ryzen 7.",
+        "keyFeatures": [
+          { "key": "Processor", "values": ["AMD Ryzen 7"] },
+          { "key": "GPU", "values": ["NVIDIA RTX 3060"] }
+        ],
+        "price": 100000,
+        "discount": 10,
+        "discountPrice": 90000,
+        "image": {
+          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
+          "publicId": "gadget-brust/categories/category_1757020463690",
+          "assetId": "category_1757020463690"
+        },
+        "images": [
+          {
+            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
+            "publicId": "gadget-brust/categories/category_1757020463690",
+            "assetId": "category_1757020463690"
+          }
+        ],
+        "stock": 15,
+        "star": 4.7,
+        "remark": "popular",
+        "isSlider": true,
+        "category": "68ba01317c15aa5a2dafd564",
+        "subcategory": "Desktop",
+        "brand": "68b9f8fec6f7057d9dfbf4b9",
+        "createdAt": "2025-09-05T05:53:00.000Z",
+        "updatedAt": "2025-09-05T05:53:00.000Z"
+      },
+      {
+        "_id": "68ba02177c15aa5a2dafd637",
+        "title": "Lenovo IdeaCentre AIO",
+        "shortDescription": "All-in-one PC for home and office.",
+        "keyFeatures": [
+          { "key": "Display", "values": ["27-inch FHD"] },
+          { "key": "Processor", "values": ["Intel i5"] }
+        ],
+        "price": 70000,
+        "discount": 8,
+        "discountPrice": 64400,
+        "image": {
+          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
+          "publicId": "gadget-brust/categories/category_1757020463690",
+          "assetId": "category_1757020463690"
+        },
+        "images": [
+          {
+            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
+            "publicId": "gadget-brust/categories/category_1757020463690",
+            "assetId": "category_1757020463690"
+          }
+        ],
+        "stock": 20,
+        "star": 4.3,
+        "remark": "new",
+        "isSlider": false,
+        "category": "68ba01317c15aa5a2dafd564",
+        "subcategory": "All-in-One",
+        "brand": "68b9f8fec6f7057d9dfbf4b9",
+        "createdAt": "2025-09-05T05:53:00.000Z",
+        "updatedAt": "2025-09-05T05:53:00.000Z"
+      },
+      {
+        "_id": "68ba02187c15aa5a2dafd638",
+        "title": "Corsair Vengeance RAM 16GB",
+        "shortDescription": "High-speed 16GB DDR4 RAM for gaming.",
+        "keyFeatures": [
+          { "key": "Capacity", "values": ["16GB"] },
+          { "key": "Speed", "values": ["3200MHz"] }
+        ],
+        "price": 8000,
+        "discount": 5,
+        "discountPrice": 7600,
+        "image": {
+          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020433/gadget-brust/categories/category_1757020444186.png",
+          "publicId": "gadget-brust/categories/category_1757020444186",
+          "assetId": "category_1757020444186"
+        },
+        "images": [
+          {
+            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020433/gadget-brust/categories/category_1757020444186.png",
+            "publicId": "gadget-brust/categories/category_1757020444186",
+            "assetId": "category_1757020444186"
+          }
+        ],
+        "stock": 50,
+        "star": 4.6,
+        "remark": "popular",
+        "isSlider": true,
+        "category": "68ba011e7c15aa5a2dafd562",
+        "subcategory": "RAM",
+        "brand": "68b9f90fc6f7057d9dfbf4bb",
+        "createdAt": "2025-09-05T05:53:00.000Z",
+        "updatedAt": "2025-09-05T05:53:00.000Z"
+      },
+      {
+        "_id": "68ba02197c15aa5a2dafd639",
+        "title": "Corsair K95 Keyboard",
+        "shortDescription": "Mechanical RGB keyboard for gaming.",
+        "keyFeatures": [
+          { "key": "Switches", "values": ["Cherry MX Speed"] },
+          { "key": "Lighting", "values": ["RGB"] }
+        ],
+        "price": 12000,
+        "discount": 10,
+        "discountPrice": 10800,
+        "image": {
+          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
+          "publicId": "gadget-brust/categories/category_1757020480446",
+          "assetId": "category_1757020480446"
+        },
+        "images": [
+          {
+            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
+            "publicId": "gadget-brust/categories/category_1757020480446",
+            "assetId": "category_1757020480446"
+          }
+        ],
+        "stock": 30,
+        "star": 4.7,
+        "remark": "trending",
+        "isSlider": true,
+        "category": "68ba01427c15aa5a2dafd566",
+        "subcategory": "Accessories",
+        "brand": "68b9f90fc6f7057d9dfbf4bb",
+        "createdAt": "2025-09-05T05:53:00.000Z",
+        "updatedAt": "2025-09-05T05:53:00.000Z"
+      },
+      {
+        "_id": "68ba021a7c15aa5a2dafd63a",
+        "title": "Corsair Dark Core Mouse",
+        "shortDescription": "Wireless gaming mouse with high precision.",
+        "keyFeatures": [
+          { "key": "DPI", "values": ["18000"] },
+          { "key": "Connectivity", "values": ["Wireless", "USB"] }
+        ],
+        "price": 6000,
+        "discount": 0,
+        "discountPrice": 6000,
+        "image": {
+          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
+          "publicId": "gadget-brust/categories/category_1757020480446",
+          "assetId": "category_1757020480446"
+        },
+        "images": [
+          {
+            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
+            "publicId": "gadget-brust/categories/category_1757020480446",
+            "assetId": "category_1757020480446"
+          }
+        ],
+        "stock": 40,
+        "star": 4.4,
+        "remark": "regular",
+        "isSlider": false,
+        "category": "68ba01427c15aa5a2dafd566",
+        "subcategory": "Accessories",
+        "brand": "68b9f90fc6f7057d9dfbf4bb",
+        "createdAt": "2025-09-05T05:53:00.000Z",
+        "updatedAt": "2025-09-05T05:53:00.000Z"
+      },
+      {
+        "_id": "68ba021b7c15aa5a2dafd63b",
+        "title": "Corsair Void RGB Headphones",
+        "shortDescription": "Wireless gaming headphones with surround sound.",
+        "keyFeatures": [
+          { "key": "Audio", "values": ["7.1 Surround"] },
+          { "key": "Battery Life", "values": ["16 hours"] }
+        ],
+        "price": 10000,
+        "discount": 5,
+        "discountPrice": 9500,
+        "image": {
+          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020586/gadget-brust/categories/category_1757020596838.png",
+          "publicId": "gadget-brust/categories/category_1757020596838",
+          "assetId": "category_1757020596838"
+        },
+        "images": [
+          {
+            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020586/gadget-brust/categories/category_1757020596838.png",
+            "publicId": "gadget-brust/categories/category_1757020596838",
+            "assetId": "category_1757020596838"
+          }
+        ],
+        "stock": 35,
+        "star": 4.5,
+        "remark": "popular",
+        "isSlider": true,
+        "category": "68ba01b67c15aa5a2dafd570",
+        "subcategory": "Headphones",
+        "brand": "68b9f90fc6f7057d9dfbf4bb",
+        "createdAt": "2025-09-05T05:53:00.000Z",
+        "updatedAt": "2025-09-05T05:53:00.000Z"
+      },
+      {
+        "_id": "68ba021c7c15aa5a2dafd63c",
+        "title": "Corsair 32GB RAM Kit",
+        "shortDescription": "32GB DDR4 RAM for high-performance PCs.",
+        "keyFeatures": [
+          { "key": "Capacity", "values": ["32GB"] },
+          { "key": "Speed", "values": ["3600MHz"] }
+        ],
+        "price": 15000,
+        "discount": 8,
+        "discountPrice": 13800,
+        "image": {
+          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020433/gadget-brust/categories/category_1757020444186.png",
+          "publicId": "gadget-brust/categories/category_1757020444186",
+          "assetId": "category_1757020444186"
+        },
+        "images": [
+          {
+            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020433/gadget-brust/categories/category_1757020444186.png",
+            "publicId": "gadget-brust/categories/category_1757020444186",
+            "assetId": "category_1757020444186"
+          }
+        ],
+        "stock": 25,
+        "star": 4.6,
+        "remark": "new",
+        "isSlider": false,
+        "category": "68ba011e7c15aa5a2dafd562",
+        "subcategory": "RAM",
+        "brand": "68b9f90fc6f7057d9dfbf4bb",
+        "createdAt": "2025-09-05T05:53:00.000Z",
+        "updatedAt": "2025-09-05T05:53:00.000Z"
+      },
+      {
+        "_id": "68ba021d7c15aa5a2dafd63d",
+        "title": "Gigabyte 500W Power Supply",
+        "shortDescription": "Reliable 500W PSU for PC builds.",
+        "keyFeatures": [
+          { "key": "Wattage", "values": ["500W"] },
+          { "key": "Efficiency", "values": ["80+ Bronze"] }
+        ],
+        "price": 5000,
+        "discount": 0,
+        "discountPrice": 5000,
+        "image": {
+          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020381/gadget-brust/categories/category_1757020391807.png",
+          "publicId": "gadget-brust/categories/category_1757020391807",
+          "assetId": "category_1757020391807"
+        },
+        "images": [
+          {
+            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020381/gadget-brust/categories/category_1757020391807.png",
+            "publicId": "gadget-brust/categories/category_1757020391807",
+            "assetId": "category_1757020391807"
+          }
+        ],
+        "stock": 40,
+        "star": 4.3,
+        "remark": "regular",
+        "isSlider": false,
+        "category": "68ba00e97c15aa5a2dafd55e",
+        "subcategory": "Power Banks",
+        "brand": "68b9f8dcc6f7057d9dfbf4b3",
+        "createdAt": "2025-09-05T05:53:00.000Z",
+        "updatedAt": "2025-09-05T05:53:00.000Z"
+      },
+      {
+        "_id": "68ba021e7c15aa5a2dafd63e",
+        "title": "Asus Smartwatch Hybrid",
+        "shortDescription": "Stylish hybrid smartwatch with fitness tracking.",
+        "keyFeatures": [
+          { "key": "Display", "values": ["1.3-inch Analog"] },
+          { "key": "Features", "values": ["Heart Rate", "Notifications"] }
+        ],
+        "price": 20000,
+        "discount": 5,
+        "discountPrice": 19000,
+        "image": {
+          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020571/gadget-brust/categories/category_1757020581362.png",
+          "publicId": "gadget-brust/categories/category_1757020581362",
+          "assetId": "category_1757020581362"
+        },
+        "images": [
+          {
+            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020571/gadget-brust/categories/category_1757020581362.png",
+            "publicId": "gadget-brust/categories/category_1757020581362",
+            "assetId": "category_1757020581362"
+          }
+        ],
+        "stock": 30,
+        "star": 4.4,
+        "remark": "new",
+        "isSlider": true,
+        "category": "68ba01a77c15aa5a2dafd56e",
+        "subcategory": "Hybrid Watches",
+        "brand": "68b9f8e6c6f7057d9dfbf4b5",
+        "createdAt": "2025-09-05T05:53:00.000Z",
+        "updatedAt": "2025-09-05T05:53:00.000Z"
+      },
+      {
+        "_id": "68ba021f7c15aa5a2dafd63f",
+        "title": "BenQ e-Reader",
+        "shortDescription": "6-inch e-ink reader for comfortable reading.",
+        "keyFeatures": [
+          { "key": "Display", "values": ["6-inch E-Ink"] },
+          { "key": "Storage", "values": ["16GB"] }
+        ],
+        "price": 15000,
+        "discount": 10,
+        "discountPrice": 13500,
+        "image": {
+          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020608/gadget-brust/categories/category_1757020619574.png",
+          "publicId": "gadget-brust/categories/category_1757020619574",
+          "assetId": "category_1757020619574"
+        },
+        "images": [
+          {
+            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020608/gadget-brust/categories/category_1757020619574.png",
+            "publicId": "gadget-brust/categories/category_1757020619574",
+            "assetId": "category_1757020619574"
+          }
+        ],
+        "stock": 25,
+        "star": 4.3,
+        "remark": "regular",
+        "isSlider": false,
+        "category": "68ba01cc7c15aa5a2dafd572",
+        "subcategory": "E-Readers",
+        "brand": "68b9f8f4c6f7057d9dfbf4b7",
+        "createdAt": "2025-09-05T05:53:00.000Z",
+        "updatedAt": "2025-09-05T05:53:00.000Z"
+      },
+      {
+        "_id": "68ba02207c15aa5a2dafd640",
+        "title": "Lenovo Smartwatch Luxury",
+        "shortDescription": "Premium smartwatch with elegant design.",
+        "keyFeatures": [
+          { "key": "Display", "values": ["1.4-inch AMOLED"] },
+          { "key": "Features", "values": ["ECG", "SpO2"] }
+        ],
+        "price": 35000,
+        "discount": 5,
+        "discountPrice": 33250,
+        "image": {
+          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020571/gadget-brust/categories/category_1757020581362.png",
+          "publicId": "gadget-brust/categories/category_1757020581362",
+          "assetId": "category_1757020581362"
+        },
+        "images": [
+          {
+            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020571/gadget-brust/categories/category_1757020581362.png",
+            "publicId": "gadget-brust/categories/category_1757020581362",
+            "assetId": "category_1757020581362"
+          }
+        ],
+        "stock": 15,
+        "star": 4.6,
+        "remark": "best",
+        "isSlider": true,
+        "category": "68ba01a77c15aa5a2dafd56e",
+        "subcategory": "Luxury Smartwatches",
+        "brand": "68b9f8fec6f7057d9dfbf4b9",
+        "createdAt": "2025-09-05T05:53:00.000Z",
+        "updatedAt": "2025-09-05T05:53:00.000Z"
+      },
+      {
+        "_id": "68ba02217c15aa5a2dafd641",
+        "title": "Corsair iCUE Controller",
+        "shortDescription": "Customizable controller for gaming setups.",
+        "keyFeatures": [
+          { "key": "Compatibility", "values": ["PC", "Console"] },
+          { "key": "Lighting", "values": ["RGB"] }
+        ],
+        "price": 7000,
+        "discount": 0,
+        "discountPrice": 7000,
+        "image": {
+          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
+          "publicId": "gadget-brust/categories/category_1757020480446",
+          "assetId": "category_1757020480446"
+        },
+        "images": [
+          {
+            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
+            "publicId": "gadget-brust/categories/category_1757020480446",
+            "assetId": "category_1757020480446"
+          }
+        ],
+        "stock": 30,
+        "star": 4.4,
+        "remark": "regular",
+        "isSlider": false,
+        "category": "68ba01427c15aa5a2dafd566",
+        "subcategory": "Controllers",
+        "brand": "68b9f90fc6f7057d9dfbf4bb",
+        "createdAt": "2025-09-05T05:53:00.000Z",
+        "updatedAt": "2025-09-05T05:53:00.000Z"
+      }
+    ],
+    "timestamp": "2025-09-05T05:53:00.000Z"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "_id": "68ba2b01ab58004bdafa48b0",
+    "productID": "68ba01e17c15aa5a2dafd601",
+    "customerID": "68ba2a4fab58004bdafa48a9",
+    "customerEmail": "user@gmail.com",
+    "reviewText": "This Walton Power Bank is fantastic! Charges my phone quickly and lasts for days. Great value for the price.",
+    "rating": 5,
+    "createdAt": "2025-09-05T00:12:00.000Z",
+    "updatedAt": "2025-09-05T00:12:00.000Z"
+  },
+  {
+    "_id": "68ba2b02ab58004bdafa48b1",
+    "productID": "68ba01e67c15aa5a2dafd606",
+    "customerID": "68ba2a4fab58004bdafa48a9",
+    "customerEmail": "user@gmail.com",
+    "reviewText": "The Dell XPS 13 is sleek and powerful, but the battery life could be better for such a premium laptop.",
+    "rating": 4,
+    "createdAt": "2025-09-05T00:12:00.000Z",
+    "updatedAt": "2025-09-05T00:12:00.000Z"
+  },
+  {
+    "_id": "68ba2b03ab58004bdafa48b2",
+    "productID": "68ba01eb7c15aa5a2dafd60b",
+    "customerID": "68ba2a4fab58004bdafa48a9",
+    "customerEmail": "user@gmail.com",
+    "reviewText": "LG OLED TV delivers stunning visuals. The colors are vibrant, but the price is quite high.",
+    "rating": 4,
+    "createdAt": "2025-09-05T00:12:00.000Z",
+    "updatedAt": "2025-09-05T00:12:00.000Z"
+  },
+  {
+    "_id": "68ba2b04ab58004bdafa48b3",
+    "productID": "68ba01f07c15aa5a2dafd610",
+    "customerID": "68ba2a4fab58004bdafa48a9",
+    "customerEmail": "user@gmail.com",
+    "reviewText": "Samsung Galaxy S25 is a beast! The camera is amazing, but it heats up during heavy gaming.",
+    "rating": 4,
+    "createdAt": "2025-09-05T00:12:00.000Z",
+    "updatedAt": "2025-09-05T00:12:00.000Z"
+  },
+  {
+    "_id": "68ba2b05ab58004bdafa48b4",
+    "productID": "68ba01f57c15aa5a2dafd615",
+    "customerID": "68ba2a4fab58004bdafa48a9",
+    "customerEmail": "user@gmail.com",
+    "reviewText": "HP Pavilion Gaming PC is solid for the price. Runs all my games smoothly, though the fans are a bit loud.",
+    "rating": 4,
+    "createdAt": "2025-09-05T00:12:00.000Z",
+    "updatedAt": "2025-09-05T00:12:00.000Z"
+  },
+  {
+    "_id": "68ba2b06ab58004bdafa48b5",
+    "productID": "68ba01fa7c15aa5a2dafd61a",
+    "customerID": "68ba2a4fab58004bdafa48a9",
+    "customerEmail": "user@gmail.com",
+    "reviewText": "Toshiba External HDD is reliable and fast. Great for backups, but the design feels a bit dated.",
+    "rating": 4,
+    "createdAt": "2025-09-05T00:12:00.000Z",
+    "updatedAt": "2025-09-05T00:12:00.000Z"
+  },
+  {
+    "_id": "68ba2b07ab58004bdafa48b6",
+    "productID": "68ba01ff7c15aa5a2dafd61f",
+    "customerID": "68ba2a4fab58004bdafa48a9",
+    "customerEmail": "user@gmail.com",
+    "reviewText": "MSI Gaming Laptop Katana is a powerhouse. Amazing performance, but it’s quite heavy to carry around.",
+    "rating": 5,
+    "createdAt": "2025-09-05T00:12:00.000Z",
+    "updatedAt": "2025-09-05T00:12:00.000Z"
+  },
+  {
+    "_id": "68ba2b08ab58004bdafa48b7",
+    "productID": "68ba02047c15aa5a2dafd624",
+    "customerID": "68ba2a4fab58004bdafa48a9",
+    "customerEmail": "user@gmail.com",
+    "reviewText": "Gigabyte AORUS GPU performs great for 4K gaming, but it’s a bit pricey compared to alternatives.",
+    "rating": 4,
+    "createdAt": "2025-09-05T00:12:00.000Z",
+    "updatedAt": "2025-09-05T00:12:00.000Z"
+  },
+  {
+    "_id": "68ba2b09ab58004bdafa48b8",
+    "productID": "68ba02097c15aa5a2dafd629",
+    "customerID": "68ba2a4fab58004bdafa48a9",
+    "customerEmail": "user@gmail.com",
+    "reviewText": "Asus ROG Strix Laptop is incredible for gaming. The display and performance are top-notch!",
+    "rating": 5,
+    "createdAt": "2025-09-05T00:12:00.000Z",
+    "updatedAt": "2025-09-05T00:12:00.000Z"
+  },
+  {
+    "_id": "68ba2b0aab58004bdafa48b9",
+    "productID": "68ba02137c15aa5a2dafd633",
+    "customerID": "68ba2a4fab58004bdafa48a9",
+    "customerEmail": "user@gmail.com",
+    "reviewText": "Lenovo ThinkPad X1 is perfect for work. Super reliable, but the price is on the higher side.",
+    "rating": 4,
+    "createdAt": "2025-09-05T00:12:00.000Z",
+    "updatedAt": "2025-09-05T00:12:00.000Z"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "brandName": "Walton",
+    "brandImg": "https://example.com/images/walton.jpg"
+  },
+  {
+    "brandName": "Dell",
+    "brandImg": "https://example.com/images/dell.jpg"
+  },
+  {
+    "brandName": "LG",
+    "brandImg": "https://example.com/images/lg.jpg"
+  },
+  {
+    "brandName": "Samsung",
+    "brandImg": "https://example.com/images/samsung.jpg"
+  },
+  {
+    "brandName": "HP",
+    "brandImg": "https://example.com/images/hp.jpg"
+  },
+  {
+    "brandName": "Toshiba",
+    "brandImg": "https://example.com/images/toshiba.jpg"
+  },
+  {
+    "brandName": "MSI",
+    "brandImg": "https://example.com/images/msi.jpg"
+  },
+  {
+    "brandName": "Gigabyte",
+    "brandImg": "https://example.com/images/gigabyte.jpg"
+  },
+  {
+    "brandName": "Asus",
+    "brandImg": "https://example.com/images/asus.jpg"
+  },
+  {
+    "brandName": "BenQ",
+    "brandImg": "https://example.com/images/benq.jpg"
+  },
+  {
+    "brandName": "Lenovo",
+    "brandImg": "https://example.com/images/lenovo.jpg"
+  },
+  {
+    "brandName": "Corsair",
+    "brandImg": "https://example.com/images/corsair.jpg"
+  }
+]
