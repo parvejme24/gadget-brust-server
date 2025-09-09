@@ -34,16 +34,7 @@ const ProductSchema = mongoose.Schema(
     },
     image: {
       url: String,
-      publicId: String,
-      assetId: String,
     },
-    images: [
-      {
-        url: String,
-        publicId: String,
-        assetId: String,
-      },
-    ],
     stock: {
       type: Number,
       required: true,

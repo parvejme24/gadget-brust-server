@@ -27,6 +27,7 @@ const shippingRoutes = require("./modules/shipping/shipping.routes");
 const invoiceRoutes = require("./modules/invoice/invoice.routes");
 const uploadRoutes = require("./modules/upload/upload.routes");
 const paymentRoutes = require("./modules/payment/payment.routes");
+const dashboardRoutes = require("./modules/dashboard/dashboard.routes");
 
 const app = express();
 
@@ -109,6 +110,7 @@ app.use("/api/shipping", shippingRoutes);
 app.use("/api/invoices", invoiceRoutes);
 app.use("/api/upload", uploadRoutes);
 app.use("/api/payments", paymentRoutes);
+app.use("/api/dashboard", dashboardRoutes);
 
 // 404 handler
 app.use(notFound);

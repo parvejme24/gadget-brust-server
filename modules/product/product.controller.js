@@ -21,8 +21,6 @@ class ProductController {
 
         productData.image = {
           url: uploadResult.url,
-          publicId: uploadResult.publicId,
-          assetId: uploadResult.assetId,
         };
       }
 
@@ -31,7 +29,6 @@ class ProductController {
 
       // Populate the relationships for the response
       await savedProduct.populate("category");
-      await savedProduct.populate("subcategory");
       await savedProduct.populate("brand");
 
       return ResponseUtil.created(
@@ -46,13 +43,106 @@ class ProductController {
 
   async getAllProducts(req, res, next) {
     try {
-      const products = await ProductModel.find()
+      const {
+        page = 1,
+        limit = 10,
+        search,
+        category,
+        brand,
+        subcategory,
+        remark,
+        minPrice,
+        maxPrice,
+        minRating,
+        maxRating,
+        inStock,
+        sortBy = 'createdAt',
+        sortOrder = 'desc'
+      } = req.query;
+
+      // Build filter object
+      const filter = {};
+
+      // Text search
+      if (search) {
+        filter.$text = { $search: search };
+      }
+
+      // Category filter
+      if (category) {
+        filter.category = category;
+      }
+
+      // Brand filter
+      if (brand) {
+        filter.brand = brand;
+      }
+
+      // Subcategory filter
+      if (subcategory) {
+        filter.subcategory = subcategory;
+      }
+
+      // Remark filter
+      if (remark) {
+        filter.remark = remark;
+      }
+
+      // Price range filter
+      if (minPrice || maxPrice) {
+        filter.price = {};
+        if (minPrice) filter.price.$gte = parseFloat(minPrice);
+        if (maxPrice) filter.price.$lte = parseFloat(maxPrice);
+      }
+
+      // Rating range filter
+      if (minRating || maxRating) {
+        filter.star = {};
+        if (minRating) filter.star.$gte = parseFloat(minRating);
+        if (maxRating) filter.star.$lte = parseFloat(maxRating);
+      }
+
+      // Stock filter
+      if (inStock !== undefined) {
+        if (inStock === 'true') {
+          filter.stock = { $gt: 0 };
+        } else if (inStock === 'false') {
+          filter.stock = { $eq: 0 };
+        }
+      }
+
+      // Build sort object
+      const sort = {};
+      sort[sortBy] = sortOrder === 'desc' ? -1 : 1;
+
+      // Calculate pagination
+      const skip = (parseInt(page) - 1) * parseInt(limit);
+
+      // Execute query with pagination
+      const products = await ProductModel.find(filter)
         .populate("category")
-        .populate("brand");
+        .populate("brand")
+        .sort(sort)
+        .skip(skip)
+        .limit(parseInt(limit));
+
+      // Get total count for pagination
+      const total = await ProductModel.countDocuments(filter);
+
+      const response = {
+        products,
+        pagination: {
+          currentPage: parseInt(page),
+          totalPages: Math.ceil(total / parseInt(limit)),
+          totalProducts: total,
+          hasNextPage: skip + parseInt(limit) < total,
+          hasPrevPage: parseInt(page) > 1
+        }
+      };
 
       return ResponseUtil.success(
         res,
-        products,
+        response,
         "Products retrieved successfully"
       );
     } catch (error) {
@@ -91,10 +181,8 @@ class ProductController {
           return ResponseUtil.notFound(res, "Product not found");
         }
 
-        // Delete old image if exists
-        if (currentProduct.image && currentProduct.image.publicId) {
-          await UploadUtil.deleteImage(currentProduct.image.publicId);
-        }
+        // Note: Since we only store URL in the model, we can't delete old images
+        // Consider implementing a cleanup mechanism or storing publicId separately
 
         // Upload new image
         const uploadResult = await UploadUtil.uploadImage(
@@ -109,8 +197,6 @@ class ProductController {
 
         updateData.image = {
           url: uploadResult.url,
-          publicId: uploadResult.publicId,
-          assetId: uploadResult.assetId,
         };
       }
 
@@ -120,7 +206,6 @@ class ProductController {
         { new: true, runValidators: true }
       )
         .populate("category")
-        .populate("subcategory")
         .populate("brand");
 
       if (!product) {
@@ -139,10 +224,8 @@ class ProductController {
         return ResponseUtil.notFound(res, "Product not found");
       }
 
-      // Delete image from Cloudinary if exists
-      if (product.image && product.image.publicId) {
-        await UploadUtil.deleteImage(product.image.publicId);
-      }
+      // Note: Since we only store URL in the model, we can't delete old images
+      // Consider implementing a cleanup mechanism or storing publicId separately
 
       // Delete product
       await ProductModel.findByIdAndDelete(req.params.id);
@@ -158,7 +241,6 @@ class ProductController {
 
       const products = await ProductModel.find({ category: categoryId })
         .populate("category")
-        .populate("subcategory")
         .populate("brand");
 
       return ResponseUtil.success(
@@ -177,7 +259,6 @@ class ProductController {
 
       const products = await ProductModel.find({ brand: brandId })
         .populate("category")
-        .populate("subcategory")
         .populate("brand");
 
       return ResponseUtil.success(
@@ -290,6 +371,107 @@ class ProductController {
         res,
         products,
         "Cheapest products retrieved successfully"
+      );
+    } catch (error) {
+      next(error);
+    }
+  }
+
+  async searchProducts(req, res, next) {
+    try {
+      const {
+        q,
+        page = 1,
+        limit = 10,
+        category,
+        brand,
+        subcategory,
+        remark,
+        minPrice,
+        maxPrice,
+        minRating,
+        maxRating,
+        inStock,
+        sortBy = 'score',
+        sortOrder = 'desc'
+      } = req.query;
+
+      if (!q) {
+        return ResponseUtil.badRequest(res, "Search query is required");
+      }
+
+      // Build filter object
+      const filter = {
+        $text: { $search: q }
+      };
+
+      // Additional filters
+      if (category) filter.category = category;
+      if (brand) filter.brand = brand;
+      if (subcategory) filter.subcategory = subcategory;
+      if (remark) filter.remark = remark;
+
+      // Price range filter
+      if (minPrice || maxPrice) {
+        filter.price = {};
+        if (minPrice) filter.price.$gte = parseFloat(minPrice);
+        if (maxPrice) filter.price.$lte = parseFloat(maxPrice);
+      }
+
+      // Rating range filter
+      if (minRating || maxRating) {
+        filter.star = {};
+        if (minRating) filter.star.$gte = parseFloat(minRating);
+        if (maxRating) filter.star.$lte = parseFloat(maxRating);
+      }
+
+      // Stock filter
+      if (inStock !== undefined) {
+        if (inStock === 'true') {
+          filter.stock = { $gt: 0 };
+        } else if (inStock === 'false') {
+          filter.stock = { $eq: 0 };
+        }
+      }
+
+      // Build sort object
+      const sort = {};
+      if (sortBy === 'score') {
+        sort.score = { $meta: 'textScore' };
+      } else {
+        sort[sortBy] = sortOrder === 'desc' ? -1 : 1;
+      }
+
+      // Calculate pagination
+      const skip = (parseInt(page) - 1) * parseInt(limit);
+
+      // Execute search query with pagination
+      const products = await ProductModel.find(filter, { score: { $meta: 'textScore' } })
+        .populate("category")
+        .populate("brand")
+        .sort(sort)
+        .skip(skip)
+        .limit(parseInt(limit));
+
+      // Get total count for pagination
+      const total = await ProductModel.countDocuments(filter);
+
+      const response = {
+        products,
+        query: q,
+        pagination: {
+          currentPage: parseInt(page),
+          totalPages: Math.ceil(total / parseInt(limit)),
+          totalProducts: total,
+          hasNextPage: skip + parseInt(limit) < total,
+          hasPrevPage: parseInt(page) > 1
+        }
+      };
+
+      return ResponseUtil.success(
+        res,
+        response,
+        "Search results retrieved successfully"
       );
     } catch (error) {
       next(error);

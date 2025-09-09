@@ -7,6 +7,9 @@ const { uploadSingle, handleUploadError } = require('../../shared/middlewares/up
 router.post('/', uploadSingle('image'), handleUploadError, ProductController.createProduct);
 router.get('/', ProductController.getAllProducts);
 
+// Search endpoint (must be before /:id route)
+router.get('/search', ProductController.searchProducts);
+
 // Specific product lists
 router.get('/slider', ProductController.getSliderProducts);
 router.get('/discounted', ProductController.getDiscountedProducts);
