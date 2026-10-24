@@ -1,0 +1,134 @@
+[
+  {
+    "_id": "e0e0e1000000000000000001",
+    "fullName": "Gadget Brust Admin",
+    "email": "admin@gadgetbrust.com",
+    "password": "$2b$10$ypheiLr9sJqw5DuMAEZJmOdGs/xKBzU.6QxxKKV5fhOwlSHSSfZbK",
+    "role": "admin",
+    "profileImage": {
+      "url": "https://api.dicebear.com/9.x/initials/png?seed=Gadget%20Brust%20Admin"
+    },
+    "createdAt": "2026-02-25T10:00:00.000Z",
+    "updatedAt": "2026-02-25T10:00:00.000Z"
+  },
+  {
+    "_id": "e0e0e1000000000000000002",
+    "fullName": "Rahim Uddin",
+    "email": "rahim@example.com",
+    "password": "$2b$10$ze2twb97toBjzUpOcJFytuWdv.9f2phtGBY3lb.nVqtXAlOjhEUBS",
+    "role": "user",
+    "profileImage": {
+      "url": "https://api.dicebear.com/9.x/initials/png?seed=Rahim%20Uddin"
+    },
+    "createdAt": "2026-03-17T10:00:00.000Z",
+    "updatedAt": "2026-03-17T10:00:00.000Z"
+  },
+  {
+    "_id": "e0e0e1000000000000000003",
+    "fullName": "Nusrat Jahan",
+    "email": "nusrat@example.com",
+    "password": "$2b$10$ze2twb97toBjzUpOcJFytuWdv.9f2phtGBY3lb.nVqtXAlOjhEUBS",
+    "role": "user",
+    "profileImage": {
+      "url": "https://api.dicebear.com/9.x/initials/png?seed=Nusrat%20Jahan"
+    },
+    "createdAt": "2026-04-06T10:00:00.000Z",
+    "updatedAt": "2026-04-06T10:00:00.000Z"
+  },
+  {
+    "_id": "e0e0e1000000000000000004",
+    "fullName": "Tanvir Hasan",
+    "email": "tanvir@example.com",
+    "password": "$2b$10$ze2twb97toBjzUpOcJFytuWdv.9f2phtGBY3lb.nVqtXAlOjhEUBS",
+    "role": "user",
+    "profileImage": {
+      "url": "https://api.dicebear.com/9.x/initials/png?seed=Tanvir%20Hasan"
+    },
+    "createdAt": "2026-04-26T10:00:00.000Z",
+    "updatedAt": "2026-04-26T10:00:00.000Z"
+  },
+  {
+    "_id": "e0e0e1000000000000000005",
+    "fullName": "Farhana Akter",
+    "email": "farhana@example.com",
+    "password": "$2b$10$ze2twb97toBjzUpOcJFytuWdv.9f2phtGBY3lb.nVqtXAlOjhEUBS",
+    "role": "user",
+    "profileImage": {
+      "url": "https://api.dicebear.com/9.x/initials/png?seed=Farhana%20Akter"
+    },
+    "createdAt": "2026-05-16T10:00:00.000Z",
+    "updatedAt": "2026-05-16T10:00:00.000Z"
+  },
+  {
+    "_id": "e0e0e1000000000000000006",
+    "fullName": "Sakib Rahman",
+    "email": "sakib@example.com",
+    "password": "$2b$10$ze2twb97toBjzUpOcJFytuWdv.9f2phtGBY3lb.nVqtXAlOjhEUBS",
+    "role": "user",
+    "profileImage": {
+      "url": "https://api.dicebear.com/9.x/initials/png?seed=Sakib%20Rahman"
+    },
+    "createdAt": "2026-06-05T10:00:00.000Z",
+    "updatedAt": "2026-06-05T10:00:00.000Z"
+  },
+  {
+    "_id": "e0e0e1000000000000000007",
+    "fullName": "Mim Chowdhury",
+    "email": "mim@example.com",
+    "password": "$2b$10$ze2twb97toBjzUpOcJFytuWdv.9f2phtGBY3lb.nVqtXAlOjhEUBS",
+    "role": "user",
+    "profileImage": {
+      "url": "https://api.dicebear.com/9.x/initials/png?seed=Mim%20Chowdhury"
+    },
+    "createdAt": "2026-06-25T10:00:00.000Z",
+    "updatedAt": "2026-06-25T10:00:00.000Z"
+  },
+  {
+    "_id": "e0e0e1000000000000000008",
+    "fullName": "Karim Hossain",
+    "email": "manager@gadgetbrust.com",
+    "password": "$2b$10$69pXstvhn1VmnCj4pLAHnu/JjbMX4Cfk6pCYEcw6kaDh7VW8AdC9C",
+    "role": "manager",
+    "profileImage": {
+      "url": "https://api.dicebear.com/9.x/initials/png?seed=Karim%20Hossain"
+    },
+    "createdAt": "2026-07-15T10:00:00.000Z",
+    "updatedAt": "2026-07-15T10:00:00.000Z"
+  },
+  {
+    "_id": "e0e0e1000000000000000009",
+    "fullName": "Shohel Rana",
+    "email": "store@gadgetbrust.com",
+    "password": "$2b$10$ZxWvmRjqmaJDV4BnI9NBBeuHr2NuDxYmFcypyCIyStIapM99JlBD2",
+    "role": "inventory",
+    "profileImage": {
+      "url": "https://api.dicebear.com/9.x/initials/png?seed=Shohel%20Rana"
+    },
+    "createdAt": "2026-08-04T10:00:00.000Z",
+    "updatedAt": "2026-08-04T10:00:00.000Z"
+  },
+  {
+    "_id": "e0e0e100000000000000000a",
+    "fullName": "Ayesha Siddika",
+    "email": "cashier@gadgetbrust.com",
+    "password": "$2b$10$bVCviVdZYRGOBRLLTQ44LerwnrucQz3p54Fy9qOLeukX7fOM4yRgW",
+    "role": "cashier",
+    "profileImage": {
+      "url": "https://api.dicebear.com/9.x/initials/png?seed=Ayesha%20Siddika"
+    },
+    "createdAt": "2026-08-24T10:00:00.000Z",
+    "updatedAt": "2026-08-24T10:00:00.000Z"
+  },
+  {
+    "_id": "e0e0e100000000000000000b",
+    "fullName": "Nabila Islam",
+    "email": "marketing@gadgetbrust.com",
+    "password": "$2b$10$V4jEM5/0p/P4aTz5qGp4FuStEH3XZ45KoEx7xwcdWnJGHNsvpvKKm",
+    "role": "marketing",
+    "profileImage": {
+      "url": "https://api.dicebear.com/9.x/initials/png?seed=Nabila%20Islam"
+    },
+    "createdAt": "2026-09-13T10:00:00.000Z",
+    "updatedAt": "2026-09-13T10:00:00.000Z"
+  }
+]

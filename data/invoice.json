@@ -1,0 +1,3666 @@
+[
+  {
+    "_id": "1a0b01000000000000000001",
+    "user_id": "e0e0e1000000000000000002",
+    "invoiceNumber": "INV-20261022-0001",
+    "orderDate": "2026-10-22T19:00:00.000Z",
+    "dueDate": "2026-10-29T19:00:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c7000000000000000011",
+        "title": "Realme XT 8GB/128GB",
+        "image": "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/1.webp",
+        "price": 24990,
+        "qty": 2
+      }
+    ],
+    "orderStatus": "pending",
+    "shippingCharge": 0,
+    "phone": "+8801640841149",
+    "status": "pending",
+    "subtotal": 49980,
+    "tax": 2499,
+    "discount": 0,
+    "total": 52479,
+    "paymentMethod": "ssl_commerz",
+    "paymentStatus": "pending",
+    "shippingAddress": {
+      "street": "House 12, Road 5, Dhanmondi",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "zipCode": "1205",
+      "country": "Bangladesh"
+    },
+    "billingAddress": {
+      "street": "House 12, Road 5, Dhanmondi",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "zipCode": "1205",
+      "country": "Bangladesh"
+    },
+    "notes": "Please call before delivery.",
+    "createdAt": "2026-10-22T19:00:00.000Z",
+    "updatedAt": "2026-10-22T19:00:00.000Z",
+    "customer": {
+      "name": "Rahim Uddin",
+      "phone": "+8801640841149",
+      "email": "rahim@example.com"
+    },
+    "source": "online",
+    "shippingMethod": {
+      "id": "5a1b01000000000000000001",
+      "name": "Inside Dhaka"
+    },
+    "statusHistory": [
+      {
+        "status": "pending",
+        "note": "",
+        "at": "2026-10-22T19:00:00.000Z"
+      }
+    ],
+    "stockDeducted": false
+  },
+  {
+    "_id": "1a0b01000000000000000002",
+    "user_id": "e0e0e1000000000000000003",
+    "invoiceNumber": "INV-20261016-0002",
+    "orderDate": "2026-10-16T07:00:00.000Z",
+    "dueDate": "2026-10-23T07:00:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c700000000000000002c",
+        "title": "SanDisk SSD PLUS 1TB SATA III",
+        "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_t.png",
+        "price": 7332,
+        "qty": 1
+      },
+      {
+        "product": "a0d0c7000000000000000004",
+        "title": "Lenovo Yoga 9i 2-in-1",
+        "image": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/1.webp",
+        "price": 139040,
+        "qty": 1
+      }
+    ],
+    "orderStatus": "shipped",
+    "shippingCharge": 0,
+    "shipment": {
+      "courier": "c0c1e2000000000000000002",
+      "trackingNumber": "PTH11474602",
+      "note": "",
+      "shippedAt": "2026-10-17T10:00:00.000Z"
+    },
+    "phone": "+8801561698273",
+    "status": "overdue",
+    "subtotal": 146372,
+    "tax": 7319,
+    "discount": 0,
+    "total": 153691,
+    "paymentMethod": "stripe",
+    "paymentStatus": "pending",
+    "shippingAddress": {
+      "street": "Flat 4B, Agrabad C/A",
+      "city": "Chattogram",
+      "state": "Chattogram",
+      "zipCode": "4100",
+      "country": "Bangladesh"
+    },
+    "billingAddress": {
+      "street": "Flat 4B, Agrabad C/A",
+      "city": "Chattogram",
+      "state": "Chattogram",
+      "zipCode": "4100",
+      "country": "Bangladesh"
+    },
+    "notes": "",
+    "createdAt": "2026-10-16T07:00:00.000Z",
+    "updatedAt": "2026-10-16T07:00:00.000Z",
+    "customer": {
+      "name": "Nusrat Jahan",
+      "phone": "+8801561698273",
+      "email": "nusrat@example.com"
+    },
+    "source": "online",
+    "shippingMethod": {
+      "id": "5a1b01000000000000000002",
+      "name": "Outside Dhaka"
+    },
+    "statusHistory": [
+      {
+        "status": "pending",
+        "note": "",
+        "at": "2026-10-16T07:00:00.000Z"
+      },
+      {
+        "status": "processing",
+        "note": "Confirmed with the customer by phone",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-10-16T10:00:00.000Z"
+      },
+      {
+        "status": "shipped",
+        "note": "Handed to courier",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-10-17T10:00:00.000Z"
+      }
+    ],
+    "stockDeducted": true
+  },
+  {
+    "_id": "1a0b01000000000000000003",
+    "user_id": "e0e0e1000000000000000004",
+    "invoiceNumber": "INV-20261011-0003",
+    "orderDate": "2026-10-11T12:00:00.000Z",
+    "dueDate": "2026-10-18T12:00:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c7000000000000000040",
+        "title": "iPhone 12 Silicone Case with MagSafe Plum",
+        "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/1.webp",
+        "price": 3600,
+        "qty": 2
+      }
+    ],
+    "orderStatus": "shipped",
+    "shippingCharge": 0,
+    "shipment": {
+      "courier": "c0c1e2000000000000000001",
+      "trackingNumber": "SF91128530",
+      "note": "",
+      "shippedAt": "2026-10-13T10:00:00.000Z"
+    },
+    "phone": "+8801511608750",
+    "status": "paid",
+    "subtotal": 7200,
+    "tax": 360,
+    "discount": 0,
+    "total": 7560,
+    "paymentMethod": "stripe",
+    "paymentStatus": "completed",
+    "shippingAddress": {
+      "street": "Zindabazar Main Road",
+      "city": "Sylhet",
+      "state": "Sylhet",
+      "zipCode": "3100",
+      "country": "Bangladesh"
+    },
+    "billingAddress": {
+      "street": "Zindabazar Main Road",
+      "city": "Sylhet",
+      "state": "Sylhet",
+      "zipCode": "3100",
+      "country": "Bangladesh"
+    },
+    "notes": "",
+    "createdAt": "2026-10-11T12:00:00.000Z",
+    "updatedAt": "2026-10-11T12:00:00.000Z",
+    "customer": {
+      "name": "Tanvir Hasan",
+      "phone": "+8801511608750",
+      "email": "tanvir@example.com"
+    },
+    "source": "online",
+    "shippingMethod": {
+      "id": "5a1b01000000000000000002",
+      "name": "Outside Dhaka"
+    },
+    "statusHistory": [
+      {
+        "status": "pending",
+        "note": "",
+        "at": "2026-10-11T12:00:00.000Z"
+      },
+      {
+        "status": "processing",
+        "note": "Confirmed with the customer by phone",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-10-11T15:00:00.000Z"
+      },
+      {
+        "status": "shipped",
+        "note": "Handed to courier",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-10-13T10:00:00.000Z"
+      }
+    ],
+    "stockDeducted": true
+  },
+  {
+    "_id": "1a0b01000000000000000004",
+    "user_id": "e0e0e1000000000000000005",
+    "invoiceNumber": "INV-20261005-0004",
+    "orderDate": "2026-10-05T05:00:00.000Z",
+    "dueDate": "2026-10-12T05:00:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c7000000000000000003",
+        "title": "Huawei MateBook X Pro 2024",
+        "image": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/1.webp",
+        "price": 151800,
+        "qty": 1
+      },
+      {
+        "product": "a0d0c700000000000000003c",
+        "title": "Razer BlackWidow V4 Mechanical Keyboard",
+        "image": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=Razer+BlackWidow+V4",
+        "price": 19950,
+        "qty": 2
+      },
+      {
+        "product": "a0d0c7000000000000000011",
+        "title": "Realme XT 8GB/128GB",
+        "image": "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/1.webp",
+        "price": 24990,
+        "qty": 1
+      }
+    ],
+    "orderStatus": "delivered",
+    "shippingCharge": 0,
+    "shipment": {
+      "courier": "c0c1e2000000000000000001",
+      "trackingNumber": "SF74719618",
+      "note": "",
+      "shippedAt": "2026-10-06T10:00:00.000Z"
+    },
+    "phone": "+8801320454469",
+    "status": "paid",
+    "subtotal": 216690,
+    "tax": 10835,
+    "discount": 0,
+    "total": 227525,
+    "paymentMethod": "stripe",
+    "paymentStatus": "completed",
+    "shippingAddress": {
+      "street": "Sector 7, Uttara",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "zipCode": "1230",
+      "country": "Bangladesh"
+    },
+    "billingAddress": {
+      "street": "Sector 7, Uttara",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "zipCode": "1230",
+      "country": "Bangladesh"
+    },
+    "notes": "",
+    "createdAt": "2026-10-05T05:00:00.000Z",
+    "updatedAt": "2026-10-05T05:00:00.000Z",
+    "customer": {
+      "name": "Farhana Akter",
+      "phone": "+8801320454469",
+      "email": "farhana@example.com"
+    },
+    "source": "online",
+    "shippingMethod": {
+      "id": "5a1b01000000000000000001",
+      "name": "Inside Dhaka"
+    },
+    "statusHistory": [
+      {
+        "status": "pending",
+        "note": "",
+        "at": "2026-10-05T05:00:00.000Z"
+      },
+      {
+        "status": "processing",
+        "note": "Confirmed with the customer by phone",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-10-05T08:00:00.000Z"
+      },
+      {
+        "status": "shipped",
+        "note": "Handed to courier",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-10-06T10:00:00.000Z"
+      },
+      {
+        "status": "delivered",
+        "note": "",
+        "by": "e0e0e1000000000000000001",
+        "byName": "Gadget Brust Admin",
+        "at": "2026-10-07T16:00:00.000Z"
+      }
+    ],
+    "stockDeducted": true
+  },
+  {
+    "_id": "1a0b01000000000000000005",
+    "user_id": "e0e0e1000000000000000006",
+    "invoiceNumber": "INV-20261001-0005",
+    "orderDate": "2026-10-01T02:00:00.000Z",
+    "dueDate": "2026-10-08T02:00:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c7000000000000000037",
+        "title": "Apple AirPower Wireless Charging Mat",
+        "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpower-wireless-charger/1.webp",
+        "price": 8624,
+        "qty": 1
+      }
+    ],
+    "orderStatus": "delivered",
+    "shippingCharge": 0,
+    "shipment": {
+      "courier": "c0c1e2000000000000000003",
+      "trackingNumber": "RDX11364313",
+      "note": "",
+      "shippedAt": "2026-10-02T10:00:00.000Z"
+    },
+    "phone": "+8801844619804",
+    "status": "paid",
+    "subtotal": 8624,
+    "tax": 431,
+    "discount": 0,
+    "total": 9055,
+    "paymentMethod": "ssl_commerz",
+    "paymentStatus": "completed",
+    "shippingAddress": {
+      "street": "Shaheb Bazar",
+      "city": "Rajshahi",
+      "state": "Rajshahi",
+      "zipCode": "6100",
+      "country": "Bangladesh"
+    },
+    "billingAddress": {
+      "street": "Shaheb Bazar",
+      "city": "Rajshahi",
+      "state": "Rajshahi",
+      "zipCode": "6100",
+      "country": "Bangladesh"
+    },
+    "notes": "",
+    "createdAt": "2026-10-01T02:00:00.000Z",
+    "updatedAt": "2026-10-01T02:00:00.000Z",
+    "customer": {
+      "name": "Sakib Rahman",
+      "phone": "+8801844619804",
+      "email": "sakib@example.com"
+    },
+    "source": "online",
+    "shippingMethod": {
+      "id": "5a1b01000000000000000002",
+      "name": "Outside Dhaka"
+    },
+    "statusHistory": [
+      {
+        "status": "pending",
+        "note": "",
+        "at": "2026-10-01T02:00:00.000Z"
+      },
+      {
+        "status": "processing",
+        "note": "Confirmed with the customer by phone",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-10-01T05:00:00.000Z"
+      },
+      {
+        "status": "shipped",
+        "note": "Handed to courier",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-10-02T10:00:00.000Z"
+      },
+      {
+        "status": "delivered",
+        "note": "",
+        "by": "e0e0e1000000000000000001",
+        "byName": "Gadget Brust Admin",
+        "at": "2026-10-03T16:00:00.000Z"
+      }
+    ],
+    "stockDeducted": true
+  },
+  {
+    "_id": "1a0b01000000000000000006",
+    "user_id": "e0e0e1000000000000000007",
+    "invoiceNumber": "INV-20260925-0006",
+    "orderDate": "2026-09-25T15:00:00.000Z",
+    "dueDate": "2026-10-02T15:00:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c7000000000000000020",
+        "title": "Apple HomePod mini Space Grey",
+        "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-homepod-mini-cosmic-grey/1.webp",
+        "price": 13900,
+        "qty": 1
+      }
+    ],
+    "orderStatus": "delivered",
+    "shippingCharge": 0,
+    "shipment": {
+      "courier": "c0c1e2000000000000000002",
+      "trackingNumber": "PTH53805536",
+      "note": "",
+      "shippedAt": "2026-09-27T10:00:00.000Z"
+    },
+    "phone": "+8801608347985",
+    "status": "paid",
+    "subtotal": 13900,
+    "tax": 695,
+    "discount": 0,
+    "total": 14595,
+    "paymentMethod": "ssl_commerz",
+    "paymentStatus": "completed",
+    "shippingAddress": {
+      "street": "KDA Avenue",
+      "city": "Khulna",
+      "state": "Khulna",
+      "zipCode": "9100",
+      "country": "Bangladesh"
+    },
+    "billingAddress": {
+      "street": "KDA Avenue",
+      "city": "Khulna",
+      "state": "Khulna",
+      "zipCode": "9100",
+      "country": "Bangladesh"
+    },
+    "notes": "Please call before delivery.",
+    "createdAt": "2026-09-25T15:00:00.000Z",
+    "updatedAt": "2026-09-25T15:00:00.000Z",
+    "customer": {
+      "name": "Mim Chowdhury",
+      "phone": "+8801608347985",
+      "email": "mim@example.com"
+    },
+    "source": "online",
+    "shippingMethod": {
+      "id": "5a1b01000000000000000002",
+      "name": "Outside Dhaka"
+    },
+    "statusHistory": [
+      {
+        "status": "pending",
+        "note": "",
+        "at": "2026-09-25T15:00:00.000Z"
+      },
+      {
+        "status": "processing",
+        "note": "Confirmed with the customer by phone",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-09-25T18:00:00.000Z"
+      },
+      {
+        "status": "shipped",
+        "note": "Handed to courier",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-09-27T10:00:00.000Z"
+      },
+      {
+        "status": "delivered",
+        "note": "",
+        "by": "e0e0e1000000000000000001",
+        "byName": "Gadget Brust Admin",
+        "at": "2026-09-28T16:00:00.000Z"
+      }
+    ],
+    "stockDeducted": true
+  },
+  {
+    "_id": "1a0b01000000000000000007",
+    "user_id": "e0e0e1000000000000000002",
+    "invoiceNumber": "INV-20260920-0007",
+    "orderDate": "2026-09-20T19:00:00.000Z",
+    "dueDate": "2026-09-27T19:00:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c700000000000000001a",
+        "title": "Xiaomi Smart Band 8",
+        "image": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=Xiaomi+Smart+Band+8",
+        "price": 4290,
+        "qty": 2
+      },
+      {
+        "product": "a0d0c700000000000000003b",
+        "title": "Corsair K70 RGB Pro Mechanical Keyboard",
+        "image": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=Corsair+K70+RGB+Pro",
+        "price": 15750,
+        "qty": 1
+      },
+      {
+        "product": "a0d0c7000000000000000008",
+        "title": "iPhone 13 Pro 256GB",
+        "image": "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/1.webp",
+        "price": 115000,
+        "qty": 2
+      }
+    ],
+    "orderStatus": "delivered",
+    "shippingCharge": 0,
+    "shipment": {
+      "courier": "c0c1e2000000000000000001",
+      "trackingNumber": "SF77541248",
+      "note": "",
+      "shippedAt": "2026-09-22T10:00:00.000Z"
+    },
+    "phone": "+8801967001558",
+    "status": "paid",
+    "subtotal": 254330,
+    "tax": 12717,
+    "discount": 0,
+    "total": 267047,
+    "paymentMethod": "stripe",
+    "paymentStatus": "completed",
+    "shippingAddress": {
+      "street": "House 12, Road 5, Dhanmondi",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "zipCode": "1205",
+      "country": "Bangladesh"
+    },
+    "billingAddress": {
+      "street": "House 12, Road 5, Dhanmondi",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "zipCode": "1205",
+      "country": "Bangladesh"
+    },
+    "notes": "",
+    "createdAt": "2026-09-20T19:00:00.000Z",
+    "updatedAt": "2026-09-20T19:00:00.000Z",
+    "customer": {
+      "name": "Rahim Uddin",
+      "phone": "+8801967001558",
+      "email": "rahim@example.com"
+    },
+    "source": "online",
+    "shippingMethod": {
+      "id": "5a1b01000000000000000001",
+      "name": "Inside Dhaka"
+    },
+    "statusHistory": [
+      {
+        "status": "pending",
+        "note": "",
+        "at": "2026-09-20T19:00:00.000Z"
+      },
+      {
+        "status": "processing",
+        "note": "Confirmed with the customer by phone",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-09-20T22:00:00.000Z"
+      },
+      {
+        "status": "shipped",
+        "note": "Handed to courier",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-09-22T10:00:00.000Z"
+      },
+      {
+        "status": "delivered",
+        "note": "",
+        "by": "e0e0e1000000000000000001",
+        "byName": "Gadget Brust Admin",
+        "at": "2026-09-23T16:00:00.000Z"
+      }
+    ],
+    "stockDeducted": true
+  },
+  {
+    "_id": "1a0b01000000000000000008",
+    "user_id": "e0e0e1000000000000000003",
+    "invoiceNumber": "INV-20260914-0008",
+    "orderDate": "2026-09-14T21:00:00.000Z",
+    "dueDate": "2026-09-21T21:00:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c7000000000000000032",
+        "title": "Sony DualSense Wireless Controller",
+        "image": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=DualSense+Controller",
+        "price": 8500,
+        "qty": 1
+      }
+    ],
+    "orderStatus": "cancelled",
+    "shippingCharge": 0,
+    "phone": "+8801424578659",
+    "status": "cancelled",
+    "subtotal": 8500,
+    "tax": 425,
+    "discount": 255,
+    "total": 8670,
+    "paymentMethod": "stripe",
+    "paymentStatus": "failed",
+    "shippingAddress": {
+      "street": "Flat 4B, Agrabad C/A",
+      "city": "Chattogram",
+      "state": "Chattogram",
+      "zipCode": "4100",
+      "country": "Bangladesh"
+    },
+    "billingAddress": {
+      "street": "Flat 4B, Agrabad C/A",
+      "city": "Chattogram",
+      "state": "Chattogram",
+      "zipCode": "4100",
+      "country": "Bangladesh"
+    },
+    "notes": "",
+    "createdAt": "2026-09-14T21:00:00.000Z",
+    "updatedAt": "2026-09-14T21:00:00.000Z",
+    "customer": {
+      "name": "Nusrat Jahan",
+      "phone": "+8801424578659",
+      "email": "nusrat@example.com"
+    },
+    "source": "online",
+    "shippingMethod": {
+      "id": "5a1b01000000000000000002",
+      "name": "Outside Dhaka"
+    },
+    "statusHistory": [
+      {
+        "status": "pending",
+        "note": "",
+        "at": "2026-09-14T21:00:00.000Z"
+      },
+      {
+        "status": "cancelled",
+        "note": "Cancelled at the customer's request",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-09-15T02:00:00.000Z"
+      }
+    ],
+    "stockDeducted": false
+  },
+  {
+    "_id": "1a0b01000000000000000009",
+    "user_id": "e0e0e1000000000000000004",
+    "invoiceNumber": "INV-20260910-0009",
+    "orderDate": "2026-09-10T07:00:00.000Z",
+    "dueDate": "2026-09-17T07:00:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c7000000000000000032",
+        "title": "Sony DualSense Wireless Controller",
+        "image": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=DualSense+Controller",
+        "price": 8500,
+        "qty": 1
+      }
+    ],
+    "orderStatus": "pending",
+    "shippingCharge": 0,
+    "phone": "+8801804574004",
+    "status": "overdue",
+    "subtotal": 8500,
+    "tax": 425,
+    "discount": 0,
+    "total": 8925,
+    "paymentMethod": "ssl_commerz",
+    "paymentStatus": "pending",
+    "shippingAddress": {
+      "street": "Zindabazar Main Road",
+      "city": "Sylhet",
+      "state": "Sylhet",
+      "zipCode": "3100",
+      "country": "Bangladesh"
+    },
+    "billingAddress": {
+      "street": "Zindabazar Main Road",
+      "city": "Sylhet",
+      "state": "Sylhet",
+      "zipCode": "3100",
+      "country": "Bangladesh"
+    },
+    "notes": "",
+    "createdAt": "2026-09-10T07:00:00.000Z",
+    "updatedAt": "2026-09-10T07:00:00.000Z",
+    "customer": {
+      "name": "Tanvir Hasan",
+      "phone": "+8801804574004",
+      "email": "tanvir@example.com"
+    },
+    "source": "online",
+    "shippingMethod": {
+      "id": "5a1b01000000000000000002",
+      "name": "Outside Dhaka"
+    },
+    "statusHistory": [
+      {
+        "status": "pending",
+        "note": "",
+        "at": "2026-09-10T07:00:00.000Z"
+      }
+    ],
+    "stockDeducted": false
+  },
+  {
+    "_id": "1a0b0100000000000000000a",
+    "user_id": "e0e0e1000000000000000005",
+    "invoiceNumber": "INV-20260904-0010",
+    "orderDate": "2026-09-04T10:00:00.000Z",
+    "dueDate": "2026-09-11T10:00:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c7000000000000000024",
+        "title": "Sony Alpha a6400 Mirrorless Camera",
+        "image": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=Sony+Alpha+a6400",
+        "price": 96600,
+        "qty": 1
+      },
+      {
+        "product": "a0d0c7000000000000000012",
+        "title": "Vivo X21 6GB/128GB",
+        "image": "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/1.webp",
+        "price": 26991,
+        "qty": 2
+      }
+    ],
+    "orderStatus": "delivered",
+    "shippingCharge": 0,
+    "shipment": {
+      "courier": "c0c1e2000000000000000002",
+      "trackingNumber": "PTH47860736",
+      "note": "",
+      "shippedAt": "2026-09-05T10:00:00.000Z"
+    },
+    "phone": "+8801497597115",
+    "status": "paid",
+    "subtotal": 150582,
+    "tax": 7529,
+    "discount": 4517,
+    "total": 153594,
+    "paymentMethod": "ssl_commerz",
+    "paymentStatus": "completed",
+    "shippingAddress": {
+      "street": "Sector 7, Uttara",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "zipCode": "1230",
+      "country": "Bangladesh"
+    },
+    "billingAddress": {
+      "street": "Sector 7, Uttara",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "zipCode": "1230",
+      "country": "Bangladesh"
+    },
+    "notes": "",
+    "createdAt": "2026-09-04T10:00:00.000Z",
+    "updatedAt": "2026-09-04T10:00:00.000Z",
+    "customer": {
+      "name": "Farhana Akter",
+      "phone": "+8801497597115",
+      "email": "farhana@example.com"
+    },
+    "source": "online",
+    "shippingMethod": {
+      "id": "5a1b01000000000000000001",
+      "name": "Inside Dhaka"
+    },
+    "statusHistory": [
+      {
+        "status": "pending",
+        "note": "",
+        "at": "2026-09-04T10:00:00.000Z"
+      },
+      {
+        "status": "processing",
+        "note": "Confirmed with the customer by phone",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-09-04T13:00:00.000Z"
+      },
+      {
+        "status": "shipped",
+        "note": "Handed to courier",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-09-05T10:00:00.000Z"
+      },
+      {
+        "status": "delivered",
+        "note": "",
+        "by": "e0e0e1000000000000000001",
+        "byName": "Gadget Brust Admin",
+        "at": "2026-09-06T16:00:00.000Z"
+      }
+    ],
+    "stockDeducted": true
+  },
+  {
+    "_id": "1a0b0100000000000000000b",
+    "user_id": "e0e0e1000000000000000006",
+    "invoiceNumber": "INV-20260901-0011",
+    "orderDate": "2026-09-01T07:00:00.000Z",
+    "dueDate": "2026-09-08T07:00:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c7000000000000000020",
+        "title": "Apple HomePod mini Space Grey",
+        "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-homepod-mini-cosmic-grey/1.webp",
+        "price": 13900,
+        "qty": 2
+      },
+      {
+        "product": "a0d0c7000000000000000003",
+        "title": "Huawei MateBook X Pro 2024",
+        "image": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/1.webp",
+        "price": 151800,
+        "qty": 1
+      }
+    ],
+    "orderStatus": "delivered",
+    "shippingCharge": 0,
+    "shipment": {
+      "courier": "c0c1e2000000000000000002",
+      "trackingNumber": "PTH10800760",
+      "note": "",
+      "shippedAt": "2026-09-02T10:00:00.000Z"
+    },
+    "phone": "+8801676352883",
+    "status": "paid",
+    "subtotal": 179600,
+    "tax": 8980,
+    "discount": 0,
+    "total": 188580,
+    "paymentMethod": "ssl_commerz",
+    "paymentStatus": "completed",
+    "shippingAddress": {
+      "street": "Shaheb Bazar",
+      "city": "Rajshahi",
+      "state": "Rajshahi",
+      "zipCode": "6100",
+      "country": "Bangladesh"
+    },
+    "billingAddress": {
+      "street": "Shaheb Bazar",
+      "city": "Rajshahi",
+      "state": "Rajshahi",
+      "zipCode": "6100",
+      "country": "Bangladesh"
+    },
+    "notes": "Please call before delivery.",
+    "createdAt": "2026-09-01T07:00:00.000Z",
+    "updatedAt": "2026-09-01T07:00:00.000Z",
+    "customer": {
+      "name": "Sakib Rahman",
+      "phone": "+8801676352883",
+      "email": "sakib@example.com"
+    },
+    "source": "online",
+    "shippingMethod": {
+      "id": "5a1b01000000000000000002",
+      "name": "Outside Dhaka"
+    },
+    "statusHistory": [
+      {
+        "status": "pending",
+        "note": "",
+        "at": "2026-09-01T07:00:00.000Z"
+      },
+      {
+        "status": "processing",
+        "note": "Confirmed with the customer by phone",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-09-01T10:00:00.000Z"
+      },
+      {
+        "status": "shipped",
+        "note": "Handed to courier",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-09-02T10:00:00.000Z"
+      },
+      {
+        "status": "delivered",
+        "note": "",
+        "by": "e0e0e1000000000000000001",
+        "byName": "Gadget Brust Admin",
+        "at": "2026-09-03T16:00:00.000Z"
+      }
+    ],
+    "stockDeducted": true
+  },
+  {
+    "_id": "1a0b0100000000000000000c",
+    "user_id": "e0e0e1000000000000000007",
+    "invoiceNumber": "INV-20260826-0012",
+    "orderDate": "2026-08-26T17:00:00.000Z",
+    "dueDate": "2026-09-02T17:00:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c7000000000000000022",
+        "title": "Sony WH-1000XM5 Headphones",
+        "image": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=Sony+WH-1000XM5",
+        "price": 37800,
+        "qty": 2
+      }
+    ],
+    "orderStatus": "delivered",
+    "shippingCharge": 0,
+    "shipment": {
+      "courier": "c0c1e2000000000000000002",
+      "trackingNumber": "PTH13613770",
+      "note": "",
+      "shippedAt": "2026-08-28T10:00:00.000Z"
+    },
+    "phone": "+8801896068717",
+    "status": "paid",
+    "subtotal": 75600,
+    "tax": 3780,
+    "discount": 2268,
+    "total": 77112,
+    "paymentMethod": "ssl_commerz",
+    "paymentStatus": "completed",
+    "shippingAddress": {
+      "street": "KDA Avenue",
+      "city": "Khulna",
+      "state": "Khulna",
+      "zipCode": "9100",
+      "country": "Bangladesh"
+    },
+    "billingAddress": {
+      "street": "KDA Avenue",
+      "city": "Khulna",
+      "state": "Khulna",
+      "zipCode": "9100",
+      "country": "Bangladesh"
+    },
+    "notes": "",
+    "createdAt": "2026-08-26T17:00:00.000Z",
+    "updatedAt": "2026-08-26T17:00:00.000Z",
+    "customer": {
+      "name": "Mim Chowdhury",
+      "phone": "+8801896068717",
+      "email": "mim@example.com"
+    },
+    "source": "online",
+    "shippingMethod": {
+      "id": "5a1b01000000000000000002",
+      "name": "Outside Dhaka"
+    },
+    "statusHistory": [
+      {
+        "status": "pending",
+        "note": "",
+        "at": "2026-08-26T17:00:00.000Z"
+      },
+      {
+        "status": "processing",
+        "note": "Confirmed with the customer by phone",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-08-26T20:00:00.000Z"
+      },
+      {
+        "status": "shipped",
+        "note": "Handed to courier",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-08-28T10:00:00.000Z"
+      },
+      {
+        "status": "delivered",
+        "note": "",
+        "by": "e0e0e1000000000000000001",
+        "byName": "Gadget Brust Admin",
+        "at": "2026-08-29T16:00:00.000Z"
+      }
+    ],
+    "stockDeducted": true
+  },
+  {
+    "_id": "1a0b0100000000000000000d",
+    "user_id": "e0e0e1000000000000000002",
+    "invoiceNumber": "INV-20260820-0013",
+    "orderDate": "2026-08-20T11:00:00.000Z",
+    "dueDate": "2026-08-27T11:00:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c7000000000000000022",
+        "title": "Sony WH-1000XM5 Headphones",
+        "image": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=Sony+WH-1000XM5",
+        "price": 37800,
+        "qty": 1
+      }
+    ],
+    "orderStatus": "delivered",
+    "shippingCharge": 0,
+    "shipment": {
+      "courier": "c0c1e2000000000000000005",
+      "trackingNumber": "SCS16159264",
+      "note": "",
+      "shippedAt": "2026-08-22T10:00:00.000Z"
+    },
+    "phone": "+8801445852725",
+    "status": "paid",
+    "subtotal": 37800,
+    "tax": 1890,
+    "discount": 1134,
+    "total": 38556,
+    "paymentMethod": "ssl_commerz",
+    "paymentStatus": "completed",
+    "shippingAddress": {
+      "street": "House 12, Road 5, Dhanmondi",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "zipCode": "1205",
+      "country": "Bangladesh"
+    },
+    "billingAddress": {
+      "street": "House 12, Road 5, Dhanmondi",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "zipCode": "1205",
+      "country": "Bangladesh"
+    },
+    "notes": "",
+    "createdAt": "2026-08-20T11:00:00.000Z",
+    "updatedAt": "2026-08-20T11:00:00.000Z",
+    "customer": {
+      "name": "Rahim Uddin",
+      "phone": "+8801445852725",
+      "email": "rahim@example.com"
+    },
+    "source": "online",
+    "shippingMethod": {
+      "id": "5a1b01000000000000000001",
+      "name": "Inside Dhaka"
+    },
+    "statusHistory": [
+      {
+        "status": "pending",
+        "note": "",
+        "at": "2026-08-20T11:00:00.000Z"
+      },
+      {
+        "status": "processing",
+        "note": "Confirmed with the customer by phone",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-08-20T14:00:00.000Z"
+      },
+      {
+        "status": "shipped",
+        "note": "Handed to courier",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-08-22T10:00:00.000Z"
+      },
+      {
+        "status": "delivered",
+        "note": "",
+        "by": "e0e0e1000000000000000001",
+        "byName": "Gadget Brust Admin",
+        "at": "2026-08-23T16:00:00.000Z"
+      }
+    ],
+    "stockDeducted": true
+  },
+  {
+    "_id": "1a0b0100000000000000000e",
+    "user_id": "e0e0e1000000000000000003",
+    "invoiceNumber": "INV-20260816-0014",
+    "orderDate": "2026-08-16T00:00:00.000Z",
+    "dueDate": "2026-08-23T00:00:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c700000000000000000f",
+        "title": "Realme C35 4GB/128GB",
+        "image": "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/1.webp",
+        "price": 15971,
+        "qty": 1
+      },
+      {
+        "product": "a0d0c7000000000000000009",
+        "title": "iPhone X 64GB",
+        "image": "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/1.webp",
+        "price": 38250,
+        "qty": 1
+      },
+      {
+        "product": "a0d0c700000000000000000e",
+        "title": "Oppo K1 6GB/64GB",
+        "image": "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/1.webp",
+        "price": 19350,
+        "qty": 1
+      }
+    ],
+    "orderStatus": "delivered",
+    "shippingCharge": 0,
+    "shipment": {
+      "courier": "c0c1e2000000000000000001",
+      "trackingNumber": "SF34460157",
+      "note": "",
+      "shippedAt": "2026-08-17T10:00:00.000Z"
+    },
+    "phone": "+8801858930785",
+    "status": "paid",
+    "subtotal": 73571,
+    "tax": 3679,
+    "discount": 0,
+    "total": 77250,
+    "paymentMethod": "stripe",
+    "paymentStatus": "completed",
+    "shippingAddress": {
+      "street": "Flat 4B, Agrabad C/A",
+      "city": "Chattogram",
+      "state": "Chattogram",
+      "zipCode": "4100",
+      "country": "Bangladesh"
+    },
+    "billingAddress": {
+      "street": "Flat 4B, Agrabad C/A",
+      "city": "Chattogram",
+      "state": "Chattogram",
+      "zipCode": "4100",
+      "country": "Bangladesh"
+    },
+    "notes": "",
+    "createdAt": "2026-08-16T00:00:00.000Z",
+    "updatedAt": "2026-08-16T00:00:00.000Z",
+    "customer": {
+      "name": "Nusrat Jahan",
+      "phone": "+8801858930785",
+      "email": "nusrat@example.com"
+    },
+    "source": "online",
+    "shippingMethod": {
+      "id": "5a1b01000000000000000002",
+      "name": "Outside Dhaka"
+    },
+    "statusHistory": [
+      {
+        "status": "pending",
+        "note": "",
+        "at": "2026-08-16T00:00:00.000Z"
+      },
+      {
+        "status": "processing",
+        "note": "Confirmed with the customer by phone",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-08-16T03:00:00.000Z"
+      },
+      {
+        "status": "shipped",
+        "note": "Handed to courier",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-08-17T10:00:00.000Z"
+      },
+      {
+        "status": "delivered",
+        "note": "",
+        "by": "e0e0e1000000000000000001",
+        "byName": "Gadget Brust Admin",
+        "at": "2026-08-18T16:00:00.000Z"
+      }
+    ],
+    "stockDeducted": true
+  },
+  {
+    "_id": "1a0b0100000000000000000f",
+    "user_id": "e0e0e1000000000000000004",
+    "invoiceNumber": "INV-20260811-0015",
+    "orderDate": "2026-08-11T04:00:00.000Z",
+    "dueDate": "2026-08-18T04:00:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c700000000000000002c",
+        "title": "SanDisk SSD PLUS 1TB SATA III",
+        "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_t.png",
+        "price": 7332,
+        "qty": 1
+      },
+      {
+        "product": "a0d0c7000000000000000025",
+        "title": "Canon EOS 1500D DSLR Camera",
+        "image": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=Canon+EOS+1500D",
+        "price": 46800,
+        "qty": 2
+      }
+    ],
+    "orderStatus": "delivered",
+    "shippingCharge": 0,
+    "shipment": {
+      "courier": "c0c1e2000000000000000004",
+      "trackingNumber": "PF19018608",
+      "note": "",
+      "shippedAt": "2026-08-12T10:00:00.000Z"
+    },
+    "phone": "+8801422481036",
+    "status": "paid",
+    "subtotal": 100932,
+    "tax": 5047,
+    "discount": 0,
+    "total": 105979,
+    "paymentMethod": "stripe",
+    "paymentStatus": "completed",
+    "shippingAddress": {
+      "street": "Zindabazar Main Road",
+      "city": "Sylhet",
+      "state": "Sylhet",
+      "zipCode": "3100",
+      "country": "Bangladesh"
+    },
+    "billingAddress": {
+      "street": "Zindabazar Main Road",
+      "city": "Sylhet",
+      "state": "Sylhet",
+      "zipCode": "3100",
+      "country": "Bangladesh"
+    },
+    "notes": "",
+    "createdAt": "2026-08-11T04:00:00.000Z",
+    "updatedAt": "2026-08-11T04:00:00.000Z",
+    "customer": {
+      "name": "Tanvir Hasan",
+      "phone": "+8801422481036",
+      "email": "tanvir@example.com"
+    },
+    "source": "online",
+    "shippingMethod": {
+      "id": "5a1b01000000000000000002",
+      "name": "Outside Dhaka"
+    },
+    "statusHistory": [
+      {
+        "status": "pending",
+        "note": "",
+        "at": "2026-08-11T04:00:00.000Z"
+      },
+      {
+        "status": "processing",
+        "note": "Confirmed with the customer by phone",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-08-11T07:00:00.000Z"
+      },
+      {
+        "status": "shipped",
+        "note": "Handed to courier",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-08-12T10:00:00.000Z"
+      },
+      {
+        "status": "delivered",
+        "note": "",
+        "by": "e0e0e1000000000000000001",
+        "byName": "Gadget Brust Admin",
+        "at": "2026-08-13T16:00:00.000Z"
+      }
+    ],
+    "stockDeducted": true
+  },
+  {
+    "_id": "1a0b01000000000000000010",
+    "user_id": "e0e0e1000000000000000005",
+    "invoiceNumber": "INV-20260808-0016",
+    "orderDate": "2026-08-08T04:00:00.000Z",
+    "dueDate": "2026-08-15T04:00:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c700000000000000000a",
+        "title": "Samsung Galaxy S10 128GB",
+        "image": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/1.webp",
+        "price": 45760,
+        "qty": 2
+      }
+    ],
+    "orderStatus": "delivered",
+    "shippingCharge": 0,
+    "shipment": {
+      "courier": "c0c1e2000000000000000002",
+      "trackingNumber": "PTH57224430",
+      "note": "",
+      "shippedAt": "2026-08-09T10:00:00.000Z"
+    },
+    "phone": "+8801930061390",
+    "status": "paid",
+    "subtotal": 91520,
+    "tax": 4576,
+    "discount": 0,
+    "total": 96096,
+    "paymentMethod": "ssl_commerz",
+    "paymentStatus": "completed",
+    "shippingAddress": {
+      "street": "Sector 7, Uttara",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "zipCode": "1230",
+      "country": "Bangladesh"
+    },
+    "billingAddress": {
+      "street": "Sector 7, Uttara",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "zipCode": "1230",
+      "country": "Bangladesh"
+    },
+    "notes": "Please call before delivery.",
+    "createdAt": "2026-08-08T04:00:00.000Z",
+    "updatedAt": "2026-08-08T04:00:00.000Z",
+    "customer": {
+      "name": "Farhana Akter",
+      "phone": "+8801930061390",
+      "email": "farhana@example.com"
+    },
+    "source": "online",
+    "shippingMethod": {
+      "id": "5a1b01000000000000000001",
+      "name": "Inside Dhaka"
+    },
+    "statusHistory": [
+      {
+        "status": "pending",
+        "note": "",
+        "at": "2026-08-08T04:00:00.000Z"
+      },
+      {
+        "status": "processing",
+        "note": "Confirmed with the customer by phone",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-08-08T07:00:00.000Z"
+      },
+      {
+        "status": "shipped",
+        "note": "Handed to courier",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-08-09T10:00:00.000Z"
+      },
+      {
+        "status": "delivered",
+        "note": "",
+        "by": "e0e0e1000000000000000001",
+        "byName": "Gadget Brust Admin",
+        "at": "2026-08-10T16:00:00.000Z"
+      }
+    ],
+    "stockDeducted": true
+  },
+  {
+    "_id": "1a0b01000000000000000011",
+    "user_id": "e0e0e1000000000000000006",
+    "invoiceNumber": "INV-20260803-0017",
+    "orderDate": "2026-08-03T01:00:00.000Z",
+    "dueDate": "2026-08-10T01:00:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c7000000000000000001",
+        "title": "Apple MacBook Pro 14\" M3 Space Grey",
+        "image": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/1.webp",
+        "price": 217550,
+        "qty": 1
+      },
+      {
+        "product": "a0d0c7000000000000000002",
+        "title": "Asus Zenbook Pro Duo 14 OLED",
+        "image": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/1.webp",
+        "price": 166500,
+        "qty": 1
+      }
+    ],
+    "orderStatus": "delivered",
+    "shippingCharge": 0,
+    "shipment": {
+      "courier": "c0c1e2000000000000000005",
+      "trackingNumber": "SCS12442458",
+      "note": "",
+      "shippedAt": "2026-08-04T10:00:00.000Z"
+    },
+    "phone": "+8801380917132",
+    "status": "paid",
+    "subtotal": 384050,
+    "tax": 19203,
+    "discount": 0,
+    "total": 403253,
+    "paymentMethod": "ssl_commerz",
+    "paymentStatus": "completed",
+    "shippingAddress": {
+      "street": "Shaheb Bazar",
+      "city": "Rajshahi",
+      "state": "Rajshahi",
+      "zipCode": "6100",
+      "country": "Bangladesh"
+    },
+    "billingAddress": {
+      "street": "Shaheb Bazar",
+      "city": "Rajshahi",
+      "state": "Rajshahi",
+      "zipCode": "6100",
+      "country": "Bangladesh"
+    },
+    "notes": "",
+    "createdAt": "2026-08-03T01:00:00.000Z",
+    "updatedAt": "2026-08-03T01:00:00.000Z",
+    "customer": {
+      "name": "Sakib Rahman",
+      "phone": "+8801380917132",
+      "email": "sakib@example.com"
+    },
+    "source": "online",
+    "shippingMethod": {
+      "id": "5a1b01000000000000000002",
+      "name": "Outside Dhaka"
+    },
+    "statusHistory": [
+      {
+        "status": "pending",
+        "note": "",
+        "at": "2026-08-03T01:00:00.000Z"
+      },
+      {
+        "status": "processing",
+        "note": "Confirmed with the customer by phone",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-08-03T04:00:00.000Z"
+      },
+      {
+        "status": "shipped",
+        "note": "Handed to courier",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-08-04T10:00:00.000Z"
+      },
+      {
+        "status": "delivered",
+        "note": "",
+        "by": "e0e0e1000000000000000001",
+        "byName": "Gadget Brust Admin",
+        "at": "2026-08-05T16:00:00.000Z"
+      }
+    ],
+    "stockDeducted": true
+  },
+  {
+    "_id": "1a0b01000000000000000012",
+    "user_id": "e0e0e1000000000000000007",
+    "invoiceNumber": "INV-20260726-0018",
+    "orderDate": "2026-07-26T18:00:00.000Z",
+    "dueDate": "2026-08-02T18:00:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c7000000000000000028",
+        "title": "Samsung Odyssey CHG90 49\" Curved Monitor",
+        "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_t.png",
+        "price": 121500,
+        "qty": 1
+      },
+      {
+        "product": "a0d0c7000000000000000008",
+        "title": "iPhone 13 Pro 256GB",
+        "image": "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/1.webp",
+        "price": 115000,
+        "qty": 2
+      }
+    ],
+    "orderStatus": "delivered",
+    "shippingCharge": 0,
+    "shipment": {
+      "courier": "c0c1e2000000000000000004",
+      "trackingNumber": "PF75454607",
+      "note": "",
+      "shippedAt": "2026-07-28T10:00:00.000Z"
+    },
+    "phone": "+8801499073487",
+    "status": "paid",
+    "subtotal": 351500,
+    "tax": 17575,
+    "discount": 10545,
+    "total": 358530,
+    "paymentMethod": "ssl_commerz",
+    "paymentStatus": "completed",
+    "shippingAddress": {
+      "street": "KDA Avenue",
+      "city": "Khulna",
+      "state": "Khulna",
+      "zipCode": "9100",
+      "country": "Bangladesh"
+    },
+    "billingAddress": {
+      "street": "KDA Avenue",
+      "city": "Khulna",
+      "state": "Khulna",
+      "zipCode": "9100",
+      "country": "Bangladesh"
+    },
+    "notes": "",
+    "createdAt": "2026-07-26T18:00:00.000Z",
+    "updatedAt": "2026-07-26T18:00:00.000Z",
+    "customer": {
+      "name": "Mim Chowdhury",
+      "phone": "+8801499073487",
+      "email": "mim@example.com"
+    },
+    "source": "online",
+    "shippingMethod": {
+      "id": "5a1b01000000000000000002",
+      "name": "Outside Dhaka"
+    },
+    "statusHistory": [
+      {
+        "status": "pending",
+        "note": "",
+        "at": "2026-07-26T18:00:00.000Z"
+      },
+      {
+        "status": "processing",
+        "note": "Confirmed with the customer by phone",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-07-26T21:00:00.000Z"
+      },
+      {
+        "status": "shipped",
+        "note": "Handed to courier",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-07-28T10:00:00.000Z"
+      },
+      {
+        "status": "delivered",
+        "note": "",
+        "by": "e0e0e1000000000000000001",
+        "byName": "Gadget Brust Admin",
+        "at": "2026-07-29T16:00:00.000Z"
+      }
+    ],
+    "stockDeducted": true
+  },
+  {
+    "_id": "1a0b01000000000000000013",
+    "user_id": "e0e0e1000000000000000002",
+    "invoiceNumber": "INV-20260724-0019",
+    "orderDate": "2026-07-24T13:00:00.000Z",
+    "dueDate": "2026-07-31T13:00:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c7000000000000000040",
+        "title": "iPhone 12 Silicone Case with MagSafe Plum",
+        "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/1.webp",
+        "price": 3600,
+        "qty": 2
+      }
+    ],
+    "orderStatus": "delivered",
+    "shippingCharge": 0,
+    "shipment": {
+      "courier": "c0c1e2000000000000000003",
+      "trackingNumber": "RDX32408975",
+      "note": "",
+      "shippedAt": "2026-07-26T10:00:00.000Z"
+    },
+    "phone": "+8801826189474",
+    "status": "paid",
+    "subtotal": 7200,
+    "tax": 360,
+    "discount": 216,
+    "total": 7344,
+    "paymentMethod": "ssl_commerz",
+    "paymentStatus": "completed",
+    "shippingAddress": {
+      "street": "House 12, Road 5, Dhanmondi",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "zipCode": "1205",
+      "country": "Bangladesh"
+    },
+    "billingAddress": {
+      "street": "House 12, Road 5, Dhanmondi",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "zipCode": "1205",
+      "country": "Bangladesh"
+    },
+    "notes": "",
+    "createdAt": "2026-07-24T13:00:00.000Z",
+    "updatedAt": "2026-07-24T13:00:00.000Z",
+    "customer": {
+      "name": "Rahim Uddin",
+      "phone": "+8801826189474",
+      "email": "rahim@example.com"
+    },
+    "source": "online",
+    "shippingMethod": {
+      "id": "5a1b01000000000000000001",
+      "name": "Inside Dhaka"
+    },
+    "statusHistory": [
+      {
+        "status": "pending",
+        "note": "",
+        "at": "2026-07-24T13:00:00.000Z"
+      },
+      {
+        "status": "processing",
+        "note": "Confirmed with the customer by phone",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-07-24T16:00:00.000Z"
+      },
+      {
+        "status": "shipped",
+        "note": "Handed to courier",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-07-26T10:00:00.000Z"
+      },
+      {
+        "status": "delivered",
+        "note": "",
+        "by": "e0e0e1000000000000000001",
+        "byName": "Gadget Brust Admin",
+        "at": "2026-07-27T16:00:00.000Z"
+      }
+    ],
+    "stockDeducted": true
+  },
+  {
+    "_id": "1a0b01000000000000000014",
+    "user_id": "e0e0e1000000000000000003",
+    "invoiceNumber": "INV-20260716-0020",
+    "orderDate": "2026-07-16T10:00:00.000Z",
+    "dueDate": "2026-07-23T10:00:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c700000000000000000e",
+        "title": "Oppo K1 6GB/64GB",
+        "image": "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/1.webp",
+        "price": 19350,
+        "qty": 2
+      }
+    ],
+    "orderStatus": "delivered",
+    "shippingCharge": 0,
+    "shipment": {
+      "courier": "c0c1e2000000000000000003",
+      "trackingNumber": "RDX34035059",
+      "note": "",
+      "shippedAt": "2026-07-17T10:00:00.000Z"
+    },
+    "phone": "+8801589704710",
+    "status": "paid",
+    "subtotal": 38700,
+    "tax": 1935,
+    "discount": 0,
+    "total": 40635,
+    "paymentMethod": "stripe",
+    "paymentStatus": "completed",
+    "shippingAddress": {
+      "street": "Flat 4B, Agrabad C/A",
+      "city": "Chattogram",
+      "state": "Chattogram",
+      "zipCode": "4100",
+      "country": "Bangladesh"
+    },
+    "billingAddress": {
+      "street": "Flat 4B, Agrabad C/A",
+      "city": "Chattogram",
+      "state": "Chattogram",
+      "zipCode": "4100",
+      "country": "Bangladesh"
+    },
+    "notes": "",
+    "createdAt": "2026-07-16T10:00:00.000Z",
+    "updatedAt": "2026-07-16T10:00:00.000Z",
+    "customer": {
+      "name": "Nusrat Jahan",
+      "phone": "+8801589704710",
+      "email": "nusrat@example.com"
+    },
+    "source": "online",
+    "shippingMethod": {
+      "id": "5a1b01000000000000000002",
+      "name": "Outside Dhaka"
+    },
+    "statusHistory": [
+      {
+        "status": "pending",
+        "note": "",
+        "at": "2026-07-16T10:00:00.000Z"
+      },
+      {
+        "status": "processing",
+        "note": "Confirmed with the customer by phone",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-07-16T13:00:00.000Z"
+      },
+      {
+        "status": "shipped",
+        "note": "Handed to courier",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-07-17T10:00:00.000Z"
+      },
+      {
+        "status": "delivered",
+        "note": "",
+        "by": "e0e0e1000000000000000001",
+        "byName": "Gadget Brust Admin",
+        "at": "2026-07-18T16:00:00.000Z"
+      }
+    ],
+    "stockDeducted": true
+  },
+  {
+    "_id": "1a0b01000000000000000015",
+    "user_id": "e0e0e1000000000000000004",
+    "invoiceNumber": "INV-20260713-0021",
+    "orderDate": "2026-07-13T17:00:00.000Z",
+    "dueDate": "2026-07-20T17:00:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c7000000000000000035",
+        "title": "Apple MagSafe Battery Pack",
+        "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magsafe-battery-pack/1.webp",
+        "price": 10580,
+        "qty": 1
+      },
+      {
+        "product": "a0d0c7000000000000000036",
+        "title": "Apple 20W USB-C Power Adapter",
+        "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/1.webp",
+        "price": 2500,
+        "qty": 1
+      }
+    ],
+    "orderStatus": "delivered",
+    "shippingCharge": 0,
+    "shipment": {
+      "courier": "c0c1e2000000000000000005",
+      "trackingNumber": "SCS33950413",
+      "note": "",
+      "shippedAt": "2026-07-15T10:00:00.000Z"
+    },
+    "phone": "+8801724730632",
+    "status": "paid",
+    "subtotal": 13080,
+    "tax": 654,
+    "discount": 392,
+    "total": 13342,
+    "paymentMethod": "ssl_commerz",
+    "paymentStatus": "completed",
+    "shippingAddress": {
+      "street": "Zindabazar Main Road",
+      "city": "Sylhet",
+      "state": "Sylhet",
+      "zipCode": "3100",
+      "country": "Bangladesh"
+    },
+    "billingAddress": {
+      "street": "Zindabazar Main Road",
+      "city": "Sylhet",
+      "state": "Sylhet",
+      "zipCode": "3100",
+      "country": "Bangladesh"
+    },
+    "notes": "Please call before delivery.",
+    "createdAt": "2026-07-13T17:00:00.000Z",
+    "updatedAt": "2026-07-13T17:00:00.000Z",
+    "customer": {
+      "name": "Tanvir Hasan",
+      "phone": "+8801724730632",
+      "email": "tanvir@example.com"
+    },
+    "source": "online",
+    "shippingMethod": {
+      "id": "5a1b01000000000000000002",
+      "name": "Outside Dhaka"
+    },
+    "statusHistory": [
+      {
+        "status": "pending",
+        "note": "",
+        "at": "2026-07-13T17:00:00.000Z"
+      },
+      {
+        "status": "processing",
+        "note": "Confirmed with the customer by phone",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-07-13T20:00:00.000Z"
+      },
+      {
+        "status": "shipped",
+        "note": "Handed to courier",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-07-15T10:00:00.000Z"
+      },
+      {
+        "status": "delivered",
+        "note": "",
+        "by": "e0e0e1000000000000000001",
+        "byName": "Gadget Brust Admin",
+        "at": "2026-07-16T16:00:00.000Z"
+      }
+    ],
+    "stockDeducted": true
+  },
+  {
+    "_id": "1a0b01000000000000000016",
+    "user_id": "e0e0e1000000000000000005",
+    "invoiceNumber": "INV-20260710-0022",
+    "orderDate": "2026-07-10T10:00:00.000Z",
+    "dueDate": "2026-07-17T10:00:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c700000000000000002f",
+        "title": "Corsair Vengeance 16GB DDR5 5600MHz",
+        "image": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=Corsair+Vengeance+DDR5",
+        "price": 7500,
+        "qty": 1
+      },
+      {
+        "product": "a0d0c7000000000000000030",
+        "title": "Gigabyte GeForce RTX 4060 Eagle OC 8GB",
+        "image": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=RTX+4060+Eagle+OC",
+        "price": 39900,
+        "qty": 1
+      }
+    ],
+    "orderStatus": "delivered",
+    "shippingCharge": 0,
+    "shipment": {
+      "courier": "c0c1e2000000000000000004",
+      "trackingNumber": "PF57266872",
+      "note": "",
+      "shippedAt": "2026-07-11T10:00:00.000Z"
+    },
+    "phone": "+8801878036031",
+    "status": "paid",
+    "subtotal": 47400,
+    "tax": 2370,
+    "discount": 0,
+    "total": 49770,
+    "paymentMethod": "ssl_commerz",
+    "paymentStatus": "completed",
+    "shippingAddress": {
+      "street": "Sector 7, Uttara",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "zipCode": "1230",
+      "country": "Bangladesh"
+    },
+    "billingAddress": {
+      "street": "Sector 7, Uttara",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "zipCode": "1230",
+      "country": "Bangladesh"
+    },
+    "notes": "",
+    "createdAt": "2026-07-10T10:00:00.000Z",
+    "updatedAt": "2026-07-10T10:00:00.000Z",
+    "customer": {
+      "name": "Farhana Akter",
+      "phone": "+8801878036031",
+      "email": "farhana@example.com"
+    },
+    "source": "online",
+    "shippingMethod": {
+      "id": "5a1b01000000000000000001",
+      "name": "Inside Dhaka"
+    },
+    "statusHistory": [
+      {
+        "status": "pending",
+        "note": "",
+        "at": "2026-07-10T10:00:00.000Z"
+      },
+      {
+        "status": "processing",
+        "note": "Confirmed with the customer by phone",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-07-10T13:00:00.000Z"
+      },
+      {
+        "status": "shipped",
+        "note": "Handed to courier",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-07-11T10:00:00.000Z"
+      },
+      {
+        "status": "delivered",
+        "note": "",
+        "by": "e0e0e1000000000000000001",
+        "byName": "Gadget Brust Admin",
+        "at": "2026-07-12T16:00:00.000Z"
+      }
+    ],
+    "stockDeducted": true
+  },
+  {
+    "_id": "1a0b01000000000000000017",
+    "user_id": "e0e0e1000000000000000006",
+    "invoiceNumber": "INV-20260703-0023",
+    "orderDate": "2026-07-03T02:00:00.000Z",
+    "dueDate": "2026-07-10T02:00:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c7000000000000000031",
+        "title": "Sony PlayStation 5 Slim Disc Edition",
+        "image": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=PlayStation+5+Slim",
+        "price": 68400,
+        "qty": 2
+      }
+    ],
+    "orderStatus": "delivered",
+    "shippingCharge": 0,
+    "shipment": {
+      "courier": "c0c1e2000000000000000004",
+      "trackingNumber": "PF35478114",
+      "note": "",
+      "shippedAt": "2026-07-04T10:00:00.000Z"
+    },
+    "phone": "+8801927444056",
+    "status": "paid",
+    "subtotal": 136800,
+    "tax": 6840,
+    "discount": 0,
+    "total": 143640,
+    "paymentMethod": "ssl_commerz",
+    "paymentStatus": "completed",
+    "shippingAddress": {
+      "street": "Shaheb Bazar",
+      "city": "Rajshahi",
+      "state": "Rajshahi",
+      "zipCode": "6100",
+      "country": "Bangladesh"
+    },
+    "billingAddress": {
+      "street": "Shaheb Bazar",
+      "city": "Rajshahi",
+      "state": "Rajshahi",
+      "zipCode": "6100",
+      "country": "Bangladesh"
+    },
+    "notes": "",
+    "createdAt": "2026-07-03T02:00:00.000Z",
+    "updatedAt": "2026-07-03T02:00:00.000Z",
+    "customer": {
+      "name": "Sakib Rahman",
+      "phone": "+8801927444056",
+      "email": "sakib@example.com"
+    },
+    "source": "online",
+    "shippingMethod": {
+      "id": "5a1b01000000000000000002",
+      "name": "Outside Dhaka"
+    },
+    "statusHistory": [
+      {
+        "status": "pending",
+        "note": "",
+        "at": "2026-07-03T02:00:00.000Z"
+      },
+      {
+        "status": "processing",
+        "note": "Confirmed with the customer by phone",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-07-03T05:00:00.000Z"
+      },
+      {
+        "status": "shipped",
+        "note": "Handed to courier",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-07-04T10:00:00.000Z"
+      },
+      {
+        "status": "delivered",
+        "note": "",
+        "by": "e0e0e1000000000000000001",
+        "byName": "Gadget Brust Admin",
+        "at": "2026-07-05T16:00:00.000Z"
+      }
+    ],
+    "stockDeducted": true
+  },
+  {
+    "_id": "1a0b01000000000000000018",
+    "user_id": "e0e0e1000000000000000007",
+    "invoiceNumber": "INV-20260627-0024",
+    "orderDate": "2026-06-27T23:00:00.000Z",
+    "dueDate": "2026-07-04T23:00:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c700000000000000000d",
+        "title": "Oppo A57 4GB/64GB",
+        "image": "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/1.webp",
+        "price": 17990,
+        "qty": 2
+      }
+    ],
+    "orderStatus": "cancelled",
+    "shippingCharge": 0,
+    "phone": "+8801892182083",
+    "status": "cancelled",
+    "subtotal": 35980,
+    "tax": 1799,
+    "discount": 0,
+    "total": 37779,
+    "paymentMethod": "ssl_commerz",
+    "paymentStatus": "failed",
+    "shippingAddress": {
+      "street": "KDA Avenue",
+      "city": "Khulna",
+      "state": "Khulna",
+      "zipCode": "9100",
+      "country": "Bangladesh"
+    },
+    "billingAddress": {
+      "street": "KDA Avenue",
+      "city": "Khulna",
+      "state": "Khulna",
+      "zipCode": "9100",
+      "country": "Bangladesh"
+    },
+    "notes": "",
+    "createdAt": "2026-06-27T23:00:00.000Z",
+    "updatedAt": "2026-06-27T23:00:00.000Z",
+    "customer": {
+      "name": "Mim Chowdhury",
+      "phone": "+8801892182083",
+      "email": "mim@example.com"
+    },
+    "source": "online",
+    "shippingMethod": {
+      "id": "5a1b01000000000000000002",
+      "name": "Outside Dhaka"
+    },
+    "statusHistory": [
+      {
+        "status": "pending",
+        "note": "",
+        "at": "2026-06-27T23:00:00.000Z"
+      },
+      {
+        "status": "cancelled",
+        "note": "Cancelled at the customer's request",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-06-28T04:00:00.000Z"
+      }
+    ],
+    "stockDeducted": false
+  },
+  {
+    "_id": "1a0b01000000000000000019",
+    "user_id": "e0e0e1000000000000000002",
+    "invoiceNumber": "INV-20260621-0025",
+    "orderDate": "2026-06-21T07:00:00.000Z",
+    "dueDate": "2026-06-28T07:00:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c7000000000000000014",
+        "title": "Vivo S1 6GB/128GB",
+        "image": "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/1.webp",
+        "price": 23990,
+        "qty": 1
+      },
+      {
+        "product": "a0d0c7000000000000000015",
+        "title": "iPad mini (6th Gen) Starlight",
+        "image": "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/1.webp",
+        "price": 64860,
+        "qty": 2
+      },
+      {
+        "product": "a0d0c7000000000000000004",
+        "title": "Lenovo Yoga 9i 2-in-1",
+        "image": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/1.webp",
+        "price": 139040,
+        "qty": 2
+      }
+    ],
+    "orderStatus": "delivered",
+    "shippingCharge": 0,
+    "shipment": {
+      "courier": "c0c1e2000000000000000001",
+      "trackingNumber": "SF70756786",
+      "note": "",
+      "shippedAt": "2026-06-22T10:00:00.000Z"
+    },
+    "phone": "+8801994600896",
+    "status": "paid",
+    "subtotal": 431790,
+    "tax": 21590,
+    "discount": 12954,
+    "total": 440426,
+    "paymentMethod": "ssl_commerz",
+    "paymentStatus": "completed",
+    "shippingAddress": {
+      "street": "House 12, Road 5, Dhanmondi",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "zipCode": "1205",
+      "country": "Bangladesh"
+    },
+    "billingAddress": {
+      "street": "House 12, Road 5, Dhanmondi",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "zipCode": "1205",
+      "country": "Bangladesh"
+    },
+    "notes": "",
+    "createdAt": "2026-06-21T07:00:00.000Z",
+    "updatedAt": "2026-06-21T07:00:00.000Z",
+    "customer": {
+      "name": "Rahim Uddin",
+      "phone": "+8801994600896",
+      "email": "rahim@example.com"
+    },
+    "source": "online",
+    "shippingMethod": {
+      "id": "5a1b01000000000000000001",
+      "name": "Inside Dhaka"
+    },
+    "statusHistory": [
+      {
+        "status": "pending",
+        "note": "",
+        "at": "2026-06-21T07:00:00.000Z"
+      },
+      {
+        "status": "processing",
+        "note": "Confirmed with the customer by phone",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-06-21T10:00:00.000Z"
+      },
+      {
+        "status": "shipped",
+        "note": "Handed to courier",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-06-22T10:00:00.000Z"
+      },
+      {
+        "status": "delivered",
+        "note": "",
+        "by": "e0e0e1000000000000000001",
+        "byName": "Gadget Brust Admin",
+        "at": "2026-06-23T16:00:00.000Z"
+      }
+    ],
+    "stockDeducted": true
+  },
+  {
+    "_id": "1a0b0100000000000000001a",
+    "user_id": "e0e0e1000000000000000003",
+    "invoiceNumber": "INV-20260616-0026",
+    "orderDate": "2026-06-16T06:00:00.000Z",
+    "dueDate": "2026-06-23T06:00:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c7000000000000000037",
+        "title": "Apple AirPower Wireless Charging Mat",
+        "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpower-wireless-charger/1.webp",
+        "price": 8624,
+        "qty": 2
+      }
+    ],
+    "orderStatus": "delivered",
+    "shippingCharge": 0,
+    "shipment": {
+      "courier": "c0c1e2000000000000000001",
+      "trackingNumber": "SF61384040",
+      "note": "",
+      "shippedAt": "2026-06-17T10:00:00.000Z"
+    },
+    "phone": "+8801778932029",
+    "status": "paid",
+    "subtotal": 17248,
+    "tax": 862,
+    "discount": 0,
+    "total": 18110,
+    "paymentMethod": "ssl_commerz",
+    "paymentStatus": "completed",
+    "shippingAddress": {
+      "street": "Flat 4B, Agrabad C/A",
+      "city": "Chattogram",
+      "state": "Chattogram",
+      "zipCode": "4100",
+      "country": "Bangladesh"
+    },
+    "billingAddress": {
+      "street": "Flat 4B, Agrabad C/A",
+      "city": "Chattogram",
+      "state": "Chattogram",
+      "zipCode": "4100",
+      "country": "Bangladesh"
+    },
+    "notes": "Please call before delivery.",
+    "createdAt": "2026-06-16T06:00:00.000Z",
+    "updatedAt": "2026-06-16T06:00:00.000Z",
+    "customer": {
+      "name": "Nusrat Jahan",
+      "phone": "+8801778932029",
+      "email": "nusrat@example.com"
+    },
+    "source": "online",
+    "shippingMethod": {
+      "id": "5a1b01000000000000000002",
+      "name": "Outside Dhaka"
+    },
+    "statusHistory": [
+      {
+        "status": "pending",
+        "note": "",
+        "at": "2026-06-16T06:00:00.000Z"
+      },
+      {
+        "status": "processing",
+        "note": "Confirmed with the customer by phone",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-06-16T09:00:00.000Z"
+      },
+      {
+        "status": "shipped",
+        "note": "Handed to courier",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-06-17T10:00:00.000Z"
+      },
+      {
+        "status": "delivered",
+        "note": "",
+        "by": "e0e0e1000000000000000001",
+        "byName": "Gadget Brust Admin",
+        "at": "2026-06-18T16:00:00.000Z"
+      }
+    ],
+    "stockDeducted": true
+  },
+  {
+    "_id": "1a0b0100000000000000001b",
+    "user_id": "e0e0e1000000000000000004",
+    "invoiceNumber": "INV-20260615-0027",
+    "orderDate": "2026-06-15T00:00:00.000Z",
+    "dueDate": "2026-06-22T00:00:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c7000000000000000017",
+        "title": "Samsung Galaxy Tab A8 White",
+        "image": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/1.webp",
+        "price": 27075,
+        "qty": 2
+      },
+      {
+        "product": "a0d0c700000000000000003f",
+        "title": "Razer DeathAdder V3 Pro",
+        "image": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=Razer+DeathAdder+V3",
+        "price": 13640,
+        "qty": 1
+      }
+    ],
+    "orderStatus": "delivered",
+    "shippingCharge": 0,
+    "shipment": {
+      "courier": "c0c1e2000000000000000005",
+      "trackingNumber": "SCS33348588",
+      "note": "",
+      "shippedAt": "2026-06-16T10:00:00.000Z"
+    },
+    "phone": "+8801453420378",
+    "status": "paid",
+    "subtotal": 67790,
+    "tax": 3390,
+    "discount": 0,
+    "total": 71180,
+    "paymentMethod": "stripe",
+    "paymentStatus": "completed",
+    "shippingAddress": {
+      "street": "Zindabazar Main Road",
+      "city": "Sylhet",
+      "state": "Sylhet",
+      "zipCode": "3100",
+      "country": "Bangladesh"
+    },
+    "billingAddress": {
+      "street": "Zindabazar Main Road",
+      "city": "Sylhet",
+      "state": "Sylhet",
+      "zipCode": "3100",
+      "country": "Bangladesh"
+    },
+    "notes": "",
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "customer": {
+      "name": "Tanvir Hasan",
+      "phone": "+8801453420378",
+      "email": "tanvir@example.com"
+    },
+    "source": "online",
+    "shippingMethod": {
+      "id": "5a1b01000000000000000002",
+      "name": "Outside Dhaka"
+    },
+    "statusHistory": [
+      {
+        "status": "pending",
+        "note": "",
+        "at": "2026-06-15T00:00:00.000Z"
+      },
+      {
+        "status": "processing",
+        "note": "Confirmed with the customer by phone",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-06-15T03:00:00.000Z"
+      },
+      {
+        "status": "shipped",
+        "note": "Handed to courier",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-06-16T10:00:00.000Z"
+      },
+      {
+        "status": "delivered",
+        "note": "",
+        "by": "e0e0e1000000000000000001",
+        "byName": "Gadget Brust Admin",
+        "at": "2026-06-17T16:00:00.000Z"
+      }
+    ],
+    "stockDeducted": true
+  },
+  {
+    "_id": "1a0b0100000000000000001c",
+    "user_id": "e0e0e1000000000000000005",
+    "invoiceNumber": "INV-20260607-0028",
+    "orderDate": "2026-06-07T10:00:00.000Z",
+    "dueDate": "2026-06-14T10:00:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c7000000000000000028",
+        "title": "Samsung Odyssey CHG90 49\" Curved Monitor",
+        "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_t.png",
+        "price": 121500,
+        "qty": 1
+      }
+    ],
+    "orderStatus": "pending",
+    "shippingCharge": 0,
+    "phone": "+8801595180270",
+    "status": "overdue",
+    "subtotal": 121500,
+    "tax": 6075,
+    "discount": 0,
+    "total": 127575,
+    "paymentMethod": "ssl_commerz",
+    "paymentStatus": "pending",
+    "shippingAddress": {
+      "street": "Sector 7, Uttara",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "zipCode": "1230",
+      "country": "Bangladesh"
+    },
+    "billingAddress": {
+      "street": "Sector 7, Uttara",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "zipCode": "1230",
+      "country": "Bangladesh"
+    },
+    "notes": "",
+    "createdAt": "2026-06-07T10:00:00.000Z",
+    "updatedAt": "2026-06-07T10:00:00.000Z",
+    "customer": {
+      "name": "Farhana Akter",
+      "phone": "+8801595180270",
+      "email": "farhana@example.com"
+    },
+    "source": "online",
+    "shippingMethod": {
+      "id": "5a1b01000000000000000001",
+      "name": "Inside Dhaka"
+    },
+    "statusHistory": [
+      {
+        "status": "pending",
+        "note": "",
+        "at": "2026-06-07T10:00:00.000Z"
+      }
+    ],
+    "stockDeducted": false
+  },
+  {
+    "_id": "1a0b0100000000000000001d",
+    "user_id": "e0e0e1000000000000000006",
+    "invoiceNumber": "INV-20260603-0029",
+    "orderDate": "2026-06-03T22:00:00.000Z",
+    "dueDate": "2026-06-10T22:00:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c7000000000000000029",
+        "title": "Acer SB220Q 21.5\" Full HD Monitor",
+        "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_t.png",
+        "price": 10925,
+        "qty": 2
+      },
+      {
+        "product": "a0d0c7000000000000000013",
+        "title": "Vivo V9 4GB/64GB",
+        "image": "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/1.webp",
+        "price": 18991,
+        "qty": 1
+      }
+    ],
+    "orderStatus": "cancelled",
+    "shippingCharge": 0,
+    "phone": "+8801495177308",
+    "status": "cancelled",
+    "subtotal": 40841,
+    "tax": 2042,
+    "discount": 0,
+    "total": 42883,
+    "paymentMethod": "stripe",
+    "paymentStatus": "failed",
+    "shippingAddress": {
+      "street": "Shaheb Bazar",
+      "city": "Rajshahi",
+      "state": "Rajshahi",
+      "zipCode": "6100",
+      "country": "Bangladesh"
+    },
+    "billingAddress": {
+      "street": "Shaheb Bazar",
+      "city": "Rajshahi",
+      "state": "Rajshahi",
+      "zipCode": "6100",
+      "country": "Bangladesh"
+    },
+    "notes": "",
+    "createdAt": "2026-06-03T22:00:00.000Z",
+    "updatedAt": "2026-06-03T22:00:00.000Z",
+    "customer": {
+      "name": "Sakib Rahman",
+      "phone": "+8801495177308",
+      "email": "sakib@example.com"
+    },
+    "source": "online",
+    "shippingMethod": {
+      "id": "5a1b01000000000000000002",
+      "name": "Outside Dhaka"
+    },
+    "statusHistory": [
+      {
+        "status": "pending",
+        "note": "",
+        "at": "2026-06-03T22:00:00.000Z"
+      },
+      {
+        "status": "cancelled",
+        "note": "Cancelled at the customer's request",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-06-04T03:00:00.000Z"
+      }
+    ],
+    "stockDeducted": false
+  },
+  {
+    "_id": "1a0b0100000000000000001e",
+    "user_id": "e0e0e1000000000000000007",
+    "invoiceNumber": "INV-20260529-0030",
+    "orderDate": "2026-05-29T13:00:00.000Z",
+    "dueDate": "2026-06-05T13:00:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c7000000000000000016",
+        "title": "Samsung Galaxy Tab S8+ Graphite",
+        "image": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/1.webp",
+        "price": 88200,
+        "qty": 2
+      }
+    ],
+    "orderStatus": "delivered",
+    "shippingCharge": 0,
+    "shipment": {
+      "courier": "c0c1e2000000000000000005",
+      "trackingNumber": "SCS92876931",
+      "note": "",
+      "shippedAt": "2026-05-31T10:00:00.000Z"
+    },
+    "phone": "+8801864558389",
+    "status": "paid",
+    "subtotal": 176400,
+    "tax": 8820,
+    "discount": 0,
+    "total": 185220,
+    "paymentMethod": "ssl_commerz",
+    "paymentStatus": "completed",
+    "shippingAddress": {
+      "street": "KDA Avenue",
+      "city": "Khulna",
+      "state": "Khulna",
+      "zipCode": "9100",
+      "country": "Bangladesh"
+    },
+    "billingAddress": {
+      "street": "KDA Avenue",
+      "city": "Khulna",
+      "state": "Khulna",
+      "zipCode": "9100",
+      "country": "Bangladesh"
+    },
+    "notes": "",
+    "createdAt": "2026-05-29T13:00:00.000Z",
+    "updatedAt": "2026-05-29T13:00:00.000Z",
+    "customer": {
+      "name": "Mim Chowdhury",
+      "phone": "+8801864558389",
+      "email": "mim@example.com"
+    },
+    "source": "online",
+    "shippingMethod": {
+      "id": "5a1b01000000000000000002",
+      "name": "Outside Dhaka"
+    },
+    "statusHistory": [
+      {
+        "status": "pending",
+        "note": "",
+        "at": "2026-05-29T13:00:00.000Z"
+      },
+      {
+        "status": "processing",
+        "note": "Confirmed with the customer by phone",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-05-29T16:00:00.000Z"
+      },
+      {
+        "status": "shipped",
+        "note": "Handed to courier",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-05-31T10:00:00.000Z"
+      },
+      {
+        "status": "delivered",
+        "note": "",
+        "by": "e0e0e1000000000000000001",
+        "byName": "Gadget Brust Admin",
+        "at": "2026-06-01T16:00:00.000Z"
+      }
+    ],
+    "stockDeducted": true
+  },
+  {
+    "_id": "1a0b0100000000000000001f",
+    "user_id": "e0e0e1000000000000000002",
+    "invoiceNumber": "INV-20260522-0031",
+    "orderDate": "2026-05-22T19:00:00.000Z",
+    "dueDate": "2026-05-29T19:00:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c7000000000000000017",
+        "title": "Samsung Galaxy Tab A8 White",
+        "image": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/1.webp",
+        "price": 27075,
+        "qty": 1
+      },
+      {
+        "product": "a0d0c700000000000000000c",
+        "title": "Oppo F19 Pro+ 5G",
+        "image": "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/1.webp",
+        "price": 35141,
+        "qty": 2
+      },
+      {
+        "product": "a0d0c700000000000000003d",
+        "title": "Logitech G502 HERO Gaming Mouse",
+        "image": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=Logitech+G502+HERO",
+        "price": 4950,
+        "qty": 1
+      }
+    ],
+    "orderStatus": "delivered",
+    "shippingCharge": 0,
+    "shipment": {
+      "courier": "c0c1e2000000000000000002",
+      "trackingNumber": "PTH40004327",
+      "note": "",
+      "shippedAt": "2026-05-24T10:00:00.000Z"
+    },
+    "phone": "+8801398993302",
+    "status": "paid",
+    "subtotal": 102307,
+    "tax": 5115,
+    "discount": 0,
+    "total": 107422,
+    "paymentMethod": "stripe",
+    "paymentStatus": "completed",
+    "shippingAddress": {
+      "street": "House 12, Road 5, Dhanmondi",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "zipCode": "1205",
+      "country": "Bangladesh"
+    },
+    "billingAddress": {
+      "street": "House 12, Road 5, Dhanmondi",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "zipCode": "1205",
+      "country": "Bangladesh"
+    },
+    "notes": "Please call before delivery.",
+    "createdAt": "2026-05-22T19:00:00.000Z",
+    "updatedAt": "2026-05-22T19:00:00.000Z",
+    "customer": {
+      "name": "Rahim Uddin",
+      "phone": "+8801398993302",
+      "email": "rahim@example.com"
+    },
+    "source": "online",
+    "shippingMethod": {
+      "id": "5a1b01000000000000000001",
+      "name": "Inside Dhaka"
+    },
+    "statusHistory": [
+      {
+        "status": "pending",
+        "note": "",
+        "at": "2026-05-22T19:00:00.000Z"
+      },
+      {
+        "status": "processing",
+        "note": "Confirmed with the customer by phone",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-05-22T22:00:00.000Z"
+      },
+      {
+        "status": "shipped",
+        "note": "Handed to courier",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-05-24T10:00:00.000Z"
+      },
+      {
+        "status": "delivered",
+        "note": "",
+        "by": "e0e0e1000000000000000001",
+        "byName": "Gadget Brust Admin",
+        "at": "2026-05-25T16:00:00.000Z"
+      }
+    ],
+    "stockDeducted": true
+  },
+  {
+    "_id": "1a0b01000000000000000020",
+    "user_id": "e0e0e1000000000000000003",
+    "invoiceNumber": "INV-20260521-0032",
+    "orderDate": "2026-05-21T09:00:00.000Z",
+    "dueDate": "2026-05-28T09:00:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c7000000000000000026",
+        "title": "Professional Selfie Lamp Ring Light",
+        "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/selfie-lamp-with-iphone/1.webp",
+        "price": 1850,
+        "qty": 2
+      }
+    ],
+    "orderStatus": "pending",
+    "shippingCharge": 120,
+    "phone": "+8801714738222",
+    "status": "overdue",
+    "subtotal": 3700,
+    "tax": 185,
+    "discount": 0,
+    "total": 4005,
+    "paymentMethod": "ssl_commerz",
+    "paymentStatus": "pending",
+    "shippingAddress": {
+      "street": "Flat 4B, Agrabad C/A",
+      "city": "Chattogram",
+      "state": "Chattogram",
+      "zipCode": "4100",
+      "country": "Bangladesh"
+    },
+    "billingAddress": {
+      "street": "Flat 4B, Agrabad C/A",
+      "city": "Chattogram",
+      "state": "Chattogram",
+      "zipCode": "4100",
+      "country": "Bangladesh"
+    },
+    "notes": "",
+    "createdAt": "2026-05-21T09:00:00.000Z",
+    "updatedAt": "2026-05-21T09:00:00.000Z",
+    "customer": {
+      "name": "Nusrat Jahan",
+      "phone": "+8801714738222",
+      "email": "nusrat@example.com"
+    },
+    "source": "online",
+    "shippingMethod": {
+      "id": "5a1b01000000000000000002",
+      "name": "Outside Dhaka"
+    },
+    "statusHistory": [
+      {
+        "status": "pending",
+        "note": "",
+        "at": "2026-05-21T09:00:00.000Z"
+      }
+    ],
+    "stockDeducted": false
+  },
+  {
+    "_id": "1a0b01000000000000000021",
+    "user_id": "e0e0e1000000000000000004",
+    "invoiceNumber": "INV-20260511-0033",
+    "orderDate": "2026-05-11T20:00:00.000Z",
+    "dueDate": "2026-05-18T20:00:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c7000000000000000004",
+        "title": "Lenovo Yoga 9i 2-in-1",
+        "image": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/1.webp",
+        "price": 139040,
+        "qty": 2
+      }
+    ],
+    "orderStatus": "delivered",
+    "shippingCharge": 0,
+    "shipment": {
+      "courier": "c0c1e2000000000000000001",
+      "trackingNumber": "SF88108111",
+      "note": "",
+      "shippedAt": "2026-05-13T10:00:00.000Z"
+    },
+    "phone": "+8801479116938",
+    "status": "paid",
+    "subtotal": 278080,
+    "tax": 13904,
+    "discount": 0,
+    "total": 291984,
+    "paymentMethod": "ssl_commerz",
+    "paymentStatus": "completed",
+    "shippingAddress": {
+      "street": "Zindabazar Main Road",
+      "city": "Sylhet",
+      "state": "Sylhet",
+      "zipCode": "3100",
+      "country": "Bangladesh"
+    },
+    "billingAddress": {
+      "street": "Zindabazar Main Road",
+      "city": "Sylhet",
+      "state": "Sylhet",
+      "zipCode": "3100",
+      "country": "Bangladesh"
+    },
+    "notes": "",
+    "createdAt": "2026-05-11T20:00:00.000Z",
+    "updatedAt": "2026-05-11T20:00:00.000Z",
+    "customer": {
+      "name": "Tanvir Hasan",
+      "phone": "+8801479116938",
+      "email": "tanvir@example.com"
+    },
+    "source": "online",
+    "shippingMethod": {
+      "id": "5a1b01000000000000000002",
+      "name": "Outside Dhaka"
+    },
+    "statusHistory": [
+      {
+        "status": "pending",
+        "note": "",
+        "at": "2026-05-11T20:00:00.000Z"
+      },
+      {
+        "status": "processing",
+        "note": "Confirmed with the customer by phone",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-05-11T23:00:00.000Z"
+      },
+      {
+        "status": "shipped",
+        "note": "Handed to courier",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-05-13T10:00:00.000Z"
+      },
+      {
+        "status": "delivered",
+        "note": "",
+        "by": "e0e0e1000000000000000001",
+        "byName": "Gadget Brust Admin",
+        "at": "2026-05-14T16:00:00.000Z"
+      }
+    ],
+    "stockDeducted": true
+  },
+  {
+    "_id": "1a0b01000000000000000022",
+    "user_id": "e0e0e1000000000000000005",
+    "invoiceNumber": "INV-20260509-0034",
+    "orderDate": "2026-05-09T07:00:00.000Z",
+    "dueDate": "2026-05-16T07:00:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c700000000000000000e",
+        "title": "Oppo K1 6GB/64GB",
+        "image": "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/1.webp",
+        "price": 19350,
+        "qty": 1
+      },
+      {
+        "product": "a0d0c7000000000000000014",
+        "title": "Vivo S1 6GB/128GB",
+        "image": "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/1.webp",
+        "price": 23990,
+        "qty": 2
+      },
+      {
+        "product": "a0d0c700000000000000000b",
+        "title": "Samsung Galaxy S8 64GB",
+        "image": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/1.webp",
+        "price": 28800,
+        "qty": 2
+      }
+    ],
+    "orderStatus": "delivered",
+    "shippingCharge": 0,
+    "shipment": {
+      "courier": "c0c1e2000000000000000004",
+      "trackingNumber": "PF20486728",
+      "note": "",
+      "shippedAt": "2026-05-10T10:00:00.000Z"
+    },
+    "phone": "+8801536809701",
+    "status": "paid",
+    "subtotal": 124930,
+    "tax": 6247,
+    "discount": 0,
+    "total": 131177,
+    "paymentMethod": "stripe",
+    "paymentStatus": "completed",
+    "shippingAddress": {
+      "street": "Sector 7, Uttara",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "zipCode": "1230",
+      "country": "Bangladesh"
+    },
+    "billingAddress": {
+      "street": "Sector 7, Uttara",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "zipCode": "1230",
+      "country": "Bangladesh"
+    },
+    "notes": "",
+    "createdAt": "2026-05-09T07:00:00.000Z",
+    "updatedAt": "2026-05-09T07:00:00.000Z",
+    "customer": {
+      "name": "Farhana Akter",
+      "phone": "+8801536809701",
+      "email": "farhana@example.com"
+    },
+    "source": "online",
+    "shippingMethod": {
+      "id": "5a1b01000000000000000001",
+      "name": "Inside Dhaka"
+    },
+    "statusHistory": [
+      {
+        "status": "pending",
+        "note": "",
+        "at": "2026-05-09T07:00:00.000Z"
+      },
+      {
+        "status": "processing",
+        "note": "Confirmed with the customer by phone",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-05-09T10:00:00.000Z"
+      },
+      {
+        "status": "shipped",
+        "note": "Handed to courier",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-05-10T10:00:00.000Z"
+      },
+      {
+        "status": "delivered",
+        "note": "",
+        "by": "e0e0e1000000000000000001",
+        "byName": "Gadget Brust Admin",
+        "at": "2026-05-11T16:00:00.000Z"
+      }
+    ],
+    "stockDeducted": true
+  },
+  {
+    "_id": "1a0b01000000000000000023",
+    "user_id": "e0e0e1000000000000000006",
+    "invoiceNumber": "INV-20260504-0035",
+    "orderDate": "2026-05-04T05:00:00.000Z",
+    "dueDate": "2026-05-11T05:00:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c700000000000000003a",
+        "title": "Logitech MX Keys S Wireless Keyboard",
+        "image": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=Logitech+MX+Keys+S",
+        "price": 12420,
+        "qty": 2
+      },
+      {
+        "product": "a0d0c7000000000000000027",
+        "title": "Aluminium Camera Monopod",
+        "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/monopod/1.webp",
+        "price": 2880,
+        "qty": 2
+      }
+    ],
+    "orderStatus": "delivered",
+    "shippingCharge": 0,
+    "shipment": {
+      "courier": "c0c1e2000000000000000002",
+      "trackingNumber": "PTH61006796",
+      "note": "",
+      "shippedAt": "2026-05-05T10:00:00.000Z"
+    },
+    "phone": "+8801465102982",
+    "status": "paid",
+    "subtotal": 30600,
+    "tax": 1530,
+    "discount": 0,
+    "total": 32130,
+    "paymentMethod": "ssl_commerz",
+    "paymentStatus": "completed",
+    "shippingAddress": {
+      "street": "Shaheb Bazar",
+      "city": "Rajshahi",
+      "state": "Rajshahi",
+      "zipCode": "6100",
+      "country": "Bangladesh"
+    },
+    "billingAddress": {
+      "street": "Shaheb Bazar",
+      "city": "Rajshahi",
+      "state": "Rajshahi",
+      "zipCode": "6100",
+      "country": "Bangladesh"
+    },
+    "notes": "",
+    "createdAt": "2026-05-04T05:00:00.000Z",
+    "updatedAt": "2026-05-04T05:00:00.000Z",
+    "customer": {
+      "name": "Sakib Rahman",
+      "phone": "+8801465102982",
+      "email": "sakib@example.com"
+    },
+    "source": "online",
+    "shippingMethod": {
+      "id": "5a1b01000000000000000002",
+      "name": "Outside Dhaka"
+    },
+    "statusHistory": [
+      {
+        "status": "pending",
+        "note": "",
+        "at": "2026-05-04T05:00:00.000Z"
+      },
+      {
+        "status": "processing",
+        "note": "Confirmed with the customer by phone",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-05-04T08:00:00.000Z"
+      },
+      {
+        "status": "shipped",
+        "note": "Handed to courier",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-05-05T10:00:00.000Z"
+      },
+      {
+        "status": "delivered",
+        "note": "",
+        "by": "e0e0e1000000000000000001",
+        "byName": "Gadget Brust Admin",
+        "at": "2026-05-06T16:00:00.000Z"
+      }
+    ],
+    "stockDeducted": true
+  },
+  {
+    "_id": "1a0b01000000000000000024",
+    "user_id": "e0e0e1000000000000000007",
+    "invoiceNumber": "INV-20260427-0036",
+    "orderDate": "2026-04-27T01:00:00.000Z",
+    "dueDate": "2026-05-04T01:00:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c7000000000000000019",
+        "title": "Samsung Galaxy Watch6 Classic",
+        "image": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=Galaxy+Watch6",
+        "price": 33440,
+        "qty": 2
+      },
+      {
+        "product": "a0d0c7000000000000000005",
+        "title": "Dell XPS 13 Plus",
+        "image": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/1.webp",
+        "price": 172000,
+        "qty": 1
+      }
+    ],
+    "orderStatus": "delivered",
+    "shippingCharge": 0,
+    "shipment": {
+      "courier": "c0c1e2000000000000000001",
+      "trackingNumber": "SF50407776",
+      "note": "",
+      "shippedAt": "2026-04-28T10:00:00.000Z"
+    },
+    "phone": "+8801949388323",
+    "status": "paid",
+    "subtotal": 238880,
+    "tax": 11944,
+    "discount": 0,
+    "total": 250824,
+    "paymentMethod": "stripe",
+    "paymentStatus": "completed",
+    "shippingAddress": {
+      "street": "KDA Avenue",
+      "city": "Khulna",
+      "state": "Khulna",
+      "zipCode": "9100",
+      "country": "Bangladesh"
+    },
+    "billingAddress": {
+      "street": "KDA Avenue",
+      "city": "Khulna",
+      "state": "Khulna",
+      "zipCode": "9100",
+      "country": "Bangladesh"
+    },
+    "notes": "Please call before delivery.",
+    "createdAt": "2026-04-27T01:00:00.000Z",
+    "updatedAt": "2026-04-27T01:00:00.000Z",
+    "customer": {
+      "name": "Mim Chowdhury",
+      "phone": "+8801949388323",
+      "email": "mim@example.com"
+    },
+    "source": "online",
+    "shippingMethod": {
+      "id": "5a1b01000000000000000002",
+      "name": "Outside Dhaka"
+    },
+    "statusHistory": [
+      {
+        "status": "pending",
+        "note": "",
+        "at": "2026-04-27T01:00:00.000Z"
+      },
+      {
+        "status": "processing",
+        "note": "Confirmed with the customer by phone",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-04-27T04:00:00.000Z"
+      },
+      {
+        "status": "shipped",
+        "note": "Handed to courier",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-04-28T10:00:00.000Z"
+      },
+      {
+        "status": "delivered",
+        "note": "",
+        "by": "e0e0e1000000000000000001",
+        "byName": "Gadget Brust Admin",
+        "at": "2026-04-29T16:00:00.000Z"
+      }
+    ],
+    "stockDeducted": true
+  },
+  {
+    "_id": "1a0b01000000000000000064",
+    "customer": {
+      "name": "Walk-in customer",
+      "phone": "",
+      "email": ""
+    },
+    "phone": "",
+    "source": "pos",
+    "cashier": "e0e0e100000000000000000a",
+    "invoiceNumber": "POS-20261021-0001",
+    "orderDate": "2026-10-21T02:00:00.000Z",
+    "dueDate": "2026-10-21T02:00:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c7000000000000000036",
+        "title": "Apple 20W USB-C Power Adapter",
+        "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/1.webp",
+        "price": 2500,
+        "qty": 2
+      },
+      {
+        "product": "a0d0c7000000000000000040",
+        "title": "iPhone 12 Silicone Case with MagSafe Plum",
+        "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/1.webp",
+        "price": 3600,
+        "qty": 1
+      }
+    ],
+    "orderStatus": "delivered",
+    "shippingCharge": 0,
+    "status": "paid",
+    "subtotal": 8600,
+    "tax": 0,
+    "discount": 0,
+    "total": 8600,
+    "paymentMethod": "cash",
+    "paymentStatus": "completed",
+    "payment": {
+      "amountPaid": 9000,
+      "change": 400
+    },
+    "notes": "",
+    "createdAt": "2026-10-21T02:00:00.000Z",
+    "updatedAt": "2026-10-21T02:00:00.000Z",
+    "stockDeducted": true,
+    "statusHistory": [
+      {
+        "status": "delivered",
+        "note": "Counter sale",
+        "by": "e0e0e100000000000000000a",
+        "byName": "Ayesha Siddika",
+        "at": "2026-10-21T02:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "_id": "1a0b01000000000000000065",
+    "customer": {
+      "name": "Mahmudul Hasan",
+      "phone": "+8801711000111",
+      "email": ""
+    },
+    "phone": "+8801711000111",
+    "source": "pos",
+    "cashier": "e0e0e100000000000000000a",
+    "invoiceNumber": "POS-20261017-0002",
+    "orderDate": "2026-10-17T06:00:00.000Z",
+    "dueDate": "2026-10-17T06:00:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c7000000000000000021",
+        "title": "JBL Flip 6 Portable Speaker",
+        "image": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=JBL+Flip+6",
+        "price": 11880,
+        "qty": 1
+      },
+      {
+        "product": "a0d0c700000000000000001e",
+        "title": "Beats Flex Wireless Earphones",
+        "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/beats-flex-wireless-earphones/1.webp",
+        "price": 7565,
+        "qty": 1
+      }
+    ],
+    "orderStatus": "delivered",
+    "shippingCharge": 0,
+    "status": "paid",
+    "subtotal": 19445,
+    "tax": 0,
+    "discount": 3783,
+    "total": 15662,
+    "coupon": {
+      "code": "AUDIOBOGO",
+      "discount": 3783
+    },
+    "paymentMethod": "bkash",
+    "paymentStatus": "completed",
+    "payment": {
+      "amountPaid": 15662,
+      "change": 0
+    },
+    "notes": "",
+    "createdAt": "2026-10-17T06:00:00.000Z",
+    "updatedAt": "2026-10-17T06:00:00.000Z",
+    "stockDeducted": true,
+    "statusHistory": [
+      {
+        "status": "delivered",
+        "note": "Counter sale",
+        "by": "e0e0e100000000000000000a",
+        "byName": "Ayesha Siddika",
+        "at": "2026-10-17T06:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "_id": "1a0b01000000000000000066",
+    "customer": {
+      "name": "Sharmin Akter",
+      "phone": "+8801911000222",
+      "email": ""
+    },
+    "phone": "+8801911000222",
+    "source": "pos",
+    "cashier": "e0e0e100000000000000000a",
+    "invoiceNumber": "POS-20261012-0003",
+    "orderDate": "2026-10-12T05:00:00.000Z",
+    "dueDate": "2026-10-12T05:00:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c700000000000000003d",
+        "title": "Logitech G502 HERO Gaming Mouse",
+        "image": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=Logitech+G502+HERO",
+        "price": 4950,
+        "qty": 1
+      },
+      {
+        "product": "a0d0c700000000000000003b",
+        "title": "Corsair K70 RGB Pro Mechanical Keyboard",
+        "image": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=Corsair+K70+RGB+Pro",
+        "price": 15750,
+        "qty": 1
+      }
+    ],
+    "orderStatus": "delivered",
+    "shippingCharge": 0,
+    "status": "paid",
+    "subtotal": 20700,
+    "tax": 0,
+    "discount": 4140,
+    "total": 16560,
+    "coupon": {
+      "code": "GAMER20",
+      "discount": 4140
+    },
+    "paymentMethod": "card",
+    "paymentStatus": "completed",
+    "payment": {
+      "amountPaid": 16560,
+      "change": 0
+    },
+    "notes": "",
+    "createdAt": "2026-10-12T05:00:00.000Z",
+    "updatedAt": "2026-10-12T05:00:00.000Z",
+    "stockDeducted": true,
+    "statusHistory": [
+      {
+        "status": "delivered",
+        "note": "Counter sale",
+        "by": "e0e0e100000000000000000a",
+        "byName": "Ayesha Siddika",
+        "at": "2026-10-12T05:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "_id": "1a0b02000000000000000001",
+    "customer": {
+      "name": "Arif Mahmud",
+      "phone": "01711223344",
+      "email": "arif.mahmud@example.com"
+    },
+    "phone": "01711223344",
+    "source": "online",
+    "invoiceNumber": "INV-20261024-0037",
+    "orderDate": "2026-10-24T03:15:00.000Z",
+    "dueDate": "2026-10-31T03:15:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c700000000000000000d",
+        "title": "Oppo A57 4GB/64GB",
+        "image": "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/1.webp",
+        "price": 17990,
+        "qty": 1
+      },
+      {
+        "product": "a0d0c700000000000000003d",
+        "title": "Logitech G502 HERO Gaming Mouse",
+        "image": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=Logitech+G502+HERO",
+        "price": 4950,
+        "qty": 1
+      }
+    ],
+    "orderStatus": "pending",
+    "statusHistory": [
+      {
+        "status": "pending",
+        "note": "",
+        "at": "2026-10-24T03:15:00.000Z"
+      }
+    ],
+    "stockDeducted": false,
+    "shippingMethod": {
+      "id": "5a1b01000000000000000001",
+      "name": "Inside Dhaka"
+    },
+    "shippingCharge": 0,
+    "status": "pending",
+    "subtotal": 22940,
+    "tax": 0,
+    "discount": 0,
+    "total": 22940,
+    "paymentMethod": "cash_on_delivery",
+    "paymentStatus": "pending",
+    "shippingAddress": {
+      "street": "Flat 5B, House 21, Road 11, Banani",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "zipCode": "1213",
+      "country": "Bangladesh"
+    },
+    "billingAddress": {
+      "street": "Flat 5B, House 21, Road 11, Banani",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "zipCode": "1213",
+      "country": "Bangladesh"
+    },
+    "notes": "Please deliver after 5 PM.",
+    "createdAt": "2026-10-24T03:15:00.000Z",
+    "updatedAt": "2026-10-24T03:15:00.000Z"
+  },
+  {
+    "_id": "1a0b02000000000000000002",
+    "customer": {
+      "name": "Sharmin Sultana",
+      "phone": "01819556677",
+      "email": ""
+    },
+    "phone": "01819556677",
+    "source": "online",
+    "invoiceNumber": "INV-20261024-0038",
+    "orderDate": "2026-10-24T01:40:00.000Z",
+    "dueDate": "2026-10-31T01:40:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c700000000000000001f",
+        "title": "Amazon Echo Plus Smart Speaker",
+        "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/1.webp",
+        "price": 11600,
+        "qty": 1
+      }
+    ],
+    "orderStatus": "pending",
+    "statusHistory": [
+      {
+        "status": "pending",
+        "note": "",
+        "at": "2026-10-24T01:40:00.000Z"
+      }
+    ],
+    "stockDeducted": false,
+    "shippingMethod": {
+      "id": "5a1b01000000000000000002",
+      "name": "Outside Dhaka"
+    },
+    "shippingCharge": 0,
+    "status": "pending",
+    "subtotal": 11600,
+    "tax": 0,
+    "discount": 0,
+    "total": 11600,
+    "paymentMethod": "cash_on_delivery",
+    "paymentStatus": "pending",
+    "shippingAddress": {
+      "street": "Holding 34, Jamal Khan Road",
+      "city": "Chattogram",
+      "state": "Chattogram",
+      "zipCode": "4000",
+      "country": "Bangladesh"
+    },
+    "billingAddress": {
+      "street": "Holding 34, Jamal Khan Road",
+      "city": "Chattogram",
+      "state": "Chattogram",
+      "zipCode": "4000",
+      "country": "Bangladesh"
+    },
+    "notes": "",
+    "createdAt": "2026-10-24T01:40:00.000Z",
+    "updatedAt": "2026-10-24T01:40:00.000Z"
+  },
+  {
+    "_id": "1a0b02000000000000000003",
+    "customer": {
+      "name": "Mehedi Hasan",
+      "phone": "01915889900",
+      "email": "mehedi.h@example.com"
+    },
+    "phone": "01915889900",
+    "source": "online",
+    "invoiceNumber": "INV-20261023-0039",
+    "orderDate": "2026-10-23T09:05:00.000Z",
+    "dueDate": "2026-10-30T09:05:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c7000000000000000031",
+        "title": "Sony PlayStation 5 Slim Disc Edition",
+        "image": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=PlayStation+5+Slim",
+        "price": 68400,
+        "qty": 1
+      }
+    ],
+    "orderStatus": "pending",
+    "statusHistory": [
+      {
+        "status": "pending",
+        "note": "",
+        "at": "2026-10-23T09:05:00.000Z"
+      }
+    ],
+    "stockDeducted": false,
+    "shippingMethod": {
+      "id": "5a1b01000000000000000001",
+      "name": "Inside Dhaka"
+    },
+    "shippingCharge": 0,
+    "status": "pending",
+    "subtotal": 68400,
+    "tax": 0,
+    "discount": 0,
+    "total": 68400,
+    "paymentMethod": "cash_on_delivery",
+    "paymentStatus": "pending",
+    "shippingAddress": {
+      "street": "House 7, Block C, Mirpur 10",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "zipCode": "1216",
+      "country": "Bangladesh"
+    },
+    "billingAddress": {
+      "street": "House 7, Block C, Mirpur 10",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "zipCode": "1216",
+      "country": "Bangladesh"
+    },
+    "notes": "Call before coming.",
+    "createdAt": "2026-10-23T09:05:00.000Z",
+    "updatedAt": "2026-10-23T09:05:00.000Z"
+  },
+  {
+    "_id": "1a0b02000000000000000004",
+    "customer": {
+      "name": "Rubina Khatun",
+      "phone": "01622334455",
+      "email": ""
+    },
+    "phone": "01622334455",
+    "source": "online",
+    "invoiceNumber": "INV-20261022-0040",
+    "orderDate": "2026-10-22T14:20:00.000Z",
+    "dueDate": "2026-10-29T14:20:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c7000000000000000037",
+        "title": "Apple AirPower Wireless Charging Mat",
+        "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpower-wireless-charger/1.webp",
+        "price": 8624,
+        "qty": 2
+      }
+    ],
+    "orderStatus": "processing",
+    "statusHistory": [
+      {
+        "status": "pending",
+        "note": "",
+        "at": "2026-10-22T14:20:00.000Z"
+      },
+      {
+        "status": "processing",
+        "note": "Confirmed with the customer by phone",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-10-22T16:20:00.000Z"
+      }
+    ],
+    "stockDeducted": true,
+    "shippingMethod": {
+      "id": "5a1b01000000000000000002",
+      "name": "Outside Dhaka"
+    },
+    "shippingCharge": 0,
+    "status": "pending",
+    "subtotal": 17248,
+    "tax": 0,
+    "discount": 0,
+    "total": 17248,
+    "paymentMethod": "cash_on_delivery",
+    "paymentStatus": "pending",
+    "shippingAddress": {
+      "street": "Ward 4, Zindabazar",
+      "city": "Sylhet",
+      "state": "Sylhet",
+      "zipCode": "3100",
+      "country": "Bangladesh"
+    },
+    "billingAddress": {
+      "street": "Ward 4, Zindabazar",
+      "city": "Sylhet",
+      "state": "Sylhet",
+      "zipCode": "3100",
+      "country": "Bangladesh"
+    },
+    "notes": "",
+    "createdAt": "2026-10-22T14:20:00.000Z",
+    "updatedAt": "2026-10-22T14:20:00.000Z"
+  },
+  {
+    "_id": "1a0b02000000000000000005",
+    "customer": {
+      "name": "Tamim Iqbal",
+      "phone": "01555667788",
+      "email": "tamim.iqbal@example.com"
+    },
+    "phone": "01555667788",
+    "source": "online",
+    "invoiceNumber": "INV-20261020-0041",
+    "orderDate": "2026-10-20T06:30:00.000Z",
+    "dueDate": "2026-10-27T06:30:00.000Z",
+    "items": [
+      {
+        "product": "a0d0c7000000000000000019",
+        "title": "Samsung Galaxy Watch6 Classic",
+        "image": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=Galaxy+Watch6",
+        "price": 33440,
+        "qty": 1
+      }
+    ],
+    "orderStatus": "shipped",
+    "statusHistory": [
+      {
+        "status": "pending",
+        "note": "",
+        "at": "2026-10-20T06:30:00.000Z"
+      },
+      {
+        "status": "processing",
+        "note": "Confirmed with the customer by phone",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-10-20T08:30:00.000Z"
+      },
+      {
+        "status": "shipped",
+        "note": "Handed to courier",
+        "by": "e0e0e1000000000000000008",
+        "byName": "Karim Hossain",
+        "at": "2026-10-21T05:00:00.000Z"
+      }
+    ],
+    "stockDeducted": true,
+    "shippingMethod": {
+      "id": "5a1b01000000000000000001",
+      "name": "Inside Dhaka"
+    },
+    "shippingCharge": 0,
+    "status": "pending",
+    "subtotal": 33440,
+    "tax": 0,
+    "discount": 0,
+    "total": 33440,
+    "paymentMethod": "cash_on_delivery",
+    "paymentStatus": "pending",
+    "shippingAddress": {
+      "street": "Road 2, Sector 7, Uttara",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "zipCode": "1230",
+      "country": "Bangladesh"
+    },
+    "billingAddress": {
+      "street": "Road 2, Sector 7, Uttara",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "zipCode": "1230",
+      "country": "Bangladesh"
+    },
+    "notes": "",
+    "shipment": {
+      "courier": "c0c1e2000000000000000001",
+      "trackingNumber": "SFC88213456",
+      "note": "",
+      "shippedAt": "2026-10-21T05:00:00.000Z"
+    },
+    "createdAt": "2026-10-20T06:30:00.000Z",
+    "updatedAt": "2026-10-20T06:30:00.000Z"
+  }
+]

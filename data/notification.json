@@ -1,0 +1,127 @@
+[
+  {
+    "_id": "b0b1f1000000000000000001",
+    "type": "order.new",
+    "permission": "orders",
+    "title": "New guest order INV-20261024-0037",
+    "message": "Arif Mahmud · ৳22,940 · 2 items",
+    "link": "/dashboard/orders/1a0b02000000000000000001",
+    "readBy": [],
+    "createdAt": "2026-10-24T03:15:00.000Z",
+    "updatedAt": "2026-10-24T03:15:00.000Z"
+  },
+  {
+    "_id": "b0b1f1000000000000000002",
+    "type": "order.new",
+    "permission": "orders",
+    "title": "New guest order INV-20261024-0038",
+    "message": "Sharmin Sultana · ৳11,600 · 1 item",
+    "link": "/dashboard/orders/1a0b02000000000000000002",
+    "readBy": [],
+    "createdAt": "2026-10-24T01:40:00.000Z",
+    "updatedAt": "2026-10-24T01:40:00.000Z"
+  },
+  {
+    "_id": "b0b1f1000000000000000003",
+    "type": "order.new",
+    "permission": "orders",
+    "title": "New guest order INV-20261023-0039",
+    "message": "Mehedi Hasan · ৳68,400 · 1 item",
+    "link": "/dashboard/orders/1a0b02000000000000000003",
+    "readBy": [],
+    "createdAt": "2026-10-23T09:05:00.000Z",
+    "updatedAt": "2026-10-23T09:05:00.000Z"
+  },
+  {
+    "_id": "b0b1f1000000000000000004",
+    "type": "stock.out",
+    "permission": "inventory",
+    "title": "HP Victus 15 Gaming Laptop is out of stock",
+    "message": "Restock it to keep selling.",
+    "link": "/dashboard/inventory?product=a0d0c7000000000000000007",
+    "readBy": [],
+    "createdAt": "2026-10-23T08:00:00.000Z",
+    "updatedAt": "2026-10-23T08:00:00.000Z"
+  },
+  {
+    "_id": "b0b1f1000000000000000005",
+    "type": "stock.out",
+    "permission": "inventory",
+    "title": "Corsair HS80 RGB Wireless Headset is out of stock",
+    "message": "Restock it to keep selling.",
+    "link": "/dashboard/inventory?product=a0d0c7000000000000000034",
+    "readBy": [
+      "e0e0e1000000000000000001"
+    ],
+    "createdAt": "2026-10-22T11:30:00.000Z",
+    "updatedAt": "2026-10-22T11:30:00.000Z"
+  },
+  {
+    "_id": "b0b1f1000000000000000006",
+    "type": "stock.low",
+    "permission": "inventory",
+    "title": "Vivo V9 4GB/64GB is running low",
+    "message": "Only 3 left.",
+    "link": "/dashboard/inventory?product=a0d0c7000000000000000013",
+    "readBy": [],
+    "createdAt": "2026-10-21T16:45:00.000Z",
+    "updatedAt": "2026-10-21T16:45:00.000Z"
+  },
+  {
+    "_id": "b0b1f1000000000000000007",
+    "type": "review.new",
+    "permission": "reviews",
+    "title": "New 4★ review",
+    "message": "A customer reviewed one of your accessories.",
+    "link": "/dashboard/reviews",
+    "readBy": [],
+    "createdAt": "2026-10-19T01:00:00.000Z",
+    "updatedAt": "2026-10-19T01:00:00.000Z"
+  },
+  {
+    "_id": "b0b1f1000000000000000008",
+    "type": "system",
+    "permission": "coupons",
+    "title": "GAMER20 is your most used coupon this month",
+    "message": "Consider a follow-up offer for gaming accessories.",
+    "link": "/dashboard/coupons",
+    "readBy": [],
+    "createdAt": "2026-10-22T04:00:00.000Z",
+    "updatedAt": "2026-10-22T04:00:00.000Z"
+  },
+  {
+    "_id": "b0b1f1000000000000000009",
+    "type": "system",
+    "permission": "pos",
+    "title": "Cash drawer check",
+    "message": "Count the drawer before closing today.",
+    "link": "/dashboard/pos",
+    "readBy": [],
+    "createdAt": "2026-10-23T12:00:00.000Z",
+    "updatedAt": "2026-10-23T12:00:00.000Z"
+  },
+  {
+    "_id": "b0b1f1000000000000000010",
+    "type": "order.status",
+    "user": "e0e0e1000000000000000002",
+    "title": "Order INV-20261022-0001: Updated",
+    "message": "",
+    "link": "/dashboard/my-orders/1a0b01000000000000000001",
+    "readBy": [],
+    "createdAt": "2026-10-22T19:00:00.000Z",
+    "updatedAt": "2026-10-22T19:00:00.000Z"
+  },
+  {
+    "_id": "b0b1f1000000000000000011",
+    "type": "system",
+    "user": "e0e0e1000000000000000002",
+    "title": "Welcome to your Gadget Brust account",
+    "message": "Track orders, manage your wishlist and review products here.",
+    "link": "/dashboard/dashboard",
+    "readBy": [
+      "e0e0e1000000000000000002"
+    ],
+    "createdAt": "2026-09-01T10:00:00.000Z",
+    "updatedAt": "2026-09-01T10:00:00.000Z"
+  }
+]

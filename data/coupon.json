@@ -1,0 +1,271 @@
+[
+  {
+    "_id": "c0b0a1000000000000000001",
+    "value": 10,
+    "maxDiscount": 3000,
+    "bogo": {
+      "buyQty": 1,
+      "getQty": 1,
+      "getDiscountPercent": 100
+    },
+    "products": [],
+    "categories": [],
+    "brands": [],
+    "excludeDiscountedItems": false,
+    "minOrderAmount": 3000,
+    "minQuantity": 0,
+    "usageLimit": 0,
+    "usageLimitPerUser": 1,
+    "firstOrderOnly": true,
+    "isActive": true,
+    "isPublic": true,
+    "usedCount": 0,
+    "redemptions": [],
+    "code": "WELCOME10",
+    "title": "Welcome offer",
+    "description": "10% off your first order",
+    "type": "percentage",
+    "appliesTo": "all",
+    "createdAt": "2026-06-25T10:00:00.000Z",
+    "updatedAt": "2026-06-25T10:00:00.000Z"
+  },
+  {
+    "_id": "c0b0a1000000000000000002",
+    "value": 5000,
+    "maxDiscount": 0,
+    "bogo": {
+      "buyQty": 1,
+      "getQty": 1,
+      "getDiscountPercent": 100
+    },
+    "products": [],
+    "categories": [
+      "c0a7e9000000000000000001"
+    ],
+    "brands": [],
+    "excludeDiscountedItems": false,
+    "minOrderAmount": 80000,
+    "minQuantity": 0,
+    "usageLimit": 0,
+    "usageLimitPerUser": 0,
+    "firstOrderOnly": false,
+    "isActive": true,
+    "isPublic": true,
+    "usedCount": 0,
+    "redemptions": [],
+    "code": "LAPTOP5K",
+    "title": "Laptop week",
+    "description": "৳5,000 off any laptop",
+    "type": "fixed",
+    "appliesTo": "categories",
+    "createdAt": "2026-06-30T10:00:00.000Z",
+    "updatedAt": "2026-06-30T10:00:00.000Z"
+  },
+  {
+    "_id": "c0b0a1000000000000000003",
+    "value": 20,
+    "maxDiscount": 5000,
+    "bogo": {
+      "buyQty": 1,
+      "getQty": 1,
+      "getDiscountPercent": 100
+    },
+    "products": [],
+    "categories": [
+      "c0a7e9000000000000000009",
+      "c0a7e900000000000000000b",
+      "c0a7e900000000000000000c"
+    ],
+    "brands": [],
+    "excludeDiscountedItems": false,
+    "minOrderAmount": 0,
+    "minQuantity": 0,
+    "usageLimit": 0,
+    "usageLimitPerUser": 0,
+    "firstOrderOnly": false,
+    "isActive": true,
+    "isPublic": true,
+    "usedCount": 1,
+    "redemptions": [
+      {
+        "invoice": "1a0b01000000000000000066",
+        "discount": 4140,
+        "at": "2026-10-12T05:00:00.000Z"
+      }
+    ],
+    "code": "GAMER20",
+    "title": "Gamer gear",
+    "description": "20% off gaming, keyboards and mice",
+    "type": "percentage",
+    "appliesTo": "categories",
+    "createdAt": "2026-07-05T10:00:00.000Z",
+    "updatedAt": "2026-07-05T10:00:00.000Z"
+  },
+  {
+    "_id": "c0b0a1000000000000000004",
+    "value": 7,
+    "maxDiscount": 10000,
+    "bogo": {
+      "buyQty": 1,
+      "getQty": 1,
+      "getDiscountPercent": 100
+    },
+    "products": [],
+    "categories": [],
+    "brands": [
+      "b0a2d9000000000000000001"
+    ],
+    "excludeDiscountedItems": false,
+    "minOrderAmount": 0,
+    "minQuantity": 0,
+    "usageLimit": 200,
+    "usageLimitPerUser": 0,
+    "firstOrderOnly": false,
+    "isActive": true,
+    "isPublic": true,
+    "usedCount": 0,
+    "redemptions": [],
+    "code": "APPLE7",
+    "title": "Apple days",
+    "description": "7% off Apple products",
+    "type": "percentage",
+    "appliesTo": "brands",
+    "createdAt": "2026-07-10T10:00:00.000Z",
+    "updatedAt": "2026-07-10T10:00:00.000Z"
+  },
+  {
+    "_id": "c0b0a1000000000000000005",
+    "value": 0,
+    "maxDiscount": 0,
+    "bogo": {
+      "buyQty": 1,
+      "getQty": 1,
+      "getDiscountPercent": 50
+    },
+    "products": [],
+    "categories": [
+      "c0a7e9000000000000000005"
+    ],
+    "brands": [],
+    "excludeDiscountedItems": false,
+    "minOrderAmount": 0,
+    "minQuantity": 0,
+    "usageLimit": 0,
+    "usageLimitPerUser": 0,
+    "firstOrderOnly": false,
+    "isActive": true,
+    "isPublic": true,
+    "usedCount": 1,
+    "redemptions": [
+      {
+        "invoice": "1a0b01000000000000000065",
+        "discount": 3783,
+        "at": "2026-10-17T06:00:00.000Z"
+      }
+    ],
+    "code": "AUDIOBOGO",
+    "title": "Audio buy 1 get 1 at 50%",
+    "description": "Buy one audio item, get the second at half price",
+    "type": "bogo",
+    "appliesTo": "categories",
+    "createdAt": "2026-07-15T10:00:00.000Z",
+    "updatedAt": "2026-07-15T10:00:00.000Z"
+  },
+  {
+    "_id": "c0b0a1000000000000000006",
+    "value": 0,
+    "maxDiscount": 0,
+    "bogo": {
+      "buyQty": 2,
+      "getQty": 1,
+      "getDiscountPercent": 100
+    },
+    "products": [
+      "a0d0c7000000000000000036",
+      "a0d0c7000000000000000038",
+      "a0d0c7000000000000000035",
+      "a0d0c7000000000000000037"
+    ],
+    "categories": [],
+    "brands": [],
+    "excludeDiscountedItems": false,
+    "minOrderAmount": 0,
+    "minQuantity": 0,
+    "usageLimit": 0,
+    "usageLimitPerUser": 0,
+    "firstOrderOnly": false,
+    "isActive": true,
+    "isPublic": true,
+    "usedCount": 0,
+    "redemptions": [],
+    "code": "CHARGEDUO",
+    "title": "Charger combo",
+    "description": "Buy 2 chargers or power banks, get 1 free",
+    "type": "bogo",
+    "appliesTo": "products",
+    "createdAt": "2026-07-20T10:00:00.000Z",
+    "updatedAt": "2026-07-20T10:00:00.000Z"
+  },
+  {
+    "_id": "c0b0a1000000000000000007",
+    "value": 0,
+    "maxDiscount": 0,
+    "bogo": {
+      "buyQty": 1,
+      "getQty": 1,
+      "getDiscountPercent": 100
+    },
+    "products": [],
+    "categories": [],
+    "brands": [],
+    "excludeDiscountedItems": false,
+    "minOrderAmount": 2000,
+    "minQuantity": 0,
+    "usageLimit": 0,
+    "usageLimitPerUser": 0,
+    "firstOrderOnly": false,
+    "isActive": true,
+    "isPublic": true,
+    "usedCount": 0,
+    "redemptions": [],
+    "code": "FREESHIP",
+    "title": "Free delivery",
+    "description": "Free delivery on orders over ৳2,000",
+    "type": "free_shipping",
+    "appliesTo": "all",
+    "createdAt": "2026-07-25T10:00:00.000Z",
+    "updatedAt": "2026-07-25T10:00:00.000Z"
+  },
+  {
+    "_id": "c0b0a1000000000000000008",
+    "value": 25,
+    "maxDiscount": 4000,
+    "bogo": {
+      "buyQty": 1,
+      "getQty": 1,
+      "getDiscountPercent": 100
+    },
+    "products": [],
+    "categories": [],
+    "brands": [],
+    "excludeDiscountedItems": false,
+    "minOrderAmount": 0,
+    "minQuantity": 0,
+    "usageLimit": 0,
+    "usageLimitPerUser": 0,
+    "firstOrderOnly": false,
+    "isActive": true,
+    "isPublic": false,
+    "usedCount": 0,
+    "redemptions": [],
+    "code": "EID25",
+    "title": "Eid sale",
+    "description": "25% off everything (ended)",
+    "type": "percentage",
+    "appliesTo": "all",
+    "startDate": "2026-05-16T10:00:00.000Z",
+    "endDate": "2026-05-26T10:00:00.000Z",
+    "createdAt": "2026-07-30T10:00:00.000Z",
+    "updatedAt": "2026-07-30T10:00:00.000Z"
+  }
+]

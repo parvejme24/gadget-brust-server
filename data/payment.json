@@ -1,0 +1,614 @@
+[
+  {
+    "_id": "9a0e01000000000000000001",
+    "user_id": "e0e0e1000000000000000004",
+    "invoice_id": "1a0b01000000000000000003",
+    "payment_method": "stripe",
+    "amount": 7560,
+    "currency": "BDT",
+    "status": "completed",
+    "transaction_id": "pi_000000037534",
+    "gateway_response": {},
+    "metadata": {
+      "invoiceNumber": "INV-20261011-0003"
+    },
+    "payment_date": "2026-10-11T12:00:00.000Z",
+    "refund_amount": 0,
+    "createdAt": "2026-10-11T12:00:00.000Z",
+    "updatedAt": "2026-10-11T12:00:00.000Z"
+  },
+  {
+    "_id": "9a0e01000000000000000002",
+    "user_id": "e0e0e1000000000000000005",
+    "invoice_id": "1a0b01000000000000000004",
+    "payment_method": "stripe",
+    "amount": 227525,
+    "currency": "BDT",
+    "status": "completed",
+    "transaction_id": "pi_000000042006",
+    "gateway_response": {},
+    "metadata": {
+      "invoiceNumber": "INV-20261005-0004"
+    },
+    "payment_date": "2026-10-05T05:00:00.000Z",
+    "refund_amount": 0,
+    "createdAt": "2026-10-05T05:00:00.000Z",
+    "updatedAt": "2026-10-05T05:00:00.000Z"
+  },
+  {
+    "_id": "9a0e01000000000000000003",
+    "user_id": "e0e0e1000000000000000006",
+    "invoice_id": "1a0b01000000000000000005",
+    "payment_method": "ssl_commerz",
+    "amount": 9055,
+    "currency": "BDT",
+    "status": "completed",
+    "transaction_id": "SSL_000000053893",
+    "gateway_response": {},
+    "metadata": {
+      "invoiceNumber": "INV-20261001-0005"
+    },
+    "payment_date": "2026-10-01T02:00:00.000Z",
+    "refund_amount": 0,
+    "createdAt": "2026-10-01T02:00:00.000Z",
+    "updatedAt": "2026-10-01T02:00:00.000Z"
+  },
+  {
+    "_id": "9a0e01000000000000000004",
+    "user_id": "e0e0e1000000000000000007",
+    "invoice_id": "1a0b01000000000000000006",
+    "payment_method": "ssl_commerz",
+    "amount": 14595,
+    "currency": "BDT",
+    "status": "completed",
+    "transaction_id": "SSL_000000064916",
+    "gateway_response": {},
+    "metadata": {
+      "invoiceNumber": "INV-20260925-0006"
+    },
+    "payment_date": "2026-09-25T15:00:00.000Z",
+    "refund_amount": 0,
+    "createdAt": "2026-09-25T15:00:00.000Z",
+    "updatedAt": "2026-09-25T15:00:00.000Z"
+  },
+  {
+    "_id": "9a0e01000000000000000005",
+    "user_id": "e0e0e1000000000000000002",
+    "invoice_id": "1a0b01000000000000000007",
+    "payment_method": "stripe",
+    "amount": 267047,
+    "currency": "BDT",
+    "status": "completed",
+    "transaction_id": "pi_000000077366",
+    "gateway_response": {},
+    "metadata": {
+      "invoiceNumber": "INV-20260920-0007"
+    },
+    "payment_date": "2026-09-20T19:00:00.000Z",
+    "refund_amount": 0,
+    "createdAt": "2026-09-20T19:00:00.000Z",
+    "updatedAt": "2026-09-20T19:00:00.000Z"
+  },
+  {
+    "_id": "9a0e01000000000000000006",
+    "user_id": "e0e0e1000000000000000003",
+    "invoice_id": "1a0b01000000000000000008",
+    "payment_method": "stripe",
+    "amount": 8670,
+    "currency": "BDT",
+    "status": "failed",
+    "transaction_id": "pi_000000082202",
+    "gateway_response": {},
+    "metadata": {
+      "invoiceNumber": "INV-20260914-0008"
+    },
+    "failure_reason": "Payment declined by issuer",
+    "refund_amount": 0,
+    "createdAt": "2026-09-14T21:00:00.000Z",
+    "updatedAt": "2026-09-14T21:00:00.000Z"
+  },
+  {
+    "_id": "9a0e01000000000000000007",
+    "user_id": "e0e0e1000000000000000005",
+    "invoice_id": "1a0b0100000000000000000a",
+    "payment_method": "ssl_commerz",
+    "amount": 153594,
+    "currency": "BDT",
+    "status": "completed",
+    "transaction_id": "SSL_0000000a3760",
+    "gateway_response": {},
+    "metadata": {
+      "invoiceNumber": "INV-20260904-0010"
+    },
+    "payment_date": "2026-09-04T10:00:00.000Z",
+    "refund_amount": 0,
+    "createdAt": "2026-09-04T10:00:00.000Z",
+    "updatedAt": "2026-09-04T10:00:00.000Z"
+  },
+  {
+    "_id": "9a0e01000000000000000008",
+    "user_id": "e0e0e1000000000000000006",
+    "invoice_id": "1a0b0100000000000000000b",
+    "payment_method": "ssl_commerz",
+    "amount": 188580,
+    "currency": "BDT",
+    "status": "completed",
+    "transaction_id": "SSL_0000000b3094",
+    "gateway_response": {},
+    "metadata": {
+      "invoiceNumber": "INV-20260901-0011"
+    },
+    "payment_date": "2026-09-01T07:00:00.000Z",
+    "refund_amount": 0,
+    "createdAt": "2026-09-01T07:00:00.000Z",
+    "updatedAt": "2026-09-01T07:00:00.000Z"
+  },
+  {
+    "_id": "9a0e01000000000000000009",
+    "user_id": "e0e0e1000000000000000007",
+    "invoice_id": "1a0b0100000000000000000c",
+    "payment_method": "ssl_commerz",
+    "amount": 77112,
+    "currency": "BDT",
+    "status": "completed",
+    "transaction_id": "SSL_0000000c6489",
+    "gateway_response": {},
+    "metadata": {
+      "invoiceNumber": "INV-20260826-0012"
+    },
+    "payment_date": "2026-08-26T17:00:00.000Z",
+    "refund_amount": 0,
+    "createdAt": "2026-08-26T17:00:00.000Z",
+    "updatedAt": "2026-08-26T17:00:00.000Z"
+  },
+  {
+    "_id": "9a0e0100000000000000000a",
+    "user_id": "e0e0e1000000000000000002",
+    "invoice_id": "1a0b0100000000000000000d",
+    "payment_method": "ssl_commerz",
+    "amount": 38556,
+    "currency": "BDT",
+    "status": "completed",
+    "transaction_id": "SSL_0000000d9315",
+    "gateway_response": {},
+    "metadata": {
+      "invoiceNumber": "INV-20260820-0013"
+    },
+    "payment_date": "2026-08-20T11:00:00.000Z",
+    "refund_amount": 0,
+    "createdAt": "2026-08-20T11:00:00.000Z",
+    "updatedAt": "2026-08-20T11:00:00.000Z"
+  },
+  {
+    "_id": "9a0e0100000000000000000b",
+    "user_id": "e0e0e1000000000000000003",
+    "invoice_id": "1a0b0100000000000000000e",
+    "payment_method": "stripe",
+    "amount": 77250,
+    "currency": "BDT",
+    "status": "completed",
+    "transaction_id": "pi_0000000e9353",
+    "gateway_response": {},
+    "metadata": {
+      "invoiceNumber": "INV-20260816-0014"
+    },
+    "payment_date": "2026-08-16T00:00:00.000Z",
+    "refund_amount": 0,
+    "createdAt": "2026-08-16T00:00:00.000Z",
+    "updatedAt": "2026-08-16T00:00:00.000Z"
+  },
+  {
+    "_id": "9a0e0100000000000000000c",
+    "user_id": "e0e0e1000000000000000004",
+    "invoice_id": "1a0b0100000000000000000f",
+    "payment_method": "stripe",
+    "amount": 105979,
+    "currency": "BDT",
+    "status": "completed",
+    "transaction_id": "pi_0000000f7927",
+    "gateway_response": {},
+    "metadata": {
+      "invoiceNumber": "INV-20260811-0015"
+    },
+    "payment_date": "2026-08-11T04:00:00.000Z",
+    "refund_amount": 0,
+    "createdAt": "2026-08-11T04:00:00.000Z",
+    "updatedAt": "2026-08-11T04:00:00.000Z"
+  },
+  {
+    "_id": "9a0e0100000000000000000d",
+    "user_id": "e0e0e1000000000000000005",
+    "invoice_id": "1a0b01000000000000000010",
+    "payment_method": "ssl_commerz",
+    "amount": 96096,
+    "currency": "BDT",
+    "status": "completed",
+    "transaction_id": "SSL_000000107965",
+    "gateway_response": {},
+    "metadata": {
+      "invoiceNumber": "INV-20260808-0016"
+    },
+    "payment_date": "2026-08-08T04:00:00.000Z",
+    "refund_amount": 0,
+    "createdAt": "2026-08-08T04:00:00.000Z",
+    "updatedAt": "2026-08-08T04:00:00.000Z"
+  },
+  {
+    "_id": "9a0e0100000000000000000e",
+    "user_id": "e0e0e1000000000000000006",
+    "invoice_id": "1a0b01000000000000000011",
+    "payment_method": "ssl_commerz",
+    "amount": 403253,
+    "currency": "BDT",
+    "status": "completed",
+    "transaction_id": "SSL_000000118383",
+    "gateway_response": {},
+    "metadata": {
+      "invoiceNumber": "INV-20260803-0017"
+    },
+    "payment_date": "2026-08-03T01:00:00.000Z",
+    "refund_amount": 0,
+    "createdAt": "2026-08-03T01:00:00.000Z",
+    "updatedAt": "2026-08-03T01:00:00.000Z"
+  },
+  {
+    "_id": "9a0e0100000000000000000f",
+    "user_id": "e0e0e1000000000000000007",
+    "invoice_id": "1a0b01000000000000000012",
+    "payment_method": "ssl_commerz",
+    "amount": 358530,
+    "currency": "BDT",
+    "status": "completed",
+    "transaction_id": "SSL_000000127790",
+    "gateway_response": {},
+    "metadata": {
+      "invoiceNumber": "INV-20260726-0018"
+    },
+    "payment_date": "2026-07-26T18:00:00.000Z",
+    "refund_amount": 0,
+    "createdAt": "2026-07-26T18:00:00.000Z",
+    "updatedAt": "2026-07-26T18:00:00.000Z"
+  },
+  {
+    "_id": "9a0e01000000000000000010",
+    "user_id": "e0e0e1000000000000000002",
+    "invoice_id": "1a0b01000000000000000013",
+    "payment_method": "ssl_commerz",
+    "amount": 7344,
+    "currency": "BDT",
+    "status": "completed",
+    "transaction_id": "SSL_000000138283",
+    "gateway_response": {},
+    "metadata": {
+      "invoiceNumber": "INV-20260724-0019"
+    },
+    "payment_date": "2026-07-24T13:00:00.000Z",
+    "refund_amount": 0,
+    "createdAt": "2026-07-24T13:00:00.000Z",
+    "updatedAt": "2026-07-24T13:00:00.000Z"
+  },
+  {
+    "_id": "9a0e01000000000000000011",
+    "user_id": "e0e0e1000000000000000003",
+    "invoice_id": "1a0b01000000000000000014",
+    "payment_method": "stripe",
+    "amount": 40635,
+    "currency": "BDT",
+    "status": "completed",
+    "transaction_id": "pi_000000148290",
+    "gateway_response": {},
+    "metadata": {
+      "invoiceNumber": "INV-20260716-0020"
+    },
+    "payment_date": "2026-07-16T10:00:00.000Z",
+    "refund_amount": 0,
+    "createdAt": "2026-07-16T10:00:00.000Z",
+    "updatedAt": "2026-07-16T10:00:00.000Z"
+  },
+  {
+    "_id": "9a0e01000000000000000012",
+    "user_id": "e0e0e1000000000000000004",
+    "invoice_id": "1a0b01000000000000000015",
+    "payment_method": "ssl_commerz",
+    "amount": 13342,
+    "currency": "BDT",
+    "status": "completed",
+    "transaction_id": "SSL_000000158042",
+    "gateway_response": {},
+    "metadata": {
+      "invoiceNumber": "INV-20260713-0021"
+    },
+    "payment_date": "2026-07-13T17:00:00.000Z",
+    "refund_amount": 0,
+    "createdAt": "2026-07-13T17:00:00.000Z",
+    "updatedAt": "2026-07-13T17:00:00.000Z"
+  },
+  {
+    "_id": "9a0e01000000000000000013",
+    "user_id": "e0e0e1000000000000000005",
+    "invoice_id": "1a0b01000000000000000016",
+    "payment_method": "ssl_commerz",
+    "amount": 49770,
+    "currency": "BDT",
+    "status": "completed",
+    "transaction_id": "SSL_000000166806",
+    "gateway_response": {},
+    "metadata": {
+      "invoiceNumber": "INV-20260710-0022"
+    },
+    "payment_date": "2026-07-10T10:00:00.000Z",
+    "refund_amount": 0,
+    "createdAt": "2026-07-10T10:00:00.000Z",
+    "updatedAt": "2026-07-10T10:00:00.000Z"
+  },
+  {
+    "_id": "9a0e01000000000000000014",
+    "user_id": "e0e0e1000000000000000006",
+    "invoice_id": "1a0b01000000000000000017",
+    "payment_method": "ssl_commerz",
+    "amount": 143640,
+    "currency": "BDT",
+    "status": "completed",
+    "transaction_id": "SSL_000000179386",
+    "gateway_response": {},
+    "metadata": {
+      "invoiceNumber": "INV-20260703-0023"
+    },
+    "payment_date": "2026-07-03T02:00:00.000Z",
+    "refund_amount": 0,
+    "createdAt": "2026-07-03T02:00:00.000Z",
+    "updatedAt": "2026-07-03T02:00:00.000Z"
+  },
+  {
+    "_id": "9a0e01000000000000000015",
+    "user_id": "e0e0e1000000000000000007",
+    "invoice_id": "1a0b01000000000000000018",
+    "payment_method": "ssl_commerz",
+    "amount": 37779,
+    "currency": "BDT",
+    "status": "failed",
+    "transaction_id": "SSL_000000183626",
+    "gateway_response": {},
+    "metadata": {
+      "invoiceNumber": "INV-20260627-0024"
+    },
+    "failure_reason": "Payment declined by issuer",
+    "refund_amount": 0,
+    "createdAt": "2026-06-27T23:00:00.000Z",
+    "updatedAt": "2026-06-27T23:00:00.000Z"
+  },
+  {
+    "_id": "9a0e01000000000000000016",
+    "user_id": "e0e0e1000000000000000002",
+    "invoice_id": "1a0b01000000000000000019",
+    "payment_method": "ssl_commerz",
+    "amount": 440426,
+    "currency": "BDT",
+    "status": "completed",
+    "transaction_id": "SSL_000000194307",
+    "gateway_response": {},
+    "metadata": {
+      "invoiceNumber": "INV-20260621-0025"
+    },
+    "payment_date": "2026-06-21T07:00:00.000Z",
+    "refund_amount": 0,
+    "createdAt": "2026-06-21T07:00:00.000Z",
+    "updatedAt": "2026-06-21T07:00:00.000Z"
+  },
+  {
+    "_id": "9a0e01000000000000000017",
+    "user_id": "e0e0e1000000000000000003",
+    "invoice_id": "1a0b0100000000000000001a",
+    "payment_method": "ssl_commerz",
+    "amount": 18110,
+    "currency": "BDT",
+    "status": "completed",
+    "transaction_id": "SSL_0000001a2422",
+    "gateway_response": {},
+    "metadata": {
+      "invoiceNumber": "INV-20260616-0026"
+    },
+    "payment_date": "2026-06-16T06:00:00.000Z",
+    "refund_amount": 0,
+    "createdAt": "2026-06-16T06:00:00.000Z",
+    "updatedAt": "2026-06-16T06:00:00.000Z"
+  },
+  {
+    "_id": "9a0e01000000000000000018",
+    "user_id": "e0e0e1000000000000000004",
+    "invoice_id": "1a0b0100000000000000001b",
+    "payment_method": "stripe",
+    "amount": 71180,
+    "currency": "BDT",
+    "status": "completed",
+    "transaction_id": "pi_0000001b6609",
+    "gateway_response": {},
+    "metadata": {
+      "invoiceNumber": "INV-20260615-0027"
+    },
+    "payment_date": "2026-06-15T00:00:00.000Z",
+    "refund_amount": 0,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z"
+  },
+  {
+    "_id": "9a0e01000000000000000019",
+    "user_id": "e0e0e1000000000000000006",
+    "invoice_id": "1a0b0100000000000000001d",
+    "payment_method": "stripe",
+    "amount": 42883,
+    "currency": "BDT",
+    "status": "failed",
+    "transaction_id": "pi_0000001d2864",
+    "gateway_response": {},
+    "metadata": {
+      "invoiceNumber": "INV-20260603-0029"
+    },
+    "failure_reason": "Payment declined by issuer",
+    "refund_amount": 0,
+    "createdAt": "2026-06-03T22:00:00.000Z",
+    "updatedAt": "2026-06-03T22:00:00.000Z"
+  },
+  {
+    "_id": "9a0e0100000000000000001a",
+    "user_id": "e0e0e1000000000000000007",
+    "invoice_id": "1a0b0100000000000000001e",
+    "payment_method": "ssl_commerz",
+    "amount": 185220,
+    "currency": "BDT",
+    "status": "completed",
+    "transaction_id": "SSL_0000001e1422",
+    "gateway_response": {},
+    "metadata": {
+      "invoiceNumber": "INV-20260529-0030"
+    },
+    "payment_date": "2026-05-29T13:00:00.000Z",
+    "refund_amount": 0,
+    "createdAt": "2026-05-29T13:00:00.000Z",
+    "updatedAt": "2026-05-29T13:00:00.000Z"
+  },
+  {
+    "_id": "9a0e0100000000000000001b",
+    "user_id": "e0e0e1000000000000000002",
+    "invoice_id": "1a0b0100000000000000001f",
+    "payment_method": "stripe",
+    "amount": 107422,
+    "currency": "BDT",
+    "status": "completed",
+    "transaction_id": "pi_0000001f8462",
+    "gateway_response": {},
+    "metadata": {
+      "invoiceNumber": "INV-20260522-0031"
+    },
+    "payment_date": "2026-05-22T19:00:00.000Z",
+    "refund_amount": 0,
+    "createdAt": "2026-05-22T19:00:00.000Z",
+    "updatedAt": "2026-05-22T19:00:00.000Z"
+  },
+  {
+    "_id": "9a0e0100000000000000001c",
+    "user_id": "e0e0e1000000000000000004",
+    "invoice_id": "1a0b01000000000000000021",
+    "payment_method": "ssl_commerz",
+    "amount": 291984,
+    "currency": "BDT",
+    "status": "completed",
+    "transaction_id": "SSL_000000216379",
+    "gateway_response": {},
+    "metadata": {
+      "invoiceNumber": "INV-20260511-0033"
+    },
+    "payment_date": "2026-05-11T20:00:00.000Z",
+    "refund_amount": 0,
+    "createdAt": "2026-05-11T20:00:00.000Z",
+    "updatedAt": "2026-05-11T20:00:00.000Z"
+  },
+  {
+    "_id": "9a0e0100000000000000001d",
+    "user_id": "e0e0e1000000000000000005",
+    "invoice_id": "1a0b01000000000000000022",
+    "payment_method": "stripe",
+    "amount": 131177,
+    "currency": "BDT",
+    "status": "completed",
+    "transaction_id": "pi_000000228208",
+    "gateway_response": {},
+    "metadata": {
+      "invoiceNumber": "INV-20260509-0034"
+    },
+    "payment_date": "2026-05-09T07:00:00.000Z",
+    "refund_amount": 0,
+    "createdAt": "2026-05-09T07:00:00.000Z",
+    "updatedAt": "2026-05-09T07:00:00.000Z"
+  },
+  {
+    "_id": "9a0e0100000000000000001e",
+    "user_id": "e0e0e1000000000000000006",
+    "invoice_id": "1a0b01000000000000000023",
+    "payment_method": "ssl_commerz",
+    "amount": 32130,
+    "currency": "BDT",
+    "status": "completed",
+    "transaction_id": "SSL_000000232103",
+    "gateway_response": {},
+    "metadata": {
+      "invoiceNumber": "INV-20260504-0035"
+    },
+    "payment_date": "2026-05-04T05:00:00.000Z",
+    "refund_amount": 0,
+    "createdAt": "2026-05-04T05:00:00.000Z",
+    "updatedAt": "2026-05-04T05:00:00.000Z"
+  },
+  {
+    "_id": "9a0e0100000000000000001f",
+    "user_id": "e0e0e1000000000000000007",
+    "invoice_id": "1a0b01000000000000000024",
+    "payment_method": "stripe",
+    "amount": 250824,
+    "currency": "BDT",
+    "status": "completed",
+    "transaction_id": "pi_000000248322",
+    "gateway_response": {},
+    "metadata": {
+      "invoiceNumber": "INV-20260427-0036"
+    },
+    "payment_date": "2026-04-27T01:00:00.000Z",
+    "refund_amount": 0,
+    "createdAt": "2026-04-27T01:00:00.000Z",
+    "updatedAt": "2026-04-27T01:00:00.000Z"
+  },
+  {
+    "_id": "9a0e01000000000000000064",
+    "invoice_id": "1a0b01000000000000000064",
+    "payment_method": "cash",
+    "amount": 8600,
+    "currency": "BDT",
+    "status": "completed",
+    "transaction_id": "POS-20261021-0001-CASH",
+    "gateway_response": {},
+    "metadata": {
+      "invoiceNumber": "POS-20261021-0001",
+      "source": "pos"
+    },
+    "payment_date": "2026-10-21T02:00:00.000Z",
+    "refund_amount": 0,
+    "createdAt": "2026-10-21T02:00:00.000Z",
+    "updatedAt": "2026-10-21T02:00:00.000Z"
+  },
+  {
+    "_id": "9a0e01000000000000000065",
+    "invoice_id": "1a0b01000000000000000065",
+    "payment_method": "bkash",
+    "amount": 15662,
+    "currency": "BDT",
+    "status": "completed",
+    "transaction_id": "POS-20261017-0002-BKASH",
+    "gateway_response": {},
+    "metadata": {
+      "invoiceNumber": "POS-20261017-0002",
+      "source": "pos"
+    },
+    "payment_date": "2026-10-17T06:00:00.000Z",
+    "refund_amount": 0,
+    "createdAt": "2026-10-17T06:00:00.000Z",
+    "updatedAt": "2026-10-17T06:00:00.000Z"
+  },
+  {
+    "_id": "9a0e01000000000000000066",
+    "invoice_id": "1a0b01000000000000000066",
+    "payment_method": "card",
+    "amount": 16560,
+    "currency": "BDT",
+    "status": "completed",
+    "transaction_id": "POS-20261012-0003-CARD",
+    "gateway_response": {},
+    "metadata": {
+      "invoiceNumber": "POS-20261012-0003",
+      "source": "pos"
+    },
+    "payment_date": "2026-10-12T05:00:00.000Z",
+    "refund_amount": 0,
+    "createdAt": "2026-10-12T05:00:00.000Z",
+    "updatedAt": "2026-10-12T05:00:00.000Z"
+  }
+]

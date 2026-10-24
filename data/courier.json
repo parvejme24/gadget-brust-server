@@ -1,0 +1,152 @@
+[
+  {
+    "_id": "c0c1e2000000000000000001",
+    "name": "Steadfast Courier",
+    "color": "#00a651",
+    "website": "https://steadfast.com.bd",
+    "logo": "",
+    "phone": "",
+    "trackingUrl": "",
+    "charges": {
+      "insideDhaka": 60,
+      "outsideDhaka": 110,
+      "perKg": 20
+    },
+    "codChargePercent": 1,
+    "deliveryTime": {
+      "insideDhaka": "1-2 days",
+      "outsideDhaka": "2-4 days"
+    },
+    "merchantId": "",
+    "notes": "",
+    "isActive": true,
+    "isDefault": true,
+    "createdAt": "2026-03-07T10:00:00.000Z",
+    "updatedAt": "2026-03-07T10:00:00.000Z"
+  },
+  {
+    "_id": "c0c1e2000000000000000002",
+    "name": "Pathao Courier",
+    "color": "#e5202e",
+    "website": "https://pathao.com",
+    "logo": "",
+    "phone": "",
+    "trackingUrl": "",
+    "charges": {
+      "insideDhaka": 60,
+      "outsideDhaka": 115,
+      "perKg": 20
+    },
+    "codChargePercent": 1,
+    "deliveryTime": {
+      "insideDhaka": "1-2 days",
+      "outsideDhaka": "2-4 days"
+    },
+    "merchantId": "",
+    "notes": "",
+    "isActive": true,
+    "isDefault": false,
+    "createdAt": "2026-03-08T10:00:00.000Z",
+    "updatedAt": "2026-03-08T10:00:00.000Z"
+  },
+  {
+    "_id": "c0c1e2000000000000000003",
+    "name": "RedX",
+    "color": "#d7263d",
+    "website": "https://redx.com.bd",
+    "logo": "",
+    "phone": "",
+    "trackingUrl": "",
+    "charges": {
+      "insideDhaka": 65,
+      "outsideDhaka": 120,
+      "perKg": 20
+    },
+    "codChargePercent": 1,
+    "deliveryTime": {
+      "insideDhaka": "1-2 days",
+      "outsideDhaka": "2-4 days"
+    },
+    "merchantId": "",
+    "notes": "",
+    "isActive": true,
+    "isDefault": false,
+    "createdAt": "2026-03-09T10:00:00.000Z",
+    "updatedAt": "2026-03-09T10:00:00.000Z"
+  },
+  {
+    "_id": "c0c1e2000000000000000004",
+    "name": "Paperfly",
+    "color": "#f58220",
+    "website": "https://paperfly.com.bd",
+    "logo": "",
+    "phone": "",
+    "trackingUrl": "",
+    "charges": {
+      "insideDhaka": 60,
+      "outsideDhaka": 120,
+      "perKg": 20
+    },
+    "codChargePercent": 1,
+    "deliveryTime": {
+      "insideDhaka": "1-2 days",
+      "outsideDhaka": "2-4 days"
+    },
+    "merchantId": "",
+    "notes": "",
+    "isActive": true,
+    "isDefault": false,
+    "createdAt": "2026-03-10T10:00:00.000Z",
+    "updatedAt": "2026-03-10T10:00:00.000Z"
+  },
+  {
+    "_id": "c0c1e2000000000000000005",
+    "name": "Sundarban Courier",
+    "color": "#1f4e9a",
+    "website": "https://sundarbancourierltd.com",
+    "logo": "",
+    "phone": "",
+    "trackingUrl": "",
+    "charges": {
+      "insideDhaka": 70,
+      "outsideDhaka": 130,
+      "perKg": 20
+    },
+    "codChargePercent": 1,
+    "deliveryTime": {
+      "insideDhaka": "1-2 days",
+      "outsideDhaka": "2-4 days"
+    },
+    "merchantId": "",
+    "notes": "",
+    "isActive": true,
+    "isDefault": false,
+    "createdAt": "2026-03-11T10:00:00.000Z",
+    "updatedAt": "2026-03-11T10:00:00.000Z"
+  },
+  {
+    "_id": "c0c1e2000000000000000006",
+    "name": "eCourier",
+    "color": "#6c2c91",
+    "website": "https://ecourier.com.bd",
+    "logo": "",
+    "phone": "",
+    "trackingUrl": "",
+    "charges": {
+      "insideDhaka": 60,
+      "outsideDhaka": 120,
+      "perKg": 20
+    },
+    "codChargePercent": 1,
+    "deliveryTime": {
+      "insideDhaka": "1-2 days",
+      "outsideDhaka": "2-4 days"
+    },
+    "merchantId": "",
+    "notes": "",
+    "isActive": false,
+    "isDefault": false,
+    "createdAt": "2026-03-12T10:00:00.000Z",
+    "updatedAt": "2026-03-12T10:00:00.000Z"
+  }
+]

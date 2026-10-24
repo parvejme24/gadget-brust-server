@@ -1,2121 +1,3074 @@
 [
   {
-    "_id": "68ba01e17c15aa5a2dafd601",
-    "title": "Walton Power Bank 10000mAh",
-    "shortDescription": "Portable 10000mAh power bank with fast charging.",
+    "_id": "a0d0c7000000000000000001",
+    "title": "Apple MacBook Pro 14\" M3 Space Grey",
+    "shortDescription": "Apple M3 chip with 8-core CPU, 14.2-inch Liquid Retina XDR display and up to 22 hours of battery life.",
     "keyFeatures": [
-      { "key": "Capacity", "values": ["10000mAh"] },
-      { "key": "Output", "values": ["USB-A", "USB-C"] }
-    ],
-    "price": 1500,
-    "discount": 10,
-    "discountPrice": 1350,
-    "image": {
-      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020381/gadget-brust/categories/category_1757020391807.png",
-      "publicId": "gadget-brust/categories/category_1757020391807",
-      "assetId": "category_1757020391807"
-    },
-    "images": [
       {
-        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020381/gadget-brust/categories/category_1757020391807.png",
-        "publicId": "gadget-brust/categories/category_1757020391807",
-        "assetId": "category_1757020391807"
+        "key": "Processor",
+        "values": [
+          "Apple M3 8-core"
+        ]
+      },
+      {
+        "key": "RAM",
+        "values": [
+          "16GB Unified"
+        ]
+      },
+      {
+        "key": "Storage",
+        "values": [
+          "512GB SSD"
+        ]
+      },
+      {
+        "key": "Display",
+        "values": [
+          "14.2\" Liquid Retina XDR"
+        ]
+      },
+      {
+        "key": "Battery",
+        "values": [
+          "Up to 22 hours"
+        ]
       }
     ],
-    "stock": 50,
-    "star": 4.2,
+    "price": 229000,
+    "discount": 5,
+    "discountPrice": 217550,
+    "image": {
+      "url": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/1.webp"
+    },
+    "stock": 12,
+    "star": 4.9,
+    "remark": "best",
+    "isSlider": true,
+    "category": "c0a7e9000000000000000001",
+    "subcategory": "Ultrabook",
+    "brand": "b0a2d9000000000000000001",
+    "createdAt": "2026-10-07T22:00:00.000Z",
+    "updatedAt": "2026-10-07T22:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c7000000000000000002",
+    "title": "Asus Zenbook Pro Duo 14 OLED",
+    "shortDescription": "Dual-screen creator laptop with a 4K OLED main display and ScreenPad Plus for multitasking.",
+    "keyFeatures": [
+      {
+        "key": "Processor",
+        "values": [
+          "Intel Core i7-13700H"
+        ]
+      },
+      {
+        "key": "RAM",
+        "values": [
+          "16GB LPDDR5"
+        ]
+      },
+      {
+        "key": "Storage",
+        "values": [
+          "1TB NVMe SSD"
+        ]
+      },
+      {
+        "key": "Display",
+        "values": [
+          "14.5\" 2.8K OLED 120Hz"
+        ]
+      },
+      {
+        "key": "Graphics",
+        "values": [
+          "NVIDIA RTX 4050 6GB"
+        ]
+      }
+    ],
+    "price": 185000,
+    "discount": 10,
+    "discountPrice": 166500,
+    "image": {
+      "url": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/1.webp"
+    },
+    "stock": 6,
+    "star": 4.6,
+    "remark": "trending",
+    "isSlider": false,
+    "category": "c0a7e9000000000000000001",
+    "subcategory": "2-in-1 Laptop",
+    "brand": "b0a2d9000000000000000006",
+    "createdAt": "2026-06-08T04:00:00.000Z",
+    "updatedAt": "2026-06-08T04:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c7000000000000000003",
+    "title": "Huawei MateBook X Pro 2024",
+    "shortDescription": "Ultra-thin 980g magnesium body with a 3.1K touch display and Intel Core Ultra performance.",
+    "keyFeatures": [
+      {
+        "key": "Processor",
+        "values": [
+          "Intel Core Ultra 7 155H"
+        ]
+      },
+      {
+        "key": "RAM",
+        "values": [
+          "16GB LPDDR5x"
+        ]
+      },
+      {
+        "key": "Storage",
+        "values": [
+          "1TB SSD"
+        ]
+      },
+      {
+        "key": "Display",
+        "values": [
+          "14.2\" 3.1K OLED Touch"
+        ]
+      },
+      {
+        "key": "Weight",
+        "values": [
+          "980g"
+        ]
+      }
+    ],
+    "price": 165000,
+    "discount": 8,
+    "discountPrice": 151800,
+    "image": {
+      "url": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/1.webp"
+    },
+    "stock": 9,
+    "star": 4.5,
     "remark": "popular",
     "isSlider": false,
-    "category": "68ba00e97c15aa5a2dafd55e",
-    "subcategory": "Power Banks",
-    "brand": "68b9f85fc6f7057d9dfbf4a5",
-    "createdAt": "2025-09-05T05:48:00.000Z",
-    "updatedAt": "2025-09-05T05:48:00.000Z"
+    "category": "c0a7e9000000000000000001",
+    "subcategory": "Ultrabook",
+    "brand": "b0a2d900000000000000000a",
+    "createdAt": "2026-08-07T06:00:00.000Z",
+    "updatedAt": "2026-08-07T06:00:00.000Z"
   },
   {
-    "_id": "68ba01e27c15aa5a2dafd602",
-    "title": "Walton UPS 1000VA",
-    "shortDescription": "Reliable 1000VA UPS for uninterrupted power.",
+    "_id": "a0d0c7000000000000000004",
+    "title": "Lenovo Yoga 9i 2-in-1",
+    "shortDescription": "Convertible laptop with a 360° hinge, rotating soundbar and pen support for work and creativity.",
     "keyFeatures": [
-      { "key": "Capacity", "values": ["1000VA"] },
-      { "key": "Backup Time", "values": ["30min"] }
-    ],
-    "price": 8000,
-    "discount": 5,
-    "discountPrice": 7600,
-    "image": {
-      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020381/gadget-brust/categories/category_1757020391807.png",
-      "publicId": "gadget-brust/categories/category_1757020391807",
-      "assetId": "category_1757020391807"
-    },
-    "images": [
       {
-        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020381/gadget-brust/categories/category_1757020391807.png",
-        "publicId": "gadget-brust/categories/category_1757020391807",
-        "assetId": "category_1757020391807"
+        "key": "Processor",
+        "values": [
+          "Intel Core i7-1360P"
+        ]
+      },
+      {
+        "key": "RAM",
+        "values": [
+          "16GB"
+        ]
+      },
+      {
+        "key": "Storage",
+        "values": [
+          "512GB SSD"
+        ]
+      },
+      {
+        "key": "Display",
+        "values": [
+          "14\" 2.8K OLED Touch"
+        ]
+      },
+      {
+        "key": "Pen",
+        "values": [
+          "Lenovo Precision Pen included"
+        ]
       }
     ],
-    "stock": 30,
-    "star": 4.0,
-    "remark": "regular",
-    "isSlider": true,
-    "category": "68ba00e97c15aa5a2dafd55e",
-    "subcategory": "UPS",
-    "brand": "68b9f85fc6f7057d9dfbf4a5",
-    "createdAt": "2025-09-05T05:48:00.000Z",
-    "updatedAt": "2025-09-05T05:48:00.000Z"
-  },
-  {
-    "_id": "68ba01e37c15aa5a2dafd603",
-    "title": "Walton Fast Charger 20W",
-    "shortDescription": "20W fast charger for smartphones and tablets.",
-    "keyFeatures": [
-      { "key": "Power", "values": ["20W"] },
-      { "key": "Compatibility", "values": ["USB-C"] }
-    ],
-    "price": 1200,
-    "discount": 0,
-    "discountPrice": 1200,
+    "price": 158000,
+    "discount": 12,
+    "discountPrice": 139040,
     "image": {
-      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020381/gadget-brust/categories/category_1757020391807.png",
-      "publicId": "gadget-brust/categories/category_1757020391807",
-      "assetId": "category_1757020391807"
+      "url": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/1.webp"
     },
-    "images": [
-      {
-        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020381/gadget-brust/categories/category_1757020391807.png",
-        "publicId": "gadget-brust/categories/category_1757020391807",
-        "assetId": "category_1757020391807"
-      }
-    ],
-    "stock": 100,
-    "star": 3.8,
-    "remark": "new",
-    "isSlider": false,
-    "category": "68ba00e97c15aa5a2dafd55e",
-    "subcategory": "Chargers",
-    "brand": "68b9f85fc6f7057d9dfbf4a5",
-    "createdAt": "2025-09-05T05:48:00.000Z",
-    "updatedAt": "2025-09-05T05:48:00.000Z"
-  },
-  {
-    "_id": "68ba01e47c15aa5a2dafd604",
-    "title": "Walton Battery Pack AA",
-    "shortDescription": "Rechargeable AA batteries for various devices.",
-    "keyFeatures": [
-      { "key": "Type", "values": ["AA"] },
-      { "key": "Capacity", "values": ["2500mAh"] }
-    ],
-    "price": 500,
-    "discount": 15,
-    "discountPrice": 425,
-    "image": {
-      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020381/gadget-brust/categories/category_1757020391807.png",
-      "publicId": "gadget-brust/categories/category_1757020391807",
-      "assetId": "category_1757020391807"
-    },
-    "images": [
-      {
-        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020381/gadget-brust/categories/category_1757020391807.png",
-        "publicId": "gadget-brust/categories/category_1757020391807",
-        "assetId": "category_1757020391807"
-      }
-    ],
-    "stock": 200,
-    "star": 4.5,
-    "remark": "best",
-    "isSlider": false,
-    "category": "68ba00e97c15aa5a2dafd55e",
-    "subcategory": "Batteries",
-    "brand": "68b9f85fc6f7057d9dfbf4a5",
-    "createdAt": "2025-09-05T05:48:00.000Z",
-    "updatedAt": "2025-09-05T05:48:00.000Z"
-  },
-  {
-    "_id": "68ba01e57c15aa5a2dafd605",
-    "title": "Walton Action Camera 4K",
-    "shortDescription": "4K action camera for capturing adventures.",
-    "keyFeatures": [
-      { "key": "Resolution", "values": ["4K"] },
-      { "key": "Waterproof", "values": ["Up to 30m"] }
-    ],
-    "price": 10000,
-    "discount": 10,
-    "discountPrice": 9000,
-    "image": {
-      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020408/gadget-brust/categories/category_1757020418681.png",
-      "publicId": "gadget-brust/categories/category_1757020418681",
-      "assetId": "category_1757020418681"
-    },
-    "images": [
-      {
-        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020408/gadget-brust/categories/category_1757020418681.png",
-        "publicId": "gadget-brust/categories/category_1757020418681",
-        "assetId": "category_1757020418681"
-      }
-    ],
-    "stock": 20,
-    "star": 4.3,
-    "remark": "trending",
-    "isSlider": true,
-    "category": "68ba01047c15aa5a2dafd560",
-    "subcategory": "Action Cameras",
-    "brand": "68b9f85fc6f7057d9dfbf4a5",
-    "createdAt": "2025-09-05T05:48:00.000Z",
-    "updatedAt": "2025-09-05T05:48:00.000Z"
-  },
-  {
-    "_id": "68ba01e67c15aa5a2dafd606",
-    "title": "Dell XPS 13 Ultrabook",
-    "shortDescription": "13-inch ultrabook with high performance.",
-    "keyFeatures": [
-      { "key": "Processor", "values": ["Intel i7"] },
-      { "key": "Display", "values": ["13.4-inch 4K"] }
-    ],
-    "price": 120000,
-    "discount": 8,
-    "discountPrice": 110400,
-    "image": {
-      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
-      "publicId": "gadget-brust/categories/category_1757020463690",
-      "assetId": "category_1757020463690"
-    },
-    "images": [
-      {
-        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
-        "publicId": "gadget-brust/categories/category_1757020463690",
-        "assetId": "category_1757020463690"
-      }
-    ],
-    "stock": 15,
-    "star": 4.7,
-    "remark": "top",
-    "isSlider": true,
-    "category": "68ba01317c15aa5a2dafd564",
-    "subcategory": "Ultrabooks",
-    "brand": "68b9f884c6f7057d9dfbf4a7",
-    "createdAt": "2025-09-05T05:48:00.000Z",
-    "updatedAt": "2025-09-05T05:48:00.000Z"
-  },
-  {
-    "_id": "68ba01e77c15aa5a2dafd607",
-    "title": "Dell Inspiron Desktop",
-    "shortDescription": "Powerful desktop for home and office use.",
-    "keyFeatures": [
-      { "key": "Processor", "values": ["Intel i5"] },
-      { "key": "Storage", "values": ["1TB HDD"] }
-    ],
-    "price": 60000,
-    "discount": 5,
-    "discountPrice": 57000,
-    "image": {
-      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
-      "publicId": "gadget-brust/categories/category_1757020463690",
-      "assetId": "category_1757020463690"
-    },
-    "images": [
-      {
-        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
-        "publicId": "gadget-brust/categories/category_1757020463690",
-        "assetId": "category_1757020463690"
-      }
-    ],
-    "stock": 25,
-    "star": 4.1,
-    "remark": "regular",
-    "isSlider": false,
-    "category": "68ba01317c15aa5a2dafd564",
-    "subcategory": "Desktop",
-    "brand": "68b9f884c6f7057d9dfbf4a7",
-    "createdAt": "2025-09-05T05:48:00.000Z",
-    "updatedAt": "2025-09-05T05:48:00.000Z"
-  },
-  {
-    "_id": "68ba01e87c15aa5a2dafd608",
-    "title": "Dell Gaming Laptop G5",
-    "shortDescription": "High-performance gaming laptop with RTX graphics.",
-    "keyFeatures": [
-      { "key": "GPU", "values": ["NVIDIA RTX 3060"] },
-      { "key": "Display", "values": ["15.6-inch 144Hz"] }
-    ],
-    "price": 150000,
-    "discount": 10,
-    "discountPrice": 135000,
-    "image": {
-      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
-      "publicId": "gadget-brust/categories/category_1757020463690",
-      "assetId": "category_1757020463690"
-    },
-    "images": [
-      {
-        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
-        "publicId": "gadget-brust/categories/category_1757020463690",
-        "assetId": "category_1757020463690"
-      }
-    ],
-    "stock": 10,
-    "star": 4.8,
-    "remark": "trending",
-    "isSlider": true,
-    "category": "68ba015a7c15aa5a2dafd568",
-    "subcategory": "Gaming Laptops",
-    "brand": "68b9f884c6f7057d9dfbf4a7",
-    "createdAt": "2025-09-05T05:48:00.000Z",
-    "updatedAt": "2025-09-05T05:48:00.000Z"
-  },
-  {
-    "_id": "68ba01e97c15aa5a2dafd609",
-    "title": "Dell 2-in-1 Latitude",
-    "shortDescription": "Versatile 2-in-1 laptop for work and play.",
-    "keyFeatures": [
-      { "key": "Processor", "values": ["Intel i5"] },
-      { "key": "Display", "values": ["14-inch Touch"] }
-    ],
-    "price": 90000,
-    "discount": 7,
-    "discountPrice": 83700,
-    "image": {
-      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
-      "publicId": "gadget-brust/categories/category_1757020463690",
-      "assetId": "category_1757020463690"
-    },
-    "images": [
-      {
-        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
-        "publicId": "gadget-brust/categories/category_1757020463690",
-        "assetId": "category_1757020463690"
-      }
-    ],
-    "stock": 20,
+    "stock": 14,
     "star": 4.4,
-    "remark": "new",
+    "remark": "regular",
     "isSlider": false,
-    "category": "68ba015a7c15aa5a2dafd568",
-    "subcategory": "2-in-1",
-    "brand": "68b9f884c6f7057d9dfbf4a7",
-    "createdAt": "2025-09-05T05:48:00.000Z",
-    "updatedAt": "2025-09-05T05:48:00.000Z"
+    "category": "c0a7e9000000000000000001",
+    "subcategory": "2-in-1 Laptop",
+    "brand": "b0a2d9000000000000000005",
+    "createdAt": "2026-04-29T22:00:00.000Z",
+    "updatedAt": "2026-04-29T22:00:00.000Z"
   },
   {
-    "_id": "68ba01ea7c15aa5a2dafd60a",
-    "title": "Dell OptiPlex Mini PC",
-    "shortDescription": "Compact Mini PC for efficient computing.",
+    "_id": "a0d0c7000000000000000005",
+    "title": "Dell XPS 13 Plus",
+    "shortDescription": "Premium 13.4-inch laptop with an edge-to-edge keyboard, haptic touchpad and InfinityEdge display.",
     "keyFeatures": [
-      { "key": "Processor", "values": ["Intel i3"] },
-      { "key": "Storage", "values": ["256GB SSD"] }
+      {
+        "key": "Processor",
+        "values": [
+          "Intel Core i7-1360P"
+        ]
+      },
+      {
+        "key": "RAM",
+        "values": [
+          "16GB LPDDR5"
+        ]
+      },
+      {
+        "key": "Storage",
+        "values": [
+          "512GB SSD"
+        ]
+      },
+      {
+        "key": "Display",
+        "values": [
+          "13.4\" FHD+ InfinityEdge"
+        ]
+      },
+      {
+        "key": "OS",
+        "values": [
+          "Windows 11 Home"
+        ]
+      }
+    ],
+    "price": 172000,
+    "discount": 0,
+    "discountPrice": 172000,
+    "image": {
+      "url": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/1.webp"
+    },
+    "stock": 7,
+    "star": 4.6,
+    "remark": "top",
+    "isSlider": false,
+    "category": "c0a7e9000000000000000001",
+    "subcategory": "Business Laptop",
+    "brand": "b0a2d9000000000000000003",
+    "createdAt": "2026-07-12T04:00:00.000Z",
+    "updatedAt": "2026-07-12T04:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c7000000000000000006",
+    "title": "MSI Katana 15 Gaming Laptop",
+    "shortDescription": "RTX 4060-powered gaming laptop with a 144Hz display and Cooler Boost 5 thermal design.",
+    "keyFeatures": [
+      {
+        "key": "Processor",
+        "values": [
+          "Intel Core i7-13620H"
+        ]
+      },
+      {
+        "key": "RAM",
+        "values": [
+          "16GB DDR5"
+        ]
+      },
+      {
+        "key": "Storage",
+        "values": [
+          "1TB NVMe SSD"
+        ]
+      },
+      {
+        "key": "Display",
+        "values": [
+          "15.6\" FHD 144Hz"
+        ]
+      },
+      {
+        "key": "Graphics",
+        "values": [
+          "NVIDIA RTX 4060 8GB"
+        ]
+      }
+    ],
+    "price": 145000,
+    "discount": 7,
+    "discountPrice": 134850,
+    "image": {
+      "url": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=MSI+Katana+15"
+    },
+    "stock": 10,
+    "star": 4.5,
+    "remark": "trending",
+    "isSlider": false,
+    "category": "c0a7e9000000000000000001",
+    "subcategory": "Gaming Laptop",
+    "brand": "b0a2d9000000000000000007",
+    "createdAt": "2026-09-20T15:00:00.000Z",
+    "updatedAt": "2026-09-20T15:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c7000000000000000007",
+    "title": "HP Victus 15 Gaming Laptop",
+    "shortDescription": "Affordable gaming laptop with Ryzen 5 power, RTX 3050 graphics and a 144Hz panel.",
+    "keyFeatures": [
+      {
+        "key": "Processor",
+        "values": [
+          "AMD Ryzen 5 7535HS"
+        ]
+      },
+      {
+        "key": "RAM",
+        "values": [
+          "8GB DDR5"
+        ]
+      },
+      {
+        "key": "Storage",
+        "values": [
+          "512GB SSD"
+        ]
+      },
+      {
+        "key": "Display",
+        "values": [
+          "15.6\" FHD 144Hz"
+        ]
+      },
+      {
+        "key": "Graphics",
+        "values": [
+          "NVIDIA RTX 3050 4GB"
+        ]
+      }
+    ],
+    "price": 98000,
+    "discount": 10,
+    "discountPrice": 88200,
+    "image": {
+      "url": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=HP+Victus+15"
+    },
+    "stock": 0,
+    "star": 4.2,
+    "remark": "regular",
+    "isSlider": false,
+    "category": "c0a7e9000000000000000001",
+    "subcategory": "Gaming Laptop",
+    "brand": "b0a2d9000000000000000004",
+    "createdAt": "2026-05-12T00:00:00.000Z",
+    "updatedAt": "2026-05-12T00:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c7000000000000000008",
+    "title": "iPhone 13 Pro 256GB",
+    "shortDescription": "ProMotion 120Hz Super Retina XDR display, A15 Bionic and a pro triple-camera system.",
+    "keyFeatures": [
+      {
+        "key": "Display",
+        "values": [
+          "6.1\" Super Retina XDR 120Hz"
+        ]
+      },
+      {
+        "key": "Chip",
+        "values": [
+          "A15 Bionic"
+        ]
+      },
+      {
+        "key": "Storage",
+        "values": [
+          "256GB"
+        ]
+      },
+      {
+        "key": "Camera",
+        "values": [
+          "12MP Triple + LiDAR"
+        ]
+      },
+      {
+        "key": "Battery",
+        "values": [
+          "3095mAh"
+        ]
+      }
+    ],
+    "price": 125000,
+    "discount": 8,
+    "discountPrice": 115000,
+    "image": {
+      "url": "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/1.webp"
+    },
+    "stock": 15,
+    "star": 4.8,
+    "remark": "popular",
+    "isSlider": true,
+    "category": "c0a7e9000000000000000002",
+    "subcategory": "iPhone",
+    "brand": "b0a2d9000000000000000001",
+    "createdAt": "2026-08-29T05:00:00.000Z",
+    "updatedAt": "2026-08-29T05:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c7000000000000000009",
+    "title": "iPhone X 64GB",
+    "shortDescription": "The iconic all-screen iPhone with Face ID and a 5.8-inch Super Retina OLED display.",
+    "keyFeatures": [
+      {
+        "key": "Display",
+        "values": [
+          "5.8\" OLED"
+        ]
+      },
+      {
+        "key": "Chip",
+        "values": [
+          "A11 Bionic"
+        ]
+      },
+      {
+        "key": "Storage",
+        "values": [
+          "64GB"
+        ]
+      },
+      {
+        "key": "Camera",
+        "values": [
+          "12MP Dual"
+        ]
+      },
+      {
+        "key": "Condition",
+        "values": [
+          "Official Refurbished"
+        ]
+      }
     ],
     "price": 45000,
-    "discount": 0,
-    "discountPrice": 45000,
+    "discount": 15,
+    "discountPrice": 38250,
     "image": {
-      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
-      "publicId": "gadget-brust/categories/category_1757020463690",
-      "assetId": "category_1757020463690"
+      "url": "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/1.webp"
     },
-    "images": [
-      {
-        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
-        "publicId": "gadget-brust/categories/category_1757020463690",
-        "assetId": "category_1757020463690"
-      }
-    ],
-    "stock": 30,
-    "star": 4.0,
+    "stock": 4,
+    "star": 4.3,
     "remark": "regular",
     "isSlider": false,
-    "category": "68ba01317c15aa5a2dafd564",
-    "subcategory": "Mini PC",
-    "brand": "68b9f884c6f7057d9dfbf4a7",
-    "createdAt": "2025-09-05T05:48:00.000Z",
-    "updatedAt": "2025-09-05T05:48:00.000Z"
+    "category": "c0a7e9000000000000000002",
+    "subcategory": "iPhone",
+    "brand": "b0a2d9000000000000000001",
+    "createdAt": "2026-09-07T03:00:00.000Z",
+    "updatedAt": "2026-09-07T03:00:00.000Z"
   },
   {
-    "_id": "68ba01eb7c15aa5a2dafd60b",
-    "title": "LG OLED Smart TV",
-    "shortDescription": "55-inch OLED TV with stunning visuals.",
+    "_id": "a0d0c700000000000000000a",
+    "title": "Samsung Galaxy S10 128GB",
+    "shortDescription": "Dynamic AMOLED Infinity-O display, triple rear camera and wireless PowerShare.",
     "keyFeatures": [
-      { "key": "Display", "values": ["55-inch OLED"] },
-      { "key": "Resolution", "values": ["4K"] }
+      {
+        "key": "Display",
+        "values": [
+          "6.1\" Dynamic AMOLED"
+        ]
+      },
+      {
+        "key": "Processor",
+        "values": [
+          "Exynos 9820"
+        ]
+      },
+      {
+        "key": "RAM",
+        "values": [
+          "8GB"
+        ]
+      },
+      {
+        "key": "Storage",
+        "values": [
+          "128GB"
+        ]
+      },
+      {
+        "key": "Battery",
+        "values": [
+          "3400mAh"
+        ]
+      }
     ],
-    "price": 150000,
+    "price": 52000,
     "discount": 12,
-    "discountPrice": 132000,
+    "discountPrice": 45760,
     "image": {
-      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020608/gadget-brust/categories/category_1757020619574.png",
-      "publicId": "gadget-brust/categories/category_1757020619574",
-      "assetId": "category_1757020619574"
+      "url": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/1.webp"
     },
-    "images": [
-      {
-        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020608/gadget-brust/categories/category_1757020619574.png",
-        "publicId": "gadget-brust/categories/category_1757020619574",
-        "assetId": "category_1757020619574"
-      }
-    ],
-    "stock": 10,
-    "star": 4.9,
-    "remark": "best",
-    "isSlider": true,
-    "category": "68ba01cc7c15aa5a2dafd572",
-    "subcategory": "Android Tablets",
-    "brand": "68b9f896c6f7057d9dfbf4a9",
-    "createdAt": "2025-09-05T05:48:00.000Z",
-    "updatedAt": "2025-09-05T05:48:00.000Z"
-  },
-  {
-    "_id": "68ba01ec7c15aa5a2dafd60c",
-    "title": "LG Soundbar 5.1",
-    "shortDescription": "Immersive 5.1 channel soundbar for home theater.",
-    "keyFeatures": [
-      { "key": "Channels", "values": ["5.1"] },
-      { "key": "Connectivity", "values": ["Bluetooth", "HDMI"] }
-    ],
-    "price": 35000,
-    "discount": 10,
-    "discountPrice": 31500,
-    "image": {
-      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020586/gadget-brust/categories/category_1757020596838.png",
-      "publicId": "gadget-brust/categories/category_1757020596838",
-      "assetId": "category_1757020596838"
-    },
-    "images": [
-      {
-        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020586/gadget-brust/categories/category_1757020596838.png",
-        "publicId": "gadget-brust/categories/category_1757020596838",
-        "assetId": "category_1757020596838"
-      }
-    ],
-    "stock": 25,
-    "star": 4.6,
-    "remark": "popular",
-    "isSlider": false,
-    "category": "68ba01b67c15aa5a2dafd570",
-    "subcategory": "Soundbars",
-    "brand": "68b9f896c6f7057d9dfbf4a9",
-    "createdAt": "2025-09-05T05:48:00.000Z",
-    "updatedAt": "2025-09-05T05:48:00.000Z"
-  },
-  {
-    "_id": "68ba01ed7c15aa5a2dafd60d",
-    "title": "LG Wireless Earbuds",
-    "shortDescription": "True wireless earbuds with noise cancellation.",
-    "keyFeatures": [
-      { "key": "Battery Life", "values": ["6 hours"] },
-      { "key": "Features", "values": ["ANC", "Bluetooth 5.0"] }
-    ],
-    "price": 12000,
-    "discount": 5,
-    "discountPrice": 11400,
-    "image": {
-      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020586/gadget-brust/categories/category_1757020596838.png",
-      "publicId": "gadget-brust/categories/category_1757020596838",
-      "assetId": "category_1757020596838"
-    },
-    "images": [
-      {
-        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020586/gadget-brust/categories/category_1757020596838.png",
-        "publicId": "gadget-brust/categories/category_1757020596838",
-        "assetId": "category_1757020596838"
-      }
-    ],
-    "stock": 50,
-    "star": 4.3,
-    "remark": "new",
-    "isSlider": true,
-    "category": "68ba01b67c15aa5a2dafd570",
-    "subcategory": "Earbuds",
-    "brand": "68b9f896c6f7057d9dfbf4a9",
-    "createdAt": "2025-09-05T05:48:00.000Z",
-    "updatedAt": "2025-09-05T05:48:00.000Z"
-  },
-  {
-    "_id": "68ba01ee7c15aa5a2dafd60e",
-    "title": "LG Portable Speaker",
-    "shortDescription": "Bluetooth speaker with rich sound quality.",
-    "keyFeatures": [
-      { "key": "Power", "values": ["20W"] },
-      { "key": "Battery Life", "values": ["12 hours"] }
-    ],
-    "price": 8000,
-    "discount": 0,
-    "discountPrice": 8000,
-    "image": {
-      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020586/gadget-brust/categories/category_1757020596838.png",
-      "publicId": "gadget-brust/categories/category_1757020596838",
-      "assetId": "category_1757020596838"
-    },
-    "images": [
-      {
-        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020586/gadget-brust/categories/category_1757020596838.png",
-        "publicId": "gadget-brust/categories/category_1757020596838",
-        "assetId": "category_1757020596838"
-      }
-    ],
-    "stock": 40,
-    "star": 4.2,
-    "remark": "regular",
-    "isSlider": false,
-    "category": "68ba01b67c15aa5a2dafd570",
-    "subcategory": "Speakers",
-    "brand": "68b9f896c6f7057d9dfbf4a9",
-    "createdAt": "2025-09-05T05:48:00.000Z",
-    "updatedAt": "2025-09-05T05:48:00.000Z"
-  },
-  {
-    "_id": "68ba01ef7c15aa5a2dafd60f",
-    "title": "LG DSLR Camera",
-    "shortDescription": "Professional DSLR with 24MP sensor.",
-    "keyFeatures": [
-      { "key": "Sensor", "values": ["24MP"] },
-      { "key": "Lens", "values": ["18-55mm"] }
-    ],
-    "price": 60000,
-    "discount": 10,
-    "discountPrice": 54000,
-    "image": {
-      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020408/gadget-brust/categories/category_1757020418681.png",
-      "publicId": "gadget-brust/categories/category_1757020418681",
-      "assetId": "category_1757020418681"
-    },
-    "images": [
-      {
-        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020408/gadget-brust/categories/category_1757020418681.png",
-        "publicId": "gadget-brust/categories/category_1757020418681",
-        "assetId": "category_1757020418681"
-      }
-    ],
-    "stock": 15,
-    "star": 4.5,
-    "remark": "top",
-    "isSlider": true,
-    "category": "68ba01047c15aa5a2dafd560",
-    "subcategory": "DSLR",
-    "brand": "68b9f896c6f7057d9dfbf4a9",
-    "createdAt": "2025-09-05T05:48:00.000Z",
-    "updatedAt": "2025-09-05T05:48:00.000Z"
-  },
-  {
-    "_id": "68ba01f07c15aa5a2dafd610",
-    "title": "Samsung Galaxy S25",
-    "shortDescription": "Flagship smartphone with advanced features.",
-    "keyFeatures": [
-      { "key": "Processor", "values": ["Snapdragon 8 Gen 4"] },
-      { "key": "Camera", "values": ["108MP"] }
-    ],
-    "price": 90000,
-    "discount": 5,
-    "discountPrice": 85500,
-    "image": {
-      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020509/gadget-brust/categories/category_1757020520176.png",
-      "publicId": "gadget-brust/categories/category_1757020520176",
-      "assetId": "category_1757020520176"
-    },
-    "images": [
-      {
-        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020509/gadget-brust/categories/category_1757020520176.png",
-        "publicId": "gadget-brust/categories/category_1757020520176",
-        "assetId": "category_1757020520176"
-      }
-    ],
-    "stock": 30,
-    "star": 4.8,
-    "remark": "popular",
-    "isSlider": true,
-    "category": "68ba01697c15aa5a2dafd56a",
-    "subcategory": "Smartphones",
-    "brand": "68b9f8abc6f7057d9dfbf4ab",
-    "createdAt": "2025-09-05T05:48:00.000Z",
-    "updatedAt": "2025-09-05T05:48:00.000Z"
-  },
-  {
-    "_id": "68ba01f17c15aa5a2dafd611",
-    "title": "Samsung Galaxy Tab S9",
-    "shortDescription": "High-performance Android tablet.",
-    "keyFeatures": [
-      { "key": "Display", "values": ["12.4-inch AMOLED"] },
-      { "key": "Processor", "values": ["Snapdragon 8 Gen 2"] }
-    ],
-    "price": 70000,
-    "discount": 8,
-    "discountPrice": 64400,
-    "image": {
-      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020608/gadget-brust/categories/category_1757020619574.png",
-      "publicId": "gadget-brust/categories/category_1757020619574",
-      "assetId": "category_1757020619574"
-    },
-    "images": [
-      {
-        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020608/gadget-brust/categories/category_1757020619574.png",
-        "publicId": "gadget-brust/categories/category_1757020619574",
-        "assetId": "category_1757020619574"
-      }
-    ],
-    "stock": 20,
-    "star": 4.7,
-    "remark": "trending",
-    "isSlider": true,
-    "category": "68ba01cc7c15aa5a2dafd572",
-    "subcategory": "Android Tablets",
-    "brand": "68b9f8abc6f7057d9dfbf4ab",
-    "createdAt": "2025-09-05T05:48:00.000Z",
-    "updatedAt": "2025-09-05T05:48:00.000Z"
-  },
-  {
-    "_id": "68ba01f27c15aa5a2dafd612",
-    "title": "Samsung Galaxy Watch 7",
-    "shortDescription": "Advanced smartwatch with fitness tracking.",
-    "keyFeatures": [
-      { "key": "Display", "values": ["1.5-inch AMOLED"] },
-      { "key": "Features", "values": ["Heart Rate", "SpO2"] }
-    ],
-    "price": 30000,
-    "discount": 10,
-    "discountPrice": 27000,
-    "image": {
-      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020571/gadget-brust/categories/category_1757020581362.png",
-      "publicId": "gadget-brust/categories/category_1757020581362",
-      "assetId": "category_1757020581362"
-    },
-    "images": [
-      {
-        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020571/gadget-brust/categories/category_1757020581362.png",
-        "publicId": "gadget-brust/categories/category_1757020581362",
-        "assetId": "category_1757020581362"
-      }
-    ],
-    "stock": 35,
-    "star": 4.5,
-    "remark": "new",
-    "isSlider": false,
-    "category": "68ba01a77c15aa5a2dafd56e",
-    "subcategory": "Fitness Trackers",
-    "brand": "68b9f8abc6f7057d9dfbf4ab",
-    "createdAt": "2025-09-05T05:48:00.000Z",
-    "updatedAt": "2025-09-05T05:48:00.000Z"
-  },
-  {
-    "_id": "68ba01f37c15aa5a2dafd613",
-    "title": "Samsung Rugged Phone",
-    "shortDescription": "Durable phone for extreme conditions.",
-    "keyFeatures": [
-      { "key": "Durability", "values": ["IP68", "MIL-STD-810G"] },
-      { "key": "Battery", "values": ["5000mAh"] }
-    ],
-    "price": 50000,
-    "discount": 5,
-    "discountPrice": 47500,
-    "image": {
-      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020509/gadget-brust/categories/category_1757020520176.png",
-      "publicId": "gadget-brust/categories/category_1757020520176",
-      "assetId": "category_1757020520176"
-    },
-    "images": [
-      {
-        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020509/gadget-brust/categories/category_1757020520176.png",
-        "publicId": "gadget-brust/categories/category_1757020520176",
-        "assetId": "category_1757020520176"
-      }
-    ],
-    "stock": 25,
-    "star": 4.3,
-    "remark": "regular",
-    "isSlider": false,
-    "category": "68ba01697c15aa5a2dafd56a",
-    "subcategory": "Rugged Phones",
-    "brand": "68b9f8abc6f7057d9dfbf4ab",
-    "createdAt": "2025-09-05T05:48:00.000Z",
-    "updatedAt": "2025-09-05T05:48:00.000Z"
-  },
-  {
-    "_id": "68ba01f47c15aa5a2dafd614",
-    "title": "Samsung Galaxy Buds Pro",
-    "shortDescription": "Premium wireless earbuds with ANC.",
-    "keyFeatures": [
-      { "key": "Battery Life", "values": ["8 hours"] },
-      { "key": "Features", "values": ["ANC", "IPX7"] }
-    ],
-    "price": 15000,
-    "discount": 10,
-    "discountPrice": 13500,
-    "image": {
-      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020586/gadget-brust/categories/category_1757020596838.png",
-      "publicId": "gadget-brust/categories/category_1757020596838",
-      "assetId": "category_1757020596838"
-    },
-    "images": [
-      {
-        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020586/gadget-brust/categories/category_1757020596838.png",
-        "publicId": "gadget-brust/categories/category_1757020596838",
-        "assetId": "category_1757020596838"
-      }
-    ],
-    "stock": 60,
-    "star": 4.6,
-    "remark": "popular",
-    "isSlider": true,
-    "category": "68ba01b67c15aa5a2dafd570",
-    "subcategory": "Earbuds",
-    "brand": "68b9f8abc6f7057d9dfbf4ab",
-    "createdAt": "2025-09-05T05:48:00.000Z",
-    "updatedAt": "2025-09-05T05:48:00.000Z"
-  },
-  {
-    "_id": "68ba01f57c15aa5a2dafd615",
-    "title": "HP Pavilion Gaming PC",
-    "shortDescription": "High-performance gaming PC with RGB lighting.",
-    "keyFeatures": [
-      { "key": "Processor", "values": ["AMD Ryzen 5"] },
-      { "key": "GPU", "values": ["NVIDIA GTX 1660"] }
-    ],
-    "price": 80000,
-    "discount": 7,
-    "discountPrice": 74400,
-    "image": {
-      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
-      "publicId": "gadget-brust/categories/category_1757020480446",
-      "assetId": "category_1757020480446"
-    },
-    "images": [
-      {
-        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
-        "publicId": "gadget-brust/categories/category_1757020480446",
-        "assetId": "category_1757020480446"
-      }
-    ],
-    "stock": 15,
+    "stock": 18,
     "star": 4.4,
-    "remark": "trending",
-    "isSlider": true,
-    "category": "68ba01427c15aa5a2dafd566",
-    "subcategory": "Gaming PCs",
-    "brand": "68b9f8b6c6f7057d9dfbf4ad",
-    "createdAt": "2025-09-05T05:48:00.000Z",
-    "updatedAt": "2025-09-05T05:48:00.000Z"
-  },
-  {
-    "_id": "68ba01f67c15aa5a2dafd616",
-    "title": "HP EliteBook",
-    "shortDescription": "Business laptop with robust security features.",
-    "keyFeatures": [
-      { "key": "Processor", "values": ["Intel i7"] },
-      { "key": "Security", "values": ["Fingerprint", "TPM"] }
-    ],
-    "price": 100000,
-    "discount": 5,
-    "discountPrice": 95000,
-    "image": {
-      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
-      "publicId": "gadget-brust/categories/category_1757020463690",
-      "assetId": "category_1757020463690"
-    },
-    "images": [
-      {
-        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
-        "publicId": "gadget-brust/categories/category_1757020463690",
-        "assetId": "category_1757020463690"
-      }
-    ],
-    "stock": 20,
-    "star": 4.5,
     "remark": "regular",
     "isSlider": false,
-    "category": "68ba015a7c15aa5a2dafd568",
-    "subcategory": "Business Laptops",
-    "brand": "68b9f8b6c6f7057d9dfbf4ad",
-    "createdAt": "2025-09-05T05:48:00.000Z",
-    "updatedAt": "2025-09-05T05:48:00.000Z"
+    "category": "c0a7e9000000000000000002",
+    "subcategory": "Android Phone",
+    "brand": "b0a2d9000000000000000002",
+    "createdAt": "2026-09-20T15:00:00.000Z",
+    "updatedAt": "2026-09-20T15:00:00.000Z"
   },
   {
-    "_id": "68ba01f77c15aa5a2dafd617",
-    "title": "HP All-in-One PC",
-    "shortDescription": "Sleek all-in-one PC for home use.",
+    "_id": "a0d0c700000000000000000b",
+    "title": "Samsung Galaxy S8 64GB",
+    "shortDescription": "Curved Infinity Display, IP68 water resistance and a dual-pixel 12MP camera.",
     "keyFeatures": [
-      { "key": "Display", "values": ["24-inch FHD"] },
-      { "key": "Processor", "values": ["Intel i5"] }
+      {
+        "key": "Display",
+        "values": [
+          "5.8\" Super AMOLED"
+        ]
+      },
+      {
+        "key": "RAM",
+        "values": [
+          "4GB"
+        ]
+      },
+      {
+        "key": "Storage",
+        "values": [
+          "64GB"
+        ]
+      },
+      {
+        "key": "Camera",
+        "values": [
+          "12MP Dual Pixel"
+        ]
+      },
+      {
+        "key": "Battery",
+        "values": [
+          "3000mAh"
+        ]
+      }
     ],
-    "price": 65000,
+    "price": 32000,
     "discount": 10,
-    "discountPrice": 58500,
+    "discountPrice": 28800,
     "image": {
-      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
-      "publicId": "gadget-brust/categories/category_1757020463690",
-      "assetId": "category_1757020463690"
+      "url": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/1.webp"
     },
-    "images": [
-      {
-        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
-        "publicId": "gadget-brust/categories/category_1757020463690",
-        "assetId": "category_1757020463690"
-      }
-    ],
-    "stock": 25,
-    "star": 4.3,
-    "remark": "new",
-    "isSlider": true,
-    "category": "68ba01317c15aa5a2dafd564",
-    "subcategory": "All-in-One",
-    "brand": "68b9f8b6c6f7057d9dfbf4ad",
-    "createdAt": "2025-09-05T05:48:00.000Z",
-    "updatedAt": "2025-09-05T05:48:00.000Z"
-  },
-  {
-    "_id": "68ba01f87c15aa5a2dafd618",
-    "title": "HP Gaming Controller",
-    "shortDescription": "Ergonomic controller for gaming consoles.",
-    "keyFeatures": [
-      { "key": "Connectivity", "values": ["Bluetooth", "USB"] },
-      { "key": "Compatibility", "values": ["PC", "Console"] }
-    ],
-    "price": 5000,
-    "discount": 0,
-    "discountPrice": 5000,
-    "image": {
-      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
-      "publicId": "gadget-brust/categories/category_1757020480446",
-      "assetId": "category_1757020480446"
-    },
-    "images": [
-      {
-        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
-        "publicId": "gadget-brust/categories/category_1757020480446",
-        "assetId": "category_1757020480446"
-      }
-    ],
-    "stock": 50,
+    "stock": 6,
     "star": 4.1,
     "remark": "regular",
     "isSlider": false,
-    "category": "68ba01427c15aa5a2dafd566",
-    "subcategory": "Controllers",
-    "brand": "68b9f8b6c6f7057d9dfbf4ad",
-    "createdAt": "2025-09-05T05:48:00.000Z",
-    "updatedAt": "2025-09-05T05:48:00.000Z"
+    "category": "c0a7e9000000000000000002",
+    "subcategory": "Android Phone",
+    "brand": "b0a2d9000000000000000002",
+    "createdAt": "2026-07-11T14:00:00.000Z",
+    "updatedAt": "2026-07-11T14:00:00.000Z"
   },
   {
-    "_id": "68ba01f97c15aa5a2dafd619",
-    "title": "HP Spectre x360",
-    "shortDescription": "Premium 2-in-1 laptop with OLED display.",
+    "_id": "a0d0c700000000000000000c",
+    "title": "Oppo F19 Pro+ 5G",
+    "shortDescription": "5G-ready phone with 50W Flash Charge, a 48MP quad camera and AI night portrait.",
     "keyFeatures": [
-      { "key": "Display", "values": ["13.3-inch OLED"] },
-      { "key": "Processor", "values": ["Intel i7"] }
-    ],
-    "price": 130000,
-    "discount": 10,
-    "discountPrice": 117000,
-    "image": {
-      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
-      "publicId": "gadget-brust/categories/category_1757020463690",
-      "assetId": "category_1757020463690"
-    },
-    "images": [
       {
-        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
-        "publicId": "gadget-brust/categories/category_1757020463690",
-        "assetId": "category_1757020463690"
+        "key": "Display",
+        "values": [
+          "6.43\" AMOLED"
+        ]
+      },
+      {
+        "key": "Processor",
+        "values": [
+          "Dimensity 800U"
+        ]
+      },
+      {
+        "key": "RAM",
+        "values": [
+          "8GB"
+        ]
+      },
+      {
+        "key": "Storage",
+        "values": [
+          "128GB"
+        ]
+      },
+      {
+        "key": "Charging",
+        "values": [
+          "50W Flash Charge"
+        ]
       }
     ],
-    "stock": 15,
-    "star": 4.8,
-    "remark": "best",
-    "isSlider": true,
-    "category": "68ba015a7c15aa5a2dafd568",
-    "subcategory": "2-in-1",
-    "brand": "68b9f8b6c6f7057d9dfbf4ad",
-    "createdAt": "2025-09-05T05:48:00.000Z",
-    "updatedAt": "2025-09-05T05:48:00.000Z"
-  },
-  {
-    "_id": "68ba01fa7c15aa5a2dafd61a",
-    "title": "Toshiba External HDD 2TB",
-    "shortDescription": "2TB external hard drive for storage.",
-    "keyFeatures": [
-      { "key": "Capacity", "values": ["2TB"] },
-      { "key": "Interface", "values": ["USB 3.0"] }
-    ],
-    "price": 6000,
+    "price": 36990,
     "discount": 5,
-    "discountPrice": 5700,
+    "discountPrice": 35141,
     "image": {
-      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020433/gadget-brust/categories/category_1757020444186.png",
-      "publicId": "gadget-brust/categories/category_1757020444186",
-      "assetId": "category_1757020444186"
+      "url": "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/1.webp"
     },
-    "images": [
-      {
-        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020433/gadget-brust/categories/category_1757020444186.png",
-        "publicId": "gadget-brust/categories/category_1757020444186",
-        "assetId": "category_1757020444186"
-      }
-    ],
-    "stock": 100,
-    "star": 4.2,
-    "remark": "regular",
+    "stock": 22,
+    "star": 4.3,
+    "remark": "trending",
     "isSlider": false,
-    "category": "68ba011e7c15aa5a2dafd562",
-    "subcategory": "Storage",
-    "brand": "68b9f8c5c6f7057d9dfbf4af",
-    "createdAt": "2025-09-05T05:48:00.000Z",
-    "updatedAt": "2025-09-05T05:48:00.000Z"
+    "category": "c0a7e9000000000000000002",
+    "subcategory": "Android Phone",
+    "brand": "b0a2d900000000000000000c",
+    "createdAt": "2026-06-08T09:00:00.000Z",
+    "updatedAt": "2026-06-08T09:00:00.000Z"
   },
   {
-    "_id": "68ba01fb7c15aa5a2dafd61b",
-    "title": "Toshiba Satellite Laptop",
-    "shortDescription": "Affordable laptop for everyday tasks.",
+    "_id": "a0d0c700000000000000000d",
+    "title": "Oppo A57 4GB/64GB",
+    "shortDescription": "Everyday phone with a 5000mAh battery, 33W SUPERVOOC charging and stereo speakers.",
     "keyFeatures": [
-      { "key": "Processor", "values": ["Intel i3"] },
-      { "key": "Display", "values": ["15.6-inch HD"] }
+      {
+        "key": "Display",
+        "values": [
+          "6.56\" HD+"
+        ]
+      },
+      {
+        "key": "Processor",
+        "values": [
+          "Helio G35"
+        ]
+      },
+      {
+        "key": "RAM",
+        "values": [
+          "4GB"
+        ]
+      },
+      {
+        "key": "Storage",
+        "values": [
+          "64GB"
+        ]
+      },
+      {
+        "key": "Battery",
+        "values": [
+          "5000mAh"
+        ]
+      }
     ],
-    "price": 40000,
+    "price": 17990,
     "discount": 0,
-    "discountPrice": 40000,
+    "discountPrice": 17990,
     "image": {
-      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
-      "publicId": "gadget-brust/categories/category_1757020463690",
-      "assetId": "category_1757020463690"
+      "url": "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/1.webp"
     },
-    "images": [
+    "stock": 40,
+    "star": 4,
+    "remark": "popular",
+    "isSlider": false,
+    "category": "c0a7e9000000000000000002",
+    "subcategory": "Budget Phone",
+    "brand": "b0a2d900000000000000000c",
+    "createdAt": "2026-07-11T07:00:00.000Z",
+    "updatedAt": "2026-07-11T07:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c700000000000000000e",
+    "title": "Oppo K1 6GB/64GB",
+    "shortDescription": "In-display fingerprint, waterdrop AMOLED screen and a 25MP AI selfie camera.",
+    "keyFeatures": [
       {
-        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
-        "publicId": "gadget-brust/categories/category_1757020463690",
-        "assetId": "category_1757020463690"
+        "key": "Display",
+        "values": [
+          "6.4\" AMOLED"
+        ]
+      },
+      {
+        "key": "Processor",
+        "values": [
+          "Snapdragon 660"
+        ]
+      },
+      {
+        "key": "RAM",
+        "values": [
+          "6GB"
+        ]
+      },
+      {
+        "key": "Storage",
+        "values": [
+          "64GB"
+        ]
+      },
+      {
+        "key": "Front Camera",
+        "values": [
+          "25MP"
+        ]
       }
     ],
-    "stock": 30,
-    "star": 4.0,
+    "price": 21500,
+    "discount": 10,
+    "discountPrice": 19350,
+    "image": {
+      "url": "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/1.webp"
+    },
+    "stock": 11,
+    "star": 4,
     "remark": "regular",
     "isSlider": false,
-    "category": "68ba015a7c15aa5a2dafd568",
-    "subcategory": "Business Laptops",
-    "brand": "68b9f8c5c6f7057d9dfbf4af",
-    "createdAt": "2025-09-05T05:48:00.000Z",
-    "updatedAt": "2025-09-05T05:48:00.000Z"
+    "category": "c0a7e9000000000000000002",
+    "subcategory": "Android Phone",
+    "brand": "b0a2d900000000000000000c",
+    "createdAt": "2026-05-17T23:00:00.000Z",
+    "updatedAt": "2026-05-17T23:00:00.000Z"
   },
   {
-    "_id": "68ba01fc7c15aa5a2dafd61c",
-    "title": "Toshiba Canvio SSD 1TB",
-    "shortDescription": "Portable 1TB SSD for fast data transfer.",
+    "_id": "a0d0c700000000000000000f",
+    "title": "Realme C35 4GB/128GB",
+    "shortDescription": "Budget champion with a 50MP AI triple camera, 6.6-inch FHD+ display and 5000mAh battery.",
     "keyFeatures": [
-      { "key": "Capacity", "values": ["1TB"] },
-      { "key": "Speed", "values": ["550MB/s"] }
-    ],
-    "price": 8000,
-    "discount": 10,
-    "discountPrice": 7200,
-    "image": {
-      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020433/gadget-brust/categories/category_1757020444186.png",
-      "publicId": "gadget-brust/categories/category_1757020444186",
-      "assetId": "category_1757020444186"
-    },
-    "images": [
       {
-        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020433/gadget-brust/categories/category_1757020444186.png",
-        "publicId": "gadget-brust/categories/category_1757020444186",
-        "assetId": "category_1757020444186"
+        "key": "Display",
+        "values": [
+          "6.6\" FHD+"
+        ]
+      },
+      {
+        "key": "Processor",
+        "values": [
+          "Unisoc T616"
+        ]
+      },
+      {
+        "key": "RAM",
+        "values": [
+          "4GB"
+        ]
+      },
+      {
+        "key": "Storage",
+        "values": [
+          "128GB"
+        ]
+      },
+      {
+        "key": "Battery",
+        "values": [
+          "5000mAh"
+        ]
       }
     ],
-    "stock": 50,
-    "star": 4.4,
-    "remark": "popular",
-    "isSlider": true,
-    "category": "68ba011e7c15aa5a2dafd562",
-    "subcategory": "Storage",
-    "brand": "68b9f8c5c6f7057d9dfbf4af",
-    "createdAt": "2025-09-05T05:48:00.000Z",
-    "updatedAt": "2025-09-05T05:48:00.000Z"
+    "price": 16990,
+    "discount": 6,
+    "discountPrice": 15971,
+    "image": {
+      "url": "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/1.webp"
+    },
+    "stock": 35,
+    "star": 4.1,
+    "remark": "best",
+    "isSlider": false,
+    "category": "c0a7e9000000000000000002",
+    "subcategory": "Budget Phone",
+    "brand": "b0a2d900000000000000000e",
+    "createdAt": "2026-07-22T00:00:00.000Z",
+    "updatedAt": "2026-07-22T00:00:00.000Z"
   },
   {
-    "_id": "68ba01fd7c15aa5a2dafd61d",
-    "title": "Toshiba Desktop PC",
-    "shortDescription": "Reliable desktop for office productivity.",
+    "_id": "a0d0c7000000000000000010",
+    "title": "Realme X 8GB/128GB",
+    "shortDescription": "Notch-free AMOLED display with a pop-up selfie camera and 48MP Sony main sensor.",
     "keyFeatures": [
-      { "key": "Processor", "values": ["Intel i5"] },
-      { "key": "RAM", "values": ["8GB"] }
-    ],
-    "price": 50000,
-    "discount": 5,
-    "discountPrice": 47500,
-    "image": {
-      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
-      "publicId": "gadget-brust/categories/category_1757020463690",
-      "assetId": "category_1757020463690"
-    },
-    "images": [
       {
-        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
-        "publicId": "gadget-brust/categories/category_1757020463690",
-        "assetId": "category_1757020463690"
+        "key": "Display",
+        "values": [
+          "6.53\" AMOLED"
+        ]
+      },
+      {
+        "key": "Processor",
+        "values": [
+          "Snapdragon 710"
+        ]
+      },
+      {
+        "key": "RAM",
+        "values": [
+          "8GB"
+        ]
+      },
+      {
+        "key": "Storage",
+        "values": [
+          "128GB"
+        ]
+      },
+      {
+        "key": "Camera",
+        "values": [
+          "48MP + 5MP"
+        ]
       }
     ],
-    "stock": 20,
+    "price": 26990,
+    "discount": 8,
+    "discountPrice": 24831,
+    "image": {
+      "url": "https://cdn.dummyjson.com/product-images/smartphones/realme-x/1.webp"
+    },
+    "stock": 9,
     "star": 4.2,
     "remark": "regular",
     "isSlider": false,
-    "category": "68ba01317c15aa5a2dafd564",
-    "subcategory": "Desktop",
-    "brand": "68b9f8c5c6f7057d9dfbf4af",
-    "createdAt": "2025-09-05T05:48:00.000Z",
-    "updatedAt": "2025-09-05T05:48:00.000Z"
+    "category": "c0a7e9000000000000000002",
+    "subcategory": "Android Phone",
+    "brand": "b0a2d900000000000000000e",
+    "createdAt": "2026-08-31T10:00:00.000Z",
+    "updatedAt": "2026-08-31T10:00:00.000Z"
   },
   {
-    "_id": "68ba01fe7c15aa5a2dafd61e",
-    "title": "Toshiba Point and Shoot Camera",
-    "shortDescription": "Compact camera for everyday photography.",
+    "_id": "a0d0c7000000000000000011",
+    "title": "Realme XT 8GB/128GB",
+    "shortDescription": "64MP quad-camera phone with Super AMOLED display and VOOC 3.0 fast charging.",
     "keyFeatures": [
-      { "key": "Sensor", "values": ["20MP"] },
-      { "key": "Zoom", "values": ["10x Optical"] }
-    ],
-    "price": 25000,
-    "discount": 8,
-    "discountPrice": 23000,
-    "image": {
-      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020408/gadget-brust/categories/category_1757020418681.png",
-      "publicId": "gadget-brust/categories/category_1757020418681",
-      "assetId": "category_1757020418681"
-    },
-    "images": [
       {
-        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020408/gadget-brust/categories/category_1757020418681.png",
-        "publicId": "gadget-brust/categories/category_1757020418681",
-        "assetId": "category_1757020418681"
+        "key": "Display",
+        "values": [
+          "6.4\" Super AMOLED"
+        ]
+      },
+      {
+        "key": "Processor",
+        "values": [
+          "Snapdragon 712"
+        ]
+      },
+      {
+        "key": "RAM",
+        "values": [
+          "8GB"
+        ]
+      },
+      {
+        "key": "Storage",
+        "values": [
+          "128GB"
+        ]
+      },
+      {
+        "key": "Camera",
+        "values": [
+          "64MP Quad"
+        ]
       }
     ],
-    "stock": 30,
-    "star": 4.0,
+    "price": 24990,
+    "discount": 0,
+    "discountPrice": 24990,
+    "image": {
+      "url": "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/1.webp"
+    },
+    "stock": 13,
+    "star": 4.2,
+    "remark": "regular",
+    "isSlider": false,
+    "category": "c0a7e9000000000000000002",
+    "subcategory": "Android Phone",
+    "brand": "b0a2d900000000000000000e",
+    "createdAt": "2026-10-04T11:00:00.000Z",
+    "updatedAt": "2026-10-04T11:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c7000000000000000012",
+    "title": "Vivo X21 6GB/128GB",
+    "shortDescription": "Super AMOLED display with an in-display fingerprint sensor and dual-pixel camera.",
+    "keyFeatures": [
+      {
+        "key": "Display",
+        "values": [
+          "6.28\" Super AMOLED"
+        ]
+      },
+      {
+        "key": "Processor",
+        "values": [
+          "Snapdragon 660"
+        ]
+      },
+      {
+        "key": "RAM",
+        "values": [
+          "6GB"
+        ]
+      },
+      {
+        "key": "Storage",
+        "values": [
+          "128GB"
+        ]
+      },
+      {
+        "key": "Security",
+        "values": [
+          "In-display fingerprint"
+        ]
+      }
+    ],
+    "price": 29990,
+    "discount": 10,
+    "discountPrice": 26991,
+    "image": {
+      "url": "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/1.webp"
+    },
+    "stock": 8,
+    "star": 4.1,
+    "remark": "regular",
+    "isSlider": false,
+    "category": "c0a7e9000000000000000002",
+    "subcategory": "Android Phone",
+    "brand": "b0a2d900000000000000000d",
+    "createdAt": "2026-05-09T16:00:00.000Z",
+    "updatedAt": "2026-05-09T16:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c7000000000000000013",
+    "title": "Vivo V9 4GB/64GB",
+    "shortDescription": "FullView display with a 24MP AI selfie camera and face unlock.",
+    "keyFeatures": [
+      {
+        "key": "Display",
+        "values": [
+          "6.3\" FHD+"
+        ]
+      },
+      {
+        "key": "Processor",
+        "values": [
+          "Snapdragon 626"
+        ]
+      },
+      {
+        "key": "RAM",
+        "values": [
+          "4GB"
+        ]
+      },
+      {
+        "key": "Storage",
+        "values": [
+          "64GB"
+        ]
+      },
+      {
+        "key": "Front Camera",
+        "values": [
+          "24MP"
+        ]
+      }
+    ],
+    "price": 19990,
+    "discount": 5,
+    "discountPrice": 18991,
+    "image": {
+      "url": "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/1.webp"
+    },
+    "stock": 3,
+    "star": 3.9,
+    "remark": "regular",
+    "isSlider": false,
+    "category": "c0a7e9000000000000000002",
+    "subcategory": "Budget Phone",
+    "brand": "b0a2d900000000000000000d",
+    "createdAt": "2026-07-05T16:00:00.000Z",
+    "updatedAt": "2026-07-05T16:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c7000000000000000014",
+    "title": "Vivo S1 6GB/128GB",
+    "shortDescription": "Slim design with a 32MP pop-up selfie camera and 4500mAh battery.",
+    "keyFeatures": [
+      {
+        "key": "Display",
+        "values": [
+          "6.38\" Super AMOLED"
+        ]
+      },
+      {
+        "key": "Processor",
+        "values": [
+          "Helio P65"
+        ]
+      },
+      {
+        "key": "RAM",
+        "values": [
+          "6GB"
+        ]
+      },
+      {
+        "key": "Storage",
+        "values": [
+          "128GB"
+        ]
+      },
+      {
+        "key": "Battery",
+        "values": [
+          "4500mAh"
+        ]
+      }
+    ],
+    "price": 23990,
+    "discount": 0,
+    "discountPrice": 23990,
+    "image": {
+      "url": "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/1.webp"
+    },
+    "stock": 20,
+    "star": 4,
     "remark": "new",
     "isSlider": false,
-    "category": "68ba01047c15aa5a2dafd560",
-    "subcategory": "Point and Shoot",
-    "brand": "68b9f8c5c6f7057d9dfbf4af",
-    "createdAt": "2025-09-05T05:48:00.000Z",
-    "updatedAt": "2025-09-05T05:48:00.000Z"
+    "category": "c0a7e9000000000000000002",
+    "subcategory": "Android Phone",
+    "brand": "b0a2d900000000000000000d",
+    "createdAt": "2026-10-16T02:00:00.000Z",
+    "updatedAt": "2026-10-16T02:00:00.000Z"
   },
   {
-    "_id": "68ba01ff7c15aa5a2dafd61f",
-    "title": "MSI Gaming Laptop Katana",
-    "shortDescription": "High-performance gaming laptop with RTX 3070.",
+    "_id": "a0d0c7000000000000000015",
+    "title": "iPad mini (6th Gen) Starlight",
+    "shortDescription": "8.3-inch Liquid Retina display, A15 Bionic chip and Apple Pencil (2nd gen) support.",
     "keyFeatures": [
-      { "key": "GPU", "values": ["NVIDIA RTX 3070"] },
-      { "key": "Display", "values": ["15.6-inch 165Hz"] }
-    ],
-    "price": 160000,
-    "discount": 10,
-    "discountPrice": 144000,
-    "image": {
-      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
-      "publicId": "gadget-brust/categories/category_1757020463690",
-      "assetId": "category_1757020463690"
-    },
-    "images": [
       {
-        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
-        "publicId": "gadget-brust/categories/category_1757020463690",
-        "assetId": "category_1757020463690"
+        "key": "Display",
+        "values": [
+          "8.3\" Liquid Retina"
+        ]
+      },
+      {
+        "key": "Chip",
+        "values": [
+          "A15 Bionic"
+        ]
+      },
+      {
+        "key": "Storage",
+        "values": [
+          "64GB"
+        ]
+      },
+      {
+        "key": "Connectivity",
+        "values": [
+          "Wi-Fi 6, USB-C"
+        ]
+      },
+      {
+        "key": "Pencil",
+        "values": [
+          "Apple Pencil 2 support"
+        ]
       }
     ],
+    "price": 69000,
+    "discount": 6,
+    "discountPrice": 64860,
+    "image": {
+      "url": "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/1.webp"
+    },
     "stock": 10,
-    "star": 4.9,
-    "remark": "trending",
-    "isSlider": true,
-    "category": "68ba015a7c15aa5a2dafd568",
-    "subcategory": "Gaming Laptops",
-    "brand": "68b9f8cec6f7057d9dfbf4b1",
-    "createdAt": "2025-09-05T05:48:00.000Z",
-    "updatedAt": "2025-09-05T05:48:00.000Z"
-  },
-  {
-    "_id": "68ba02007c15aa5a2dafd620",
-    "title": "MSI RTX 3080 GPU",
-    "shortDescription": "High-end graphics card for gaming and rendering.",
-    "keyFeatures": [
-      { "key": "Memory", "values": ["10GB GDDR6X"] },
-      { "key": "Performance", "values": ["4K Gaming"] }
-    ],
-    "price": 90000,
-    "discount": 5,
-    "discountPrice": 85500,
-    "image": {
-      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020433/gadget-brust/categories/category_1757020444186.png",
-      "publicId": "gadget-brust/categories/category_1757020444186",
-      "assetId": "category_1757020444186"
-    },
-    "images": [
-      {
-        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020433/gadget-brust/categories/category_1757020444186.png",
-        "publicId": "gadget-brust/categories/category_1757020444186",
-        "assetId": "category_1757020444186"
-      }
-    ],
-    "stock": 15,
-    "star": 4.7,
+    "star": 4.8,
     "remark": "popular",
-    "isSlider": true,
-    "category": "68ba011e7c15aa5a2dafd562",
-    "subcategory": "GPU",
-    "brand": "68b9f8cec6f7057d9dfbf4b1",
-    "createdAt": "2025-09-05T05:48:00.000Z",
-    "updatedAt": "2025-09-05T05:48:00.000Z"
+    "isSlider": false,
+    "category": "c0a7e9000000000000000003",
+    "subcategory": "iPad",
+    "brand": "b0a2d9000000000000000001",
+    "createdAt": "2026-08-07T04:00:00.000Z",
+    "updatedAt": "2026-08-07T04:00:00.000Z"
   },
   {
-    "_id": "68ba02017c15aa5a2dafd621",
-    "title": "MSI Gaming Monitor 27-inch",
-    "shortDescription": "27-inch 144Hz gaming monitor.",
+    "_id": "a0d0c7000000000000000016",
+    "title": "Samsung Galaxy Tab S8+ Graphite",
+    "shortDescription": "12.4-inch Super AMOLED tablet with S Pen included and Snapdragon 8 Gen 1 power.",
     "keyFeatures": [
-      { "key": "Resolution", "values": ["2560x1440"] },
-      { "key": "Refresh Rate", "values": ["144Hz"] }
-    ],
-    "price": 35000,
-    "discount": 8,
-    "discountPrice": 32200,
-    "image": {
-      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
-      "publicId": "gadget-brust/categories/category_1757020480446",
-      "assetId": "category_1757020480446"
-    },
-    "images": [
       {
-        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
-        "publicId": "gadget-brust/categories/category_1757020480446",
-        "assetId": "category_1757020480446"
+        "key": "Display",
+        "values": [
+          "12.4\" Super AMOLED 120Hz"
+        ]
+      },
+      {
+        "key": "Processor",
+        "values": [
+          "Snapdragon 8 Gen 1"
+        ]
+      },
+      {
+        "key": "RAM",
+        "values": [
+          "8GB"
+        ]
+      },
+      {
+        "key": "Storage",
+        "values": [
+          "128GB"
+        ]
+      },
+      {
+        "key": "S Pen",
+        "values": [
+          "Included"
+        ]
       }
     ],
-    "stock": 20,
+    "price": 98000,
+    "discount": 10,
+    "discountPrice": 88200,
+    "image": {
+      "url": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/1.webp"
+    },
+    "stock": 8,
+    "star": 4.7,
+    "remark": "top",
+    "isSlider": true,
+    "category": "c0a7e9000000000000000003",
+    "subcategory": "Android Tablet",
+    "brand": "b0a2d9000000000000000002",
+    "createdAt": "2026-08-10T19:00:00.000Z",
+    "updatedAt": "2026-08-10T19:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c7000000000000000017",
+    "title": "Samsung Galaxy Tab A8 White",
+    "shortDescription": "Family-friendly 10.5-inch tablet with quad speakers and Dolby Atmos.",
+    "keyFeatures": [
+      {
+        "key": "Display",
+        "values": [
+          "10.5\" WUXGA"
+        ]
+      },
+      {
+        "key": "RAM",
+        "values": [
+          "4GB"
+        ]
+      },
+      {
+        "key": "Storage",
+        "values": [
+          "64GB"
+        ]
+      },
+      {
+        "key": "Audio",
+        "values": [
+          "Quad speakers, Dolby Atmos"
+        ]
+      },
+      {
+        "key": "Battery",
+        "values": [
+          "7040mAh"
+        ]
+      }
+    ],
+    "price": 28500,
+    "discount": 5,
+    "discountPrice": 27075,
+    "image": {
+      "url": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/1.webp"
+    },
+    "stock": 25,
+    "star": 4.3,
+    "remark": "best",
+    "isSlider": false,
+    "category": "c0a7e9000000000000000003",
+    "subcategory": "Android Tablet",
+    "brand": "b0a2d9000000000000000002",
+    "createdAt": "2026-08-09T09:00:00.000Z",
+    "updatedAt": "2026-08-09T09:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c7000000000000000018",
+    "title": "Apple Watch Series 9 Gold",
+    "shortDescription": "Always-on Retina display, ECG, blood oxygen sensing and the new double-tap gesture.",
+    "keyFeatures": [
+      {
+        "key": "Case",
+        "values": [
+          "45mm Aluminium"
+        ]
+      },
+      {
+        "key": "Display",
+        "values": [
+          "Always-On Retina"
+        ]
+      },
+      {
+        "key": "Health",
+        "values": [
+          "ECG",
+          "SpO2",
+          "Heart Rate"
+        ]
+      },
+      {
+        "key": "Water Resistance",
+        "values": [
+          "50m"
+        ]
+      }
+    ],
+    "price": 52000,
+    "discount": 5,
+    "discountPrice": 49400,
+    "image": {
+      "url": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-watch-series-4-gold/1.webp"
+    },
+    "stock": 14,
+    "star": 4.7,
+    "remark": "trending",
+    "isSlider": false,
+    "category": "c0a7e9000000000000000004",
+    "subcategory": "Smart Watch",
+    "brand": "b0a2d9000000000000000001",
+    "createdAt": "2026-07-13T07:00:00.000Z",
+    "updatedAt": "2026-07-13T07:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c7000000000000000019",
+    "title": "Samsung Galaxy Watch6 Classic",
+    "shortDescription": "Rotating bezel, sapphire crystal glass and advanced sleep and body composition tracking.",
+    "keyFeatures": [
+      {
+        "key": "Case",
+        "values": [
+          "47mm Stainless Steel"
+        ]
+      },
+      {
+        "key": "Display",
+        "values": [
+          "1.5\" Super AMOLED"
+        ]
+      },
+      {
+        "key": "Health",
+        "values": [
+          "BIA",
+          "ECG",
+          "Sleep coaching"
+        ]
+      },
+      {
+        "key": "Battery",
+        "values": [
+          "Up to 40 hours"
+        ]
+      }
+    ],
+    "price": 38000,
+    "discount": 12,
+    "discountPrice": 33440,
+    "image": {
+      "url": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=Galaxy+Watch6"
+    },
+    "stock": 11,
     "star": 4.5,
     "remark": "new",
     "isSlider": false,
-    "category": "68ba01427c15aa5a2dafd566",
-    "subcategory": "Accessories",
-    "brand": "68b9f8cec6f7057d9dfbf4b1",
-    "createdAt": "2025-09-05T05:48:00.000Z",
-    "updatedAt": "2025-09-05T05:48:00.000Z"
+    "category": "c0a7e9000000000000000004",
+    "subcategory": "Smart Watch",
+    "brand": "b0a2d9000000000000000002",
+    "createdAt": "2026-10-18T03:00:00.000Z",
+    "updatedAt": "2026-10-18T03:00:00.000Z"
   },
   {
-    "_id": "68ba02027c15aa5a2dafd622",
-    "title": "MSI Motherboard Z690",
-    "shortDescription": "High-performance motherboard for Intel CPUs.",
+    "_id": "a0d0c700000000000000001a",
+    "title": "Xiaomi Smart Band 8",
+    "shortDescription": "1.62-inch AMOLED fitness band with 150+ sports modes and up to 16 days of battery.",
     "keyFeatures": [
-      { "key": "Chipset", "values": ["Z690"] },
-      { "key": "Socket", "values": ["LGA 1700"] }
+      {
+        "key": "Display",
+        "values": [
+          "1.62\" AMOLED"
+        ]
+      },
+      {
+        "key": "Battery",
+        "values": [
+          "Up to 16 days"
+        ]
+      },
+      {
+        "key": "Sensors",
+        "values": [
+          "Heart Rate",
+          "SpO2"
+        ]
+      },
+      {
+        "key": "Water Resistance",
+        "values": [
+          "5ATM"
+        ]
+      }
     ],
-    "price": 25000,
+    "price": 4290,
     "discount": 0,
-    "discountPrice": 25000,
+    "discountPrice": 4290,
     "image": {
-      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020433/gadget-brust/categories/category_1757020444186.png",
-      "publicId": "gadget-brust/categories/category_1757020444186",
-      "assetId": "category_1757020444186"
+      "url": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=Xiaomi+Smart+Band+8"
     },
-    "images": [
-      {
-        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020433/gadget-brust/categories/category_1757020444186.png",
-        "publicId": "gadget-brust/categories/category_1757020444186",
-        "assetId": "category_1757020444186"
-      }
-    ],
-    "stock": 30,
-    "star": 4.3,
-    "remark": "regular",
-    "isSlider": false,
-    "category": "68ba011e7c15aa5a2dafd562",
-    "subcategory": "Motherboard",
-    "brand": "68b9f8cec6f7057d9dfbf4b1",
-    "createdAt": "2025-09-05T05:48:00.000Z",
-    "updatedAt": "2025-09-05T05:48:00.000Z"
-  },
-  {
-    "_id": "68ba02037c15aa5a2dafd623",
-    "title": "MSI Gaming Console",
-    "shortDescription": "Next-gen gaming console with powerful performance.",
-    "keyFeatures": [
-      { "key": "Storage", "values": ["1TB SSD"] },
-      { "key": "Performance", "values": ["4K 120fps"] }
-    ],
-    "price": 60000,
-    "discount": 10,
-    "discountPrice": 54000,
-    "image": {
-      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
-      "publicId": "gadget-brust/categories/category_1757020480446",
-      "assetId": "category_1757020480446"
-    },
-    "images": [
-      {
-        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
-        "publicId": "gadget-brust/categories/category_1757020480446",
-        "assetId": "category_1757020480446"
-      }
-    ],
-    "stock": 10,
-    "star": 4.8,
+    "stock": 60,
+    "star": 4.4,
     "remark": "best",
-    "isSlider": true,
-    "category": "68ba01427c15aa5a2dafd566",
-    "subcategory": "Gaming Consoles",
-    "brand": "68b9f8cec6f7057d9dfbf4b1",
-    "createdAt": "2025-09-05T05:48:00.000Z",
-    "updatedAt": "2025-09-05T05:48:00.000Z"
+    "isSlider": false,
+    "category": "c0a7e9000000000000000004",
+    "subcategory": "Fitness Band",
+    "brand": "b0a2d9000000000000000009",
+    "createdAt": "2026-09-06T09:00:00.000Z",
+    "updatedAt": "2026-09-06T09:00:00.000Z"
   },
   {
-    "_id": "68ba02047c15aa5a2dafd624",
-    "title": "Gigabyte AORUS GPU",
-    "shortDescription": "High-end GPU for gaming and productivity.",
+    "_id": "a0d0c700000000000000001b",
+    "title": "Huawei Watch GT 4",
+    "shortDescription": "Elegant octagonal design with two-week battery life and precise dual-band GPS.",
     "keyFeatures": [
-      { "key": "Memory", "values": ["12GB GDDR6"] },
-      { "key": "Cooling", "values": ["Triple Fan"] }
-    ],
-    "price": 95000,
-    "discount": 5,
-    "discountPrice": 90250,
-    "image": {
-      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020433/gadget-brust/categories/category_1757020444186.png",
-      "publicId": "gadget-brust/categories/category_1757020444186",
-      "assetId": "category_1757020444186"
-    },
-    "images": [
       {
-        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020433/gadget-brust/categories/category_1757020444186.png",
-        "publicId": "gadget-brust/categories/category_1757020444186",
-        "assetId": "category_1757020444186"
+        "key": "Case",
+        "values": [
+          "46mm"
+        ]
+      },
+      {
+        "key": "Display",
+        "values": [
+          "1.43\" AMOLED"
+        ]
+      },
+      {
+        "key": "Battery",
+        "values": [
+          "Up to 14 days"
+        ]
+      },
+      {
+        "key": "GPS",
+        "values": [
+          "Dual-band"
+        ]
       }
     ],
-    "stock": 15,
-    "star": 4.7,
-    "remark": "popular",
-    "isSlider": true,
-    "category": "68ba011e7c15aa5a2dafd562",
-    "subcategory": "GPU",
-    "brand": "68b9f8dcc6f7057d9dfbf4b3",
-    "createdAt": "2025-09-05T05:48:00.000Z",
-    "updatedAt": "2025-09-05T05:48:00.000Z"
-  },
-  {
-    "_id": "68ba02057c15aa5a2dafd625",
-    "title": "Gigabyte Motherboard B550",
-    "shortDescription": "Reliable motherboard for AMD Ryzen CPUs.",
-    "keyFeatures": [
-      { "key": "Chipset", "values": ["B550"] },
-      { "key": "Socket", "values": ["AM4"] }
-    ],
-    "price": 20000,
-    "discount": 0,
-    "discountPrice": 20000,
+    "price": 26500,
+    "discount": 8,
+    "discountPrice": 24380,
     "image": {
-      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020433/gadget-brust/categories/category_1757020444186.png",
-      "publicId": "gadget-brust/categories/category_1757020444186",
-      "assetId": "category_1757020444186"
+      "url": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=Huawei+Watch+GT+4"
     },
-    "images": [
-      {
-        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020433/gadget-brust/categories/category_1757020444186.png",
-        "publicId": "gadget-brust/categories/category_1757020444186",
-        "assetId": "category_1757020444186"
-      }
-    ],
-    "stock": 30,
+    "stock": 9,
     "star": 4.4,
     "remark": "regular",
     "isSlider": false,
-    "category": "68ba011e7c15aa5a2dafd562",
-    "subcategory": "Motherboard",
-    "brand": "68b9f8dcc6f7057d9dfbf4b3",
-    "createdAt": "2025-09-05T05:48:00.000Z",
-    "updatedAt": "2025-09-05T05:48:00.000Z"
+    "category": "c0a7e9000000000000000004",
+    "subcategory": "Smart Watch",
+    "brand": "b0a2d900000000000000000a",
+    "createdAt": "2026-04-27T21:00:00.000Z",
+    "updatedAt": "2026-04-27T21:00:00.000Z"
   },
   {
-    "_id": "68ba02067c15aa5a2dafd626",
-    "title": "Gigabyte Gaming Keyboard",
-    "shortDescription": "Mechanical keyboard for gaming.",
+    "_id": "a0d0c700000000000000001c",
+    "title": "Apple AirPods (3rd Gen)",
+    "shortDescription": "Spatial audio with dynamic head tracking, sweat resistance and MagSafe charging case.",
     "keyFeatures": [
-      { "key": "Switches", "values": ["Cherry MX Red"] },
-      { "key": "Lighting", "values": ["RGB"] }
-    ],
-    "price": 8000,
-    "discount": 10,
-    "discountPrice": 7200,
-    "image": {
-      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
-      "publicId": "gadget-brust/categories/category_1757020480446",
-      "assetId": "category_1757020480446"
-    },
-    "images": [
       {
-        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
-        "publicId": "gadget-brust/categories/category_1757020480446",
-        "assetId": "category_1757020480446"
+        "key": "Type",
+        "values": [
+          "True Wireless"
+        ]
+      },
+      {
+        "key": "Battery Life",
+        "values": [
+          "Up to 30 hours with case"
+        ]
+      },
+      {
+        "key": "Features",
+        "values": [
+          "Spatial Audio",
+          "IPX4"
+        ]
+      },
+      {
+        "key": "Chip",
+        "values": [
+          "Apple H1"
+        ]
       }
     ],
-    "stock": 50,
-    "star": 4.3,
-    "remark": "new",
-    "isSlider": false,
-    "category": "68ba01427c15aa5a2dafd566",
-    "subcategory": "Accessories",
-    "brand": "68b9f8dcc6f7057d9dfbf4b3",
-    "createdAt": "2025-09-05T05:48:00.000Z",
-    "updatedAt": "2025-09-05T05:48:00.000Z"
-  },
-  {
-    "_id": "68ba02077c15aa5a2dafd627",
-    "title": "Gigabyte Ryzen 7 CPU",
-    "shortDescription": "High-performance CPU for gaming and work.",
-    "keyFeatures": [
-      { "key": "Cores", "values": ["8"] },
-      { "key": "Clock Speed", "values": ["4.4GHz"] }
-    ],
-    "price": 35000,
-    "discount": 5,
-    "discountPrice": 33250,
+    "price": 24500,
+    "discount": 8,
+    "discountPrice": 22540,
     "image": {
-      "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020433/gadget-brust/categories/category_1757020444186.png",
-      "publicId": "gadget-brust/categories/category_1757020444186",
-      "assetId": "category_1757020444186"
+      "url": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/1.webp"
     },
-    "images": [
-      {
-        "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020433/gadget-brust/categories/category_1757020444186.png",
-        "publicId": "gadget-brust/categories/category_1757020444186",
-        "assetId": "category_1757020444186"
-      }
-    ],
-    "stock": 20,
+    "stock": 30,
     "star": 4.6,
     "remark": "popular",
-    "isSlider": true,
-    "category": "68ba011e7c15aa5a2dafd562",
-    "subcategory": "CPU",
-    "brand": "68b9f8dcc6f7057d9dfbf4b3",
-    "createdAt": "2025-09-05T05:48:00.000Z",
-    "updatedAt": "2025-09-05T05:48:00.000Z"
+    "isSlider": false,
+    "category": "c0a7e9000000000000000005",
+    "subcategory": "Earbuds",
+    "brand": "b0a2d9000000000000000001",
+    "createdAt": "2026-09-23T11:00:00.000Z",
+    "updatedAt": "2026-09-23T11:00:00.000Z"
   },
   {
-    "success": true,
-    "message": "Products generated successfully",
-    "data": [
+    "_id": "a0d0c700000000000000001d",
+    "title": "Apple AirPods Max Silver",
+    "shortDescription": "Over-ear headphones with Active Noise Cancellation, Transparency mode and computational audio.",
+    "keyFeatures": [
       {
-        "_id": "68ba02097c15aa5a2dafd629",
-        "title": "Asus ROG Strix Laptop",
-        "shortDescription": "High-performance gaming laptop with RTX 3080.",
-        "keyFeatures": [
-          { "key": "GPU", "values": ["NVIDIA RTX 3080"] },
-          { "key": "Display", "values": ["17.3-inch 240Hz"] }
-        ],
-        "price": 180000,
-        "discount": 10,
-        "discountPrice": 162000,
-        "image": {
-          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
-          "publicId": "gadget-brust/categories/category_1757020463690",
-          "assetId": "category_1757020463690"
-        },
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
-            "publicId": "gadget-brust/categories/category_1757020463690",
-            "assetId": "category_1757020463690"
-          }
-        ],
-        "stock": 10,
-        "star": 4.9,
-        "remark": "trending",
-        "isSlider": true,
-        "category": "68ba015a7c15aa5a2dafd568",
-        "subcategory": "Gaming Laptops",
-        "brand": "68b9f8e6c6f7057d9dfbf4b5",
-        "createdAt": "2025-09-05T05:53:00.000Z",
-        "updatedAt": "2025-09-05T05:53:00.000Z"
+        "key": "Type",
+        "values": [
+          "Over-ear"
+        ]
       },
       {
-        "_id": "68ba020a7c15aa5a2dafd62a",
-        "title": "Asus ZenBook Ultrabook",
-        "shortDescription": "Sleek ultrabook with OLED display.",
-        "keyFeatures": [
-          { "key": "Processor", "values": ["Intel i7"] },
-          { "key": "Display", "values": ["14-inch OLED"] }
-        ],
-        "price": 110000,
-        "discount": 8,
-        "discountPrice": 101200,
-        "image": {
-          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
-          "publicId": "gadget-brust/categories/category_1757020463690",
-          "assetId": "category_1757020463690"
-        },
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
-            "publicId": "gadget-brust/categories/category_1757020463690",
-            "assetId": "category_1757020463690"
-          }
-        ],
-        "stock": 20,
-        "star": 4.7,
-        "remark": "popular",
-        "isSlider": true,
-        "category": "68ba015a7c15aa5a2dafd568",
-        "subcategory": "Ultrabooks",
-        "brand": "68b9f8e6c6f7057d9dfbf4b5",
-        "createdAt": "2025-09-05T05:53:00.000Z",
-        "updatedAt": "2025-09-05T05:53:00.000Z"
+        "key": "ANC",
+        "values": [
+          "Active Noise Cancellation"
+        ]
       },
       {
-        "_id": "68ba020b7c15aa5a2dafd62b",
-        "title": "Asus TUF Gaming Monitor",
-        "shortDescription": "27-inch 165Hz gaming monitor.",
-        "keyFeatures": [
-          { "key": "Resolution", "values": ["2560x1440"] },
-          { "key": "Refresh Rate", "values": ["165Hz"] }
-        ],
-        "price": 40000,
-        "discount": 5,
-        "discountPrice": 38000,
-        "image": {
-          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
-          "publicId": "gadget-brust/categories/category_1757020480446",
-          "assetId": "category_1757020480446"
-        },
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
-            "publicId": "gadget-brust/categories/category_1757020480446",
-            "assetId": "category_1757020480446"
-          }
-        ],
-        "stock": 25,
-        "star": 4.5,
-        "remark": "new",
-        "isSlider": false,
-        "category": "68ba01427c15aa5a2dafd566",
-        "subcategory": "Accessories",
-        "brand": "68b9f8e6c6f7057d9dfbf4b5",
-        "createdAt": "2025-09-05T05:53:00.000Z",
-        "updatedAt": "2025-09-05T05:53:00.000Z"
+        "key": "Battery Life",
+        "values": [
+          "20 hours"
+        ]
       },
       {
-        "_id": "68ba020c7c15aa5a2dafd62c",
-        "title": "Asus ROG Phone 7",
-        "shortDescription": "Gaming smartphone with Snapdragon 8 Gen 2.",
-        "keyFeatures": [
-          { "key": "Processor", "values": ["Snapdragon 8 Gen 2"] },
-          { "key": "Display", "values": ["6.78-inch AMOLED"] }
-        ],
-        "price": 85000,
-        "discount": 7,
-        "discountPrice": 79050,
-        "image": {
-          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020509/gadget-brust/categories/category_1757020520176.png",
-          "publicId": "gadget-brust/categories/category_1757020520176",
-          "assetId": "category_1757020520176"
-        },
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020509/gadget-brust/categories/category_1757020520176.png",
-            "publicId": "gadget-brust/categories/category_1757020520176",
-            "assetId": "category_1757020520176"
-          }
-        ],
-        "stock": 15,
-        "star": 4.8,
-        "remark": "trending",
-        "isSlider": true,
-        "category": "68ba01697c15aa5a2dafd56a",
-        "subcategory": "Smartphones",
-        "brand": "68b9f8e6c6f7057d9dfbf4b5",
-        "createdAt": "2025-09-05T05:53:00.000Z",
-        "updatedAt": "2025-09-05T05:53:00.000Z"
-      },
-      {
-        "_id": "68ba020d7c15aa5a2dafd62d",
-        "title": "Asus VivoBook 2-in-1",
-        "shortDescription": "Versatile 2-in-1 laptop for productivity.",
-        "keyFeatures": [
-          { "key": "Processor", "values": ["Intel i5"] },
-          { "key": "Display", "values": ["15.6-inch Touch"] }
-        ],
-        "price": 75000,
-        "discount": 10,
-        "discountPrice": 67500,
-        "image": {
-          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
-          "publicId": "gadget-brust/categories/category_1757020463690",
-          "assetId": "category_1757020463690"
-        },
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
-            "publicId": "gadget-brust/categories/category_1757020463690",
-            "assetId": "category_1757020463690"
-          }
-        ],
-        "stock": 20,
-        "star": 4.4,
-        "remark": "regular",
-        "isSlider": false,
-        "category": "68ba015a7c15aa5a2dafd568",
-        "subcategory": "2-in-1",
-        "brand": "68b9f8e6c6f7057d9dfbf4b5",
-        "createdAt": "2025-09-05T05:53:00.000Z",
-        "updatedAt": "2025-09-05T05:53:00.000Z"
-      },
-      {
-        "_id": "68ba020e7c15aa5a2dafd62e",
-        "title": "BenQ 4K Projector",
-        "shortDescription": "4K projector for home theater experiences.",
-        "keyFeatures": [
-          { "key": "Resolution", "values": ["4K UHD"] },
-          { "key": "Brightness", "values": ["3000 Lumens"] }
-        ],
-        "price": 120000,
-        "discount": 5,
-        "discountPrice": 114000,
-        "image": {
-          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
-          "publicId": "gadget-brust/categories/category_1757020480446",
-          "assetId": "category_1757020480446"
-        },
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
-            "publicId": "gadget-brust/categories/category_1757020480446",
-            "assetId": "category_1757020480446"
-          }
-        ],
-        "stock": 10,
-        "star": 4.7,
-        "remark": "best",
-        "isSlider": true,
-        "category": "68ba01427c15aa5a2dafd566",
-        "subcategory": "Accessories",
-        "brand": "68b9f8f4c6f7057d9dfbf4b7",
-        "createdAt": "2025-09-05T05:53:00.000Z",
-        "updatedAt": "2025-09-05T05:53:00.000Z"
-      },
-      {
-        "_id": "68ba020f7c15aa5a2dafd62f",
-        "title": "BenQ Gaming Monitor 32-inch",
-        "shortDescription": "32-inch 144Hz gaming monitor.",
-        "keyFeatures": [
-          { "key": "Resolution", "values": ["2560x1440"] },
-          { "key": "Refresh Rate", "values": ["144Hz"] }
-        ],
-        "price": 45000,
-        "discount": 8,
-        "discountPrice": 41400,
-        "image": {
-          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
-          "publicId": "gadget-brust/categories/category_1757020480446",
-          "assetId": "category_1757020480446"
-        },
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
-            "publicId": "gadget-brust/categories/category_1757020480446",
-            "assetId": "category_1757020480446"
-          }
-        ],
-        "stock": 20,
-        "star": 4.6,
-        "remark": "popular",
-        "isSlider": true,
-        "category": "68ba01427c15aa5a2dafd566",
-        "subcategory": "Accessories",
-        "brand": "68b9f8f4c6f7057d9dfbf4b7",
-        "createdAt": "2025-09-05T05:53:00.000Z",
-        "updatedAt": "2025-09-05T05:53:00.000Z"
-      },
-      {
-        "_id": "68ba02107c15aa5a2dafd630",
-        "title": "BenQ Mirrorless Camera",
-        "shortDescription": "Compact mirrorless camera with 24MP sensor.",
-        "keyFeatures": [
-          { "key": "Sensor", "values": ["24MP"] },
-          { "key": "Lens Mount", "values": ["Z-mount"] }
-        ],
-        "price": 70000,
-        "discount": 10,
-        "discountPrice": 63000,
-        "image": {
-          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020408/gadget-brust/categories/category_1757020418681.png",
-          "publicId": "gadget-brust/categories/category_1757020418681",
-          "assetId": "category_1757020418681"
-        },
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020408/gadget-brust/categories/category_1757020418681.png",
-            "publicId": "gadget-brust/categories/category_1757020418681",
-            "assetId": "category_1757020418681"
-          }
-        ],
-        "stock": 15,
-        "star": 4.4,
-        "remark": "new",
-        "isSlider": false,
-        "category": "68ba01047c15aa5a2dafd560",
-        "subcategory": "Mirrorless",
-        "brand": "68b9f8f4c6f7057d9dfbf4b7",
-        "createdAt": "2025-09-05T05:53:00.000Z",
-        "updatedAt": "2025-09-05T05:53:00.000Z"
-      },
-      {
-        "_id": "68ba02117c15aa5a2dafd631",
-        "title": "BenQ Action Camera",
-        "shortDescription": "4K action camera for adventure enthusiasts.",
-        "keyFeatures": [
-          { "key": "Resolution", "values": ["4K"] },
-          { "key": "Waterproof", "values": ["Up to 40m"] }
-        ],
-        "price": 15000,
-        "discount": 5,
-        "discountPrice": 14250,
-        "image": {
-          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020408/gadget-brust/categories/category_1757020418681.png",
-          "publicId": "gadget-brust/categories/category_1757020418681",
-          "assetId": "category_1757020418681"
-        },
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020408/gadget-brust/categories/category_1757020418681.png",
-            "publicId": "gadget-brust/categories/category_1757020418681",
-            "assetId": "category_1757020418681"
-          }
-        ],
-        "stock": 25,
-        "star": 4.3,
-        "remark": "regular",
-        "isSlider": false,
-        "category": "68ba01047c15aa5a2dafd560",
-        "subcategory": "Action Cameras",
-        "brand": "68b9f8f4c6f7057d9dfbf4b7",
-        "createdAt": "2025-09-05T05:53:00.000Z",
-        "updatedAt": "2025-09-05T05:53:00.000Z"
-      },
-      {
-        "_id": "68ba02127c15aa5a2dafd632",
-        "title": "BenQ Portable Speaker",
-        "shortDescription": "Compact Bluetooth speaker with clear audio.",
-        "keyFeatures": [
-          { "key": "Power", "values": ["15W"] },
-          { "key": "Battery Life", "values": ["10 hours"] }
-        ],
-        "price": 6000,
-        "discount": 0,
-        "discountPrice": 6000,
-        "image": {
-          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020586/gadget-brust/categories/category_1757020596838.png",
-          "publicId": "gadget-brust/categories/category_1757020596838",
-          "assetId": "category_1757020596838"
-        },
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020586/gadget-brust/categories/category_1757020596838.png",
-            "publicId": "gadget-brust/categories/category_1757020596838",
-            "assetId": "category_1757020596838"
-          }
-        ],
-        "stock": 40,
-        "star": 4.2,
-        "remark": "regular",
-        "isSlider": false,
-        "category": "68ba01b67c15aa5a2dafd570",
-        "subcategory": "Speakers",
-        "brand": "68b9f8f4c6f7057d9dfbf4b7",
-        "createdAt": "2025-09-05T05:53:00.000Z",
-        "updatedAt": "2025-09-05T05:53:00.000Z"
-      },
-      {
-        "_id": "68ba02137c15aa5a2dafd633",
-        "title": "Lenovo ThinkPad X1",
-        "shortDescription": "Premium business laptop with robust features.",
-        "keyFeatures": [
-          { "key": "Processor", "values": ["Intel i7"] },
-          { "key": "Display", "values": ["14-inch 4K"] }
-        ],
-        "price": 130000,
-        "discount": 10,
-        "discountPrice": 117000,
-        "image": {
-          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
-          "publicId": "gadget-brust/categories/category_1757020463690",
-          "assetId": "category_1757020463690"
-        },
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
-            "publicId": "gadget-brust/categories/category_1757020463690",
-            "assetId": "category_1757020463690"
-          }
-        ],
-        "stock": 15,
-        "star": 4.8,
-        "remark": "best",
-        "isSlider": true,
-        "category": "68ba015a7c15aa5a2dafd568",
-        "subcategory": "Business Laptops",
-        "brand": "68b9f8fec6f7057d9dfbf4b9",
-        "createdAt": "2025-09-05T05:53:00.000Z",
-        "updatedAt": "2025-09-05T05:53:00.000Z"
-      },
-      {
-        "_id": "68ba02147c15aa5a2dafd634",
-        "title": "Lenovo IdeaPad Gaming",
-        "shortDescription": "Affordable gaming laptop with RTX 3050.",
-        "keyFeatures": [
-          { "key": "GPU", "values": ["NVIDIA RTX 3050"] },
-          { "key": "Display", "values": ["15.6-inch 120Hz"] }
-        ],
-        "price": 90000,
-        "discount": 7,
-        "discountPrice": 83700,
-        "image": {
-          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
-          "publicId": "gadget-brust/categories/category_1757020463690",
-          "assetId": "category_1757020463690"
-        },
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
-            "publicId": "gadget-brust/categories/category_1757020463690",
-            "assetId": "category_1757020463690"
-          }
-        ],
-        "stock": 20,
-        "star": 4.5,
-        "remark": "trending",
-        "isSlider": true,
-        "category": "68ba015a7c15aa5a2dafd568",
-        "subcategory": "Gaming Laptops",
-        "brand": "68b9f8fec6f7057d9dfbf4b9",
-        "createdAt": "2025-09-05T05:53:00.000Z",
-        "updatedAt": "2025-09-05T05:53:00.000Z"
-      },
-      {
-        "_id": "68ba02157c15aa5a2dafd635",
-        "title": "Lenovo Yoga 2-in-1",
-        "shortDescription": "Versatile 2-in-1 laptop with touch display.",
-        "keyFeatures": [
-          { "key": "Processor", "values": ["Intel i5"] },
-          { "key": "Display", "values": ["14-inch Touch"] }
-        ],
-        "price": 80000,
-        "discount": 5,
-        "discountPrice": 76000,
-        "image": {
-          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
-          "publicId": "gadget-brust/categories/category_1757020463690",
-          "assetId": "category_1757020463690"
-        },
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
-            "publicId": "gadget-brust/categories/category_1757020463690",
-            "assetId": "category_1757020463690"
-          }
-        ],
-        "stock": 25,
-        "star": 4.4,
-        "remark": "regular",
-        "isSlider": false,
-        "category": "68ba015a7c15aa5a2dafd568",
-        "subcategory": "2-in-1",
-        "brand": "68b9f8fec6f7057d9dfbf4b9",
-        "createdAt": "2025-09-05T05:53:00.000Z",
-        "updatedAt": "2025-09-05T05:53:00.000Z"
-      },
-      {
-        "_id": "68ba02167c15aa5a2dafd636",
-        "title": "Lenovo Legion Desktop",
-        "shortDescription": "Powerful gaming desktop with Ryzen 7.",
-        "keyFeatures": [
-          { "key": "Processor", "values": ["AMD Ryzen 7"] },
-          { "key": "GPU", "values": ["NVIDIA RTX 3060"] }
-        ],
-        "price": 100000,
-        "discount": 10,
-        "discountPrice": 90000,
-        "image": {
-          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
-          "publicId": "gadget-brust/categories/category_1757020463690",
-          "assetId": "category_1757020463690"
-        },
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
-            "publicId": "gadget-brust/categories/category_1757020463690",
-            "assetId": "category_1757020463690"
-          }
-        ],
-        "stock": 15,
-        "star": 4.7,
-        "remark": "popular",
-        "isSlider": true,
-        "category": "68ba01317c15aa5a2dafd564",
-        "subcategory": "Desktop",
-        "brand": "68b9f8fec6f7057d9dfbf4b9",
-        "createdAt": "2025-09-05T05:53:00.000Z",
-        "updatedAt": "2025-09-05T05:53:00.000Z"
-      },
-      {
-        "_id": "68ba02177c15aa5a2dafd637",
-        "title": "Lenovo IdeaCentre AIO",
-        "shortDescription": "All-in-one PC for home and office.",
-        "keyFeatures": [
-          { "key": "Display", "values": ["27-inch FHD"] },
-          { "key": "Processor", "values": ["Intel i5"] }
-        ],
-        "price": 70000,
-        "discount": 8,
-        "discountPrice": 64400,
-        "image": {
-          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
-          "publicId": "gadget-brust/categories/category_1757020463690",
-          "assetId": "category_1757020463690"
-        },
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020453/gadget-brust/categories/category_1757020463690.png",
-            "publicId": "gadget-brust/categories/category_1757020463690",
-            "assetId": "category_1757020463690"
-          }
-        ],
-        "stock": 20,
-        "star": 4.3,
-        "remark": "new",
-        "isSlider": false,
-        "category": "68ba01317c15aa5a2dafd564",
-        "subcategory": "All-in-One",
-        "brand": "68b9f8fec6f7057d9dfbf4b9",
-        "createdAt": "2025-09-05T05:53:00.000Z",
-        "updatedAt": "2025-09-05T05:53:00.000Z"
-      },
-      {
-        "_id": "68ba02187c15aa5a2dafd638",
-        "title": "Corsair Vengeance RAM 16GB",
-        "shortDescription": "High-speed 16GB DDR4 RAM for gaming.",
-        "keyFeatures": [
-          { "key": "Capacity", "values": ["16GB"] },
-          { "key": "Speed", "values": ["3200MHz"] }
-        ],
-        "price": 8000,
-        "discount": 5,
-        "discountPrice": 7600,
-        "image": {
-          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020433/gadget-brust/categories/category_1757020444186.png",
-          "publicId": "gadget-brust/categories/category_1757020444186",
-          "assetId": "category_1757020444186"
-        },
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020433/gadget-brust/categories/category_1757020444186.png",
-            "publicId": "gadget-brust/categories/category_1757020444186",
-            "assetId": "category_1757020444186"
-          }
-        ],
-        "stock": 50,
-        "star": 4.6,
-        "remark": "popular",
-        "isSlider": true,
-        "category": "68ba011e7c15aa5a2dafd562",
-        "subcategory": "RAM",
-        "brand": "68b9f90fc6f7057d9dfbf4bb",
-        "createdAt": "2025-09-05T05:53:00.000Z",
-        "updatedAt": "2025-09-05T05:53:00.000Z"
-      },
-      {
-        "_id": "68ba02197c15aa5a2dafd639",
-        "title": "Corsair K95 Keyboard",
-        "shortDescription": "Mechanical RGB keyboard for gaming.",
-        "keyFeatures": [
-          { "key": "Switches", "values": ["Cherry MX Speed"] },
-          { "key": "Lighting", "values": ["RGB"] }
-        ],
-        "price": 12000,
-        "discount": 10,
-        "discountPrice": 10800,
-        "image": {
-          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
-          "publicId": "gadget-brust/categories/category_1757020480446",
-          "assetId": "category_1757020480446"
-        },
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
-            "publicId": "gadget-brust/categories/category_1757020480446",
-            "assetId": "category_1757020480446"
-          }
-        ],
-        "stock": 30,
-        "star": 4.7,
-        "remark": "trending",
-        "isSlider": true,
-        "category": "68ba01427c15aa5a2dafd566",
-        "subcategory": "Accessories",
-        "brand": "68b9f90fc6f7057d9dfbf4bb",
-        "createdAt": "2025-09-05T05:53:00.000Z",
-        "updatedAt": "2025-09-05T05:53:00.000Z"
-      },
-      {
-        "_id": "68ba021a7c15aa5a2dafd63a",
-        "title": "Corsair Dark Core Mouse",
-        "shortDescription": "Wireless gaming mouse with high precision.",
-        "keyFeatures": [
-          { "key": "DPI", "values": ["18000"] },
-          { "key": "Connectivity", "values": ["Wireless", "USB"] }
-        ],
-        "price": 6000,
-        "discount": 0,
-        "discountPrice": 6000,
-        "image": {
-          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
-          "publicId": "gadget-brust/categories/category_1757020480446",
-          "assetId": "category_1757020480446"
-        },
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
-            "publicId": "gadget-brust/categories/category_1757020480446",
-            "assetId": "category_1757020480446"
-          }
-        ],
-        "stock": 40,
-        "star": 4.4,
-        "remark": "regular",
-        "isSlider": false,
-        "category": "68ba01427c15aa5a2dafd566",
-        "subcategory": "Accessories",
-        "brand": "68b9f90fc6f7057d9dfbf4bb",
-        "createdAt": "2025-09-05T05:53:00.000Z",
-        "updatedAt": "2025-09-05T05:53:00.000Z"
-      },
-      {
-        "_id": "68ba021b7c15aa5a2dafd63b",
-        "title": "Corsair Void RGB Headphones",
-        "shortDescription": "Wireless gaming headphones with surround sound.",
-        "keyFeatures": [
-          { "key": "Audio", "values": ["7.1 Surround"] },
-          { "key": "Battery Life", "values": ["16 hours"] }
-        ],
-        "price": 10000,
-        "discount": 5,
-        "discountPrice": 9500,
-        "image": {
-          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020586/gadget-brust/categories/category_1757020596838.png",
-          "publicId": "gadget-brust/categories/category_1757020596838",
-          "assetId": "category_1757020596838"
-        },
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020586/gadget-brust/categories/category_1757020596838.png",
-            "publicId": "gadget-brust/categories/category_1757020596838",
-            "assetId": "category_1757020596838"
-          }
-        ],
-        "stock": 35,
-        "star": 4.5,
-        "remark": "popular",
-        "isSlider": true,
-        "category": "68ba01b67c15aa5a2dafd570",
-        "subcategory": "Headphones",
-        "brand": "68b9f90fc6f7057d9dfbf4bb",
-        "createdAt": "2025-09-05T05:53:00.000Z",
-        "updatedAt": "2025-09-05T05:53:00.000Z"
-      },
-      {
-        "_id": "68ba021c7c15aa5a2dafd63c",
-        "title": "Corsair 32GB RAM Kit",
-        "shortDescription": "32GB DDR4 RAM for high-performance PCs.",
-        "keyFeatures": [
-          { "key": "Capacity", "values": ["32GB"] },
-          { "key": "Speed", "values": ["3600MHz"] }
-        ],
-        "price": 15000,
-        "discount": 8,
-        "discountPrice": 13800,
-        "image": {
-          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020433/gadget-brust/categories/category_1757020444186.png",
-          "publicId": "gadget-brust/categories/category_1757020444186",
-          "assetId": "category_1757020444186"
-        },
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020433/gadget-brust/categories/category_1757020444186.png",
-            "publicId": "gadget-brust/categories/category_1757020444186",
-            "assetId": "category_1757020444186"
-          }
-        ],
-        "stock": 25,
-        "star": 4.6,
-        "remark": "new",
-        "isSlider": false,
-        "category": "68ba011e7c15aa5a2dafd562",
-        "subcategory": "RAM",
-        "brand": "68b9f90fc6f7057d9dfbf4bb",
-        "createdAt": "2025-09-05T05:53:00.000Z",
-        "updatedAt": "2025-09-05T05:53:00.000Z"
-      },
-      {
-        "_id": "68ba021d7c15aa5a2dafd63d",
-        "title": "Gigabyte 500W Power Supply",
-        "shortDescription": "Reliable 500W PSU for PC builds.",
-        "keyFeatures": [
-          { "key": "Wattage", "values": ["500W"] },
-          { "key": "Efficiency", "values": ["80+ Bronze"] }
-        ],
-        "price": 5000,
-        "discount": 0,
-        "discountPrice": 5000,
-        "image": {
-          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020381/gadget-brust/categories/category_1757020391807.png",
-          "publicId": "gadget-brust/categories/category_1757020391807",
-          "assetId": "category_1757020391807"
-        },
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020381/gadget-brust/categories/category_1757020391807.png",
-            "publicId": "gadget-brust/categories/category_1757020391807",
-            "assetId": "category_1757020391807"
-          }
-        ],
-        "stock": 40,
-        "star": 4.3,
-        "remark": "regular",
-        "isSlider": false,
-        "category": "68ba00e97c15aa5a2dafd55e",
-        "subcategory": "Power Banks",
-        "brand": "68b9f8dcc6f7057d9dfbf4b3",
-        "createdAt": "2025-09-05T05:53:00.000Z",
-        "updatedAt": "2025-09-05T05:53:00.000Z"
-      },
-      {
-        "_id": "68ba021e7c15aa5a2dafd63e",
-        "title": "Asus Smartwatch Hybrid",
-        "shortDescription": "Stylish hybrid smartwatch with fitness tracking.",
-        "keyFeatures": [
-          { "key": "Display", "values": ["1.3-inch Analog"] },
-          { "key": "Features", "values": ["Heart Rate", "Notifications"] }
-        ],
-        "price": 20000,
-        "discount": 5,
-        "discountPrice": 19000,
-        "image": {
-          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020571/gadget-brust/categories/category_1757020581362.png",
-          "publicId": "gadget-brust/categories/category_1757020581362",
-          "assetId": "category_1757020581362"
-        },
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020571/gadget-brust/categories/category_1757020581362.png",
-            "publicId": "gadget-brust/categories/category_1757020581362",
-            "assetId": "category_1757020581362"
-          }
-        ],
-        "stock": 30,
-        "star": 4.4,
-        "remark": "new",
-        "isSlider": true,
-        "category": "68ba01a77c15aa5a2dafd56e",
-        "subcategory": "Hybrid Watches",
-        "brand": "68b9f8e6c6f7057d9dfbf4b5",
-        "createdAt": "2025-09-05T05:53:00.000Z",
-        "updatedAt": "2025-09-05T05:53:00.000Z"
-      },
-      {
-        "_id": "68ba021f7c15aa5a2dafd63f",
-        "title": "BenQ e-Reader",
-        "shortDescription": "6-inch e-ink reader for comfortable reading.",
-        "keyFeatures": [
-          { "key": "Display", "values": ["6-inch E-Ink"] },
-          { "key": "Storage", "values": ["16GB"] }
-        ],
-        "price": 15000,
-        "discount": 10,
-        "discountPrice": 13500,
-        "image": {
-          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020608/gadget-brust/categories/category_1757020619574.png",
-          "publicId": "gadget-brust/categories/category_1757020619574",
-          "assetId": "category_1757020619574"
-        },
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020608/gadget-brust/categories/category_1757020619574.png",
-            "publicId": "gadget-brust/categories/category_1757020619574",
-            "assetId": "category_1757020619574"
-          }
-        ],
-        "stock": 25,
-        "star": 4.3,
-        "remark": "regular",
-        "isSlider": false,
-        "category": "68ba01cc7c15aa5a2dafd572",
-        "subcategory": "E-Readers",
-        "brand": "68b9f8f4c6f7057d9dfbf4b7",
-        "createdAt": "2025-09-05T05:53:00.000Z",
-        "updatedAt": "2025-09-05T05:53:00.000Z"
-      },
-      {
-        "_id": "68ba02207c15aa5a2dafd640",
-        "title": "Lenovo Smartwatch Luxury",
-        "shortDescription": "Premium smartwatch with elegant design.",
-        "keyFeatures": [
-          { "key": "Display", "values": ["1.4-inch AMOLED"] },
-          { "key": "Features", "values": ["ECG", "SpO2"] }
-        ],
-        "price": 35000,
-        "discount": 5,
-        "discountPrice": 33250,
-        "image": {
-          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020571/gadget-brust/categories/category_1757020581362.png",
-          "publicId": "gadget-brust/categories/category_1757020581362",
-          "assetId": "category_1757020581362"
-        },
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020571/gadget-brust/categories/category_1757020581362.png",
-            "publicId": "gadget-brust/categories/category_1757020581362",
-            "assetId": "category_1757020581362"
-          }
-        ],
-        "stock": 15,
-        "star": 4.6,
-        "remark": "best",
-        "isSlider": true,
-        "category": "68ba01a77c15aa5a2dafd56e",
-        "subcategory": "Luxury Smartwatches",
-        "brand": "68b9f8fec6f7057d9dfbf4b9",
-        "createdAt": "2025-09-05T05:53:00.000Z",
-        "updatedAt": "2025-09-05T05:53:00.000Z"
-      },
-      {
-        "_id": "68ba02217c15aa5a2dafd641",
-        "title": "Corsair iCUE Controller",
-        "shortDescription": "Customizable controller for gaming setups.",
-        "keyFeatures": [
-          { "key": "Compatibility", "values": ["PC", "Console"] },
-          { "key": "Lighting", "values": ["RGB"] }
-        ],
-        "price": 7000,
-        "discount": 0,
-        "discountPrice": 7000,
-        "image": {
-          "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
-          "publicId": "gadget-brust/categories/category_1757020480446",
-          "assetId": "category_1757020480446"
-        },
-        "images": [
-          {
-            "url": "https://res.cloudinary.com/dwssxatb3/image/upload/v1757020470/gadget-brust/categories/category_1757020480446.png",
-            "publicId": "gadget-brust/categories/category_1757020480446",
-            "assetId": "category_1757020480446"
-          }
-        ],
-        "stock": 30,
-        "star": 4.4,
-        "remark": "regular",
-        "isSlider": false,
-        "category": "68ba01427c15aa5a2dafd566",
-        "subcategory": "Controllers",
-        "brand": "68b9f90fc6f7057d9dfbf4bb",
-        "createdAt": "2025-09-05T05:53:00.000Z",
-        "updatedAt": "2025-09-05T05:53:00.000Z"
+        "key": "Chip",
+        "values": [
+          "Apple H1 (per cup)"
+        ]
       }
     ],
-    "timestamp": "2025-09-05T05:53:00.000Z"
+    "price": 72000,
+    "discount": 10,
+    "discountPrice": 64800,
+    "image": {
+      "url": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods-max-silver/1.webp"
+    },
+    "stock": 5,
+    "star": 4.7,
+    "remark": "top",
+    "isSlider": true,
+    "category": "c0a7e9000000000000000005",
+    "subcategory": "Headphones",
+    "brand": "b0a2d9000000000000000001",
+    "createdAt": "2026-07-28T18:00:00.000Z",
+    "updatedAt": "2026-07-28T18:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c700000000000000001e",
+    "title": "Beats Flex Wireless Earphones",
+    "shortDescription": "All-day wireless earphones with magnetic earbuds that auto-pause when clipped together.",
+    "keyFeatures": [
+      {
+        "key": "Type",
+        "values": [
+          "Neckband"
+        ]
+      },
+      {
+        "key": "Battery Life",
+        "values": [
+          "12 hours"
+        ]
+      },
+      {
+        "key": "Charging",
+        "values": [
+          "USB-C Fast Fuel"
+        ]
+      },
+      {
+        "key": "Chip",
+        "values": [
+          "Apple W1"
+        ]
+      }
+    ],
+    "price": 8900,
+    "discount": 15,
+    "discountPrice": 7565,
+    "image": {
+      "url": "https://cdn.dummyjson.com/product-images/mobile-accessories/beats-flex-wireless-earphones/1.webp"
+    },
+    "stock": 26,
+    "star": 4.2,
+    "remark": "regular",
+    "isSlider": false,
+    "category": "c0a7e9000000000000000005",
+    "subcategory": "Earbuds",
+    "brand": "b0a2d9000000000000000011",
+    "createdAt": "2026-09-07T21:00:00.000Z",
+    "updatedAt": "2026-09-07T21:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c700000000000000001f",
+    "title": "Amazon Echo Plus Smart Speaker",
+    "shortDescription": "Alexa-powered speaker with a built-in Zigbee smart home hub and premium sound.",
+    "keyFeatures": [
+      {
+        "key": "Assistant",
+        "values": [
+          "Alexa"
+        ]
+      },
+      {
+        "key": "Hub",
+        "values": [
+          "Built-in Zigbee"
+        ]
+      },
+      {
+        "key": "Connectivity",
+        "values": [
+          "Wi-Fi",
+          "Bluetooth"
+        ]
+      },
+      {
+        "key": "Audio",
+        "values": [
+          "360° omni-directional"
+        ]
+      }
+    ],
+    "price": 14500,
+    "discount": 20,
+    "discountPrice": 11600,
+    "image": {
+      "url": "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/1.webp"
+    },
+    "stock": 12,
+    "star": 4.3,
+    "remark": "regular",
+    "isSlider": false,
+    "category": "c0a7e9000000000000000005",
+    "subcategory": "Smart Speaker",
+    "brand": "b0a2d900000000000000001a",
+    "createdAt": "2026-04-26T06:00:00.000Z",
+    "updatedAt": "2026-04-26T06:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c7000000000000000020",
+    "title": "Apple HomePod mini Space Grey",
+    "shortDescription": "Room-filling 360° sound and Siri in a compact speaker that controls your smart home.",
+    "keyFeatures": [
+      {
+        "key": "Assistant",
+        "values": [
+          "Siri"
+        ]
+      },
+      {
+        "key": "Audio",
+        "values": [
+          "360° computational audio"
+        ]
+      },
+      {
+        "key": "Connectivity",
+        "values": [
+          "Wi-Fi",
+          "Thread",
+          "Bluetooth 5.0"
+        ]
+      }
+    ],
+    "price": 13900,
+    "discount": 0,
+    "discountPrice": 13900,
+    "image": {
+      "url": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-homepod-mini-cosmic-grey/1.webp"
+    },
+    "stock": 18,
+    "star": 4.6,
+    "remark": "new",
+    "isSlider": false,
+    "category": "c0a7e9000000000000000005",
+    "subcategory": "Smart Speaker",
+    "brand": "b0a2d9000000000000000001",
+    "createdAt": "2026-10-16T01:00:00.000Z",
+    "updatedAt": "2026-10-16T01:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c7000000000000000021",
+    "title": "JBL Flip 6 Portable Speaker",
+    "shortDescription": "Bold JBL Pro Sound, IP67 waterproof and dustproof with 12 hours of playtime.",
+    "keyFeatures": [
+      {
+        "key": "Output",
+        "values": [
+          "30W"
+        ]
+      },
+      {
+        "key": "Battery Life",
+        "values": [
+          "12 hours"
+        ]
+      },
+      {
+        "key": "Rating",
+        "values": [
+          "IP67"
+        ]
+      },
+      {
+        "key": "Features",
+        "values": [
+          "PartyBoost",
+          "USB-C"
+        ]
+      }
+    ],
+    "price": 13500,
+    "discount": 12,
+    "discountPrice": 11880,
+    "image": {
+      "url": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=JBL+Flip+6"
+    },
+    "stock": 32,
+    "star": 4.7,
+    "remark": "best",
+    "isSlider": false,
+    "category": "c0a7e9000000000000000005",
+    "subcategory": "Bluetooth Speaker",
+    "brand": "b0a2d9000000000000000010",
+    "createdAt": "2026-07-27T17:00:00.000Z",
+    "updatedAt": "2026-07-27T17:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c7000000000000000022",
+    "title": "Sony WH-1000XM5 Headphones",
+    "shortDescription": "Industry-leading noise cancellation with eight microphones and 30-hour battery life.",
+    "keyFeatures": [
+      {
+        "key": "Type",
+        "values": [
+          "Over-ear"
+        ]
+      },
+      {
+        "key": "ANC",
+        "values": [
+          "Dual processor, 8 mics"
+        ]
+      },
+      {
+        "key": "Battery Life",
+        "values": [
+          "30 hours"
+        ]
+      },
+      {
+        "key": "Codecs",
+        "values": [
+          "LDAC",
+          "AAC",
+          "SBC"
+        ]
+      }
+    ],
+    "price": 42000,
+    "discount": 10,
+    "discountPrice": 37800,
+    "image": {
+      "url": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=Sony+WH-1000XM5"
+    },
+    "stock": 9,
+    "star": 4.8,
+    "remark": "trending",
+    "isSlider": false,
+    "category": "c0a7e9000000000000000005",
+    "subcategory": "Headphones",
+    "brand": "b0a2d900000000000000000b",
+    "createdAt": "2026-09-08T15:00:00.000Z",
+    "updatedAt": "2026-09-08T15:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c7000000000000000023",
+    "title": "Canon EOS R50 Mirrorless Camera",
+    "shortDescription": "Compact 24.2MP APS-C mirrorless camera with 4K video and smart auto modes for creators.",
+    "keyFeatures": [
+      {
+        "key": "Sensor",
+        "values": [
+          "24.2MP APS-C CMOS"
+        ]
+      },
+      {
+        "key": "Video",
+        "values": [
+          "4K 30p"
+        ]
+      },
+      {
+        "key": "Autofocus",
+        "values": [
+          "Dual Pixel CMOS AF II"
+        ]
+      },
+      {
+        "key": "Lens",
+        "values": [
+          "RF-S 18-45mm kit"
+        ]
+      }
+    ],
+    "price": 95000,
+    "discount": 6,
+    "discountPrice": 89300,
+    "image": {
+      "url": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=Canon+EOS+R50"
+    },
+    "stock": 7,
+    "star": 4.6,
+    "remark": "new",
+    "isSlider": false,
+    "category": "c0a7e9000000000000000006",
+    "subcategory": "Mirrorless",
+    "brand": "b0a2d9000000000000000016",
+    "createdAt": "2026-10-14T08:00:00.000Z",
+    "updatedAt": "2026-10-14T08:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c7000000000000000024",
+    "title": "Sony Alpha a6400 Mirrorless Camera",
+    "shortDescription": "Real-time Eye AF, 0.02s autofocus and a 180° tilting touchscreen for vlogging.",
+    "keyFeatures": [
+      {
+        "key": "Sensor",
+        "values": [
+          "24.2MP APS-C Exmor"
+        ]
+      },
+      {
+        "key": "Video",
+        "values": [
+          "4K 30p"
+        ]
+      },
+      {
+        "key": "Autofocus",
+        "values": [
+          "425-point Real-time Tracking"
+        ]
+      },
+      {
+        "key": "Lens",
+        "values": [
+          "16-50mm kit"
+        ]
+      }
+    ],
+    "price": 105000,
+    "discount": 8,
+    "discountPrice": 96600,
+    "image": {
+      "url": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=Sony+Alpha+a6400"
+    },
+    "stock": 5,
+    "star": 4.7,
+    "remark": "popular",
+    "isSlider": false,
+    "category": "c0a7e9000000000000000006",
+    "subcategory": "Mirrorless",
+    "brand": "b0a2d900000000000000000b",
+    "createdAt": "2026-10-04T07:00:00.000Z",
+    "updatedAt": "2026-10-04T07:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c7000000000000000025",
+    "title": "Canon EOS 1500D DSLR Camera",
+    "shortDescription": "Beginner-friendly DSLR with a 24.1MP sensor, Full HD video and built-in Wi-Fi.",
+    "keyFeatures": [
+      {
+        "key": "Sensor",
+        "values": [
+          "24.1MP APS-C"
+        ]
+      },
+      {
+        "key": "Video",
+        "values": [
+          "Full HD 1080p"
+        ]
+      },
+      {
+        "key": "Connectivity",
+        "values": [
+          "Wi-Fi",
+          "NFC"
+        ]
+      },
+      {
+        "key": "Lens",
+        "values": [
+          "EF-S 18-55mm kit"
+        ]
+      }
+    ],
+    "price": 52000,
+    "discount": 10,
+    "discountPrice": 46800,
+    "image": {
+      "url": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=Canon+EOS+1500D"
+    },
+    "stock": 12,
+    "star": 4.4,
+    "remark": "best",
+    "isSlider": false,
+    "category": "c0a7e9000000000000000006",
+    "subcategory": "DSLR",
+    "brand": "b0a2d9000000000000000016",
+    "createdAt": "2026-06-25T01:00:00.000Z",
+    "updatedAt": "2026-06-25T01:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c7000000000000000026",
+    "title": "Professional Selfie Lamp Ring Light",
+    "shortDescription": "Clip-on LED ring light with three colour temperatures for selfies, calls and live streams.",
+    "keyFeatures": [
+      {
+        "key": "Modes",
+        "values": [
+          "3 colour temperatures"
+        ]
+      },
+      {
+        "key": "Power",
+        "values": [
+          "Rechargeable 400mAh"
+        ]
+      },
+      {
+        "key": "Mount",
+        "values": [
+          "Universal clip"
+        ]
+      }
+    ],
+    "price": 1850,
+    "discount": 0,
+    "discountPrice": 1850,
+    "image": {
+      "url": "https://cdn.dummyjson.com/product-images/mobile-accessories/selfie-lamp-with-iphone/1.webp"
+    },
+    "stock": 45,
+    "star": 4,
+    "remark": "regular",
+    "isSlider": false,
+    "category": "c0a7e900000000000000000d",
+    "subcategory": "Lighting",
+    "brand": "b0a2d9000000000000000009",
+    "createdAt": "2026-08-27T22:00:00.000Z",
+    "updatedAt": "2026-08-27T22:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c7000000000000000027",
+    "title": "Aluminium Camera Monopod",
+    "shortDescription": "Lightweight aluminium monopod with quick-release plate for cameras and phones.",
+    "keyFeatures": [
+      {
+        "key": "Material",
+        "values": [
+          "Aluminium alloy"
+        ]
+      },
+      {
+        "key": "Max Height",
+        "values": [
+          "160cm"
+        ]
+      },
+      {
+        "key": "Load",
+        "values": [
+          "Up to 5kg"
+        ]
+      }
+    ],
+    "price": 3200,
+    "discount": 10,
+    "discountPrice": 2880,
+    "image": {
+      "url": "https://cdn.dummyjson.com/product-images/mobile-accessories/monopod/1.webp"
+    },
+    "stock": 20,
+    "star": 4.1,
+    "remark": "regular",
+    "isSlider": false,
+    "category": "c0a7e9000000000000000006",
+    "subcategory": "Camera Accessories",
+    "brand": "b0a2d900000000000000000b",
+    "createdAt": "2026-07-14T08:00:00.000Z",
+    "updatedAt": "2026-07-14T08:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c7000000000000000028",
+    "title": "Samsung Odyssey CHG90 49\" Curved Monitor",
+    "shortDescription": "Super ultra-wide 32:9 QLED gaming monitor with a 144Hz refresh rate and 1ms response.",
+    "keyFeatures": [
+      {
+        "key": "Size",
+        "values": [
+          "49\" Curved 1800R"
+        ]
+      },
+      {
+        "key": "Resolution",
+        "values": [
+          "3840 x 1080"
+        ]
+      },
+      {
+        "key": "Refresh Rate",
+        "values": [
+          "144Hz"
+        ]
+      },
+      {
+        "key": "Panel",
+        "values": [
+          "QLED VA, HDR"
+        ]
+      }
+    ],
+    "price": 135000,
+    "discount": 10,
+    "discountPrice": 121500,
+    "image": {
+      "url": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_t.png"
+    },
+    "stock": 4,
+    "star": 4.6,
+    "remark": "top",
+    "isSlider": true,
+    "category": "c0a7e9000000000000000007",
+    "subcategory": "Monitor",
+    "brand": "b0a2d9000000000000000002",
+    "createdAt": "2026-04-28T02:00:00.000Z",
+    "updatedAt": "2026-04-28T02:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c7000000000000000029",
+    "title": "Acer SB220Q 21.5\" Full HD Monitor",
+    "shortDescription": "Ultra-thin zero-frame IPS monitor with AMD FreeSync and 75Hz refresh rate.",
+    "keyFeatures": [
+      {
+        "key": "Size",
+        "values": [
+          "21.5\""
+        ]
+      },
+      {
+        "key": "Resolution",
+        "values": [
+          "1920 x 1080"
+        ]
+      },
+      {
+        "key": "Panel",
+        "values": [
+          "IPS"
+        ]
+      },
+      {
+        "key": "Refresh Rate",
+        "values": [
+          "75Hz"
+        ]
+      },
+      {
+        "key": "Ports",
+        "values": [
+          "HDMI",
+          "VGA"
+        ]
+      }
+    ],
+    "price": 11500,
+    "discount": 5,
+    "discountPrice": 10925,
+    "image": {
+      "url": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_t.png"
+    },
+    "stock": 28,
+    "star": 4.3,
+    "remark": "popular",
+    "isSlider": false,
+    "category": "c0a7e9000000000000000007",
+    "subcategory": "Monitor",
+    "brand": "b0a2d900000000000000000f",
+    "createdAt": "2026-06-03T04:00:00.000Z",
+    "updatedAt": "2026-06-03T04:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c700000000000000002a",
+    "title": "LG UltraGear 27\" QHD 165Hz Monitor",
+    "shortDescription": "27-inch Nano IPS QHD gaming monitor with 1ms response and G-Sync compatibility.",
+    "keyFeatures": [
+      {
+        "key": "Size",
+        "values": [
+          "27\""
+        ]
+      },
+      {
+        "key": "Resolution",
+        "values": [
+          "2560 x 1440"
+        ]
+      },
+      {
+        "key": "Refresh Rate",
+        "values": [
+          "165Hz"
+        ]
+      },
+      {
+        "key": "Panel",
+        "values": [
+          "Nano IPS, HDR400"
+        ]
+      }
+    ],
+    "price": 39500,
+    "discount": 8,
+    "discountPrice": 36340,
+    "image": {
+      "url": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=LG+UltraGear+27"
+    },
+    "stock": 10,
+    "star": 4.6,
+    "remark": "trending",
+    "isSlider": false,
+    "category": "c0a7e9000000000000000007",
+    "subcategory": "Monitor",
+    "brand": "b0a2d9000000000000000008",
+    "createdAt": "2026-06-19T13:00:00.000Z",
+    "updatedAt": "2026-06-19T13:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c700000000000000002b",
+    "title": "Walton Mini PC Core i5",
+    "shortDescription": "Palm-sized desktop for office and home with dual display support and Wi-Fi 6.",
+    "keyFeatures": [
+      {
+        "key": "Processor",
+        "values": [
+          "Intel Core i5-1235U"
+        ]
+      },
+      {
+        "key": "RAM",
+        "values": [
+          "8GB DDR4"
+        ]
+      },
+      {
+        "key": "Storage",
+        "values": [
+          "512GB SSD"
+        ]
+      },
+      {
+        "key": "Connectivity",
+        "values": [
+          "Wi-Fi 6",
+          "Bluetooth 5.2"
+        ]
+      }
+    ],
+    "price": 42000,
+    "discount": 5,
+    "discountPrice": 39900,
+    "image": {
+      "url": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=Walton+Mini+PC"
+    },
+    "stock": 15,
+    "star": 4,
+    "remark": "new",
+    "isSlider": false,
+    "category": "c0a7e9000000000000000007",
+    "subcategory": "Mini PC",
+    "brand": "b0a2d900000000000000001b",
+    "createdAt": "2026-10-18T00:00:00.000Z",
+    "updatedAt": "2026-10-18T00:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c700000000000000002c",
+    "title": "SanDisk SSD PLUS 1TB SATA III",
+    "shortDescription": "Boost your PC with read speeds up to 535MB/s and reliable shock-resistant storage.",
+    "keyFeatures": [
+      {
+        "key": "Capacity",
+        "values": [
+          "1TB"
+        ]
+      },
+      {
+        "key": "Interface",
+        "values": [
+          "SATA III 6Gb/s"
+        ]
+      },
+      {
+        "key": "Read Speed",
+        "values": [
+          "535MB/s"
+        ]
+      },
+      {
+        "key": "Form Factor",
+        "values": [
+          "2.5\""
+        ]
+      }
+    ],
+    "price": 7800,
+    "discount": 6,
+    "discountPrice": 7332,
+    "image": {
+      "url": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_t.png"
+    },
+    "stock": 40,
+    "star": 4.6,
+    "remark": "best",
+    "isSlider": false,
+    "category": "c0a7e9000000000000000008",
+    "subcategory": "SSD",
+    "brand": "b0a2d9000000000000000019",
+    "createdAt": "2026-05-08T23:00:00.000Z",
+    "updatedAt": "2026-05-08T23:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c700000000000000002d",
+    "title": "WD 2TB Elements Portable Hard Drive",
+    "shortDescription": "Plug-and-play USB 3.0 portable storage for backups, photos and media.",
+    "keyFeatures": [
+      {
+        "key": "Capacity",
+        "values": [
+          "2TB"
+        ]
+      },
+      {
+        "key": "Interface",
+        "values": [
+          "USB 3.0"
+        ]
+      },
+      {
+        "key": "Compatibility",
+        "values": [
+          "Windows",
+          "macOS"
+        ]
+      },
+      {
+        "key": "Warranty",
+        "values": [
+          "2 years"
+        ]
+      }
+    ],
+    "price": 8200,
+    "discount": 5,
+    "discountPrice": 7790,
+    "image": {
+      "url": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_t.png"
+    },
+    "stock": 33,
+    "star": 4.5,
+    "remark": "popular",
+    "isSlider": false,
+    "category": "c0a7e9000000000000000008",
+    "subcategory": "Hard Drive",
+    "brand": "b0a2d9000000000000000018",
+    "createdAt": "2026-04-29T03:00:00.000Z",
+    "updatedAt": "2026-04-29T03:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c700000000000000002e",
+    "title": "WD 4TB Gaming Drive for PlayStation",
+    "shortDescription": "Expand your PS4/PS5 library with 4TB of portable storage in a sleek design.",
+    "keyFeatures": [
+      {
+        "key": "Capacity",
+        "values": [
+          "4TB"
+        ]
+      },
+      {
+        "key": "Interface",
+        "values": [
+          "USB 3.2 Gen 1"
+        ]
+      },
+      {
+        "key": "Compatibility",
+        "values": [
+          "PS4",
+          "PS5"
+        ]
+      },
+      {
+        "key": "Warranty",
+        "values": [
+          "3 years"
+        ]
+      }
+    ],
+    "price": 14500,
+    "discount": 10,
+    "discountPrice": 13050,
+    "image": {
+      "url": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_t.png"
+    },
+    "stock": 12,
+    "star": 4.6,
+    "remark": "regular",
+    "isSlider": false,
+    "category": "c0a7e9000000000000000008",
+    "subcategory": "Hard Drive",
+    "brand": "b0a2d9000000000000000018",
+    "createdAt": "2026-05-29T14:00:00.000Z",
+    "updatedAt": "2026-05-29T14:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c700000000000000002f",
+    "title": "Corsair Vengeance 16GB DDR5 5600MHz",
+    "shortDescription": "High-performance DDR5 memory with on-module voltage regulation and Intel XMP 3.0.",
+    "keyFeatures": [
+      {
+        "key": "Capacity",
+        "values": [
+          "16GB (2x8GB)"
+        ]
+      },
+      {
+        "key": "Speed",
+        "values": [
+          "5600MHz"
+        ]
+      },
+      {
+        "key": "Latency",
+        "values": [
+          "CL36"
+        ]
+      },
+      {
+        "key": "Profile",
+        "values": [
+          "Intel XMP 3.0"
+        ]
+      }
+    ],
+    "price": 7500,
+    "discount": 0,
+    "discountPrice": 7500,
+    "image": {
+      "url": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=Corsair+Vengeance+DDR5"
+    },
+    "stock": 50,
+    "star": 4.7,
+    "remark": "regular",
+    "isSlider": false,
+    "category": "c0a7e9000000000000000008",
+    "subcategory": "RAM",
+    "brand": "b0a2d9000000000000000013",
+    "createdAt": "2026-06-06T21:00:00.000Z",
+    "updatedAt": "2026-06-06T21:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c7000000000000000030",
+    "title": "Gigabyte GeForce RTX 4060 Eagle OC 8GB",
+    "shortDescription": "DLSS 3 and ray tracing for 1080p gaming with WINDFORCE triple-fan cooling.",
+    "keyFeatures": [
+      {
+        "key": "GPU",
+        "values": [
+          "NVIDIA GeForce RTX 4060"
+        ]
+      },
+      {
+        "key": "Memory",
+        "values": [
+          "8GB GDDR6"
+        ]
+      },
+      {
+        "key": "Outputs",
+        "values": [
+          "2x HDMI 2.1",
+          "2x DP 1.4a"
+        ]
+      },
+      {
+        "key": "Power",
+        "values": [
+          "115W"
+        ]
+      }
+    ],
+    "price": 42000,
+    "discount": 5,
+    "discountPrice": 39900,
+    "image": {
+      "url": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=RTX+4060+Eagle+OC"
+    },
+    "stock": 8,
+    "star": 4.6,
+    "remark": "trending",
+    "isSlider": false,
+    "category": "c0a7e9000000000000000008",
+    "subcategory": "Graphics Card",
+    "brand": "b0a2d9000000000000000017",
+    "createdAt": "2026-05-23T22:00:00.000Z",
+    "updatedAt": "2026-05-23T22:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c7000000000000000031",
+    "title": "Sony PlayStation 5 Slim Disc Edition",
+    "shortDescription": "Lightning-fast SSD loading, ray tracing and 4K gaming with the DualSense controller.",
+    "keyFeatures": [
+      {
+        "key": "Storage",
+        "values": [
+          "1TB SSD"
+        ]
+      },
+      {
+        "key": "Resolution",
+        "values": [
+          "Up to 4K 120Hz"
+        ]
+      },
+      {
+        "key": "Drive",
+        "values": [
+          "Ultra HD Blu-ray"
+        ]
+      },
+      {
+        "key": "Controller",
+        "values": [
+          "DualSense included"
+        ]
+      }
+    ],
+    "price": 72000,
+    "discount": 5,
+    "discountPrice": 68400,
+    "image": {
+      "url": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=PlayStation+5+Slim"
+    },
+    "stock": 9,
+    "star": 4.9,
+    "remark": "best",
+    "isSlider": true,
+    "category": "c0a7e9000000000000000009",
+    "subcategory": "Console",
+    "brand": "b0a2d900000000000000000b",
+    "createdAt": "2026-08-18T02:00:00.000Z",
+    "updatedAt": "2026-08-18T02:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c7000000000000000032",
+    "title": "Sony DualSense Wireless Controller",
+    "shortDescription": "Haptic feedback and adaptive triggers for deeper immersion in PS5 games.",
+    "keyFeatures": [
+      {
+        "key": "Compatibility",
+        "values": [
+          "PS5",
+          "PC"
+        ]
+      },
+      {
+        "key": "Features",
+        "values": [
+          "Haptic Feedback",
+          "Adaptive Triggers"
+        ]
+      },
+      {
+        "key": "Battery",
+        "values": [
+          "Rechargeable, USB-C"
+        ]
+      }
+    ],
+    "price": 8500,
+    "discount": 0,
+    "discountPrice": 8500,
+    "image": {
+      "url": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=DualSense+Controller"
+    },
+    "stock": 24,
+    "star": 4.7,
+    "remark": "popular",
+    "isSlider": false,
+    "category": "c0a7e9000000000000000009",
+    "subcategory": "Controller",
+    "brand": "b0a2d900000000000000000b",
+    "createdAt": "2026-08-18T00:00:00.000Z",
+    "updatedAt": "2026-08-18T00:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c7000000000000000033",
+    "title": "Razer BlackShark V2 Pro Gaming Headset",
+    "shortDescription": "Wireless esports headset with TriForce Titanium 50mm drivers and a HyperClear mic.",
+    "keyFeatures": [
+      {
+        "key": "Connectivity",
+        "values": [
+          "HyperSpeed Wireless",
+          "Bluetooth"
+        ]
+      },
+      {
+        "key": "Drivers",
+        "values": [
+          "50mm TriForce Titanium"
+        ]
+      },
+      {
+        "key": "Battery",
+        "values": [
+          "70 hours"
+        ]
+      }
+    ],
+    "price": 19500,
+    "discount": 10,
+    "discountPrice": 17550,
+    "image": {
+      "url": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=Razer+BlackShark+V2"
+    },
+    "stock": 13,
+    "star": 4.6,
+    "remark": "trending",
+    "isSlider": false,
+    "category": "c0a7e9000000000000000009",
+    "subcategory": "Gaming Headset",
+    "brand": "b0a2d9000000000000000012",
+    "createdAt": "2026-07-05T19:00:00.000Z",
+    "updatedAt": "2026-07-05T19:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c7000000000000000034",
+    "title": "Corsair HS80 RGB Wireless Headset",
+    "shortDescription": "Dolby Atmos wireless headset with broadcast-grade microphone and memory foam cushions.",
+    "keyFeatures": [
+      {
+        "key": "Connectivity",
+        "values": [
+          "SLIPSTREAM Wireless"
+        ]
+      },
+      {
+        "key": "Audio",
+        "values": [
+          "Dolby Atmos"
+        ]
+      },
+      {
+        "key": "Battery",
+        "values": [
+          "20 hours"
+        ]
+      }
+    ],
+    "price": 16500,
+    "discount": 15,
+    "discountPrice": 14025,
+    "image": {
+      "url": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=Corsair+HS80+RGB"
+    },
+    "stock": 0,
+    "star": 4.4,
+    "remark": "regular",
+    "isSlider": false,
+    "category": "c0a7e9000000000000000009",
+    "subcategory": "Gaming Headset",
+    "brand": "b0a2d9000000000000000013",
+    "createdAt": "2026-09-27T23:00:00.000Z",
+    "updatedAt": "2026-09-27T23:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c7000000000000000035",
+    "title": "Apple MagSafe Battery Pack",
+    "shortDescription": "Snap-on battery that wirelessly charges your iPhone on the go.",
+    "keyFeatures": [
+      {
+        "key": "Capacity",
+        "values": [
+          "1460mAh"
+        ]
+      },
+      {
+        "key": "Charging",
+        "values": [
+          "MagSafe wireless"
+        ]
+      },
+      {
+        "key": "Input",
+        "values": [
+          "Lightning / 20W"
+        ]
+      }
+    ],
+    "price": 11500,
+    "discount": 8,
+    "discountPrice": 10580,
+    "image": {
+      "url": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magsafe-battery-pack/1.webp"
+    },
+    "stock": 16,
+    "star": 4.4,
+    "remark": "regular",
+    "isSlider": false,
+    "category": "c0a7e900000000000000000a",
+    "subcategory": "Power Bank",
+    "brand": "b0a2d9000000000000000001",
+    "createdAt": "2026-07-25T10:00:00.000Z",
+    "updatedAt": "2026-07-25T10:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c7000000000000000036",
+    "title": "Apple 20W USB-C Power Adapter",
+    "shortDescription": "Fast-charge your iPhone up to 50% in around 30 minutes.",
+    "keyFeatures": [
+      {
+        "key": "Output",
+        "values": [
+          "20W"
+        ]
+      },
+      {
+        "key": "Port",
+        "values": [
+          "USB-C"
+        ]
+      },
+      {
+        "key": "Compatibility",
+        "values": [
+          "iPhone",
+          "iPad",
+          "AirPods"
+        ]
+      }
+    ],
+    "price": 2500,
+    "discount": 0,
+    "discountPrice": 2500,
+    "image": {
+      "url": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/1.webp"
+    },
+    "stock": 80,
+    "star": 4.6,
+    "remark": "best",
+    "isSlider": false,
+    "category": "c0a7e900000000000000000a",
+    "subcategory": "Charger",
+    "brand": "b0a2d9000000000000000001",
+    "createdAt": "2026-06-14T01:00:00.000Z",
+    "updatedAt": "2026-06-14T01:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c7000000000000000037",
+    "title": "Apple AirPower Wireless Charging Mat",
+    "shortDescription": "Charge iPhone, Apple Watch and AirPods together on a single mat.",
+    "keyFeatures": [
+      {
+        "key": "Output",
+        "values": [
+          "15W"
+        ]
+      },
+      {
+        "key": "Devices",
+        "values": [
+          "Up to 3 at once"
+        ]
+      },
+      {
+        "key": "Standard",
+        "values": [
+          "Qi"
+        ]
+      }
+    ],
+    "price": 9800,
+    "discount": 12,
+    "discountPrice": 8624,
+    "image": {
+      "url": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpower-wireless-charger/1.webp"
+    },
+    "stock": 7,
+    "star": 4.2,
+    "remark": "regular",
+    "isSlider": false,
+    "category": "c0a7e900000000000000000a",
+    "subcategory": "Charger",
+    "brand": "b0a2d9000000000000000001",
+    "createdAt": "2026-07-25T12:00:00.000Z",
+    "updatedAt": "2026-07-25T12:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c7000000000000000038",
+    "title": "Anker PowerCore 20000mAh Power Bank",
+    "shortDescription": "High-capacity power bank that charges a phone up to 5 times with PowerIQ fast charging.",
+    "keyFeatures": [
+      {
+        "key": "Capacity",
+        "values": [
+          "20000mAh"
+        ]
+      },
+      {
+        "key": "Output",
+        "values": [
+          "USB-A",
+          "USB-C"
+        ]
+      },
+      {
+        "key": "Fast Charging",
+        "values": [
+          "PowerIQ 3.0 20W"
+        ]
+      }
+    ],
+    "price": 4500,
+    "discount": 10,
+    "discountPrice": 4050,
+    "image": {
+      "url": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=Anker+PowerCore+20K"
+    },
+    "stock": 55,
+    "star": 4.7,
+    "remark": "popular",
+    "isSlider": false,
+    "category": "c0a7e900000000000000000a",
+    "subcategory": "Power Bank",
+    "brand": "b0a2d9000000000000000015",
+    "createdAt": "2026-09-18T00:00:00.000Z",
+    "updatedAt": "2026-09-18T00:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c7000000000000000039",
+    "title": "Walton UPS 1200VA Line Interactive",
+    "shortDescription": "Reliable backup power for desktops and routers with AVR protection.",
+    "keyFeatures": [
+      {
+        "key": "Capacity",
+        "values": [
+          "1200VA / 720W"
+        ]
+      },
+      {
+        "key": "Backup Time",
+        "values": [
+          "15-30 min"
+        ]
+      },
+      {
+        "key": "Outlets",
+        "values": [
+          "4 Universal"
+        ]
+      },
+      {
+        "key": "Protection",
+        "values": [
+          "AVR",
+          "Surge"
+        ]
+      }
+    ],
+    "price": 9500,
+    "discount": 5,
+    "discountPrice": 9025,
+    "image": {
+      "url": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=Walton+UPS+1200VA"
+    },
+    "stock": 22,
+    "star": 4.2,
+    "remark": "regular",
+    "isSlider": false,
+    "category": "c0a7e900000000000000000a",
+    "subcategory": "UPS",
+    "brand": "b0a2d900000000000000001b",
+    "createdAt": "2026-08-21T01:00:00.000Z",
+    "updatedAt": "2026-08-21T01:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c700000000000000003a",
+    "title": "Logitech MX Keys S Wireless Keyboard",
+    "shortDescription": "Low-profile keys with smart backlighting and multi-device switching for up to 3 devices.",
+    "keyFeatures": [
+      {
+        "key": "Connectivity",
+        "values": [
+          "Bluetooth",
+          "Logi Bolt"
+        ]
+      },
+      {
+        "key": "Backlight",
+        "values": [
+          "Smart illumination"
+        ]
+      },
+      {
+        "key": "Battery",
+        "values": [
+          "Up to 10 days (backlit)"
+        ]
+      }
+    ],
+    "price": 13500,
+    "discount": 8,
+    "discountPrice": 12420,
+    "image": {
+      "url": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=Logitech+MX+Keys+S"
+    },
+    "stock": 19,
+    "star": 4.8,
+    "remark": "top",
+    "isSlider": false,
+    "category": "c0a7e900000000000000000b",
+    "subcategory": "Wireless Keyboard",
+    "brand": "b0a2d9000000000000000014",
+    "createdAt": "2026-08-29T02:00:00.000Z",
+    "updatedAt": "2026-08-29T02:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c700000000000000003b",
+    "title": "Corsair K70 RGB Pro Mechanical Keyboard",
+    "shortDescription": "Cherry MX switches, 8000Hz polling and a durable aluminium frame for competitive play.",
+    "keyFeatures": [
+      {
+        "key": "Switches",
+        "values": [
+          "Cherry MX Red"
+        ]
+      },
+      {
+        "key": "Polling",
+        "values": [
+          "8000Hz"
+        ]
+      },
+      {
+        "key": "Lighting",
+        "values": [
+          "Per-key RGB"
+        ]
+      },
+      {
+        "key": "Frame",
+        "values": [
+          "Aluminium"
+        ]
+      }
+    ],
+    "price": 17500,
+    "discount": 10,
+    "discountPrice": 15750,
+    "image": {
+      "url": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=Corsair+K70+RGB+Pro"
+    },
+    "stock": 11,
+    "star": 4.6,
+    "remark": "trending",
+    "isSlider": false,
+    "category": "c0a7e900000000000000000b",
+    "subcategory": "Mechanical Keyboard",
+    "brand": "b0a2d9000000000000000013",
+    "createdAt": "2026-06-12T12:00:00.000Z",
+    "updatedAt": "2026-06-12T12:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c700000000000000003c",
+    "title": "Razer BlackWidow V4 Mechanical Keyboard",
+    "shortDescription": "Razer Green switches, a command dial and Chroma RGB underglow.",
+    "keyFeatures": [
+      {
+        "key": "Switches",
+        "values": [
+          "Razer Green"
+        ]
+      },
+      {
+        "key": "Extras",
+        "values": [
+          "Command dial",
+          "6 macro keys"
+        ]
+      },
+      {
+        "key": "Lighting",
+        "values": [
+          "Chroma RGB"
+        ]
+      }
+    ],
+    "price": 21000,
+    "discount": 5,
+    "discountPrice": 19950,
+    "image": {
+      "url": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=Razer+BlackWidow+V4"
+    },
+    "stock": 6,
+    "star": 4.5,
+    "remark": "new",
+    "isSlider": false,
+    "category": "c0a7e900000000000000000b",
+    "subcategory": "Mechanical Keyboard",
+    "brand": "b0a2d9000000000000000012",
+    "createdAt": "2026-10-21T23:00:00.000Z",
+    "updatedAt": "2026-10-21T23:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c700000000000000003d",
+    "title": "Logitech G502 HERO Gaming Mouse",
+    "shortDescription": "25K HERO sensor, 11 programmable buttons and adjustable weights.",
+    "keyFeatures": [
+      {
+        "key": "Sensor",
+        "values": [
+          "HERO 25K"
+        ]
+      },
+      {
+        "key": "DPI",
+        "values": [
+          "100 - 25,600"
+        ]
+      },
+      {
+        "key": "Buttons",
+        "values": [
+          "11 programmable"
+        ]
+      },
+      {
+        "key": "Weights",
+        "values": [
+          "5 x 3.6g"
+        ]
+      }
+    ],
+    "price": 5500,
+    "discount": 10,
+    "discountPrice": 4950,
+    "image": {
+      "url": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=Logitech+G502+HERO"
+    },
+    "stock": 38,
+    "star": 4.8,
+    "remark": "best",
+    "isSlider": false,
+    "category": "c0a7e900000000000000000c",
+    "subcategory": "Gaming Mouse",
+    "brand": "b0a2d9000000000000000014",
+    "createdAt": "2026-05-24T22:00:00.000Z",
+    "updatedAt": "2026-05-24T22:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c700000000000000003e",
+    "title": "Logitech MX Master 3S Wireless Mouse",
+    "shortDescription": "Quiet clicks, 8K DPI tracking on glass and MagSpeed electromagnetic scrolling.",
+    "keyFeatures": [
+      {
+        "key": "Sensor",
+        "values": [
+          "8000 DPI Darkfield"
+        ]
+      },
+      {
+        "key": "Connectivity",
+        "values": [
+          "Bluetooth",
+          "Logi Bolt"
+        ]
+      },
+      {
+        "key": "Battery",
+        "values": [
+          "70 days"
+        ]
+      }
+    ],
+    "price": 11500,
+    "discount": 0,
+    "discountPrice": 11500,
+    "image": {
+      "url": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=Logitech+MX+Master+3S"
+    },
+    "stock": 21,
+    "star": 4.8,
+    "remark": "popular",
+    "isSlider": false,
+    "category": "c0a7e900000000000000000c",
+    "subcategory": "Wireless Mouse",
+    "brand": "b0a2d9000000000000000014",
+    "createdAt": "2026-09-18T01:00:00.000Z",
+    "updatedAt": "2026-09-18T01:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c700000000000000003f",
+    "title": "Razer DeathAdder V3 Pro",
+    "shortDescription": "Ultra-light 63g ergonomic esports mouse with Focus Pro 30K optical sensor.",
+    "keyFeatures": [
+      {
+        "key": "Sensor",
+        "values": [
+          "Focus Pro 30K"
+        ]
+      },
+      {
+        "key": "Weight",
+        "values": [
+          "63g"
+        ]
+      },
+      {
+        "key": "Connectivity",
+        "values": [
+          "HyperSpeed Wireless"
+        ]
+      },
+      {
+        "key": "Battery",
+        "values": [
+          "90 hours"
+        ]
+      }
+    ],
+    "price": 15500,
+    "discount": 12,
+    "discountPrice": 13640,
+    "image": {
+      "url": "https://placehold.co/600x600/f3f4f6/2d8f6a/png?font=montserrat&text=Razer+DeathAdder+V3"
+    },
+    "stock": 9,
+    "star": 4.7,
+    "remark": "new",
+    "isSlider": false,
+    "category": "c0a7e900000000000000000c",
+    "subcategory": "Gaming Mouse",
+    "brand": "b0a2d9000000000000000012",
+    "createdAt": "2026-10-20T15:00:00.000Z",
+    "updatedAt": "2026-10-20T15:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c7000000000000000040",
+    "title": "iPhone 12 Silicone Case with MagSafe Plum",
+    "shortDescription": "Silky soft-touch silicone case with built-in magnets for MagSafe accessories.",
+    "keyFeatures": [
+      {
+        "key": "Compatibility",
+        "values": [
+          "iPhone 12 / 12 Pro"
+        ]
+      },
+      {
+        "key": "Material",
+        "values": [
+          "Silicone with microfiber lining"
+        ]
+      },
+      {
+        "key": "MagSafe",
+        "values": [
+          "Yes"
+        ]
+      }
+    ],
+    "price": 4500,
+    "discount": 20,
+    "discountPrice": 3600,
+    "image": {
+      "url": "https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/1.webp"
+    },
+    "stock": 30,
+    "star": 4.3,
+    "remark": "regular",
+    "isSlider": false,
+    "category": "c0a7e900000000000000000d",
+    "subcategory": "Phone Case",
+    "brand": "b0a2d9000000000000000001",
+    "createdAt": "2026-08-04T09:00:00.000Z",
+    "updatedAt": "2026-08-04T09:00:00.000Z"
+  },
+  {
+    "_id": "a0d0c7000000000000000041",
+    "title": "Bluetooth Selfie Stick Tripod",
+    "shortDescription": "Extendable selfie stick that doubles as a tripod with a detachable Bluetooth remote.",
+    "keyFeatures": [
+      {
+        "key": "Length",
+        "values": [
+          "19 - 70cm"
+        ]
+      },
+      {
+        "key": "Remote",
+        "values": [
+          "Bluetooth, detachable"
+        ]
+      },
+      {
+        "key": "Compatibility",
+        "values": [
+          "Phones 4.7\" - 6.7\""
+        ]
+      }
+    ],
+    "price": 1650,
+    "discount": 5,
+    "discountPrice": 1568,
+    "image": {
+      "url": "https://cdn.dummyjson.com/product-images/mobile-accessories/selfie-stick-monopod/1.webp"
+    },
+    "stock": 70,
+    "star": 4.2,
+    "remark": "popular",
+    "isSlider": false,
+    "category": "c0a7e900000000000000000d",
+    "subcategory": "Selfie Stick",
+    "brand": "b0a2d9000000000000000009",
+    "createdAt": "2026-07-01T02:00:00.000Z",
+    "updatedAt": "2026-07-01T02:00:00.000Z"
   }
 ]

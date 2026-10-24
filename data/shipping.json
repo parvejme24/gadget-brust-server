@@ -1,0 +1,84 @@
+[
+  {
+    "_id": "5a1b01000000000000000001",
+    "name": "Inside Dhaka",
+    "description": "Home delivery within Dhaka city",
+    "baseCharge": 60,
+    "perKgCharge": 10,
+    "minOrderAmount": 0,
+    "freeShippingThreshold": 5000,
+    "estimatedDays": {
+      "min": 1,
+      "max": 2
+    },
+    "isActive": true,
+    "zones": [
+      {
+        "name": "Dhaka City",
+        "countries": [
+          "Bangladesh"
+        ],
+        "additionalCharge": 0
+      }
+    ],
+    "createdAt": "2026-03-17T10:00:00.000Z",
+    "updatedAt": "2026-03-17T10:00:00.000Z"
+  },
+  {
+    "_id": "5a1b01000000000000000002",
+    "name": "Outside Dhaka",
+    "description": "Courier delivery to all districts of Bangladesh",
+    "baseCharge": 120,
+    "perKgCharge": 20,
+    "minOrderAmount": 0,
+    "freeShippingThreshold": 10000,
+    "estimatedDays": {
+      "min": 3,
+      "max": 5
+    },
+    "isActive": true,
+    "zones": [
+      {
+        "name": "Divisional Cities",
+        "countries": [
+          "Bangladesh"
+        ],
+        "additionalCharge": 0
+      },
+      {
+        "name": "Remote Areas",
+        "countries": [
+          "Bangladesh"
+        ],
+        "additionalCharge": 50
+      }
+    ],
+    "createdAt": "2026-03-18T10:00:00.000Z",
+    "updatedAt": "2026-03-18T10:00:00.000Z"
+  },
+  {
+    "_id": "5a1b01000000000000000003",
+    "name": "Express Delivery",
+    "description": "Same-day delivery inside Dhaka for orders before 2 PM",
+    "baseCharge": 150,
+    "perKgCharge": 15,
+    "minOrderAmount": 1000,
+    "freeShippingThreshold": 0,
+    "estimatedDays": {
+      "min": 1,
+      "max": 1
+    },
+    "isActive": true,
+    "zones": [
+      {
+        "name": "Dhaka City",
+        "countries": [
+          "Bangladesh"
+        ],
+        "additionalCharge": 0
+      }
+    ],
+    "createdAt": "2026-03-19T10:00:00.000Z",
+    "updatedAt": "2026-03-19T10:00:00.000Z"
+  }
+]

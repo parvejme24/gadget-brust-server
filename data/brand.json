@@ -1,50 +1,198 @@
 [
   {
-    "brandName": "Walton",
-    "brandImg": "https://example.com/images/walton.jpg"
+    "_id": "b0a2d9000000000000000001",
+    "brandName": "Apple",
+    "brandImg": "https://cdn.simpleicons.org/apple",
+    "createdAt": "2026-03-27T10:00:00.000Z",
+    "updatedAt": "2026-03-27T10:00:00.000Z"
   },
   {
-    "brandName": "Dell",
-    "brandImg": "https://example.com/images/dell.jpg"
-  },
-  {
-    "brandName": "LG",
-    "brandImg": "https://example.com/images/lg.jpg"
-  },
-  {
+    "_id": "b0a2d9000000000000000002",
     "brandName": "Samsung",
-    "brandImg": "https://example.com/images/samsung.jpg"
+    "brandImg": "https://cdn.simpleicons.org/samsung",
+    "createdAt": "2026-03-28T10:00:00.000Z",
+    "updatedAt": "2026-03-28T10:00:00.000Z"
   },
   {
+    "_id": "b0a2d9000000000000000003",
+    "brandName": "Dell",
+    "brandImg": "https://cdn.simpleicons.org/dell",
+    "createdAt": "2026-03-29T10:00:00.000Z",
+    "updatedAt": "2026-03-29T10:00:00.000Z"
+  },
+  {
+    "_id": "b0a2d9000000000000000004",
     "brandName": "HP",
-    "brandImg": "https://example.com/images/hp.jpg"
+    "brandImg": "https://cdn.simpleicons.org/hp",
+    "createdAt": "2026-03-30T10:00:00.000Z",
+    "updatedAt": "2026-03-30T10:00:00.000Z"
   },
   {
-    "brandName": "Toshiba",
-    "brandImg": "https://example.com/images/toshiba.jpg"
-  },
-  {
-    "brandName": "MSI",
-    "brandImg": "https://example.com/images/msi.jpg"
-  },
-  {
-    "brandName": "Gigabyte",
-    "brandImg": "https://example.com/images/gigabyte.jpg"
-  },
-  {
-    "brandName": "Asus",
-    "brandImg": "https://example.com/images/asus.jpg"
-  },
-  {
-    "brandName": "BenQ",
-    "brandImg": "https://example.com/images/benq.jpg"
-  },
-  {
+    "_id": "b0a2d9000000000000000005",
     "brandName": "Lenovo",
-    "brandImg": "https://example.com/images/lenovo.jpg"
+    "brandImg": "https://cdn.simpleicons.org/lenovo",
+    "createdAt": "2026-03-31T10:00:00.000Z",
+    "updatedAt": "2026-03-31T10:00:00.000Z"
   },
   {
+    "_id": "b0a2d9000000000000000006",
+    "brandName": "Asus",
+    "brandImg": "https://cdn.simpleicons.org/asus",
+    "createdAt": "2026-04-01T10:00:00.000Z",
+    "updatedAt": "2026-04-01T10:00:00.000Z"
+  },
+  {
+    "_id": "b0a2d9000000000000000007",
+    "brandName": "MSI",
+    "brandImg": "https://cdn.simpleicons.org/msi",
+    "createdAt": "2026-04-02T10:00:00.000Z",
+    "updatedAt": "2026-04-02T10:00:00.000Z"
+  },
+  {
+    "_id": "b0a2d9000000000000000008",
+    "brandName": "LG",
+    "brandImg": "https://cdn.simpleicons.org/lg",
+    "createdAt": "2026-04-03T10:00:00.000Z",
+    "updatedAt": "2026-04-03T10:00:00.000Z"
+  },
+  {
+    "_id": "b0a2d9000000000000000009",
+    "brandName": "Xiaomi",
+    "brandImg": "https://cdn.simpleicons.org/xiaomi",
+    "createdAt": "2026-04-04T10:00:00.000Z",
+    "updatedAt": "2026-04-04T10:00:00.000Z"
+  },
+  {
+    "_id": "b0a2d900000000000000000a",
+    "brandName": "Huawei",
+    "brandImg": "https://cdn.simpleicons.org/huawei",
+    "createdAt": "2026-04-05T10:00:00.000Z",
+    "updatedAt": "2026-04-05T10:00:00.000Z"
+  },
+  {
+    "_id": "b0a2d900000000000000000b",
+    "brandName": "Sony",
+    "brandImg": "https://cdn.simpleicons.org/sony",
+    "createdAt": "2026-04-06T10:00:00.000Z",
+    "updatedAt": "2026-04-06T10:00:00.000Z"
+  },
+  {
+    "_id": "b0a2d900000000000000000c",
+    "brandName": "Oppo",
+    "brandImg": "https://cdn.simpleicons.org/oppo",
+    "createdAt": "2026-04-07T10:00:00.000Z",
+    "updatedAt": "2026-04-07T10:00:00.000Z"
+  },
+  {
+    "_id": "b0a2d900000000000000000d",
+    "brandName": "Vivo",
+    "brandImg": "https://cdn.simpleicons.org/vivo",
+    "createdAt": "2026-04-08T10:00:00.000Z",
+    "updatedAt": "2026-04-08T10:00:00.000Z"
+  },
+  {
+    "_id": "b0a2d900000000000000000e",
+    "brandName": "Realme",
+    "brandImg": "https://placehold.co/240x96/ffffff/111827/png?font=montserrat&text=realme",
+    "createdAt": "2026-04-09T10:00:00.000Z",
+    "updatedAt": "2026-04-09T10:00:00.000Z"
+  },
+  {
+    "_id": "b0a2d900000000000000000f",
+    "brandName": "Acer",
+    "brandImg": "https://cdn.simpleicons.org/acer",
+    "createdAt": "2026-04-10T10:00:00.000Z",
+    "updatedAt": "2026-04-10T10:00:00.000Z"
+  },
+  {
+    "_id": "b0a2d9000000000000000010",
+    "brandName": "JBL",
+    "brandImg": "https://cdn.simpleicons.org/jbl",
+    "createdAt": "2026-04-11T10:00:00.000Z",
+    "updatedAt": "2026-04-11T10:00:00.000Z"
+  },
+  {
+    "_id": "b0a2d9000000000000000011",
+    "brandName": "Beats",
+    "brandImg": "https://cdn.simpleicons.org/beats",
+    "createdAt": "2026-04-12T10:00:00.000Z",
+    "updatedAt": "2026-04-12T10:00:00.000Z"
+  },
+  {
+    "_id": "b0a2d9000000000000000012",
+    "brandName": "Razer",
+    "brandImg": "https://cdn.simpleicons.org/razer",
+    "createdAt": "2026-04-13T10:00:00.000Z",
+    "updatedAt": "2026-04-13T10:00:00.000Z"
+  },
+  {
+    "_id": "b0a2d9000000000000000013",
     "brandName": "Corsair",
-    "brandImg": "https://example.com/images/corsair.jpg"
+    "brandImg": "https://cdn.simpleicons.org/corsair",
+    "createdAt": "2026-04-14T10:00:00.000Z",
+    "updatedAt": "2026-04-14T10:00:00.000Z"
+  },
+  {
+    "_id": "b0a2d9000000000000000014",
+    "brandName": "Logitech",
+    "brandImg": "https://placehold.co/240x96/ffffff/111827/png?font=montserrat&text=Logitech",
+    "createdAt": "2026-04-15T10:00:00.000Z",
+    "updatedAt": "2026-04-15T10:00:00.000Z"
+  },
+  {
+    "_id": "b0a2d9000000000000000015",
+    "brandName": "Anker",
+    "brandImg": "https://placehold.co/240x96/ffffff/111827/png?font=montserrat&text=Anker",
+    "createdAt": "2026-04-16T10:00:00.000Z",
+    "updatedAt": "2026-04-16T10:00:00.000Z"
+  },
+  {
+    "_id": "b0a2d9000000000000000016",
+    "brandName": "Canon",
+    "brandImg": "https://placehold.co/240x96/ffffff/111827/png?font=montserrat&text=Canon",
+    "createdAt": "2026-04-17T10:00:00.000Z",
+    "updatedAt": "2026-04-17T10:00:00.000Z"
+  },
+  {
+    "_id": "b0a2d9000000000000000017",
+    "brandName": "Gigabyte",
+    "brandImg": "https://placehold.co/240x96/ffffff/111827/png?font=montserrat&text=GIGABYTE",
+    "createdAt": "2026-04-18T10:00:00.000Z",
+    "updatedAt": "2026-04-18T10:00:00.000Z"
+  },
+  {
+    "_id": "b0a2d9000000000000000018",
+    "brandName": "Western Digital",
+    "brandImg": "https://placehold.co/240x96/ffffff/111827/png?font=montserrat&text=Western+Digital",
+    "createdAt": "2026-04-19T10:00:00.000Z",
+    "updatedAt": "2026-04-19T10:00:00.000Z"
+  },
+  {
+    "_id": "b0a2d9000000000000000019",
+    "brandName": "SanDisk",
+    "brandImg": "https://placehold.co/240x96/ffffff/111827/png?font=montserrat&text=SanDisk",
+    "createdAt": "2026-04-20T10:00:00.000Z",
+    "updatedAt": "2026-04-20T10:00:00.000Z"
+  },
+  {
+    "_id": "b0a2d900000000000000001a",
+    "brandName": "Amazon",
+    "brandImg": "https://placehold.co/240x96/ffffff/111827/png?font=montserrat&text=amazon",
+    "createdAt": "2026-04-21T10:00:00.000Z",
+    "updatedAt": "2026-04-21T10:00:00.000Z"
+  },
+  {
+    "_id": "b0a2d900000000000000001b",
+    "brandName": "Walton",
+    "brandImg": "https://placehold.co/240x96/ffffff/111827/png?font=montserrat&text=WALTON",
+    "createdAt": "2026-04-22T10:00:00.000Z",
+    "updatedAt": "2026-04-22T10:00:00.000Z"
+  },
+  {
+    "_id": "b0a2d900000000000000001c",
+    "brandName": "Toshiba",
+    "brandImg": "https://cdn.simpleicons.org/toshiba",
+    "createdAt": "2026-04-23T10:00:00.000Z",
+    "updatedAt": "2026-04-23T10:00:00.000Z"
   }
 ]

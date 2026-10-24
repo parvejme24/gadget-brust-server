@@ -1,0 +1,29 @@
+[
+  {
+    "key": "store",
+    "storeName": "Gadget Brust",
+    "tagline": "Smart gadgets, genuine warranty, fast delivery.",
+    "email": "support@gadgetbrust.com",
+    "phone": "+880 1700-000000",
+    "address": "Level 4, Bashundhara City, Panthapath, Dhaka 1215",
+    "hours": "Sat - Thu, 10:00 AM - 8:00 PM",
+    "currency": "BDT",
+    "taxRate": 5,
+    "freeDeliveryThreshold": 5000,
+    "deliveryCharges": { "insideDhaka": 60, "outsideDhaka": 120 },
+    "lowStockThreshold": 10,
+    "socials": {
+      "facebook": "https://facebook.com/gadgetbrust",
+      "instagram": "https://instagram.com/gadgetbrust",
+      "youtube": "https://youtube.com/@gadgetbrust",
+      "twitter": ""
+    },
+    "seo": {
+      "metaTitle": "Gadget Brust | Smart Gadget Store",
+      "metaDescription": "Shop phones, laptops, audio, gaming and smart accessories with official warranty.",
+      "keywords": "gadgets, phones, laptops, bangladesh"
+    },
+    "announcement": { "enabled": true, "text": "Free delivery on orders over ৳5,000 · Cash on delivery all over Bangladesh" },
+    "maintenanceMode": false
+  }
+]
