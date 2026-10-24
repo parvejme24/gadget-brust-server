@@ -14,13 +14,13 @@ const CartSchema = mongoose.Schema(
     },
     color: {
       type: String,
-      required: true,
       trim: true,
+      default: 'Default',
     },
     size: {
       type: String,
-      required: true,
       trim: true,
+      default: 'Standard',
     },
     qty: {
       type: Number,
