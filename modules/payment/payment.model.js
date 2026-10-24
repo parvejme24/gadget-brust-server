@@ -3,17 +3,16 @@ const mongoose = require('mongoose');
 const paymentSchema = new mongoose.Schema({
   user_id: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: 'users',
-    required: true
+    ref: 'users'
   },
   invoice_id: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: 'Invoice',
+    ref: 'invoices',
     required: true
   },
   payment_method: {
     type: String,
-    enum: ['stripe', 'ssl_commerz', 'cash_on_delivery'],
+    enum: ['stripe', 'ssl_commerz', 'shurjopay', 'cash_on_delivery', 'cash', 'card', 'bkash', 'nagad'],
     required: true
   },
   amount: {
@@ -67,6 +66,5 @@ const paymentSchema = new mongoose.Schema({
 paymentSchema.index({ user_id: 1, created_at: -1 });
 paymentSchema.index({ invoice_id: 1 });
 paymentSchema.index({ status: 1 });
-paymentSchema.index({ transaction_id: 1 });
 
 module.exports = mongoose.model('Payment', paymentSchema);
