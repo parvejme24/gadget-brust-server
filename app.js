@@ -28,16 +28,29 @@ const invoiceRoutes = require("./modules/invoice/invoice.routes");
 const uploadRoutes = require("./modules/upload/upload.routes");
 const paymentRoutes = require("./modules/payment/payment.routes");
 const dashboardRoutes = require("./modules/dashboard/dashboard.routes");
+const settingsRoutes = require("./modules/settings/settings.routes");
+const courierRoutes = require("./modules/courier/courier.routes");
+const couponRoutes = require("./modules/coupon/coupon.routes");
+const inventoryRoutes = require("./modules/inventory/inventory.routes");
+const posRoutes = require("./modules/pos/pos.routes");
+const notificationRoutes = require("./modules/notification/notification.routes");
+const searchRoutes = require("./modules/search/search.routes");
+const contactRoutes = require("./modules/contact/contact.routes");
 
 const app = express();
 
 // Security middleware
-app.use(helmet());
+app.use(
+  helmet({
+    crossOriginResourcePolicy: { policy: "cross-origin" },
+  })
+);
 
 // Rate limiting
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
-  max: 100, // limit each IP to 100 requests per windowMs
+  // a storefront page makes several API calls, so 100 was hit during normal browsing
+  max: Number(process.env.RATE_LIMIT_MAX) || 1000,
   message: "Too many requests from this IP, please try again later.",
 });
 app.use("/api/", limiter);
@@ -57,9 +70,32 @@ app.use(xss());
 app.use(hpp());
 
 // CORS
+const allowedOrigins = [
+  process.env.FRONTEND_URL,
+  "http://localhost:3000",
+  "http://localhost:8081",
+  "http://localhost:8082",
+  "http://127.0.0.1:3000",
+  "http://127.0.0.1:8081",
+  "http://127.0.0.1:8082",
+].filter(Boolean);
+
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL || "http://localhost:3000",
+    origin: (origin, callback) => {
+      // allow requests with no origin (mobile apps, curl, etc.)
+      if (!origin) return callback(null, true);
+      if (
+        allowedOrigins.includes(origin) ||
+        /^http:\/\/localhost:\d+$/.test(origin) ||
+        /^http:\/\/127\.0\.0\.1:\d+$/.test(origin) ||
+        /^http:\/\/192\.168\.\d+\.\d+(:\d+)?$/.test(origin) ||
+        /^http:\/\/10\.\d+\.\d+\.\d+(:\d+)?$/.test(origin)
+      ) {
+        return callback(null, true);
+      }
+      return callback(null, true);
+    },
     credentials: true,
   })
 );
@@ -111,6 +147,14 @@ app.use("/api/invoices", invoiceRoutes);
 app.use("/api/upload", uploadRoutes);
 app.use("/api/payments", paymentRoutes);
 app.use("/api/dashboard", dashboardRoutes);
+app.use("/api/store-settings", settingsRoutes);
+app.use("/api/couriers", courierRoutes);
+app.use("/api/coupons", couponRoutes);
+app.use("/api/inventory", inventoryRoutes);
+app.use("/api/pos", posRoutes);
+app.use("/api/notifications", notificationRoutes);
+app.use("/api/search", searchRoutes);
+app.use("/api/contact", contactRoutes);
 
 // 404 handler
 app.use(notFound);
