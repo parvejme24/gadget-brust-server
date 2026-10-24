@@ -20,8 +20,17 @@ const UserSchema = mongoose.Schema({
   },
   role: {
     type: String,
-    enum: ['user', 'admin'],
+    enum: ['user', 'admin', 'manager', 'inventory', 'cashier', 'marketing'],
     default: 'user',
+  },
+  // deactivated staff/customers can't sign in
+  isActive: {
+    type: Boolean,
+    default: true,
+  },
+  phone: {
+    type: String,
+    trim: true,
   },
   profileImage: {
     url: String,

@@ -3,6 +3,7 @@ const RefreshTokenModel = require('./auth.model');
 const ResponseUtil = require('../../shared/utils/response.util');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
+const { ALL_ROLES } = require('../../shared/config/permissions');
 
 class AuthController {
   async register(req, res, next) {
@@ -87,6 +88,10 @@ class AuthController {
         return ResponseUtil.unauthorized(res, 'Invalid email or password');
       }
 
+      if (user.isActive === false) {
+        return ResponseUtil.forbidden(res, 'This account has been deactivated. Contact the store admin.');
+      }
+
       // Generate JWT token
       const token = jwt.sign(
         { userId: user._id, email: user.email, role: user.role },
@@ -159,15 +164,12 @@ class AuthController {
   async updateProfile(req, res, next) {
     try {
       const userId = req.user.userId;
-      const updateData = req.body;
 
-      // Don't allow role update through profile update
-      delete updateData.role;
-
-      // If password is being updated, hash it
-      if (updateData.password) {
-        const salt = await bcrypt.genSalt(10);
-        updateData.password = await bcrypt.hash(updateData.password, salt);
+      // only name and photo; passwords go through /change-password (which checks the current one)
+      const updateData = {};
+      if (typeof req.body.fullName === 'string' && req.body.fullName.trim()) updateData.fullName = req.body.fullName.trim();
+      if (req.body.profileImage !== undefined) {
+        updateData.profileImage = typeof req.body.profileImage === 'string' ? { url: req.body.profileImage } : req.body.profileImage;
       }
 
       const user = await UserModel.findByIdAndUpdate(
@@ -206,11 +208,6 @@ class AuthController {
 
   async getAllUsers(req, res, next) {
     try {
-      // Check if user is admin
-      if (req.user.role !== 'admin') {
-        return ResponseUtil.forbidden(res, 'Access denied. Admin only.');
-      }
-
       const users = await UserModel.find().select('-password');
       return ResponseUtil.success(res, users, 'Users retrieved successfully');
     } catch (error) {
@@ -220,16 +217,14 @@ class AuthController {
 
   async updateUserRole(req, res, next) {
     try {
-      // Check if user is admin
-      if (req.user.role !== 'admin') {
-        return ResponseUtil.forbidden(res, 'Access denied. Admin only.');
-      }
-
       const { userId } = req.params;
       const { role } = req.body;
 
-      if (!['user', 'admin'].includes(role)) {
-        return ResponseUtil.badRequest(res, 'Invalid role. Must be "user" or "admin"');
+      if (!ALL_ROLES.includes(role)) {
+        return ResponseUtil.badRequest(res, `Invalid role. Use one of: ${ALL_ROLES.join(', ')}`);
+      }
+      if (String(userId) === String(req.user.userId)) {
+        return ResponseUtil.badRequest(res, "You can't change your own role");
       }
 
       const user = await UserModel.findByIdAndUpdate(
@@ -251,12 +246,10 @@ class AuthController {
   // Additional user management methods (admin only)
   async createUser(req, res, next) {
     try {
-      // Check if user is admin
-      if (req.user.role !== 'admin') {
-        return ResponseUtil.forbidden(res, 'Access denied. Admin only.');
+      const { fullName, email, password, role = 'user', phone } = req.body;
+      if (!ALL_ROLES.includes(role)) {
+        return ResponseUtil.badRequest(res, 'Invalid role');
       }
-
-      const { fullName, email, password, role = 'user' } = req.body;
 
       // Validate required fields
       if (!fullName || !email || !password) {
@@ -289,7 +282,8 @@ class AuthController {
         fullName,
         email: email.toLowerCase(),
         password: hashedPassword,
-        role
+        role,
+        phone
       });
 
       const savedUser = await user.save();
@@ -311,11 +305,6 @@ class AuthController {
 
   async getUserById(req, res, next) {
     try {
-      // Check if user is admin
-      if (req.user.role !== 'admin') {
-        return ResponseUtil.forbidden(res, 'Access denied. Admin only.');
-      }
-
       const user = await UserModel.findById(req.params.id).select('-password');
       if (!user) {
         return ResponseUtil.notFound(res, 'User not found');
@@ -328,17 +317,18 @@ class AuthController {
 
   async updateUser(req, res, next) {
     try {
-      // Check if user is admin
-      if (req.user.role !== 'admin') {
-        return ResponseUtil.forbidden(res, 'Access denied. Admin only.');
+      const updateData = {};
+      ['fullName', 'phone', 'isActive'].forEach((key) => {
+        if (req.body[key] !== undefined) updateData[key] = req.body[key];
+      });
+      if (String(req.params.id) === String(req.user.userId) && updateData.isActive === false) {
+        return ResponseUtil.badRequest(res, "You can't deactivate your own account");
       }
-
-      const updateData = req.body;
-
-      // If password is being updated, hash it
-      if (updateData.password) {
+      // an admin can reset a staff password
+      if (req.body.password) {
+        if (String(req.body.password).length < 6) return ResponseUtil.badRequest(res, 'Password must be at least 6 characters long');
         const salt = await bcrypt.genSalt(10);
-        updateData.password = await bcrypt.hash(updateData.password, salt);
+        updateData.password = await bcrypt.hash(req.body.password, salt);
       }
 
       const user = await UserModel.findByIdAndUpdate(
@@ -358,11 +348,6 @@ class AuthController {
 
   async deleteUser(req, res, next) {
     try {
-      // Check if user is admin
-      if (req.user.role !== 'admin') {
-        return ResponseUtil.forbidden(res, 'Access denied. Admin only.');
-      }
-
       const user = await UserModel.findByIdAndDelete(req.params.id);
       if (!user) {
         return ResponseUtil.notFound(res, 'User not found');
@@ -379,17 +364,78 @@ class AuthController {
 
   async getUserByEmail(req, res, next) {
     try {
-      // Check if user is admin
-      if (req.user.role !== 'admin') {
-        return ResponseUtil.forbidden(res, 'Access denied. Admin only.');
-      }
-
       const { email } = req.params;
       const user = await UserModel.findOne({ email: email.toLowerCase() }).select('-password');
       if (!user) {
         return ResponseUtil.notFound(res, 'User not found');
       }
       return ResponseUtil.success(res, user, 'User retrieved successfully');
+    } catch (error) {
+      next(error);
+    }
+  }
+  // Exchange a stored refresh token for a new access token
+  async refresh(req, res, next) {
+    try {
+      const { refreshToken } = req.body;
+      if (!refreshToken) {
+        return ResponseUtil.badRequest(res, 'Refresh token is required');
+      }
+
+      let payload;
+      try {
+        payload = jwt.verify(refreshToken, process.env.JWT_REFRESH_SECRET || 'your-refresh-secret-key');
+      } catch (error) {
+        return ResponseUtil.unauthorized(res, 'Invalid or expired refresh token');
+      }
+
+      const stored = await RefreshTokenModel.findOne({ token: refreshToken, userId: payload.userId });
+      if (!stored || stored.expiresAt < new Date()) {
+        return ResponseUtil.unauthorized(res, 'Invalid or expired refresh token');
+      }
+
+      const user = await UserModel.findById(payload.userId);
+      if (!user || user.isActive === false) {
+        return ResponseUtil.unauthorized(res, 'User no longer exists');
+      }
+
+      const token = jwt.sign(
+        { userId: user._id, email: user.email, role: user.role },
+        process.env.JWT_SECRET || 'your-secret-key',
+        { expiresIn: '1h' }
+      );
+
+      return ResponseUtil.success(res, { token }, 'Token refreshed');
+    } catch (error) {
+      next(error);
+    }
+  }
+
+  async changePassword(req, res, next) {
+    try {
+      const { currentPassword, newPassword } = req.body;
+      if (!currentPassword || !newPassword) {
+        return ResponseUtil.badRequest(res, 'Current and new password are required');
+      }
+      if (newPassword.length < 6) {
+        return ResponseUtil.badRequest(res, 'New password must be at least 6 characters long');
+      }
+
+      const user = await UserModel.findById(req.user.userId);
+      if (!user) {
+        return ResponseUtil.notFound(res, 'User not found');
+      }
+
+      const isPasswordValid = await bcrypt.compare(currentPassword, user.password);
+      if (!isPasswordValid) {
+        return ResponseUtil.badRequest(res, 'Current password is incorrect');
+      }
+
+      const salt = await bcrypt.genSalt(10);
+      user.password = await bcrypt.hash(newPassword, salt);
+      await user.save();
+
+      return ResponseUtil.success(res, null, 'Password changed successfully');
     } catch (error) {
       next(error);
     }
