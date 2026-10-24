@@ -4,8 +4,6 @@ const errorHandler = (err, req, res, next) => {
   let error = { ...err };
   error.message = err.message;
 
-  // Log error
-  console.error(err);
 
   // Mongoose bad ObjectId
   if (err.name === 'CastError') {
@@ -38,6 +36,9 @@ const errorHandler = (err, req, res, next) => {
 
   const statusCode = error.statusCode || 500;
   const message = error.message || 'Server Error';
+
+  // client mistakes (4xx) are answered, not logged
+  if (statusCode >= 500) console.error(err);
 
   return ResponseUtil.error(res, message, statusCode);
 };
