@@ -152,6 +152,7 @@ gadget-brust-server/
 ## 📚 API Documentation
 
 The full list of endpoints, request bodies and who may call each one is in **[API.md](API.md)**.
+Deploying to Vercel: **[DEPLOY.md](DEPLOY.md)**.
 
 ```
 Development: http://localhost:6060/api
