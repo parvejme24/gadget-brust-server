@@ -19,6 +19,9 @@ const EDITABLE = [
   "maintenanceMode",
 ];
 
+// settings that are groups of fields; a plain value would replace the whole group
+const GROUPS = ["deliveryCharges", "socials", "seo", "announcement"];
+
 // flatten nested objects so a partial update doesn't wipe sibling fields
 const toDotPaths = (obj, prefix = "") =>
   Object.entries(obj).reduce((acc, [key, value]) => {
@@ -45,6 +48,8 @@ class SettingsController {
   async updateSettings(req, res, next) {
     try {
       const updates = Object.fromEntries(Object.entries(req.body).filter(([key]) => EDITABLE.includes(key)));
+      const badGroup = GROUPS.find((key) => key in updates && (!updates[key] || typeof updates[key] !== "object" || Array.isArray(updates[key])));
+      if (badGroup) return ResponseUtil.badRequest(res, `${badGroup} must be an object`);
       const settings = await SettingsModel.findOneAndUpdate(
         { key: "store" },
         { $set: toDotPaths(updates) },
