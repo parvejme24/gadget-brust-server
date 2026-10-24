@@ -18,17 +18,16 @@ class NotificationController {
   async list(req, res, next) {
     try {
       const user = req.user;
-      const userId = user?.userId;
+      // every notification is for a user or a staff permission, so guests have none
+      if (!user) return ResponseUtil.success(res, { items: [], unread: 0 }, "Notifications");
+      const userId = user.userId;
       const limit = Math.min(Number(req.query.limit) || 20, 100);
-      const filter = user ? audienceFilter(user) : { user: null };
-      const listFilter =
-        user && req.query.unread === "true" ? { ...filter, readBy: { $ne: userId } } : filter;
+      const filter = audienceFilter(user);
+      const listFilter = req.query.unread === "true" ? { ...filter, readBy: { $ne: userId } } : filter;
 
       const [items, unread] = await Promise.all([
         NotificationModel.find(listFilter).sort({ createdAt: -1 }).limit(limit),
-        user
-          ? NotificationModel.countDocuments({ ...filter, readBy: { $ne: userId } })
-          : Promise.resolve(0),
+        NotificationModel.countDocuments({ ...filter, readBy: { $ne: userId } }),
       ]);
       return ResponseUtil.success(
         res,
