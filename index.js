@@ -1,8 +1,9 @@
+// load .env before anything reads process.env (payment config reads keys at require time)
+require('dotenv').config();
 const app = require('./app');
 const { connectDB } = require('./shared/config/database');
-require('dotenv').config();
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || process.env.SERVER_RUNNING_PORT || 5000;
 
 // Connect to database
 const startServer = async () => {
