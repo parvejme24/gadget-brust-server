@@ -74,6 +74,9 @@ app.use(hpp());
 // CORS
 const allowedOrigins = [
   process.env.FRONTEND_URL,
+  // mobile web app on Vercel
+  "https://gadgetbrust-app.vercel.app",
+  ...(process.env.CORS_ORIGINS || "").split(",").map((o) => o.trim()).filter(Boolean),
   "http://localhost:3000",
   "http://localhost:8081",
   "http://localhost:8082",
@@ -92,10 +95,13 @@ app.use(
         /^http:\/\/localhost:\d+$/.test(origin) ||
         /^http:\/\/127\.0\.0\.1:\d+$/.test(origin) ||
         /^http:\/\/192\.168\.\d+\.\d+(:\d+)?$/.test(origin) ||
-        /^http:\/\/10\.\d+\.\d+\.\d+(:\d+)?$/.test(origin)
+        /^http:\/\/10\.\d+\.\d+\.\d+(:\d+)?$/.test(origin) ||
+        // Vercel preview deployments of the mobile web app
+        /^https:\/\/gadgetbrust-app(-[a-z0-9-]+)?\.vercel\.app$/.test(origin)
       ) {
         return callback(null, true);
       }
+      // unknown origins are still allowed for now (public storefront API)
       return callback(null, true);
     },
     credentials: true,

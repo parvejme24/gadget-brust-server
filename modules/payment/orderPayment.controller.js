@@ -34,6 +34,7 @@ const isAllowedReturnUrl = (url) => {
     const extra = (process.env.ALLOWED_RETURN_ORIGINS || '').split(',').map((o) => o.trim().replace(/\/$/, '')).filter(Boolean);
     return (
       origin === process.env.FRONTEND_URL ||
+      origin === 'https://gadgetbrust-app.vercel.app' ||
       extra.includes(origin) ||
       /^http:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/.test(origin) ||
       /^http:\/\/(192\.168|10)\.\d+\.\d+(\.\d+)?(:\d+)?$/.test(origin)
