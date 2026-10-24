@@ -36,6 +36,8 @@ const posRoutes = require("./modules/pos/pos.routes");
 const notificationRoutes = require("./modules/notification/notification.routes");
 const searchRoutes = require("./modules/search/search.routes");
 const contactRoutes = require("./modules/contact/contact.routes");
+const addressRoutes = require("./modules/address/address.routes");
+const mongoose = require("mongoose");
 
 const app = express();
 
@@ -131,6 +133,19 @@ app.get("/api", (req, res) => {
   });
 });
 
+// Uptime checks: 200 when the database is connected, 503 otherwise
+app.get("/api/health", (req, res) => {
+  const states = ["disconnected", "connected", "connecting", "disconnecting"];
+  const database = states[mongoose.connection.readyState] || "unknown";
+  res.status(database === "connected" ? 200 : 503).json({
+    success: database === "connected",
+    status: database === "connected" ? "ok" : "degraded",
+    database,
+    uptime: Math.round(process.uptime()),
+    timestamp: new Date().toISOString(),
+  });
+});
+
 // API routes
 app.use("/api", authRoutes);
 
@@ -155,6 +170,7 @@ app.use("/api/pos", posRoutes);
 app.use("/api/notifications", notificationRoutes);
 app.use("/api/search", searchRoutes);
 app.use("/api/contact", contactRoutes);
+app.use("/api/addresses", addressRoutes);
 
 // 404 handler
 app.use(notFound);
