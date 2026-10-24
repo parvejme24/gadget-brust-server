@@ -1,8 +1,10 @@
+const mongoose = require("mongoose");
 const UserModel = require("../user/user.model");
 const ProductModel = require("../product/product.model");
 const CartModel = require("../cart/cart.model");
 const InvoiceModel = require("../invoice/invoice.model");
 const PaymentModel = require("../payment/payment.model");
+const ReviewModel = require("../review/review.model");
 const ResponseUtil = require("../../shared/utils/response.util");
 
 class DashboardController {
@@ -80,9 +82,9 @@ class DashboardController {
         ProductModel.countDocuments({ stock: { $lte: 10 } }),
         
         // Order status counts
-        InvoiceModel.countDocuments({ status: 'pending' }),
+        InvoiceModel.countDocuments({ orderStatus: 'pending' }), // awaiting fulfilment,
         InvoiceModel.countDocuments({ status: 'paid' }),
-        InvoiceModel.countDocuments({ status: 'cancelled' }),
+        InvoiceModel.countDocuments({ orderStatus: 'cancelled' }),
         
         // Additional stats
         ProductModel.distinct('category').then(categories => categories.length),
@@ -749,6 +751,45 @@ class DashboardController {
       };
 
       return ResponseUtil.success(res, activities, "Recent activities retrieved successfully");
+    } catch (error) {
+      next(error);
+    }
+  }
+  // the signed-in customer's own numbers for their dashboard overview
+  async getMySummary(req, res, next) {
+    try {
+      const userId = new mongoose.Types.ObjectId(req.user.userId);
+      const [byStatus, spent, reviews, recentOrders] = await Promise.all([
+        InvoiceModel.aggregate([{ $match: { user_id: userId } }, { $group: { _id: "$orderStatus", count: { $sum: 1 } } }]),
+        InvoiceModel.aggregate([
+          { $match: { user_id: userId, orderStatus: { $ne: "cancelled" } } },
+          { $group: { _id: null, total: { $sum: "$total" } } },
+        ]),
+        ReviewModel.countDocuments({ customerID: userId }),
+        InvoiceModel.find({ user_id: userId })
+          .select("invoiceNumber orderStatus paymentStatus total items createdAt")
+          .sort({ createdAt: -1 })
+          .limit(5)
+          .lean(),
+      ]);
+      const counts = Object.fromEntries(byStatus.map((s) => [s._id, s.count]));
+      const total = byStatus.reduce((s, x) => s + x.count, 0);
+      return ResponseUtil.success(
+        res,
+        {
+          orders: {
+            total,
+            pending: counts.pending || 0,
+            active: (counts.pending || 0) + (counts.processing || 0) + (counts.shipped || 0),
+            delivered: counts.delivered || 0,
+            cancelled: counts.cancelled || 0,
+          },
+          spent: spent[0]?.total || 0,
+          reviews,
+          recentOrders,
+        },
+        "Your summary"
+      );
     } catch (error) {
       next(error);
     }
