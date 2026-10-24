@@ -1,6 +1,9 @@
+const mongoose = require("mongoose");
 const ContactModel = require("./contact.model");
 const ResponseUtil = require("../../shared/utils/response.util");
 const { notify } = require("../notification/notification.service");
+
+const STATUSES = ["unread", "read", "replied", "archived"];
 
 class ContactController {
   // POST /api/contact - Public contact submission
@@ -29,7 +32,7 @@ class ContactController {
         type: "system",
         title: `New message from ${contact.name}`,
         message: `${contact.subject}: ${contact.message.slice(0, 80)}${contact.message.length > 80 ? "…" : ""}`,
-        link: "/dashboard/notifications",
+        link: "/dashboard/messages",
         permission: "dashboard",
       });
 
@@ -42,17 +45,24 @@ class ContactController {
   // GET /api/contact - Staff messages list (admin/manager)
   async getMessages(req, res, next) {
     try {
-      const { status, limit = 50, page = 1 } = req.query;
-      const filter = {};
-      if (status) filter.status = status;
+      const status = STATUSES.includes(req.query.status) ? req.query.status : null;
+      const limit = Math.min(Math.max(Number(req.query.limit) || 50, 1), 100);
+      const page = Math.max(Number(req.query.page) || 1, 1);
+      const filter = status ? { status } : {};
+      if (req.query.search) {
+        const text = String(req.query.search).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+        filter.$or = ["name", "email", "subject", "message"].map((field) => ({ [field]: { $regex: text, $options: "i" } }));
+      }
 
-      const skip = (Number(page) - 1) * Number(limit);
-      const [messages, total] = await Promise.all([
-        ContactModel.find(filter).sort({ createdAt: -1 }).skip(skip).limit(Number(limit)).lean(),
+      const [messages, total, grouped] = await Promise.all([
+        ContactModel.find(filter).sort({ createdAt: -1 }).skip((page - 1) * limit).limit(limit).lean(),
         ContactModel.countDocuments(filter),
+        ContactModel.aggregate([{ $group: { _id: "$status", count: { $sum: 1 } } }]),
       ]);
+      // per-status totals for the inbox tabs
+      const counts = Object.fromEntries(STATUSES.map((s) => [s, grouped.find((g) => g._id === s)?.count || 0]));
 
-      return ResponseUtil.success(res, { messages, total, page: Number(page) }, "Messages fetched");
+      return ResponseUtil.success(res, { messages, total, page, pages: Math.ceil(total / limit), counts }, "Messages fetched");
     } catch (error) {
       next(error);
     }
@@ -64,10 +74,11 @@ class ContactController {
       const { id } = req.params;
       const { status } = req.body;
 
-      if (!["unread", "read", "replied", "archived"].includes(status)) {
+      if (!STATUSES.includes(status)) {
         return ResponseUtil.badRequest(res, "Invalid status");
       }
 
+      if (!mongoose.isValidObjectId(id)) return ResponseUtil.notFound(res, "Message not found");
       const updated = await ContactModel.findByIdAndUpdate(id, { status }, { new: true });
       if (!updated) return ResponseUtil.notFound(res, "Message not found");
 
