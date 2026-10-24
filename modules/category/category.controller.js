@@ -6,6 +6,7 @@ class CategoryController {
   async createCategory(req, res, next) {
     try {
       const categoryData = { ...req.body };
+      if (typeof categoryData.categoryImg === 'string') categoryData.categoryImg = { url: categoryData.categoryImg };
 
       // Handle subcategories - convert string to array if needed
       if (categoryData.subcategories) {
@@ -85,6 +86,7 @@ class CategoryController {
   async updateCategory(req, res, next) {
     try {
       const updateData = { ...req.body };
+      if (typeof updateData.categoryImg === 'string') updateData.categoryImg = { url: updateData.categoryImg };
 
       // Handle subcategories - convert string to array if needed
       if (updateData.subcategories) {
