@@ -1,3 +1,4 @@
+const mongoose = require('mongoose');
 const PaymentModel = require('./payment.model');
 const InvoiceModel = require('../invoice/invoice.model');
 const StripeUtil = require('../../shared/utils/stripe.util');
@@ -5,6 +6,7 @@ const SSLCommerzUtil = require('../../shared/utils/ssl-commerz.util');
 const ShurjoPayUtil = require('../../shared/utils/shurjopay.util');
 const { paymentMethods } = require('../../shared/config/payment.config');
 const ResponseUtil = require('../../shared/utils/response.util');
+const { hasPermission } = require('../../shared/config/permissions');
 
 class PaymentController {
   /**
@@ -628,12 +630,16 @@ class PaymentController {
   static async getPaymentById(req, res) {
     try {
       const { id } = req.params;
+      if (!mongoose.isValidObjectId(id)) return ResponseUtil.notFound(res, 'Payment not found');
 
       const payment = await PaymentModel.findById(id)
         .populate('user_id', 'fullName email')
         .populate('invoice_id', 'invoiceNumber total status');
 
-      if (!payment) {
+      const isOwner = payment && String(payment.user_id?._id || payment.user_id) === String(req.user.userId);
+      const isStaff = ['payments', 'reports'].some((p) => hasPermission(req.user.role, p));
+      // a customer gets 404 for someone else's payment, so ids can't be probed
+      if (!payment || (!isOwner && !isStaff)) {
         return ResponseUtil.notFound(res, 'Payment not found');
       }
 

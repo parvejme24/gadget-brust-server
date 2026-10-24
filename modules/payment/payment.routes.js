@@ -3,7 +3,7 @@ const router = express.Router();
 const rateLimit = require('express-rate-limit');
 const PaymentController = require('./payment.controller');
 const { OrderPaymentController } = require('./orderPayment.controller');
-const { authenticate, can } = require('../../shared/middlewares/auth.middleware');
+const { authenticate, can, selfOr } = require('../../shared/middlewares/auth.middleware');
 
 // Storefront order payments (guests + customers, identified by order number + phone)
 const orderLimiter = rateLimit({
@@ -39,8 +39,8 @@ router.post('/shurjopay/ipn', PaymentController.shurjoPayIPN);
 router.post('/cash-on-delivery', PaymentController.createCashOnDelivery);
 
 // Payment Management Routes
-router.get('/:id', PaymentController.getPaymentById);
-router.get('/user/:user_id', PaymentController.getUserPayments);
+router.get('/:id', authenticate, PaymentController.getPaymentById);
+router.get('/user/:user_id', selfOr('user_id', 'payments', 'reports'), PaymentController.getUserPayments);
 router.get('/admin/all', can('payments', 'reports'), PaymentController.getAllPayments);
 router.patch('/:id/status', can('payments', 'reports'), PaymentController.updatePaymentStatus);
 router.post('/:id/refund', can('payments', 'reports'), PaymentController.processRefund);
