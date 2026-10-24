@@ -1,0 +1,8 @@
+# never upload secrets or local runtime files
+.env
+.env.*
+*.log
+data/db/
+node_modules/
+tests/
+.vercel
