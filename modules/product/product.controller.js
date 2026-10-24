@@ -1,11 +1,41 @@
+const mongoose = require("mongoose");
 const ProductModel = require("./product.model");
+const CategoryModel = require("../category/category.model");
+const BrandModel = require("../brand/brand.model");
 const ResponseUtil = require("../../shared/utils/response.util");
 const UploadUtil = require("../../shared/utils/upload.util");
+const StockMovementModel = require("../inventory/stockMovement.model");
+
+// multipart forms send everything as strings; normalise before saving
+const normalizeProductInput = (body) => {
+  const data = { ...body };
+  if (typeof data.keyFeatures === "string") {
+    try {
+      data.keyFeatures = JSON.parse(data.keyFeatures);
+    } catch {
+      delete data.keyFeatures;
+    }
+  }
+  if (typeof data.image === "string") data.image = { url: data.image };
+  if (data.imageUrl) {
+    data.image = { url: data.imageUrl };
+    delete data.imageUrl;
+  }
+  ["price", "discount", "stock", "star"].forEach((key) => {
+    if (data[key] !== undefined && data[key] !== "") data[key] = Number(data[key]);
+  });
+  if (typeof data.isSlider === "string") data.isSlider = data.isSlider === "true";
+  if (data.price !== undefined) {
+    const discount = Number(data.discount) || 0;
+    data.discountPrice = Math.round(data.price - (data.price * discount) / 100);
+  }
+  return data;
+};
 
 class ProductController {
   async createProduct(req, res, next) {
     try {
-      const productData = { ...req.body };
+      const productData = normalizeProductInput(req.body);
 
       // Handle image upload if file is present
       if (req.file) {
@@ -26,6 +56,9 @@ class ProductController {
 
       const product = new ProductModel(productData);
       const savedProduct = await product.save();
+      if (savedProduct.stock > 0) {
+        await StockMovementModel.create({ product: savedProduct._id, type: "opening", quantity: savedProduct.stock, balanceAfter: savedProduct.stock, note: "Opening stock", user: req.user?.userId });
+      }
 
       // Populate the relationships for the response
       await savedProduct.populate("category");
@@ -56,6 +89,7 @@ class ProductController {
         minRating,
         maxRating,
         inStock,
+        stockLevel,
         sortBy = 'createdAt',
         sortOrder = 'desc'
       } = req.query;
@@ -63,28 +97,40 @@ class ProductController {
       // Build filter object
       const filter = {};
 
-      // Text search
-      if (search) {
-        filter.$text = { $search: search };
+      const searchTerm = search || req.query.q;
+      // Partial, case-insensitive search so "iph" finds "iPhone" ($text only matches whole words)
+      if (searchTerm) {
+        const pattern = new RegExp(String(searchTerm).trim().replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "i");
+        filter.$or = [{ title: pattern }, { shortDescription: pattern }, { subcategory: pattern }];
       }
 
-      // Category filter
-      if (category) {
-        filter.category = category;
+      // Category filter (support both ObjectId and Category Name)
+      if (category && category !== "all" && category !== "All Categories") {
+        if (mongoose.isValidObjectId(category)) {
+          filter.category = category;
+        } else {
+          const catDoc = await CategoryModel.findOne({ categoryName: new RegExp(`^${category}$`, "i") }).select("_id");
+          if (catDoc) filter.category = catDoc._id;
+        }
       }
 
-      // Brand filter
-      if (brand) {
-        filter.brand = brand;
+      // Brand filter (support both ObjectId and Brand Name)
+      if (brand && brand !== "all" && brand !== "All Brands") {
+        if (mongoose.isValidObjectId(brand)) {
+          filter.brand = brand;
+        } else {
+          const brandDoc = await BrandModel.findOne({ brandName: new RegExp(`^${brand}$`, "i") }).select("_id");
+          if (brandDoc) filter.brand = brandDoc._id;
+        }
       }
 
       // Subcategory filter
-      if (subcategory) {
+      if (subcategory && subcategory !== "all") {
         filter.subcategory = subcategory;
       }
 
       // Remark filter
-      if (remark) {
+      if (remark && remark !== "all") {
         filter.remark = remark;
       }
 
@@ -110,6 +156,11 @@ class ProductController {
           filter.stock = { $eq: 0 };
         }
       }
+
+      // Stock level filter used by the admin dashboard: in | low | out
+      if (stockLevel === 'out') filter.stock = 0;
+      else if (stockLevel === 'low') filter.stock = { $gt: 0, $lte: 10 };
+      else if (stockLevel === 'in') filter.stock = { $gt: 10 };
 
       // Build sort object
       const sort = {};
@@ -171,7 +222,7 @@ class ProductController {
 
   async updateProduct(req, res, next) {
     try {
-      const updateData = { ...req.body };
+      const updateData = normalizeProductInput(req.body);
 
       // Handle image upload if file is present
       if (req.file) {
@@ -200,6 +251,7 @@ class ProductController {
         };
       }
 
+      const before = updateData.stock !== undefined ? await ProductModel.findById(req.params.id).select("stock") : null;
       const product = await ProductModel.findByIdAndUpdate(
         req.params.id,
         updateData,
@@ -210,6 +262,10 @@ class ProductController {
 
       if (!product) {
         return ResponseUtil.notFound(res, "Product not found");
+      }
+      // stock edited from the product form: keep the inventory history complete
+      if (before && before.stock !== product.stock) {
+        await StockMovementModel.create({ product: product._id, type: "adjustment", quantity: product.stock - before.stock, balanceAfter: product.stock, note: "Edited on product form", user: req.user?.userId });
       }
       return ResponseUtil.success(res, product, "Product updated successfully");
     } catch (error) {

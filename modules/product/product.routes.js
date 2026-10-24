@@ -1,10 +1,11 @@
 const express = require('express');
 const router = express.Router();
 const ProductController = require('./product.controller');
+const { authenticate, can } = require('../../shared/middlewares/auth.middleware');
 const { uploadSingle, handleUploadError } = require('../../shared/middlewares/upload.middleware');
 
 // Product routes
-router.post('/', uploadSingle('image'), handleUploadError, ProductController.createProduct);
+router.post('/', can('catalog'), uploadSingle('image'), handleUploadError, ProductController.createProduct);
 router.get('/', ProductController.getAllProducts);
 
 // Search endpoint (must be before /:id route)
@@ -25,7 +26,7 @@ router.get('/remark/:remark', ProductController.getProductsByRemark);
 
 // Single product operations
 router.get('/:id', ProductController.getProductById);
-router.put('/:id', uploadSingle('image'), handleUploadError, ProductController.updateProduct);
-router.delete('/:id', ProductController.deleteProduct);
+router.put('/:id', can('catalog'), uploadSingle('image'), handleUploadError, ProductController.updateProduct);
+router.delete('/:id', can('catalog'), ProductController.deleteProduct);
 
 module.exports = router;
