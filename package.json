@@ -49,6 +49,6 @@
     "buffer-equal-constant-time": "file:./shims/buffer-equal-constant-time"
   },
   "engines": {
-    "node": ">=20"
+    "node": "24.x"
   }
 }

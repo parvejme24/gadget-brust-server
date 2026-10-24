@@ -41,6 +41,10 @@ const mongoose = require("mongoose");
 
 const app = express();
 
+// behind Vercel's proxy, read the visitor's IP from X-Forwarded-For so rate limits are per visitor
+// (TRUST_PROXY=1 does the same behind another proxy, e.g. nginx)
+if (process.env.VERCEL || process.env.TRUST_PROXY) app.set("trust proxy", 1);
+
 // Security middleware
 app.use(
   helmet({
