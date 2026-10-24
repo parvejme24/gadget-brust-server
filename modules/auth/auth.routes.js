@@ -1,13 +1,24 @@
 const express = require('express');
+const rateLimit = require('express-rate-limit');
 const router = express.Router();
 const AuthController = require('./auth.controller');
 const { authenticate, can } = require('../../shared/middlewares/auth.middleware');
+
+// password reset and social sign-in are public, so slow down guessing
+const authLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000,
+  max: Number(process.env.AUTH_RATE_LIMIT_MAX) || 20,
+  message: { success: false, message: 'Too many attempts. Please wait a few minutes and try again.' },
+});
 
 // Public routes (no authentication required)
 router.post('/register', AuthController.register);
 router.post('/login', AuthController.login);
 router.post('/logout', AuthController.logout);
 router.post('/refresh', AuthController.refresh);
+router.post('/forgot-password', authLimiter, AuthController.forgotPassword);
+router.post('/reset-password', authLimiter, AuthController.resetPassword);
+router.post('/auth/google', authLimiter, AuthController.googleLogin);
 
 // Protected routes (require authentication)
 router.get('/profile', authenticate, AuthController.getProfile);
