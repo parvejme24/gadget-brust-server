@@ -21,6 +21,8 @@ const CourierModel = require("../modules/courier/courier.model");
 const CouponModel = require("../modules/coupon/coupon.model");
 const StockMovementModel = require("../modules/inventory/stockMovement.model");
 const NotificationModel = require("../modules/notification/notification.model");
+const ContactModel = require("../modules/contact/contact.model");
+const RefreshTokenModel = require("../modules/auth/auth.model");
 
 // order matters: referenced documents are inserted first
 const collections = [
@@ -39,6 +41,7 @@ const collections = [
   ["stockMovement", StockMovementModel],
   ["settings", SettingsModel],
   ["notification", NotificationModel],
+  ["contact", ContactModel],
 ];
 
 const loadData = (name) => require(path.join(__dirname, "..", "data", `${name}.json`));
@@ -48,6 +51,8 @@ const destroy = async () => {
     const { deletedCount } = await Model.deleteMany({});
     console.log(`🗑️  ${name}: removed ${deletedCount}`);
   }
+  // sessions of the wiped users are no longer valid
+  await RefreshTokenModel.deleteMany({});
 };
 
 const importData = async () => {
@@ -57,6 +62,8 @@ const importData = async () => {
     await Model.insertMany(docs, { timestamps: false });
     console.log(`✅ ${name}: inserted ${docs.length}`);
   }
+  // unique indexes (email, invoice number, cart line, ...) must exist before the API takes writes
+  for (const [, Model] of collections) await Model.syncIndexes();
 };
 
 const run = async () => {
