@@ -56,8 +56,18 @@ const can = (...permissions) => [
   },
 ];
 
+// authenticate + the :param user id is the caller, or the caller's role has one of the permissions
+const selfOr = (param, ...permissions) => [
+  authenticate,
+  (req, res, next) => {
+    if (String(req.params[param]) === String(req.user.userId)) return next();
+    if (permissions.some((p) => hasPermission(req.user?.role, p))) return next();
+    return ResponseUtil.forbidden(res, "You can only access your own data.");
+  },
+];
+
 const adminOnly = [authenticate, requireAdmin];
 const verifyToken = authenticate;
 const requirePermission = can;
 
-module.exports = { authenticate, optionalAuth, requireAdmin, adminOnly, can, verifyToken, requirePermission };
+module.exports = { authenticate, optionalAuth, requireAdmin, adminOnly, can, selfOr, verifyToken, requirePermission };
