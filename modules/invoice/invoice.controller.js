@@ -3,7 +3,8 @@ const InvoiceModel = require('./invoice.model');
 const CouponModel = require('../coupon/coupon.model');
 const UserModel = require('../user/user.model');
 const ResponseUtil = require('../../shared/utils/response.util');
-const { isStaff } = require('../../shared/config/permissions');
+const { isStaff, hasPermission } = require('../../shared/config/permissions');
+const CourierModel = require('../courier/courier.model');
 const { notify } = require('../notification/notification.service');
 const { isMethodEnabled } = require('../payment/orderPayment.controller');
 const {
@@ -48,8 +49,29 @@ const readContact = (body) => {
   return { customer, shippingAddress };
 };
 
+// staff whose role works with orders may open any order
+const seesAllOrders = (user) => ['orders', 'reports', 'customers', 'pos'].some((p) => hasPermission(user.role, p));
 // a customer may only open their own orders
-const canView = (user, invoice) => isStaff(user.role) || idOf(invoice.user_id) === String(user.userId);
+const canView = (user, invoice) => seesAllOrders(user) || idOf(invoice.user_id) === String(user.userId);
+
+// add the checkout address to the customer's address book unless the same street + city is saved
+const rememberAddress = async (userId, { customer, shippingAddress }) => {
+  const user = await UserModel.findById(userId).select('addresses');
+  if (!user) return;
+  const same = (a) =>
+    a.street.trim().toLowerCase() === shippingAddress.street.toLowerCase() && a.city.trim().toLowerCase() === shippingAddress.city.toLowerCase();
+  if (user.addresses.some(same) || user.addresses.length >= 10) return;
+  user.addresses.push({
+    label: user.addresses.length ? 'Other' : 'Home',
+    name: customer.name,
+    phone: customer.phone,
+    street: shippingAddress.street,
+    city: shippingAddress.city,
+    zipCode: shippingAddress.zipCode,
+    isDefault: !user.addresses.length,
+  });
+  await user.save();
+};
 
 class InvoiceController {
   // POST /checkout: price the cart exactly as checkout will (no order is created)
@@ -122,6 +144,9 @@ class InvoiceController {
         notes: clean(req.body.notes, 500),
         statusHistory: [{ status: 'pending', note: staff ? 'Added by staff' : '', by: req.user?.userId, at: now }],
       });
+
+      // signed-in customers can keep the address for next time (body.saveAddress)
+      if (userId && !staff && req.body.saveAddress) await rememberAddress(userId, contact);
 
       if (q.coupon) {
         await CouponModel.updateOne(
@@ -245,7 +270,7 @@ class InvoiceController {
   async getUserInvoices(req, res, next) {
     try {
       const { userId } = req.params;
-      if (!isStaff(req.user.role) && userId !== String(req.user.userId)) {
+      if (!seesAllOrders(req.user) && userId !== String(req.user.userId)) {
         return ResponseUtil.forbidden(res, 'You can only view your own orders');
       }
       const invoices = await populateOrder(InvoiceModel.find({ user_id: userId })).sort({ createdAt: -1 });
@@ -364,6 +389,9 @@ class InvoiceController {
     try {
       const { courier, trackingNumber = '', note = '', markShipped = true } = req.body;
       if (!courier) return ResponseUtil.badRequest(res, 'Choose a courier');
+      if (!mongoose.isValidObjectId(courier) || !(await CourierModel.exists({ _id: courier, isActive: true }))) {
+        return ResponseUtil.badRequest(res, 'Choose an active courier');
+      }
 
       const invoice = await InvoiceModel.findById(req.params.id);
       if (!invoice) return ResponseUtil.notFound(res, 'Invoice not found');
@@ -411,7 +439,7 @@ class InvoiceController {
   async getInvoiceSummary(req, res, next) {
     try {
       const { userId } = req.params;
-      if (!isStaff(req.user.role) && userId !== String(req.user.userId)) {
+      if (!seesAllOrders(req.user) && userId !== String(req.user.userId)) {
         return ResponseUtil.forbidden(res, 'You can only view your own orders');
       }
 
