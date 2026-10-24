@@ -1,17 +1,33 @@
 const ReviewModel = require('./review.model');
 const ResponseUtil = require('../../shared/utils/response.util');
+const { notify } = require('../notification/notification.service');
 
 class ReviewController {
   async createReview(req, res, next) {
     try {
-      const review = new ReviewModel(req.body);
+      // the author always comes from the token, never from the request body
+      const review = new ReviewModel({
+        productID: req.body.productID,
+        reviewText: req.body.reviewText,
+        rating: req.body.rating,
+        customerID: req.user.userId,
+        customerEmail: req.user.email,
+      });
       const savedReview = await review.save();
-      
+
       // Populate the saved review
       const populatedReview = await ReviewModel.findById(savedReview._id)
         .populate('productID', 'title')
         .populate('customerID', 'email');
-      
+
+      await notify({
+        type: 'review.new',
+        permission: 'reviews',
+        title: `New ${savedReview.rating}★ review`,
+        message: `${populatedReview.productID?.title || 'A product'}: "${savedReview.reviewText.slice(0, 80)}"`,
+        link: '/dashboard/reviews',
+      });
+
       return ResponseUtil.created(res, populatedReview, 'Review created successfully');
     } catch (error) {
       next(error);
@@ -98,7 +114,7 @@ class ReviewController {
       const { customerId } = req.params;
       
       const reviews = await ReviewModel.find({ customerID: customerId })
-        .populate('productID', 'title')
+        .populate('productID', 'title image')
         .sort({ createdAt: -1 });
       
       return ResponseUtil.success(res, reviews, 'Customer reviews retrieved successfully');
