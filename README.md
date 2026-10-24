@@ -151,37 +151,34 @@ gadget-brust-server/
 
 ## 📚 API Documentation
 
-### **Base URL**
+The full list of endpoints, request bodies and who may call each one is in **[API.md](API.md)**.
+
 ```
-Production: https://gadget-brust-server.vercel.app/api
-Development: http://localhost:5000/api
+Development: http://localhost:6060/api
+Health:      GET /api/health
 ```
 
-### **Authentication Endpoints**
-```http
-POST   /api/register          # User registration
-POST   /api/login             # User login
-POST   /api/logout            # User logout
-GET    /api/profile           # Get user profile
-PUT    /api/profile           # Update user profile
+---
+
+## 🧪 Demo data and tests
+
+```bash
+npm run seed           # wipe and load data/*.json into the database in MONGODB_URI
+npm run seed:destroy   # wipe only
+npm test               # reseed gadget_brust_test, then run every API test against it
+npm run test:real      # run the same tests against the database in MONGODB_URI (no reseed)
 ```
 
-### **Product Endpoints**
-```http
-GET    /api/products          # Get all products
-GET    /api/products/:id      # Get product by ID
-POST   /api/products          # Create product (Admin)
-PUT    /api/products/:id      # Update product (Admin)
-DELETE /api/products/:id      # Delete product (Admin)
-```
-
-### **Payment Endpoints**
-```http
-GET    /api/payments/methods           # Get payment methods
-POST   /api/payments/stripe/create-intent    # Create Stripe payment
-POST   /api/payments/shurjopay/create-session # Create ShurjoPay session
-POST   /api/payments/cash-on-delivery   # Cash on delivery
-```
+- The tests (`tests/*.test.js`, Node's built-in test runner, no extra packages) start the API in-process and sign in with the seeded demo accounts:
+  - admin@gadgetbrust.com / Admin@123
+  - manager@gadgetbrust.com / Manager@123
+  - store@gadgetbrust.com / Store@123 (store keeper)
+  - cashier@gadgetbrust.com / Cashier@123
+  - marketing@gadgetbrust.com / Marketing@123
+  - rahim@example.com / User@123 (customer)
+- `tests/access.test.js` calls every protected route as a guest and as each role
+- The other files run full flows (guest and customer checkout, fulfilment, POS, stock, coupons, reviews, staff, settings, contact inbox) and check the database afterwards
+- `test:real` leaves what it created through the API in the database (customers named `test.*@example.com`, a few orders, payments and stock movements). `npm run seed` resets it. Tests never send email
 
 ---
 
@@ -210,20 +207,26 @@ npm run dev
 ### **Environment Variables**
 Create a `.env` file in the root directory:
 ```env
-NODE_ENV=development
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/gadget-hub
-JWT_SECRET=your_jwt_secret_here
+SERVER_RUNNING_PORT=6060
 FRONTEND_URL=http://localhost:3000
+MONGODB_URI=mongodb+srv://<user>:<pass>@<cluster>/<database>
+# MONGODB_DB_NAME=...          # optional: overrides the database in the URI
 
-# Stripe Configuration
-STRIPE_PUBLISHABLE_KEY=pk_test_your_stripe_key
-STRIPE_SECRET_KEY=sk_test_your_stripe_secret
+# required in production (random 48+ byte strings)
+JWT_SECRET=...
+JWT_REFRESH_SECRET=...
 
-# ShurjoPay Configuration
-SP_ENDPOINT=https://sandbox.shurjopayment.com
-SP_USERNAME=your_username
-SP_PASSWORD=your_password
+# forgot-password emails (Gmail needs an App Password, not the account password)
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USER=...
+SMTP_PASS=...
+EMAIL_FROM="Gadget Brust <no-reply@example.com>"
+
+# Google sign-in: one or more OAuth client ids (web, iOS, Android), comma separated
+GOOGLE_CLIENT_ID=...
+
+# Cloudinary, Stripe and ShurjoPay keys as before
 ```
 
 ---
