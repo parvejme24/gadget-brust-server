@@ -109,7 +109,7 @@ app.use(
 );
 
 // Logging middleware
-app.use(morgan("dev"));
+if (process.env.NODE_ENV !== "test") app.use(morgan("dev"));
 
 // Static files
 app.use("/uploads", express.static(path.join(__dirname, "../uploads")));

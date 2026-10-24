@@ -8,7 +8,9 @@
     "dev": "nodemon index.js",
     "build": "echo 'Build completed'",
     "seed": "node scripts/seed.js",
-    "seed:destroy": "node scripts/seed.js --destroy"
+    "seed:destroy": "node scripts/seed.js --destroy",
+    "test": "NODE_ENV=test MONGODB_DB_NAME=gadget_brust_test node scripts/seed.js && NODE_ENV=test MONGODB_DB_NAME=gadget_brust_test node --test --test-concurrency=1 tests/",
+    "test:real": "NODE_ENV=test node --test --test-concurrency=1 tests/"
   },
   "keywords": [],
   "author": "",
