@@ -1,4 +1,4 @@
-const jwt = require("jsonwebtoken");
+const { verifyAccessToken } = require("../config/jwt");
 const ResponseUtil = require("../utils/response.util");
 const { hasPermission } = require("../config/permissions");
 
@@ -8,7 +8,7 @@ const readToken = (req) => {
 };
 
 const verify = (token) => {
-  const payload = jwt.verify(token, process.env.JWT_SECRET || "your-secret-key");
+  const payload = verifyAccessToken(token);
   return { userId: payload.userId, id: payload.userId, email: payload.email, role: payload.role };
 };
 
