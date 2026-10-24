@@ -1,0 +1,68 @@
+[
+  {
+    "_id": "c0a7ac000000000000000001",
+    "name": "Ayesha Siddika",
+    "email": "ayesha.s@example.com",
+    "phone": "+8801711000001",
+    "subject": "Warranty claim",
+    "message": "My earbuds stopped charging after 3 months. How do I claim the official warranty?",
+    "status": "unread",
+    "createdAt": "2026-10-23T09:15:00.000Z",
+    "updatedAt": "2026-10-23T09:15:00.000Z"
+  },
+  {
+    "_id": "c0a7ac000000000000000002",
+    "name": "Kamal Hossain",
+    "email": "kamal.h@example.com",
+    "phone": "+8801811000002",
+    "subject": "Bulk order",
+    "message": "We want 20 units of the Xiaomi power bank for our office. Do you offer a corporate discount?",
+    "status": "unread",
+    "createdAt": "2026-10-22T14:40:00.000Z",
+    "updatedAt": "2026-10-22T14:40:00.000Z"
+  },
+  {
+    "_id": "c0a7ac000000000000000003",
+    "name": "Rahim Uddin",
+    "email": "rahim@example.com",
+    "phone": "+8801640841149",
+    "subject": "Order delivery",
+    "message": "My order INV-20261022-0001 is still pending. When will it be shipped?",
+    "status": "read",
+    "createdAt": "2026-10-22T20:05:00.000Z",
+    "updatedAt": "2026-10-22T20:05:00.000Z"
+  },
+  {
+    "_id": "c0a7ac000000000000000004",
+    "name": "Sharmin Akter",
+    "email": "sharmin.a@example.com",
+    "phone": "",
+    "subject": "Product availability",
+    "message": "Will the Samsung Galaxy Watch be back in stock this month? Please let me know.",
+    "status": "replied",
+    "createdAt": "2026-10-20T11:30:00.000Z",
+    "updatedAt": "2026-10-20T11:30:00.000Z"
+  },
+  {
+    "_id": "c0a7ac000000000000000005",
+    "name": "Imran Khan",
+    "email": "imran.k@example.com",
+    "phone": "+8801911000005",
+    "subject": "EMI options",
+    "message": "Do you offer 0% EMI on laptops with City Bank credit cards? Which tenures are available?",
+    "status": "replied",
+    "createdAt": "2026-10-18T16:10:00.000Z",
+    "updatedAt": "2026-10-18T16:10:00.000Z"
+  },
+  {
+    "_id": "c0a7ac000000000000000006",
+    "name": "Nadia Rahman",
+    "email": "nadia.r@example.com",
+    "phone": "",
+    "subject": "Feedback",
+    "message": "Great service, the delivery was fast and the packaging was excellent. Thank you!",
+    "status": "archived",
+    "createdAt": "2026-10-15T08:00:00.000Z",
+    "updatedAt": "2026-10-15T08:00:00.000Z"
+  }
+]
