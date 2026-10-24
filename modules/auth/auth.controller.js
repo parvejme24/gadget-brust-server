@@ -2,13 +2,43 @@ const UserModel = require('../user/user.model');
 const RefreshTokenModel = require('./auth.model');
 const ResponseUtil = require('../../shared/utils/response.util');
 const bcrypt = require('bcryptjs');
-const jwt = require('jsonwebtoken');
+const crypto = require('crypto');
+const axios = require('axios');
 const { ALL_ROLES } = require('../../shared/config/permissions');
+const { signAccessToken, signRefreshToken, verifyRefreshToken } = require('../../shared/config/jwt');
+const { sendMail, isMailConfigured } = require('../../shared/utils/mail.util');
+
+const BD_PHONE = /^(?:\+?88)?01[3-9]\d{8}$/;
+const RESET_CODE_TTL_MS = 10 * 60 * 1000;
+const RESET_MAX_ATTEMPTS = 5;
+
+const hashCode = (code) => crypto.createHash('sha256').update(String(code)).digest('hex');
+
+// access + refresh token pair for a signed-in user (login, Google sign-in, password reset)
+const issueSession = async (user) => {
+  const token = signAccessToken(user);
+  const refreshToken = signRefreshToken(user);
+  await RefreshTokenModel.create({
+    userId: user._id,
+    token: refreshToken,
+    expiresAt: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000), // 7 days
+  });
+  return {
+    user: { _id: user._id, fullName: user.fullName, email: user.email, role: user.role },
+    token,
+    refreshToken,
+  };
+};
 
 class AuthController {
   async register(req, res, next) {
     try {
       const { fullName, email, password } = req.body;
+      // optional mobile number, stored without spaces or dashes
+      const phone = String(req.body.phone || '').replace(/[\s-]/g, '');
+      if (phone && !BD_PHONE.test(phone)) {
+        return ResponseUtil.badRequest(res, 'Enter a valid Bangladeshi mobile number (01XXXXXXXXX)');
+      }
 
       // Validate required fields
       if (!fullName || !email || !password) {
@@ -41,7 +71,8 @@ class AuthController {
         fullName,
         email: email.toLowerCase(),
         password: hashedPassword,
-        role: 'user'
+        role: 'user',
+        ...(phone && { phone }),
       });
 
       const savedUser = await user.save();
@@ -52,6 +83,7 @@ class AuthController {
         fullName: savedUser.fullName,
         email: savedUser.email,
         role: savedUser.role,
+        phone: savedUser.phone,
         createdAt: savedUser.createdAt
       };
 
@@ -92,40 +124,7 @@ class AuthController {
         return ResponseUtil.forbidden(res, 'This account has been deactivated. Contact the store admin.');
       }
 
-      // Generate JWT token
-      const token = jwt.sign(
-        { userId: user._id, email: user.email, role: user.role },
-        process.env.JWT_SECRET || 'your-secret-key',
-        { expiresIn: '1h' }
-      );
-
-      // Generate refresh token
-      const refreshToken = jwt.sign(
-        { userId: user._id },
-        process.env.JWT_REFRESH_SECRET || 'your-refresh-secret-key',
-        { expiresIn: '7d' }
-      );
-
-      // Save refresh token
-      await RefreshTokenModel.create({
-        userId: user._id,
-        token: refreshToken,
-        expiresAt: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000) // 7 days
-      });
-
-      // Remove password from response
-      const userResponse = {
-        _id: user._id,
-        fullName: user.fullName,
-        email: user.email,
-        role: user.role
-      };
-
-      return ResponseUtil.success(res, {
-        user: userResponse,
-        token,
-        refreshToken
-      }, 'Login successful');
+      return ResponseUtil.success(res, await issueSession(user), 'Login successful');
     } catch (error) {
       next(error);
     }
@@ -384,7 +383,7 @@ class AuthController {
 
       let payload;
       try {
-        payload = jwt.verify(refreshToken, process.env.JWT_REFRESH_SECRET || 'your-refresh-secret-key');
+        payload = verifyRefreshToken(refreshToken);
       } catch (error) {
         return ResponseUtil.unauthorized(res, 'Invalid or expired refresh token');
       }
@@ -399,13 +398,7 @@ class AuthController {
         return ResponseUtil.unauthorized(res, 'User no longer exists');
       }
 
-      const token = jwt.sign(
-        { userId: user._id, email: user.email, role: user.role },
-        process.env.JWT_SECRET || 'your-secret-key',
-        { expiresIn: '1h' }
-      );
-
-      return ResponseUtil.success(res, { token }, 'Token refreshed');
+      return ResponseUtil.success(res, { token: signAccessToken(user) }, 'Token refreshed');
     } catch (error) {
       next(error);
     }
@@ -436,6 +429,126 @@ class AuthController {
       await user.save();
 
       return ResponseUtil.success(res, null, 'Password changed successfully');
+    } catch (error) {
+      next(error);
+    }
+  }
+
+  // Step 1 of a password reset: email a 6-digit code. The reply is the same whether or not the
+  // email has an account, so it can't be used to find out who is registered.
+  async forgotPassword(req, res, next) {
+    try {
+      const email = String(req.body.email || '').trim().toLowerCase();
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+        return ResponseUtil.badRequest(res, 'Please provide a valid email address');
+      }
+
+      const reply = { emailSent: isMailConfigured() };
+      const user = await UserModel.findOne({ email });
+      if (user && user.isActive !== false) {
+        const code = String(crypto.randomInt(100000, 1000000));
+        await UserModel.updateOne(
+          { _id: user._id },
+          { resetCode: hashCode(code), resetCodeExpires: new Date(Date.now() + RESET_CODE_TTL_MS), resetAttempts: 0 }
+        );
+        const sent = await sendMail({
+          to: email,
+          subject: 'Your Gadget Brust password reset code',
+          text: `Your password reset code is ${code}. It expires in 10 minutes. If you didn't ask for this, ignore this email.`,
+          html: `<p>Your password reset code is</p><p style="font-size:24px;font-weight:bold;letter-spacing:4px">${code}</p><p>It expires in 10 minutes. If you didn't ask for this, ignore this email.</p>`,
+        });
+        // if the email couldn't be sent there is no other way to get the code, so development builds return it
+        if (!sent && process.env.NODE_ENV !== 'production') reply.devCode = code;
+      }
+      return ResponseUtil.success(res, reply, 'If that email has an account, a reset code has been sent');
+    } catch (error) {
+      next(error);
+    }
+  }
+
+  // Step 2: check the code, set the new password and sign the user in
+  async resetPassword(req, res, next) {
+    try {
+      const email = String(req.body.email || '').trim().toLowerCase();
+      const code = String(req.body.code || '').trim();
+      const { newPassword } = req.body;
+      if (!email || !code || !newPassword) {
+        return ResponseUtil.badRequest(res, 'Email, code and new password are required');
+      }
+      if (String(newPassword).length < 6) {
+        return ResponseUtil.badRequest(res, 'New password must be at least 6 characters long');
+      }
+
+      const user = await UserModel.findOne({ email }).select('+resetCode +resetCodeExpires +resetAttempts');
+      const invalid = () => ResponseUtil.badRequest(res, 'The code is invalid or has expired');
+      if (!user || !user.resetCode || !user.resetCodeExpires || user.resetCodeExpires < new Date()) return invalid();
+      if (user.resetAttempts >= RESET_MAX_ATTEMPTS) {
+        return ResponseUtil.badRequest(res, 'Too many wrong codes. Request a new one.');
+      }
+      if (hashCode(code) !== user.resetCode) {
+        await UserModel.updateOne({ _id: user._id }, { $inc: { resetAttempts: 1 } });
+        return invalid();
+      }
+
+      const salt = await bcrypt.genSalt(10);
+      user.password = await bcrypt.hash(String(newPassword), salt);
+      user.resetCode = undefined;
+      user.resetCodeExpires = undefined;
+      user.resetAttempts = 0;
+      await user.save();
+      // sign out every other session
+      await RefreshTokenModel.deleteMany({ userId: user._id });
+
+      return ResponseUtil.success(res, await issueSession(user), 'Password reset successfully');
+    } catch (error) {
+      next(error);
+    }
+  }
+
+  // Sign in with a Google ID token (from Google Identity Services on web or expo-auth-session in the app).
+  // GOOGLE_CLIENT_ID may list several client ids (web, iOS, Android) separated by commas.
+  async googleLogin(req, res, next) {
+    try {
+      const clientIds = (process.env.GOOGLE_CLIENT_ID || '').split(',').map((id) => id.trim()).filter(Boolean);
+      if (!clientIds.length) {
+        return ResponseUtil.error(res, 'Google sign-in is not configured on the server', 503);
+      }
+      const { idToken } = req.body;
+      if (!idToken) return ResponseUtil.badRequest(res, 'idToken is required');
+
+      let profile;
+      try {
+        const { data } = await axios.get('https://oauth2.googleapis.com/tokeninfo', { params: { id_token: idToken }, timeout: 8000 });
+        profile = data;
+      } catch {
+        return ResponseUtil.unauthorized(res, 'Invalid Google token');
+      }
+      if (!clientIds.includes(profile.aud) || String(profile.email_verified) !== 'true' || !profile.email) {
+        return ResponseUtil.unauthorized(res, 'Invalid Google token');
+      }
+
+      const email = profile.email.toLowerCase();
+      let user = await UserModel.findOne({ $or: [{ googleId: profile.sub }, { email }] });
+      if (!user) {
+        // random password: the account signs in with Google until the user sets one via forgot-password
+        const salt = await bcrypt.genSalt(10);
+        user = await UserModel.create({
+          fullName: profile.name || email.split('@')[0],
+          email,
+          password: await bcrypt.hash(crypto.randomBytes(32).toString('hex'), salt),
+          role: 'user',
+          googleId: profile.sub,
+          profileImage: profile.picture ? { url: profile.picture } : undefined,
+        });
+      } else if (!user.googleId) {
+        user.googleId = profile.sub;
+        await user.save();
+      }
+      if (user.isActive === false) {
+        return ResponseUtil.forbidden(res, 'This account has been deactivated. Contact the store admin.');
+      }
+
+      return ResponseUtil.success(res, await issueSession(user), 'Login successful');
     } catch (error) {
       next(error);
     }
