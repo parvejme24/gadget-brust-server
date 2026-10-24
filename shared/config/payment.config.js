@@ -8,13 +8,14 @@ const stripeConfig = {
   currency: process.env.STRIPE_CURRENCY || 'usd'
 };
 
-// SSL Commerz Configuration
+// SSL Commerz Configuration (SSL_COMMERZ_* or the SSLCOMMERZ_* spelling)
+const sslSandbox = (process.env.SSL_COMMERZ_SANDBOX ?? process.env.SSLCOMMERZ_IS_SANDBOX) === 'true';
 const sslCommerzConfig = {
-  storeId: process.env.SSL_COMMERZ_STORE_ID,
-  storePassword: process.env.SSL_COMMERZ_STORE_PASSWORD,
-  sandbox: process.env.SSL_COMMERZ_SANDBOX === 'true',
+  storeId: process.env.SSL_COMMERZ_STORE_ID || process.env.SSLCOMMERZ_STORE_ID,
+  storePassword: process.env.SSL_COMMERZ_STORE_PASSWORD || process.env.SSLCOMMERZ_STORE_PASSWORD,
+  sandbox: sslSandbox,
   currency: 'BDT',
-  baseUrl: process.env.SSL_COMMERZ_SANDBOX === 'true' 
+  baseUrl: sslSandbox
     ? 'https://sandbox.sslcommerz.com' 
     : 'https://securepay.sslcommerz.com'
 };
